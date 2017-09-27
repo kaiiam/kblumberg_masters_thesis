@@ -1,0 +1,35 @@
+
+#Protege
+bash ~/Desktop/programs/Protege-5.1.0/run.sh
+
+#VUE
+xdg-open ~/Desktop/grad_school/marmic/lab_rotations/rotation_1/code/VUE.jar
+
+# Kai Blumberg ORCID
+http://orcid.org/0000-0002-3410-4655
+
+# Pier Luigi Buttigieg ORCID
+http://orcid.org/0000-0002-4366-3088
+
+#push changes to my envo repo:
+git status
+git add envo-edit.owl 
+git commit -m 'added neve and firn'
+#git pull
+git push
+
+#my envo fork
+https://github.com/kaiiam/envo 
+
+# update my envo fork
+# do in 
+cd ~/Desktop/grad_school/marmic/lab_rotations/rotation_1/code/kai_envo_fork/envo/src/envo/
+git fetch upstream
+git checkout master
+#git merge upstream/master #only do this before putting together a pull request
+git push
+
+
+
+
+

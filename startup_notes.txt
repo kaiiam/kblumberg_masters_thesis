@@ -3,7 +3,7 @@
 bash ~/Desktop/programs/Protege-5.1.0/run.sh
 
 #VUE
-xdg-open ~/Desktop/grad_school/marmic/lab_rotations/rotation_1/code/VUE.jar
+xdg-open /home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/code/VUE.jar &
 
 # Kai Blumberg ORCID
 http://orcid.org/0000-0002-3410-4655

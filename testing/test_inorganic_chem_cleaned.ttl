@@ -1,0 +1,818 @@
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvEvent> <http://www.w3.org/2000/01/rdf-schema#label> "Event" ;
+	<http://tools.ietf.org/html/rfc4180columnPosition> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvDatetime> <http://www.w3.org/2000/01/rdf-schema#label> "DateTime" ;
+	<http://tools.ietf.org/html/rfc4180columnPosition> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLatitude> <http://www.w3.org/2000/01/rdf-schema#label> "Latitude" ;
+	<http://tools.ietf.org/html/rfc4180columnPosition> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLongitude> <http://www.w3.org/2000/01/rdf-schema#label> "Longitude" ;
+	<http://tools.ietf.org/html/rfc4180columnPosition> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvElevation> <http://www.w3.org/2000/01/rdf-schema#label> "Elevation" ;
+	<http://tools.ietf.org/html/rfc4180columnPosition> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvWaterdepth> <http://www.w3.org/2000/01/rdf-schema#label> "WaterDepth" ;
+	<http://tools.ietf.org/html/rfc4180columnPosition> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrate> <http://www.w3.org/2000/01/rdf-schema#label> "Nitrate" ;
+	<http://tools.ietf.org/html/rfc4180columnPosition> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrite> <http://www.w3.org/2000/01/rdf-schema#label> "Nitrite" ;
+	<http://tools.ietf.org/html/rfc4180columnPosition> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvSilicate> <http://www.w3.org/2000/01/rdf-schema#label> "Silicate" ;
+	<http://tools.ietf.org/html/rfc4180columnPosition> "8"^^<http://www.w3.org/2001/XMLSchema#integer> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvPhosphate> <http://www.w3.org/2000/01/rdf-schema#label> "Phosphate" ;
+	<http://tools.ietf.org/html/rfc4180columnPosition> "9"^^<http://www.w3.org/2001/XMLSchema#integer> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvAmmonium> <http://www.w3.org/2000/01/rdf-schema#label> "Ammonium" ;
+	<http://tools.ietf.org/html/rfc4180columnPosition> "10"^^<http://www.w3.org/2001/XMLSchema#integer> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/0> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvEvent> "HG_I" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvDatetime> "2013-06-26T06:04" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLatitude> "79.1338"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLongitude> "6.0925"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvElevation> "-1254"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvWaterdepth> "1"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrate> "1.64"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrite> "0.06"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvSilicate> "3.47"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvPhosphate> "0.28"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvAmmonium> "0.09"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/0> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/0> <http://tools.ietf.org/html/rfc4180rowPosition> "0" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/1> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvEvent> "HG_I" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvDatetime> "2013-06-26T06:04" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLatitude> "79.1338"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLongitude> "6.0925"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvElevation> "-1254"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvWaterdepth> "12"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrate> "4.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrite> "0.09"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvSilicate> "4.32"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvPhosphate> "0.49"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvAmmonium> "0.24"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/1> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/1> <http://tools.ietf.org/html/rfc4180rowPosition> "1" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/2> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvEvent> "HG_I" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvDatetime> "2013-06-26T06:04" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLatitude> "79.1338"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLongitude> "6.0925"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvElevation> "-1254"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvWaterdepth> "20"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrate> "5.61"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrite> "0.07"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvSilicate> "4.38"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvPhosphate> "0.58"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvAmmonium> "0.61"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/2> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/2> <http://tools.ietf.org/html/rfc4180rowPosition> "2" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/3> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvEvent> "HG_I" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvDatetime> "2013-06-26T06:04" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLatitude> "79.1338"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLongitude> "6.0925"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvElevation> "-1254"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvWaterdepth> "38"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrate> "7.27"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrite> "0.15"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvSilicate> "4.22"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvPhosphate> "0.65"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvAmmonium> "1.38"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/3> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/3> <http://tools.ietf.org/html/rfc4180rowPosition> "3" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/4> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvEvent> "HG_I" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvDatetime> "2013-06-26T06:04" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLatitude> "79.1338"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLongitude> "6.0925"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvElevation> "-1254"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvWaterdepth> "60"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrate> "9.66"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrite> "0.23"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvSilicate> "4.63"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvPhosphate> "0.78"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvAmmonium> "0.83"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/4> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/4> <http://tools.ietf.org/html/rfc4180rowPosition> "4" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/5> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvEvent> "HG_I" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvDatetime> "2013-06-26T06:04" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLatitude> "79.1338"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLongitude> "6.0925"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvElevation> "-1254"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvWaterdepth> "100"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrate> "11.29"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrite> "0.16"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvSilicate> "5.5"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvPhosphate> "0.77"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvAmmonium> "0.1"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/5> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/5> <http://tools.ietf.org/html/rfc4180rowPosition> "5" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/6> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvEvent> "HG_I" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvDatetime> "2013-06-26T06:04" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLatitude> "79.1338"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLongitude> "6.0925"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvElevation> "-1254"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvWaterdepth> "250"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrate> "11.65"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrite> "0.05"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvSilicate> "5.46"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvPhosphate> "0.78"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvAmmonium> "0.02"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/6> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/6> <http://tools.ietf.org/html/rfc4180rowPosition> "6" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/7> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvEvent> "HG_I" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvDatetime> "2013-06-26T06:04" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLatitude> "79.1338"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLongitude> "6.0925"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvElevation> "-1254"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvWaterdepth> "500"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrate> "12.73"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrite> "0.02"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvSilicate> "7.06"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvPhosphate> "0.84"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvAmmonium> "0.03"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/7> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/7> <http://tools.ietf.org/html/rfc4180rowPosition> "7" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/8> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvEvent> "HG_I" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvDatetime> "2013-06-26T06:04" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLatitude> "79.1338"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLongitude> "6.0925"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvElevation> "-1254"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvWaterdepth> "1000"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrate> "14.76"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrite> "0.04"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvSilicate> "12.39"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvPhosphate> "1"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvAmmonium> "0.09"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/8> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/8> <http://tools.ietf.org/html/rfc4180rowPosition> "8" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/9> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvEvent> "HG_I" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvDatetime> "2013-06-26T06:04" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLatitude> "79.1338"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLongitude> "6.0925"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvElevation> "-1254"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvWaterdepth> "1234"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrate> "14.74"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrite> "0.02"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvSilicate> "14.61"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvPhosphate> "1.02"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvAmmonium> "0.08"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/9> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/9> <http://tools.ietf.org/html/rfc4180rowPosition> "9" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/10> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvEvent> "S3" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvDatetime> "2013-07-01T07:08" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLatitude> "78.62"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLongitude> "5.0168"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvElevation> "-2317"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvWaterdepth> "3"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrate> "3.82"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrite> "0.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvSilicate> "3.56"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvPhosphate> "0.44"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvAmmonium> "0.4"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/10> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/10> <http://tools.ietf.org/html/rfc4180rowPosition> "10" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/11> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvEvent> "S3" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvDatetime> "2013-07-01T07:08" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLatitude> "78.62"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLongitude> "5.0168"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvElevation> "-2317"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvWaterdepth> "10"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrate> "2.58"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrite> "0.07"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvSilicate> "3.51"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvPhosphate> "0.37"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvAmmonium> "0.15"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/11> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/11> <http://tools.ietf.org/html/rfc4180rowPosition> "11" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/12> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvEvent> "S3" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvDatetime> "2013-07-01T07:08" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLatitude> "78.62"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLongitude> "5.0168"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvElevation> "-2317"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvWaterdepth> "25"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrate> "5.67"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrite> "0.09"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvSilicate> "4.22"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvPhosphate> "0.53"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvAmmonium> "0.73"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/12> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/12> <http://tools.ietf.org/html/rfc4180rowPosition> "12" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/13> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvEvent> "S3" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvDatetime> "2013-07-01T07:08" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLatitude> "78.62"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLongitude> "5.0168"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvElevation> "-2317"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvWaterdepth> "40"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrate> "6.04"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrite> "0.09"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvSilicate> "4.3"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvPhosphate> "0.53"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvAmmonium> "1.05"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/13> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/13> <http://tools.ietf.org/html/rfc4180rowPosition> "13" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/14> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvEvent> "S3" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvDatetime> "2013-07-01T07:08" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLatitude> "78.62"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLongitude> "5.0168"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvElevation> "-2317"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvWaterdepth> "60"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrate> "8.05"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrite> "0.09"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvSilicate> "5.05"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvPhosphate> "0.69"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvAmmonium> "0.65"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/14> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/14> <http://tools.ietf.org/html/rfc4180rowPosition> "14" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/15> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvEvent> "S3" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvDatetime> "2013-07-01T07:08" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLatitude> "78.62"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLongitude> "5.0168"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvElevation> "-2317"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvWaterdepth> "100"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrate> "10.52"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrite> "0.12"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvSilicate> "4.63"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvPhosphate> "0.75"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvAmmonium> "0.16"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/15> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/15> <http://tools.ietf.org/html/rfc4180rowPosition> "15" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/16> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvEvent> "S3" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvDatetime> "2013-07-01T14:00" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLatitude> "78.6177"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLongitude> "5.02"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvElevation> "-2317"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvWaterdepth> "250"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrate> "11.97"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrite> "0.07"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvSilicate> "5.75"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvPhosphate> "0.82"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvAmmonium> "0.03"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/16> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/16> <http://tools.ietf.org/html/rfc4180rowPosition> "16" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/17> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvEvent> "S3" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvDatetime> "2013-07-01T14:00" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLatitude> "78.6177"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLongitude> "5.02"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvElevation> "-2317"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvWaterdepth> "500"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrate> "12.28"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrite> "0.05"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvSilicate> "6.28"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvPhosphate> "0.83"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvAmmonium> "0.02"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/17> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/17> <http://tools.ietf.org/html/rfc4180rowPosition> "17" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/18> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvEvent> "S3" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvDatetime> "2013-07-01T14:00" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLatitude> "78.6177"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLongitude> "5.02"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvElevation> "-2317"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvWaterdepth> "1000"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrate> "13.28"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrite> "0.04"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvSilicate> "8.22"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvPhosphate> "0.94"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvAmmonium> "0.05"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/18> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/18> <http://tools.ietf.org/html/rfc4180rowPosition> "18" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/19> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvEvent> "S3" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvDatetime> "2013-07-01T14:00" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLatitude> "78.6177"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLongitude> "5.02"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvElevation> "-2317"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvWaterdepth> "1500"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrate> "14.05"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrite> "0.03"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvSilicate> "11.17"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvPhosphate> "0.99"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvAmmonium> "0.07"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/19> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/19> <http://tools.ietf.org/html/rfc4180rowPosition> "19" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/20> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvEvent> "S3" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvDatetime> "2013-07-01T14:00" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLatitude> "78.6177"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLongitude> "5.02"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvElevation> "-2317"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvWaterdepth> "2000"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrate> "14.98"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrite> "0.01"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvSilicate> "12.99"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvPhosphate> "1"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvAmmonium> "0.03"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/20> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/20> <http://tools.ietf.org/html/rfc4180rowPosition> "20" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/21> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvEvent> "S3" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvDatetime> "2013-07-01T14:00" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLatitude> "78.6177"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLongitude> "5.02"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvElevation> "-2317"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvWaterdepth> "2299"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrate> "14.97"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrite> "0.02"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvSilicate> "13.31"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvPhosphate> "1.02"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvAmmonium> "0.04"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/21> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/21> <http://tools.ietf.org/html/rfc4180rowPosition> "21" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/22> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvEvent> "N4" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvDatetime> "2013-07-05T00:34" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLatitude> "79.7162"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLongitude> "4.4587"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvElevation> "-2764"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvWaterdepth> "3"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrate> "0.26"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrite> "0.03"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvSilicate> "2.15"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvPhosphate> "0.19"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvAmmonium> "0.04"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/22> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/22> <http://tools.ietf.org/html/rfc4180rowPosition> "22" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/23> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvEvent> "N4" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvDatetime> "2013-07-05T00:34" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLatitude> "79.7162"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLongitude> "4.4587"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvElevation> "-2764"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvWaterdepth> "10"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrate> "0.14"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrite> "0.02"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvSilicate> "2.24"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvPhosphate> "0.21"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvAmmonium> "0.07"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/23> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/23> <http://tools.ietf.org/html/rfc4180rowPosition> "23" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/24> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvEvent> "N4" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvDatetime> "2013-07-05T00:34" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLatitude> "79.7162"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLongitude> "4.4587"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvElevation> "-2764"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvWaterdepth> "18"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrate> "0.33"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrite> "0.05"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvSilicate> "2.18"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvPhosphate> "0.25"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvAmmonium> "0.16"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/24> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/24> <http://tools.ietf.org/html/rfc4180rowPosition> "24" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/25> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvEvent> "N4" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvDatetime> "2013-07-05T00:34" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLatitude> "79.7162"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLongitude> "4.4587"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvElevation> "-2764"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvWaterdepth> "40"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrate> "5.27"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrite> "0.12"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvSilicate> "3.88"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvPhosphate> "0.53"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvAmmonium> "1.83"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/25> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/25> <http://tools.ietf.org/html/rfc4180rowPosition> "25" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/26> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvEvent> "N4" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvDatetime> "2013-07-05T00:34" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLatitude> "79.7162"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLongitude> "4.4587"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvElevation> "-2764"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvWaterdepth> "60"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrate> "10.4"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrite> "0.21"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvSilicate> "4.92"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvPhosphate> "0.72"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvAmmonium> "0.41"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/26> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/26> <http://tools.ietf.org/html/rfc4180rowPosition> "26" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/27> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvEvent> "N4" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvDatetime> "2013-07-05T00:34" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLatitude> "79.7162"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLongitude> "4.4587"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvElevation> "-2764"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvWaterdepth> "100"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrate> "11.18"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrite> "0.14"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvSilicate> "4.98"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvPhosphate> "0.73"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvAmmonium> "0.04"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/27> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/27> <http://tools.ietf.org/html/rfc4180rowPosition> "27" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/28> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvEvent> "N4" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvDatetime> "2013-07-05T00:34" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLatitude> "79.7162"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLongitude> "4.4587"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvElevation> "-2764"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvWaterdepth> "200"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrate> "12.28"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrite> "0.05"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvSilicate> "5.77"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvPhosphate> "0.82"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvAmmonium> "0.1"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/28> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/28> <http://tools.ietf.org/html/rfc4180rowPosition> "28" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/29> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvEvent> "N4" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvDatetime> "2013-07-05T00:34" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLatitude> "79.7162"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLongitude> "4.4587"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvElevation> "-2764"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvWaterdepth> "500"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrate> "12.25"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrite> "0.05"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvSilicate> "5.94"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvPhosphate> "0.82"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvAmmonium> "0.04"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/29> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/29> <http://tools.ietf.org/html/rfc4180rowPosition> "29" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/30> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvEvent> "N4" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvDatetime> "2013-06-28T03:28" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLatitude> "79.7185"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLongitude> "4.5647"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvElevation> "-2735"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvWaterdepth> "1000"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrate> "13.52"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrite> "0.05"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvSilicate> "8.71"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvPhosphate> "0.9"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvAmmonium> "0.02"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/30> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/30> <http://tools.ietf.org/html/rfc4180rowPosition> "30" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/31> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvEvent> "N4" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvDatetime> "2013-06-28T03:28" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLatitude> "79.7185"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLongitude> "4.5647"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvElevation> "-2735"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvWaterdepth> "1500"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrate> "14.14"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrite> "0.06"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvSilicate> "11.47"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvPhosphate> "0.97"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvAmmonium> "0.04"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/31> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/31> <http://tools.ietf.org/html/rfc4180rowPosition> "31" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/32> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvEvent> "N4" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvDatetime> "2013-06-28T03:28" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLatitude> "79.7185"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLongitude> "4.5647"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvElevation> "-2735"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvWaterdepth> "2000"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrate> "14.63"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrite> "0.04"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvSilicate> "12.44"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvPhosphate> "0.99"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvAmmonium> "0.04"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/32> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/32> <http://tools.ietf.org/html/rfc4180rowPosition> "32" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/33> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvEvent> "N4" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvDatetime> "2013-06-28T03:28" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLatitude> "79.7185"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLongitude> "4.5647"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvElevation> "-2735"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvWaterdepth> "2525"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrate> "14.7"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrite> "0.04"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvSilicate> "12.31"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvPhosphate> "0.99"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvAmmonium> "0.03"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/33> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/33> <http://tools.ietf.org/html/rfc4180rowPosition> "33" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/34> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvEvent> "N4" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvDatetime> "2013-06-28T03:28" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLatitude> "79.7185"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLongitude> "4.5647"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvElevation> "-2735"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvWaterdepth> "2725"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrate> "14.96"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrite> "0.02"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvSilicate> "13.32"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvPhosphate> "1.04"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvAmmonium> "0.09"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/34> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/34> <http://tools.ietf.org/html/rfc4180rowPosition> "34" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/35> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvEvent> "HG_IV" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvDatetime> "2013-07-09T01:25" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLatitude> "79.0075"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLongitude> "4.3398"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvElevation> "-2552"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvWaterdepth> "3"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrate> "0.24"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrite> "0.02"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvSilicate> "2.62"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvPhosphate> "0.2"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvAmmonium> "0.08"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/35> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/35> <http://tools.ietf.org/html/rfc4180rowPosition> "35" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/36> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvEvent> "HG_IV" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvDatetime> "2013-07-09T01:25" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLatitude> "79.0075"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLongitude> "4.3398"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvElevation> "-2552"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvWaterdepth> "10"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrate> "0.24"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrite> "0.04"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvSilicate> "2.84"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvPhosphate> "0.22"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvAmmonium> "0.07"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/36> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/36> <http://tools.ietf.org/html/rfc4180rowPosition> "36" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/37> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvEvent> "HG_IV" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvDatetime> "2013-07-09T01:25" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLatitude> "79.0075"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLongitude> "4.3398"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvElevation> "-2552"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvWaterdepth> "30"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrate> "6.22"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrite> "0.19"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvSilicate> "3.79"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvPhosphate> "0.62"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvAmmonium> "1.98"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/37> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/37> <http://tools.ietf.org/html/rfc4180rowPosition> "37" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/38> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvEvent> "HG_IV" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvDatetime> "2013-07-09T01:25" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLatitude> "79.0075"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLongitude> "4.3398"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvElevation> "-2552"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvWaterdepth> "40"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrate> "8.33"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrite> "0.2"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvSilicate> "4.73"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvPhosphate> "0.71"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvAmmonium> "1.31"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/38> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/38> <http://tools.ietf.org/html/rfc4180rowPosition> "38" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/39> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvEvent> "HG_IV" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvDatetime> "2013-07-09T01:25" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLatitude> "79.0075"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLongitude> "4.3398"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvElevation> "-2552"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvWaterdepth> "60"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrate> "9.96"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrite> "0.28"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvSilicate> "4.74"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvPhosphate> "0.75"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvAmmonium> "0.79"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/39> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/39> <http://tools.ietf.org/html/rfc4180rowPosition> "39" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/40> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvEvent> "HG_IV" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvDatetime> "2013-07-09T01:25" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLatitude> "79.0075"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLongitude> "4.3398"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvElevation> "-2552"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvWaterdepth> "100"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrate> "11.63"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrite> "0.07"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvSilicate> "5.39"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvPhosphate> "0.75"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvAmmonium> "0.03"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/40> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/40> <http://tools.ietf.org/html/rfc4180rowPosition> "40" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/41> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvEvent> "HG_IV" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvDatetime> "2013-07-09T01:25" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLatitude> "79.0075"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLongitude> "4.3398"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvElevation> "-2552"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvWaterdepth> "200"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrate> "11.71"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrite> "0.03"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvSilicate> "5.49"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvPhosphate> "0.77"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvAmmonium> "0.02"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/41> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/41> <http://tools.ietf.org/html/rfc4180rowPosition> "41" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/42> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvEvent> "HG_IV" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvDatetime> "2013-07-09T01:25" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLatitude> "79.0075"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLongitude> "4.3398"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvElevation> "-2552"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvWaterdepth> "500"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrate> "12.61"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrite> "0.04"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvSilicate> "6.93"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvPhosphate> "0.89"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvAmmonium> "0.13"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/42> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/42> <http://tools.ietf.org/html/rfc4180rowPosition> "42" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/43> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvEvent> "HG_IV" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvDatetime> "2013-07-09T01:25" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLatitude> "79.0075"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLongitude> "4.3398"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvElevation> "-2552"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvWaterdepth> "1000"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrate> "13.73"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrite> "0.04"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvSilicate> "9.07"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvPhosphate> "0.96"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvAmmonium> "0.11"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/43> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/43> <http://tools.ietf.org/html/rfc4180rowPosition> "43" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/44> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvEvent> "HG_IV" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvDatetime> "2013-07-09T01:25" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLatitude> "79.0075"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLongitude> "4.3398"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvElevation> "-2552"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvWaterdepth> "2338"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrate> "14.41"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrite> "0.05"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvSilicate> "12.38"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvPhosphate> "0.98"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvAmmonium> "0.03"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/44> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/44> <http://tools.ietf.org/html/rfc4180rowPosition> "44" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/45> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvEvent> "HG_IV" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvDatetime> "2013-07-09T01:25" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLatitude> "79.0075"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvLongitude> "4.3398"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvElevation> "-2552"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvWaterdepth> "2538"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrate> "14.43"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvNitrite> "0.03"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvSilicate> "12.61"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvPhosphate> "1.03"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvAmmonium> "0.06"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/45> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csvrow/45> <http://tools.ietf.org/html/rfc4180rowPosition> "45" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csv> <http://tools.ietf.org/html/rfc4180numberOfRows> "46"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<http://tools.ietf.org/html/rfc4180numberOfColumns> "11"^^<http://www.w3.org/2001/XMLSchema#integer> .

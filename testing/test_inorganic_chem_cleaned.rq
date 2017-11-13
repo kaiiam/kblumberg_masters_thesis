@@ -1,0 +1,26 @@
+PREFIX ietf: <http://tools.ietf.org/html/>
+PREFIX file: <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem_cleaned.csv> 
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?Event ?Latitude ?Longitude ?Nitrate
+
+FROM <test_inorganic_chem_cleaned.ttl> 
+
+WHERE
+{ 
+
+?s a ietf:rfc4180Row .
+
+#OPTIONAL{?s rdfs:label ?label .}
+
+?s file:Event ?Event .
+?s file:Nitrate ?Nitrate .
+?s file:Latitude ?Latitude .
+?s file:Longitude ?Longitude .
+
+FILTER(xsd:float(?Nitrate) <= 10)
+
+FILTER(xsd:float(?Latitude) <= 79)
+
+}  

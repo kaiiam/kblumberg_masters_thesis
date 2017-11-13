@@ -1,0 +1,28 @@
+#PREFIX ab: <http://learningsparql.com/ns/addressbook#>
+
+PREFIX ietf: <http://tools.ietf.org/html/>
+PREFIX file: <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem.csv> 
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+SELECT ?s ?no3
+
+FROM <test_inorganic_chem.ttl> 
+
+WHERE
+{ 
+
+#?s a <http://tools.ietf.org/html/rfc4180Row> . 
+
+?s a ietf:rfc4180Row .
+
+#?s <http://www.w3.org/2000/01/rdf-schema#label> ?label .
+
+?s <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem.csv[no3]-[µmol/l]> ?no3 .
+
+FILTER(xsd:float(?no3) <= 5)
+
+#?s file:[no3]-[µmol/l] ?no3 .
+
+}  

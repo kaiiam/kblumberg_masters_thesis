@@ -1,0 +1,27 @@
+PREFIX file: <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_basic.csv> 
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX ietf: <http://tools.ietf.org/html/>
+PREFIX obo: <http://purl.obolibrary.org/obo/> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?s ?data
+
+FROM <test_basic.nt>
+FROM <test_basic_supplemental_2.ttl>
+
+# WHERE { ?s c:cites+ :paperA . }
+
+WHERE 
+{
+
+# give me something this is about a marine water body
+?s obo:IAO_0000136 obo:ENVO_00001999 .
+
+#give me something else that is about a concentration of nitrate in groundwater 
+?x obo:IAO_0000136 obo:ENVO_09200020 . 
+
+?s ?has ?thing .
+
+?thing ?x ?data . 
+
+}

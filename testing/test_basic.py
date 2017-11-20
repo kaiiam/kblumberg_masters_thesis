@@ -44,6 +44,9 @@ WHERE
 with open('test_basic_2.rq','r') as f_open:
     query_4 = f_open.read()
 
+with open('test_basic_3.rq','r') as f_open:
+    query_5 = f_open.read()
+
 
 
 # # wrap the dbpedia SPARQL end-point
@@ -67,8 +70,12 @@ with open('test_basic_2.rq','r') as f_open:
 
 #initialize the ConjunctiveGraph which will function as the entire datastore
 graph = g.ConjunctiveGraph()
-graph.parse('test_basic.nt', format='ntriples')
-graph.parse('test_basic_supplemental_2.ttl', format='ttl')
+
+#graph.parse('test_basic.nt', format='ntriples')
+graph.parse('test_basic.ttl', format='ttl')
+
+graph.parse('test_basic_supplemental_3.ttl', format='ttl')
+
 
 
 # #print graph.serialize(format='pretty-xml')
@@ -77,7 +84,7 @@ graph.parse('test_basic_supplemental_2.ttl', format='ttl')
 print graph.serialize(format='ttl')
 
 
-results = graph.query(query_4)
+results = graph.query(query_5)
 
 # for row in results:
 #     print "%s" % row

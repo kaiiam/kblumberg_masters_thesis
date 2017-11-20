@@ -1,0 +1,40 @@
+PREFIX file: <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem/test_inorganic_chem_cleaned.csv>
+PREFIX obo: <http://purl.obolibrary.org/obo/> 
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX ietf: <http://tools.ietf.org/html/>
+
+
+SELECT ?no3data ?nh4data ?latdata
+
+FROM <test_inorganic_chem_cleaned.nt>
+FROM <test_inorganic_chem_cleaned_sup.ttl>
+
+WHERE 
+{
+
+#give me any things that are linked to nitrate
+#in this case any data columns about nitrate
+?NitrateColumn ?no3link obo:CHEBI_17632 .
+
+#give me any data columns about ammonia
+?AmmoniumColumn ?nh4link obo:CHEBI_28938 .
+
+#give me something about Latitude
+?LatitudeColumn rdfs:label "Latitude" .
+
+# give me something that is about a marine water body, and get me it's subobjects. 
+?s obo:IAO_0000136 obo:ENVO_00001999 ;
+	?has ?subObject .
+
+#get data from the nitrate, ammonium and Latitude columns of the subobject of the thing about a marine water body
+?subObject ?NitrateColumn ?no3data ; 
+	?AmmoniumColumn ?nh4data ;
+	?LatitudeColumn ?latdata .
+
+
+FILTER(xsd:float(?latdata) <= 79)
+FILTER(xsd:float(?latdata) >= 78)
+
+}

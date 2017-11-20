@@ -1,0 +1,36 @@
+PREFIX file: <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem/test_inorganic_chem_cleaned.csv>
+PREFIX obo: <http://purl.obolibrary.org/obo/> 
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX ietf: <http://tools.ietf.org/html/>
+
+SELECT ?o2value ?no3value ?no3Lat
+
+FROM <test_inorganic_chem_cleaned.nt>
+FROM <test_inorganic_chem_cleaned_sup.ttl>
+FROM <test_phys_oce_current.nt>
+FROM <test_phys_oce_current_sup.ttl>
+
+WHERE 
+{
+
+#give me any things that somehow linked to nitrate
+?NitrateColumn ?no3link obo:CHEBI_17632 .
+
+#give me any things that are somehow linked to oxygen
+?OxygenColumn ?o2link obo:CHEBI_15379 .
+
+#give me something about Latitude
+?LatitudeColumn rdfs:label "Latitude" .
+
+
+?OxygenContainingThing ?OxygenColumn ?o2value ;
+	?LatitudeColumn ?oxgenLat .
+
+?NitrateContainingThing ?NitrateColumn ?no3value;
+	?LatitudeColumn ?no3Lat .
+
+
+FILTER(xsd:float(?oxgenLat) = xsd:float(?oxgenLat))
+}

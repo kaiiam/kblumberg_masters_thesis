@@ -43,8 +43,8 @@ graph = g.ConjunctiveGraph()
 graph.parse('test_inorganic_chem_cleaned.nt', format='ntriples')
 graph.parse('test_inorganic_chem_cleaned_sup.ttl', format='ttl')
 
-#graph.parse('test_phys_oce_current.nt', format='ntriples')
-#graph.parse('test_phys_oce_current_sup.ttl', format='ttl')
+graph.parse('test_phys_oce_current.nt', format='ntriples')
+graph.parse('test_phys_oce_current_sup.ttl', format='ttl')
 
 
 # #print graph.serialize(format='pretty-xml')
@@ -52,7 +52,7 @@ graph.parse('test_inorganic_chem_cleaned_sup.ttl', format='ttl')
 
 #print graph.serialize(format='ttl')
 
-results = graph.query(query_1_1)
+results = graph.query(query_2)
 
 # for row in results:
 #     print "%s" % row
@@ -60,5 +60,8 @@ results = graph.query(query_1_1)
 # for row in results:
 #     print "%s | %s" % row
 
+# for row in results:
+#     print "%s | %s | %s" % row
+
 for row in results:
-    print "%s | %s | %s" % row
+    print "%s | %s | %s | %s" % row

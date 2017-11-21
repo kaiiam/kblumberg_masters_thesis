@@ -5,7 +5,8 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX ietf: <http://tools.ietf.org/html/>
 
-SELECT ?o2value ?no3value ?no3Lat
+#SELECT ?nLat ?nData
+SELECT ?nLat ?nData ?oLat ?oData
 
 FROM <test_inorganic_chem_cleaned.nt>
 FROM <test_inorganic_chem_cleaned_sup.ttl>
@@ -24,13 +25,46 @@ WHERE
 #give me something about Latitude
 ?LatitudeColumn rdfs:label "Latitude" .
 
+#give me something about date time
+?DateTimeColumn rdfs:label "Date Time" .
 
-?OxygenContainingThing ?OxygenColumn ?o2value ;
-	?LatitudeColumn ?oxgenLat .
+{
+# give me a data item that is about a marine water body, and get me it's rows. 
+?s rdf:type obo:IAO_0000027;
+	obo:IAO_0000136 obo:ENVO_00001999 ;
+	ietf:rfc4180row ?MarWatBodRows .
 
-?NitrateContainingThing ?NitrateColumn ?no3value;
-	?LatitudeColumn ?no3Lat .
+#get data which has nitrate information get its nitrate and latitude
+?MarWatBodRows ?NitrateColumn ?nData ;
+	?LatitudeColumn ?nLat ;
+	?DateTimeColumn ?nDT .
+}
+
+UNION
+
+{
+# give me a data item that is about a marine current, and get me it's rows. 
+?s1 rdf:type obo:IAO_0000027;
+	obo:IAO_0000136 obo:ENVO_01000067 ;
+	ietf:rfc4180row ?MarCurRows .
+
+#?MarWatBodRows ?has ?stuff .
+
+#get data which has oxygen information get its oxygen and latitude
+?MarCurRows ?OxygenColumn ?oData ;
+	?LatitudeColumn ?oLat ;
+	?DateTimeColumn ?oDT . 
+
+#?MarCurRows ?has ?stuff .
 
 
-FILTER(xsd:float(?oxgenLat) = xsd:float(?oxgenLat))
+}
+
+#FILTER(xsd:float(?oLat) = xsd:float(?nLat))
+
+#FILTER(xsd:dateTime(?oDT) = xsd:dateTime(?nDT))
+
+
+#GRAPH ?graph {}
+
 }

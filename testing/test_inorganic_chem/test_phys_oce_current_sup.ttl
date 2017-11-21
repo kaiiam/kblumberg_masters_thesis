@@ -4,8 +4,13 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-#csv file is about a marine current
-file: obo:IAO_0000136 obo:ENVO_01000067 .
+#the csv file is a data item, and is about a marine current
+file: a obo:IAO_0000027 ;
+	obo:IAO_0000136 obo:ENVO_01000067 .
+
+#the csv file is a data item, and is about a marine water body
+#file: a obo:IAO_0000027 ;
+#	obo:IAO_0000136 obo:ENVO_00001999 .
 
 #the csv's Oxygen column is about a concentration of class and inheres in some oxygen and part of some seawater
 file:Oxygen obo:IAO_0000136 obo:PATO_0000033 ;

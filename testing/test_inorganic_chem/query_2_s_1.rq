@@ -1,0 +1,146 @@
+PREFIX file: <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_inorganic_chem/test_inorganic_chem_cleaned.csv>
+PREFIX obo: <http://purl.obolibrary.org/obo/> 
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX ietf: <http://tools.ietf.org/html/>
+
+
+SELECT ?nLat 
+	(group_concat(?nData; separator=" , ") as ?nitrateData)
+	(group_concat(?oData; separator=" , ") as ?oxygenData)
+
+
+#SELECT ?nLat 
+
+
+#SELECT ?marCurObj ?oLat ?oLon
+
+#SELECT ?nLat ?ndata ?odata
+
+#SELECT ?ndata ?nLat ?nLon
+
+FROM <test_inorganic_chem_cleaned.nt>
+FROM <test_inorganic_chem_cleaned_sup.ttl>
+FROM <test_phys_oce_current.nt>
+FROM <test_phys_oce_current_sup.ttl>
+
+WHERE 
+{
+
+#this runs (slowly) and gets rid of the oData
+#FILTER NOT EXISTS {?nLat ?p ?oLat}
+
+#This works to filter only the nLat of 79.1338
+#FILTER (xsd:float(?nLat) = xsd:float(79.1338))
+
+#FILTER (xsd:float(?oLat) = xsd:float(79.1338))
+
+
+#MINUS {?nLat ?p 79.1338}
+#MINUS {?nLat ?p ?oLat}
+
+#FILTER (xsd:float(?nLat) = xsd:float(?oLat))
+
+#FILTER(xsd:float(?nLat) >= xsd:float(79.1338))
+#FILTER(xsd:float(?nLat) <= xsd:float(79.1338))
+
+
+
+#{
+	#SELECT ?nData ?nLat ?nLon
+	#WHERE 
+	{
+	
+
+	#give me any things that somehow linked to nitrate
+	?NitrateColumn ?no3link obo:CHEBI_17632 .
+
+	#give me any things that are somehow linked to oxygen
+	?OxygenColumn ?o2link obo:CHEBI_15379 .
+
+	#give me something about Latitude
+	?LatitudeColumn rdfs:label "Latitude" .
+
+	#give me something about Longitude
+	?LongitudeColumn rdfs:label "Longitude" .
+
+
+	# give me a data item that is about a marine water body, and get me it's rows. 
+	?s rdf:type obo:IAO_0000027;
+		obo:IAO_0000136 obo:ENVO_00001999 ;
+		ietf:rfc4180row ?MarWatBodRows .
+
+	#get data which has nitrate information get its nitrate and latitude
+	?MarWatBodRows ?NitrateColumn ?nData ;
+		?LatitudeColumn ?nLat ;
+		?LongitudeColumn ?nLon .
+
+	OPTIONAL {?marCurObj rdf:type obo:IAO_0000027;
+		obo:IAO_0000136 obo:ENVO_01000067 ;
+		obo:OBI_0001620 ?oLat .}
+	
+	FILTER(xsd:float(?nLat) >= xsd:float(?oLat))
+	FILTER(xsd:float(?nLat) <= xsd:float(?oLat))
+
+
+	}
+#}
+
+
+#UNION
+
+#{
+#	SELECT DISTINCT ?marCurObj ?oLat ?oLon
+#	WHERE {
+#	#I tried doing this as a sub query so that we don't get a list which has the csv file as many times as the other queries evaluate. 
+#	# give me a data item that is about a marine current and get me its Lat and Lon
+#	?marCurObj rdf:type obo:IAO_0000027;
+#		obo:IAO_0000136 obo:ENVO_01000067 ;
+#		obo:OBI_0001620 ?oLat ;	
+#		obo:OBI_0001621 ?oLon .
+#
+#	} #LIMIT 1
+
+#}
+
+
+
+
+UNION 
+
+#{
+	#SELECT ?oData
+	#WHERE 
+	{
+
+	#give me any things that are somehow linked to oxygen
+	?OxygenColumn ?o2link obo:CHEBI_15379 .
+
+	# give me a data item that is about a marine current, and get me it's rows. 
+	?s1 rdf:type obo:IAO_0000027;
+		obo:IAO_0000136 obo:ENVO_01000067 ;
+		ietf:rfc4180row ?MarCurRows .
+
+	#get data which has oxygen information get its oxygen and latitude
+	?MarCurRows ?OxygenColumn ?oData .
+		
+	}
+#}
+
+
+
+
+}
+
+#ORDER BY ?nLat
+
+#GROUP BY ?nLat 
+
+#HAVING(xsd:float(?nLat) = xsd:float(79.1338))
+
+#Having just isn't working at all :(
+#HAVING (xsd:float(?nLat) = xsd:float(79.1338))
+#HAVING (?nLat = ?oLat)
+ 
+  

@@ -8,6 +8,12 @@
 file: a obo:IAO_0000027 ;
 	obo:IAO_0000136 obo:ENVO_01000067 .
 
+#the csv file has latitude
+file: obo:OBI_0001620 "79.1338"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+#the csv file has longitude
+file: obo:OBI_0001621 "6.0925"^^<http://www.w3.org/2001/XMLSchema#float> .
+
 #the csv file is a data item, and is about a marine water body
 #file: a obo:IAO_0000027 ;
 #	obo:IAO_0000136 obo:ENVO_00001999 .

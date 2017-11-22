@@ -5,13 +5,13 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX ietf: <http://tools.ietf.org/html/>
 
-SELECT ?nLat 
+SELECT ?nLat ?oLat 
 	(group_concat(?nData; separator=" , ") as ?nitrateData)
 	(group_concat(?oData; separator=" , ") as ?oxygenData)
 
-
-#SELECT ?nLat ?nLon
-#SELECT ?nData ?nLat ?oData 
+#SELECT ?nData ?nLat ?oData ?oLat
+#SELECT ?nLat ?nData ?oLat ?oData
+#SELECT ?nData ?nLat ?nDT ?oData ?oLat ?oDT
 
 FROM <test_inorganic_chem_cleaned.nt>
 FROM <test_inorganic_chem_cleaned_sup.ttl>
@@ -36,13 +36,6 @@ WHERE
 #give me something about date time
 ?DateTimeColumn rdfs:label "Date Time" .
 
-
-# give me a data item that is about a marine current and get me its Lat and Lon
-#?marCurObj rdf:type obo:IAO_0000027;
-#	obo:IAO_0000136 obo:ENVO_01000067 ;
-#	obo:OBI_0001620 ?oLat ;	
-#	obo:OBI_0001621 ?oLon .
-
 {
 # give me a data item that is about a marine water body, and get me it's rows. 
 ?s rdf:type obo:IAO_0000027;
@@ -54,14 +47,9 @@ WHERE
 	?LatitudeColumn ?nLat ;
 	?DateTimeColumn ?nDT ;
 	?LongitudeColumn ?nLon .
-
-FILTER(xsd:float(?nLat) >= xsd:float(79.1338))
-FILTER(xsd:float(?nLat) <= xsd:float(79.1338))
-
 }
 
 UNION
-
 
 {
 # give me a data item that is about a marine current, and get me it's rows. 
@@ -69,15 +57,35 @@ UNION
 	obo:IAO_0000136 obo:ENVO_01000067 ;
 	ietf:rfc4180row ?MarCurRows .
 
+#?MarWatBodRows ?has ?stuff .
+
 #get data which has oxygen information get its oxygen and latitude
 ?MarCurRows ?OxygenColumn ?oData ;
-	?DateTimeColumn ?oDT .
+	?LatitudeColumn ?oLat ;
+	?DateTimeColumn ?oDT ;
+	?LongitudeColumn ?oLon . 
+
+#?MarCurRows ?has ?stuff .
 
 }
 
+#FILTER(xsd:float(?oLat) = xsd:float(?nLat))
+
+#FILTER(xsd:dateTime(?oDT) = xsd:dateTime(?nDT))
+
+
+#GRAPH ?graph {}
+
 }
 
-GROUP BY ?nLat
+GROUP BY ?oLat
+#GROUP BY ?nLat ?oLat ?nLon ?oLon
+
+#GROUP BY ?nLat ?oLat
+#ORDER BY ?oLat ?nLat
+
+#Having ( FILTER(xsd:float(?oLat) = xsd:float(?nLat)) )
+
 
 
 

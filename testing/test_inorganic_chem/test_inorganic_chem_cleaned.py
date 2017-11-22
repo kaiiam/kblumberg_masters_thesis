@@ -18,6 +18,18 @@ with open('query_1.1.rq','r') as f_open:
 with open('query_2.rq','r') as f_open:
     query_2 = f_open.read()
 
+with open('query_2_s.rq','r') as f_open:
+    query_2_s = f_open.read()
+
+with open('query_2_s_1.rq','r') as f_open:
+    query_2_s_1 = f_open.read()
+
+with open('query_2_FINISHED.rq','r') as f_open:
+    query_2_FINISHED = f_open.read()
+
+with open('query_3.rq','r') as f_open:
+    query_3 = f_open.read()
+
 # # wrap the dbpedia SPARQL end-point
 # endpoint = SPARQLWrapper("http://dbpedia.org/sparql")
 # # set the query string
@@ -52,7 +64,7 @@ graph.parse('test_phys_oce_current_sup.ttl', format='ttl')
 
 #print graph.serialize(format='ttl')
 
-results = graph.query(query_2)
+results = graph.query(query_2_FINISHED)
 
 # for row in results:
 #     print "%s" % row
@@ -60,8 +72,14 @@ results = graph.query(query_2)
 # for row in results:
 #     print "%s | %s" % row
 
-# for row in results:
-#     print "%s | %s | %s" % row
-
 for row in results:
-    print "%s | %s | %s | %s" % row
+    print "%s | %s | %s" % row
+
+# for row in results:
+#     print "%s | %s | %s | %s" % row
+
+# for row in results:
+#     print "%s | %s | %s | %s| %s " % row
+
+# for row in results:
+#     print "%s | %s | %s | %s| %s | %s " % row

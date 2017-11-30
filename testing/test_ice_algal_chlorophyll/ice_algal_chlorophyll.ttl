@@ -1,0 +1,8 @@
+@prefix file: <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_ice_algal_chlorophyll/ice_algal_chlorophyll.csv> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+#the csv file is a data item.
+file: a obo:IAO_0000027 .

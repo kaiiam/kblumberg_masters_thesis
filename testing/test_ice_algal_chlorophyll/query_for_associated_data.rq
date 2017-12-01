@@ -11,9 +11,12 @@ SELECT ?c ?o
 FROM <ice_algal_chlorophyll.nt>
 FROM <ice_algal_chlorophyll.ttl>
 
+FROM <first_year_ice.nt>
+FROM <smog_data.nt>
+
 WHERE {
 # give me a data item and get me it's rows. 
-?s rdf:type obo:IAO_0000027;
+?s rdf:type obo:OBCS_0000120 ;
 	html:rfc4180row ?DataItemRows .
 
 #get me other data colums from these rows

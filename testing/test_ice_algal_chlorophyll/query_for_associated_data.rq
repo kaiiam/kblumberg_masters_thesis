@@ -8,11 +8,13 @@ PREFIX html: <http://tools.ietf.org/html/>
 
 SELECT ?c ?o
 
-FROM <ice_algal_chlorophyll.nt>
-FROM <ice_algal_chlorophyll.ttl>
+#FROM <ice_algal_chlorophyll.nt>
+#FROM <ice_algal_chlorophyll.ttl>
 
-FROM <first_year_ice.nt>
-FROM <smog_data.nt>
+#FROM <first_year_ice.nt>
+#FROM <smog_data.nt>
+
+FROM <datastore.ttl>
 
 WHERE {
 # give me a data item and get me it's rows. 

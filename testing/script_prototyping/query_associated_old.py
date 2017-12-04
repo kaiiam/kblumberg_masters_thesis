@@ -73,3 +73,4 @@ results = graph.query(query_associated_data())
 
 for row in results:
    print "%s | %s" % row
+

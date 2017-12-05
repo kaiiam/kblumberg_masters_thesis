@@ -7,12 +7,15 @@ import rdflib.graph as g
 rdfextras.registerplugins() # so we can Graph.query()
 import sys
 import fileinput
+import re                   #to filter files using regex
 
 ### Script to query a datastore for data with columns about a input list of PURLS ###
 
 ########################################################################
-# read in first commandline argument which should be a list of PURLS
-in_file = sys.argv[1]
+# read in file which was given as the first commandline argument
+# the file should be a list of PURLS
+in_file = open(str(sys.argv[1]), 'r')
+
 #Create and clean a list of PURLS from the inputfile
 in_args = []
 in_args += [line.rstrip('\n') for line in in_file]
@@ -71,6 +74,21 @@ graph.parse('datastore.ttl', format='ttl')
 
 results = graph.query(query_associated_data())
 
-for row in results:
-   print "%s | %s" % row
+#old code to print results to terminal
+# for row in results:
+#    print "%s | %s" % row
 
+#save the results to a file with the name of the input purl
+namestring = str(sys.argv[1])
+#remove the subclasses_of_ from the input file name.
+namestring = re.sub('subclasses_of_', '', namestring)
+#remove the .txt from the input file name.
+namestring = re.sub('.txt', '', namestring)
+#make the file name to write to
+outstring = 'data_columns_associated_with_subclasses_of_' + namestring + '.csv'
+
+#create output csv file
+f = open(outstring, 'w')
+#print data to output csv file
+for row in results:
+   f.write( "%s,%s\n" % row)

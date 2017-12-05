@@ -6,6 +6,7 @@ import rdfextras
 import rdflib.graph as g
 rdfextras.registerplugins() # so we can Graph.query()
 import sys
+import re                   #to filter files using regex
 
 ########################################################################
 # import from sys
@@ -34,7 +35,7 @@ def select_func(variables, distinct):
 
 # Put together a WHERE clause which will only query for subclasses+ of a given input class
 def where_subclass_query_func(input_class):
-    return 'WHERE {' + '?s rdfs:subClassOf+ <' + str(input_class) + '> . } \n'
+    return 'WHERE {' + '?s rdfs:subPropertyOf+ <' + str(input_class) + '> . } \n'
 
 #put together a sparql query string which will query for subclasses of a
 #given input class
@@ -56,9 +57,28 @@ endpoint.setReturnFormat(JSON)
 # Note: The JSON returned by the SPARQL endpoint is converted to nested Python dictionaries, so additional parsing is not required.
 results = endpoint.query().convert()
 
+#make new list of purls from results of query i.e. take only the values.
+results_list = []
+results_list += [res['s']['value'] for res in results["results"]["bindings"]]
+
+#filter the results_list to only include ontobee purls using regex search
+regex = re.compile('http://purl.obolibrary.org/obo/')
+results_list = filter(regex.search, results_list)
+
+#save the results to a file with the name of the input purl
+namestring = str(sys.argv[1])
+#remove the http://purl.obolibrary.org/obo/ from the input file.
+namestring = re.sub('http://purl.obolibrary.org/obo/', '', namestring)
+#make the file name to write to
+outstring = 'subproperties_of_' + namestring + '.txt'
+
 #write out to outfile: query_for_subclasses_of_out.txt
-f = open('query_for_subclasses_of_out.txt', 'w')
+f = open(outstring, 'w')
 
 #write each PURL fetched in query to outfile.
-for res in results["results"]["bindings"] :
-    f.write(res['s']['value'] + '\n')
+for r in results_list:
+    f.write(r + '\n')
+
+#old way of writing out results from their dict datastructure return from sparql query.
+# for res in results["results"]["bindings"] :
+#     f.write(res['s']['value'] + '\n')

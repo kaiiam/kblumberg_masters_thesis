@@ -1,0 +1,29 @@
+PREFIX file: <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_basic.csv> 
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX ietf: <http://tools.ietf.org/html/>
+PREFIX obo: <http://purl.obolibrary.org/obo/> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?NitrateColumn ?data
+
+FROM <test_basic.nt>
+FROM <test_basic_supplemental_2.ttl>
+
+# WHERE { ?s c:cites+ :paperA . }
+
+WHERE 
+{
+
+#give me any things that are linked to nitrate
+#in this case any data columns about nitrate
+?NitrateColumn ?link obo:CHEBI_17632 .
+
+# give me something that is about a marine water body, and get me it's subobjects. 
+?s obo:IAO_0000136 obo:ENVO_00001999 ;
+	?has ?subObject .
+
+#look for data which is associated with the subobject of the thing about a marine water body which is linked to nitrate.
+#get data from the nitrate column of the subobject of the thing about a marine water body
+?subObject ?NitrateColumn ?data . 
+
+}

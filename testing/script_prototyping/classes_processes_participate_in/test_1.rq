@@ -1,0 +1,39 @@
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX html: <http://tools.ietf.org/html/>
+
+SELECT DISTINCT ?input_purl ?property ?value 
+
+WHERE { 
+?input_purl <http://www.w3.org/2000/01/rdf-schema#subClassOf> ?node .
+?node <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+?node <http://www.w3.org/2002/07/owl#onProperty> ?property . 
+
+{
+#direct case
+?node <http://www.w3.org/2002/07/owl#someValuesFrom> ?value .
+?value <http://www.w3.org/2000/01/rdf-schema#label> ?label .
+}
+
+UNION 
+
+{
+#union class case:
+?node <http://www.w3.org/2002/07/owl#someValuesFrom> ?v .
+?v owl:unionOf/rdf:rest*/rdf:first ?value .
+}
+
+VALUES(?property){
+(<http://purl.obolibrary.org/obo/RO_0002233>)
+(<http://purl.obolibrary.org/obo/RO_0002234>)
+}
+
+VALUES(?input_purl){
+(<http://purl.obolibrary.org/obo/ENVO_03000056>)
+(<http://purl.obolibrary.org/obo/ENVO_03000103>)
+(<http://purl.obolibrary.org/obo/ENVO_03000047>)
+}
+
+}

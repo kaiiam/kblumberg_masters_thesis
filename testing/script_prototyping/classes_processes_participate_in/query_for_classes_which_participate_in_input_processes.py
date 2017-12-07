@@ -25,5 +25,30 @@ subproperties_input = open(str(sys.argv[2]), 'r')
 subproperty_list = []
 subproperty_list += [line.rstrip('\n') for line in subproperties_input]
 
-for r in subproperty_list:
-    print r
+# for r in subproperty_list:
+#     print r
+
+########################################################################
+#sparql query assembly:
+
+# get temp sparql query for testing purposes:
+with open('test_1.rq','r') as f_open:
+    query = f_open.read()
+
+########################################################################
+# wrap the ontobee SPARQL end-point
+endpoint = SPARQLWrapper("http://sparql.hegroup.org/sparql/")
+# set the query string
+endpoint.setQuery(query)
+# select the return format (e.g. XML, JSON etc...)
+endpoint.setReturnFormat(JSON)
+# execute the query and convert into Python objects
+# Note: The JSON returned by the SPARQL endpoint is converted to nested Python dictionaries, so additional parsing is not required.
+results = endpoint.query().convert()
+
+for res in results["results"]["bindings"] :
+    print res['input_purl']['value'], res['property']['value'], res['value']['value']
+
+# #old code to print results to terminal
+# for row in results:
+#    print "%s | %s | %s" % row

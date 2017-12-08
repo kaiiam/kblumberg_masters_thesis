@@ -1,0 +1,7 @@
+http://purl.obolibrary.org/obo/ENVO_01000350
+http://purl.obolibrary.org/obo/ENVO_00005800
+http://purl.obolibrary.org/obo/ENVO_00005799
+http://purl.obolibrary.org/obo/ENVO_00005798
+http://purl.obolibrary.org/obo/ENVO_00002138
+http://purl.obolibrary.org/obo/ENVO_00002118
+http://purl.obolibrary.org/obo/ENVO_00002148

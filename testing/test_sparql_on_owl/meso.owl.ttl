@@ -1,0 +1,282 @@
+@prefix : <http://purl.obolibrary.org/obo/meso.owl/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://purl.obolibrary.org/obo/meso.owl> .
+
+<http://purl.obolibrary.org/obo/meso.owl> rdf:type owl:Ontology ;
+                                           owl:imports <http://purl.obolibrary.org/obo/meso/imports/obi_import.owl> ,
+                                                       <http://purl.obolibrary.org/obo/meso/imports/iao_import.owl> ,
+                                                       <http://purl.obolibrary.org/obo/meso/imports/pato_import.owl> ,
+                                                       <http://purl.obolibrary.org/obo/meso/imports/chebi_import.owl> ,
+                                                       <http://purl.obolibrary.org/obo/meso/imports/envo_import.owl> ,
+                                                       <http://purl.obolibrary.org/obo/meso/imports/ro_import.owl> ,
+                                                       <http://purl.obolibrary.org/obo/meso/imports/pco_import.owl> ;
+                                           rdfs:comment "Methods and best practices in environmental sensing ontology" .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://purl.obolibrary.org/obo/IAO_0000136
+<http://purl.obolibrary.org/obo/IAO_0000136> rdfs:label "is about" .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://purl.obolibrary.org/obo/MESO_00000000
+<http://purl.obolibrary.org/obo/MESO_00000000> rdf:type owl:Class ;
+                                               rdfs:label "meso"@en .
+
+
+###  http://purl.obolibrary.org/obo/MESO_00000001
+<http://purl.obolibrary.org/obo/MESO_00000001> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://purl.obolibrary.org/obo/IAO_0000104> ;
+                                               <http://purl.obolibrary.org/obo/IAO_0000115> "A plan specification which is endorsed by a community as its realisations produce outcomes that are consistently superior than those realisations of other specifications with similar objectives." ;
+                                               <http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> "best practice" ,
+                                                                                                              "best practise" ;
+                                               <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "best practice document" ,
+                                                                                                              "best practise specification" ;
+                                               <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> "best practise document" ;
+                                               rdfs:comment "What is \"best\" can vary considerably given environmental context, access to resources such as funding, and other parameters. Ideally, these dependencies should be made clear in the best practice specification itself." ;
+                                               rdfs:label "best practice specification"@en .
+
+
+###  http://purl.obolibrary.org/obo/MESO_00000002
+<http://purl.obolibrary.org/obo/MESO_00000002> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://purl.obolibrary.org/obo/MESO_00000003> ,
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty <http://purl.obolibrary.org/obo/IAO_0000136> ;
+                                                                 owl:someValuesFrom [ owl:intersectionOf ( <http://purl.obolibrary.org/obo/IAO_0000027>
+                                                                                                           [ rdf:type owl:Restriction ;
+                                                                                                             owl:onProperty <http://purl.obolibrary.org/obo/IAO_0000136> ;
+                                                                                                             owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                                                  owl:unionOf ( <http://purl.obolibrary.org/obo/CHEBI_25805>
+                                                                                                                                                <http://purl.obolibrary.org/obo/CHEBI_25806>
+                                                                                                                                              )
+                                                                                                                                ]
+                                                                                                           ]
+                                                                                                         ) ;
+                                                                                      rdf:type owl:Class
+                                                                                    ]
+                                                               ] ;
+                                               rdfs:label "best practice specification for correcting oxygen data"@en .
+
+
+###  http://purl.obolibrary.org/obo/MESO_00000003
+<http://purl.obolibrary.org/obo/MESO_00000003> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://purl.obolibrary.org/obo/MESO_00000004> ;
+                                               rdfs:label "best practice specification for data correction"@en .
+
+
+###  http://purl.obolibrary.org/obo/MESO_00000004
+<http://purl.obolibrary.org/obo/MESO_00000004> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://purl.obolibrary.org/obo/MESO_00000001> ;
+                                               rdfs:label "best practice specification for data transformations"@en .
+
+
+###  http://purl.obolibrary.org/obo/MESO_00000005
+<http://purl.obolibrary.org/obo/MESO_00000005> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://purl.obolibrary.org/obo/MESO_00000003> ;
+                                               rdfs:label "best practice specification for correcting optode data"@en .
+
+
+###  http://purl.obolibrary.org/obo/MESO_00000007
+<http://purl.obolibrary.org/obo/MESO_00000007> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://purl.obolibrary.org/obo/MESO_00000001> ,
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty <http://purl.obolibrary.org/obo/IAO_0000136> ;
+                                                                 owl:someValuesFrom <http://purl.obolibrary.org/obo/ENVO_00002149>
+                                                               ] ;
+                                               rdfs:label "best practice specification about qualities of seawater"@en .
+
+
+###  http://purl.obolibrary.org/obo/MESO_00000008
+<http://purl.obolibrary.org/obo/MESO_00000008> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://purl.obolibrary.org/obo/MESO_00000001> ;
+                                               rdfs:label "best practice specification for seawater sensor configuration and installation"@en .
+
+
+###  http://purl.obolibrary.org/obo/MESO_00000009
+<http://purl.obolibrary.org/obo/MESO_00000009> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://purl.obolibrary.org/obo/MESO_00000008> ;
+                                               rdfs:label "best practice specification for calibrating temperature and conductivity sensors"@en .
+
+
+###  http://purl.obolibrary.org/obo/MESO_00000011
+<http://purl.obolibrary.org/obo/MESO_00000011> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://purl.obolibrary.org/obo/MESO_00000008> ;
+                                               rdfs:label "best practice specification for calibrating chlorophyll sensors"@en .
+
+
+###  http://purl.obolibrary.org/obo/MESO_00000013
+<http://purl.obolibrary.org/obo/MESO_00000013> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://purl.obolibrary.org/obo/MESO_00000008> ,
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty <http://purl.obolibrary.org/obo/IAO_0000136> ;
+                                                                 owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                      owl:unionOf ( <http://purl.obolibrary.org/obo/CHEBI_25805>
+                                                                                                    <http://purl.obolibrary.org/obo/CHEBI_25806>
+                                                                                                  )
+                                                                                    ]
+                                                               ] ;
+                                               rdfs:label "best practice specification for calibrating oxygen sensors"@en .
+
+
+###  http://purl.obolibrary.org/obo/MESO_00000016
+<http://purl.obolibrary.org/obo/MESO_00000016> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://purl.obolibrary.org/obo/MESO_00000008> ;
+                                               rdfs:label "best practice specification for calibrating pH sensors"@en .
+
+
+###  http://purl.obolibrary.org/obo/MESO_00000018
+<http://purl.obolibrary.org/obo/MESO_00000018> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://purl.obolibrary.org/obo/MESO_00000008> ,
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty <http://purl.obolibrary.org/obo/IAO_0000136> ;
+                                                                 owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                      owl:unionOf ( <http://purl.obolibrary.org/obo/CHEBI_17632>
+                                                                                                    <http://purl.obolibrary.org/obo/CHEBI_25555>
+                                                                                                  )
+                                                                                    ]
+                                                               ] ;
+                                               rdfs:label "best practice specification for calibrating nitrate sensors"@en .
+
+
+###  http://purl.obolibrary.org/obo/MESO_00000020
+<http://purl.obolibrary.org/obo/MESO_00000020> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://purl.obolibrary.org/obo/MESO_00000008> ,
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty <http://purl.obolibrary.org/obo/IAO_0000136> ;
+                                                                 owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                      owl:unionOf ( <http://purl.obolibrary.org/obo/CHEBI_16526>
+                                                                                                    <http://purl.obolibrary.org/obo/CHEBI_27594>
+                                                                                                  )
+                                                                                    ]
+                                                               ] ;
+                                               rdfs:label "best practice specification for calibrating partial pressure of carbon dioxide sensors"@en .
+
+
+###  http://purl.obolibrary.org/obo/MESO_00000022
+<http://purl.obolibrary.org/obo/MESO_00000022> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://purl.obolibrary.org/obo/MESO_00000003> ,
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty <http://purl.obolibrary.org/obo/IAO_0000136> ;
+                                                                 owl:someValuesFrom [ owl:intersectionOf ( <http://purl.obolibrary.org/obo/IAO_0000027>
+                                                                                                           [ rdf:type owl:Restriction ;
+                                                                                                             owl:onProperty <http://purl.obolibrary.org/obo/IAO_0000136> ;
+                                                                                                             owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                                                  owl:unionOf ( <http://purl.obolibrary.org/obo/CHEBI_17632>
+                                                                                                                                                <http://purl.obolibrary.org/obo/CHEBI_25555>
+                                                                                                                                              )
+                                                                                                                                ]
+                                                                                                           ]
+                                                                                                         ) ;
+                                                                                      rdf:type owl:Class
+                                                                                    ]
+                                                               ] ;
+                                               rdfs:label "best practice specification for correcting nitrate data"@en .
+
+
+###  http://purl.obolibrary.org/obo/MESO_00000024
+<http://purl.obolibrary.org/obo/MESO_00000024> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://purl.obolibrary.org/obo/MESO_00000003> ,
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty <http://purl.obolibrary.org/obo/IAO_0000136> ;
+                                                                 owl:someValuesFrom [ owl:intersectionOf ( <http://purl.obolibrary.org/obo/IAO_0000027>
+                                                                                                           [ rdf:type owl:Restriction ;
+                                                                                                             owl:onProperty <http://purl.obolibrary.org/obo/IAO_0000136> ;
+                                                                                                             owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                                                  owl:unionOf ( <http://purl.obolibrary.org/obo/CHEBI_16526>
+                                                                                                                                                <http://purl.obolibrary.org/obo/CHEBI_27594>
+                                                                                                                                              )
+                                                                                                                                ]
+                                                                                                           ]
+                                                                                                         ) ;
+                                                                                      rdf:type owl:Class
+                                                                                    ]
+                                                               ] ;
+                                               rdfs:label "best practice specification for correcting partial pressure of carbon dioxide data"@en .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://purl.obolibrary.org/obo/MESO_00000006
+<http://purl.obolibrary.org/obo/MESO_00000006> rdf:type owl:NamedIndividual ,
+                                                        <http://purl.obolibrary.org/obo/MESO_00000002> ,
+                                                        <http://purl.obolibrary.org/obo/MESO_00000005> ,
+                                                        <http://purl.obolibrary.org/obo/MESO_00000007> ;
+                                               <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://github.com/EnvironmentOntology/meso/wiki/FixO3-Best-Practices#521-oxygen-data-correction" ;
+                                               rdfs:label "FixO3 best practice specification for correcting oxygen data generated by optodes in seawater"@en .
+
+
+###  http://purl.obolibrary.org/obo/MESO_00000010
+<http://purl.obolibrary.org/obo/MESO_00000010> rdf:type owl:NamedIndividual ,
+                                                        <http://purl.obolibrary.org/obo/MESO_00000009> ;
+                                               <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://github.com/EnvironmentOntology/meso/wiki/FixO3-Best-Practices#temperature-and-conductivity-calibration" ;
+                                               rdfs:label "FixO3 best practice specification for calibrating temperature and conductivity sensors"@en .
+
+
+###  http://purl.obolibrary.org/obo/MESO_00000012
+<http://purl.obolibrary.org/obo/MESO_00000012> rdf:type owl:NamedIndividual ,
+                                                        <http://purl.obolibrary.org/obo/MESO_00000011> ;
+                                               <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://github.com/EnvironmentOntology/meso/wiki/FixO3-Best-Practices#chlorophyll-calibration" ;
+                                               rdfs:label "FixO3 best practice specification for calibrating chlorophyll sensors"@en .
+
+
+###  http://purl.obolibrary.org/obo/MESO_00000014
+<http://purl.obolibrary.org/obo/MESO_00000014> rdf:type owl:NamedIndividual ;
+                                               rdfs:label "FixO3 best practice specification for calibrating oxygen sensors"@en .
+
+
+###  http://purl.obolibrary.org/obo/MESO_00000015
+<http://purl.obolibrary.org/obo/MESO_00000015> rdf:type owl:NamedIndividual ,
+                                                        <http://purl.obolibrary.org/obo/MESO_00000013> ;
+                                               <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://github.com/EnvironmentOntology/meso/wiki/FixO3-Best-Practices#oxygen-calibration" ;
+                                               rdfs:label "FixO3 best practice specification for calibrating oxygen sensors"@en .
+
+
+###  http://purl.obolibrary.org/obo/MESO_00000017
+<http://purl.obolibrary.org/obo/MESO_00000017> rdf:type owl:NamedIndividual ,
+                                                        <http://purl.obolibrary.org/obo/MESO_00000016> ;
+                                               <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://github.com/EnvironmentOntology/meso/wiki/FixO3-Best-Practices#ph-calibration" ;
+                                               rdfs:label "FixO3 best practice specification for calibrating pH sensors"@en .
+
+
+###  http://purl.obolibrary.org/obo/MESO_00000019
+<http://purl.obolibrary.org/obo/MESO_00000019> rdf:type owl:NamedIndividual ,
+                                                        <http://purl.obolibrary.org/obo/MESO_00000018> ;
+                                               <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://github.com/EnvironmentOntology/meso/wiki/FixO3-Best-Practices#nitrate-calibration" ;
+                                               rdfs:label "FixO3 best practice specification for calibrating nitrate sensors"@en .
+
+
+###  http://purl.obolibrary.org/obo/MESO_00000021
+<http://purl.obolibrary.org/obo/MESO_00000021> rdf:type owl:NamedIndividual ,
+                                                        <http://purl.obolibrary.org/obo/MESO_00000020> ;
+                                               <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://github.com/EnvironmentOntology/meso/wiki/FixO3-Best-Practices#pco2-calibrations" ;
+                                               rdfs:label "FixO3 best practice specification for calibrating partial pressure of carbon dioxide sensors"@en .
+
+
+###  http://purl.obolibrary.org/obo/MESO_00000023
+<http://purl.obolibrary.org/obo/MESO_00000023> rdf:type owl:NamedIndividual ,
+                                                        <http://purl.obolibrary.org/obo/MESO_00000005> ,
+                                                        <http://purl.obolibrary.org/obo/MESO_00000022> ;
+                                               <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://github.com/EnvironmentOntology/meso/wiki/FixO3-Best-Practices#522-nitrate-data-correction" ;
+                                               rdfs:label "FixO3 best practice specification for correcting nitrate data generated by optodes in seawater"@en .
+
+
+###  http://purl.obolibrary.org/obo/MESO_00000025
+<http://purl.obolibrary.org/obo/MESO_00000025> rdf:type owl:NamedIndividual ,
+                                                        <http://purl.obolibrary.org/obo/MESO_00000005> ,
+                                                        <http://purl.obolibrary.org/obo/MESO_00000024> ;
+                                               <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://github.com/EnvironmentOntology/meso/wiki/FixO3-Best-Practices#523-field-data-correction-of-pco2-optodes" ;
+                                               rdfs:label "FixO3 best practice specification for correcting partial pressure of carbon dioxide data generated by optodes in seawater"@en .
+
+
+###  Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi

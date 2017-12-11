@@ -1,0 +1,67 @@
+PREFIX obo: <http://purl.obolibrary.org/obo/> 
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX owl: <http://www.w3.org/2002/07/PREFIX#> 
+PREFIX html: <http://tools.ietf.org/html/>
+
+SELECT ?s ?value
+
+FROM <datastore.ttl>
+
+WHERE {
+
+?s rdf:type/owl:equivalentClass/owl:intersectionOf/rdf:first obo:OBCS_0000120 ; 
+   rdf:type/owl:equivalentClass/owl:intersectionOf/rdf:rest/rdf:first/owl:onProperty obo:IAO_0000136 ;
+   rdf:type/owl:equivalentClass/owl:intersectionOf/rdf:rest/rdf:first/owl:someValuesFrom ?value .
+
+
+
+#try path here
+#?o owl:intersectionOf/rdf:rest*/rdf:first ?value .
+
+
+#?s a ?blankNode.
+
+#?blankNode owl:equivalentClass ?o .
+
+#?o rdf:type owl:Class .
+
+
+#?o owl:intersectionOf/rdf:first obo:OBCS_0000120 ; 
+#   owl:intersectionOf/rdf:rest/rdf:first/owl:onProperty obo:IAO_0000136 ;
+#   owl:intersectionOf/rdf:rest/rdf:first/owl:someValuesFrom ?value.
+
+#?o2 rdf:first obo:OBCS_0000120 ;
+
+
+#this works to get the envo value 
+#?o owl:intersectionOf ?o2 . 
+
+#?o2 rdf:first obo:OBCS_0000120 ;
+
+#	rdf:rest/rdf:first ?o3 .
+
+#?o3 owl:onProperty obo:IAO_0000136 ;
+
+#    owl:someValuesFrom ?value.
+
+
+
+
+
+
+#?o2 ?p ?o3
+
+
+#?s ?p ?o ;
+
+#?s a owl:NamedIndividual;
+
+# ?p ?o.
+
+#   owl:equivalentClass ?o2 .
+
+#?s a owl:equivalentClass .
+
+
+}

@@ -1,0 +1,31 @@
+PREFIX obo: <http://purl.obolibrary.org/obo/> 
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX owl: <http://www.w3.org/2002/07/owl#> 
+PREFIX html: <http://tools.ietf.org/html/>
+SELECT DISTINCT ?participant ?property ?value
+WHERE {
+?participant rdfs:subClassOf ?node . 
+?node rdf:type owl:Restriction . 
+?node owl:onProperty ?property .  
+{ ?node owl:someValuesFrom ?value . 
+?value rdfs:label ?label . } 
+UNION 
+{ ?node owl:someValuesFrom ?v . 
+?v owl:unionOf/rdf:rest*/rdf:first ?value . } 
+VALUES (?property) { 
+(<http://purl.obolibrary.org/obo/BFO_0000050>)
+(<http://purl.obolibrary.org/obo/BFO_0000051>)
+(<http://purl.obolibrary.org/obo/RO_0002473>)
+(<http://purl.obolibrary.org/obo/RO_0002229>)
+(<http://purl.obolibrary.org/obo/tao#integral_part_of>)
+(<http://purl.obolibrary.org/obo/omp#member_of>) }
+VALUES (?participant) { 
+(<http://purl.obolibrary.org/obo/ENVO_01000350>)
+(<http://purl.obolibrary.org/obo/ENVO_00005800>)
+(<http://purl.obolibrary.org/obo/ENVO_00005799>)
+(<http://purl.obolibrary.org/obo/ENVO_00005798>)
+(<http://purl.obolibrary.org/obo/ENVO_00002138>)
+(<http://purl.obolibrary.org/obo/ENVO_00002118>)
+(<http://purl.obolibrary.org/obo/ENVO_00002148>) }
+}

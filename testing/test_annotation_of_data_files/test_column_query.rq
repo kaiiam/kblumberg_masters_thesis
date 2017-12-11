@@ -1,0 +1,29 @@
+PREFIX obo: <http://purl.obolibrary.org/obo/> 
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX owl: <http://www.w3.org/2002/07/owl#> 
+PREFIX html: <http://tools.ietf.org/html/>
+
+SELECT ?c ?p ?o
+
+FROM <datastore.ttl>
+
+WHERE {
+
+#?s a owl:equivalentClass .
+
+#?s a owl:Class .
+
+?s a owl:NamedIndividual ;
+   obo:BFO_0000051 ?c .
+
+?c rdfs:label ?filterValue ;
+	?p ?o . 
+
+
+VALUES (?filterValue) {
+("Date Time")
+("Diatom Chl A")
+}
+
+}

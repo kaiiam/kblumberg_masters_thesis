@@ -1,4 +1,4 @@
-Ord No,Date Time,Latitude,Longitude,Water Depth,Total Chl A,Diatom Chl A,Haptophyta Chl A,Prok Chl A 
+Ord No,Date Time,Latitude,Longitude,Water Depth,Total Chlorophyll A,Diatom Chlorophyll A,Haptophyte Chlorophyll A,Prokaryote Chlorophyll A 
 1,2004-10-26,-8.40462,-141.23787,4.59,0.3321,0.0473,0.124,0.0958
 2,2004-10-26,-8.39107,-141.2394,10.815,0.368,0.0593,0.1361,0.0968
 3,2004-10-26,-8.39107,-141.2394,4.25,0.3697,0.0586,0.1388,0.0996

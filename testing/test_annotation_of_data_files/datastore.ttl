@@ -37,6 +37,47 @@ path:global_chlorophyll_a.csvWaterDepth a [ a owl:Class ;
     rdfs:label "Water Depth" ;
     ns1:rfc4180columnPosition 4 .
 
+path:ice_algal_chlorophyll.csv a [ a owl:Class ;
+            owl:equivalentClass [ a owl:Class ;
+                    owl:intersectionOf ( obo:OBCS_0000120 [ a owl:Restriction ;
+                                owl:onProperty obo:IAO_0000136 ;
+                                owl:someValuesFrom [ a owl:Class ;
+                                        owl:intersectionOf ( obo:PATO_0001018 [ a owl:Restriction ;
+                                                    owl:onProperty obo:RO_0000052 ;
+                                                    owl:someValuesFrom [ a owl:Class ;
+                                                            owl:intersectionOf ( obo:ENVO_00001999 [ a owl:Restriction ;
+                                                                        owl:onProperty obo:RO_0002220 ;
+                                                                        owl:someValuesFrom obo:ENVO_00002200 ] ) ] ] ) ] ] ) ] ],
+        owl:NamedIndividual ;
+    obo:BFO_0000051 path:file2.csvColumn1,
+        path:file2.csvColumn3 ;
+    ns1:rfc4180numberOfColumns 2 ;
+    ns1:rfc4180numberOfRows 2 ;
+    ns1:rfc4180row <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/ice_algal_chlorophyll.csvrow/0>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/ice_algal_chlorophyll.csvrow/1> .
+
+path:ice_algal_chlorophyll.csvChlA a [ a owl:Class ;
+            owl:equivalentClass [ a owl:Class ;
+                    owl:intersectionOf ( [ a owl:Restriction ;
+                                owl:onProperty obo:BFO_0000050 ;
+                                owl:someValuesFrom obo:OBCS_0000120 ] [ a owl:Restriction ;
+                                owl:onProperty obo:IAO_0000136 ;
+                                owl:someValuesFrom obo:CHEBI_18230 ] ) ] ],
+        owl:NamedIndividual ;
+    rdfs:label "Chl A" ;
+    ns1:rfc4180columnPosition 1 .
+
+path:ice_algal_chlorophyll.csvSeaIce a [ a owl:Class ;
+            owl:equivalentClass [ a owl:Class ;
+                    owl:intersectionOf ( [ a owl:Restriction ;
+                                owl:onProperty obo:BFO_0000050 ;
+                                owl:someValuesFrom obo:OBCS_0000120 ] [ a owl:Restriction ;
+                                owl:onProperty obo:IAO_0000136 ;
+                                owl:someValuesFrom obo:ENVO_00002200 ] ) ] ],
+        owl:NamedIndividual ;
+    rdfs:label "Sea Ice" ;
+    ns1:rfc4180columnPosition 0 .
+
 path:snow_height.csv a [ a owl:Class ;
             owl:equivalentClass [ a owl:Class ;
                     owl:intersectionOf ( obo:OBCS_0000120 [ a owl:Restriction ;
@@ -130,6 +171,16 @@ path:global_chlorophyll_a.csvTotalChlA a [ a owl:Class ;
     path:global_chlorophyll_a.csvProkChlA "0.0968"^^xsd:float ;
     path:global_chlorophyll_a.csvTotalChlA "0.368"^^xsd:float ;
     path:global_chlorophyll_a.csvWaterDepth "10.815"^^xsd:float ;
+    ns1:rfc4180rowPosition "1" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/ice_algal_chlorophyll.csvrow/0> a ns1:rfc4180Row ;
+    path:ice_algal_chlorophyll.csvChlA 2 ;
+    path:ice_algal_chlorophyll.csvSeaIce 1 ;
+    ns1:rfc4180rowPosition "0" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/ice_algal_chlorophyll.csvrow/1> a ns1:rfc4180Row ;
+    path:ice_algal_chlorophyll.csvChlA 4 ;
+    path:ice_algal_chlorophyll.csvSeaIce 3 ;
     ns1:rfc4180rowPosition "1" .
 
 path:snow_height.csvDateTime a [ a owl:Class ;

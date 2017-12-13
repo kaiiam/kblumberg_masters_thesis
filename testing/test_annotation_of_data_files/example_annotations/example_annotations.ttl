@@ -1,35 +1,59 @@
-@prefix path: <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/> .
+@prefix path: <PATH TO file.csv>.
 @prefix obo: <http://purl.obolibrary.org/obo/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 
-#annotate the csv file. 
-path:global_chlorophyll_a.csv a owl:NamedIndividual ;
-			      obo:BFO_0000051 path:global_chlorophyll_a.csvDateTime ;
-			      obo:BFO_0000051 path:global_chlorophyll_a.csvDiatomChlA ;
-			      obo:BFO_0000051 path:global_chlorophyll_a.csvHaptophytaChlA ;
-			      obo:BFO_0000051 path:global_chlorophyll_a.csvLatitude ;
-			      obo:BFO_0000051 path:global_chlorophyll_a.csvLongitude ;
-			      obo:BFO_0000051 path:global_chlorophyll_a.csvOrdNo ;
-			      obo:BFO_0000051 path:global_chlorophyll_a.csvProkChlA ;
-			      obo:BFO_0000051 path:global_chlorophyll_a.csvTotalChlA ;
+######################################### csv files #########################################
+
+#annotate a csv file. 
+#file is about: 'X' in ('X')
+path:file.csv a owl:NamedIndividual ;
+			      obo:BFO_0000051 path:file.csvColumn1 ;
+            obo:BFO_0000051 path:file.csvColumn2 ;
+            obo:BFO_0000051 path:file.csvColumn3 ;
+            #obo:BFO_0000051 path:file.csvColumnX ;
+            # ...
             a [  rdf:type owl:Class ;
                  owl:equivalentClass [ owl:intersectionOf ( <http://purl.obolibrary.org/obo/OBCS_0000120>
                                                             [ rdf:type owl:Restriction ;
                                                               owl:onProperty <http://purl.obolibrary.org/obo/IAO_0000136> ;
-                                                              owl:someValuesFrom <http://purl.obolibrary.org/obo/ENVO_00002149>
+                                                              owl:someValuesFrom <'X'>
                                                             ]
                                                           ) ;
                                        rdf:type owl:Class
                                       ] 
               ] .
 
-path:global_chlorophyll_a.csvTotalChlA a owl:NamedIndividual ;
-				       a [
+#annotate a csv file. 
+#file is about: All Elements in ('X' or 'Y' or 'Z' or ...)
+path:file2.csv a owl:NamedIndividual ;
+            obo:BFO_0000051 path:file2.csvColumn1 ;
+            obo:BFO_0000051 path:file2.csvColumn1 ;
+            obo:BFO_0000051 path:file2.csvColumn3 ;
+            #obo:BFO_0000051 path:file2.csvColumnX ;
+            #...
+            a [  rdf:type owl:Class ;
+                 owl:equivalentClass [ owl:intersectionOf ( <http://purl.obolibrary.org/obo/OBCS_0000120>
+                                                            [ rdf:type owl:Restriction ;
+                                                              owl:onProperty <http://purl.obolibrary.org/obo/IAO_0000136> ;
+                                                              owl:someValuesFrom  [ rdf:type owl:Class ;
+                                                                                    owl:unionOf ( <'X'>
+                                                                                                  <'Y'>
+                                                                                                )
+                                                                                  ]
+                                                            ]
+                                                          ) ;
+                                       rdf:type owl:Class
+                                      ] 
+              ] .
 
-                  rdf:type owl:Class ;
+######################################### Columns #########################################
+
+#is about some: ('X')
+path:file.csvColumn1 a owl:NamedIndividual ;
+				       a [rdf:type owl:Class ;
                   owl:equivalentClass [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
                                                                owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000050> ;
                                                                owl:someValuesFrom <http://purl.obolibrary.org/obo/OBCS_0000120>
@@ -37,14 +61,15 @@ path:global_chlorophyll_a.csvTotalChlA a owl:NamedIndividual ;
                                                                                           
                                                               [ rdf:type owl:Restriction ;
                                                                 owl:onProperty <http://purl.obolibrary.org/obo/IAO_0000136> ;
-                                                                owl:someValuesFrom <http://purl.obolibrary.org/obo/ENVO_09200006>
+                                                                owl:someValuesFrom < 'X'>
                                                               ]
                                                             ) ;
                                          rdf:type owl:Class
                                       ]
                  ] .
 
-path:global_chlorophyll_a.csvWaterDepth a owl:NamedIndividual ;
+#is about some: ('X' and ('any property' some 'Y ') )
+path:file.csvColumn2  a owl:NamedIndividual ;
                                         a [ rdf:type owl:Class ;
                                             owl:equivalentClass [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
                                                                                          owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000050> ;
@@ -53,14 +78,22 @@ path:global_chlorophyll_a.csvWaterDepth a owl:NamedIndividual ;
 
                                                                                        [ rdf:type owl:Restriction ;
                                                                                          owl:onProperty <http://purl.obolibrary.org/obo/IAO_0000136> ;
-                                                                                         owl:someValuesFrom <http://purl.obolibrary.org/obo/PATO_0001595>
+                                                                                         owl:someValuesFrom [ owl:intersectionOf ( <'X '>
+                                                                                                                                     [ rdf:type owl:Restriction ;
+                                                                                                                                       owl:onProperty <'any property'> ;
+                                                                                                                                       owl:someValuesFrom <'Y'>
+                                                                                                                                     ]
+                                                                                                                                  ) ;
+                                                                                                              rdf:type owl:Class
+                                                                                                            ]
                                                                                        ]
                                                                                       ) ;
                                                                    rdf:type owl:Class
                                                                 ]
                                           ].
 
-path:global_chlorophyll_a.csvDiatomChlA a owl:NamedIndividual ;
+#is about some: ('X' and ('any property1' some ('Y ' and ('any property2' some 'Z'))))
+path:file.csvColumn3 a owl:NamedIndividual ;
                                         a [ rdf:type owl:Class ;
                                             owl:equivalentClass [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
                                                                                          owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000050> ;
@@ -69,13 +102,13 @@ path:global_chlorophyll_a.csvDiatomChlA a owl:NamedIndividual ;
 
                                                                                        [ rdf:type owl:Restriction ;
                                                                                          owl:onProperty <http://purl.obolibrary.org/obo/IAO_0000136> ;
-                                                                                         owl:someValuesFrom  [ owl:intersectionOf ( <http://purl.obolibrary.org/obo/PATO_0000033>
+                                                                                         owl:someValuesFrom  [ owl:intersectionOf ( <'X'>
                                                                                                                                      [ rdf:type owl:Restriction ;
-                                                                                                                                       owl:onProperty <http://purl.obolibrary.org/obo/RO_0000052> ;
-                                                                                                                                       owl:someValuesFrom [ owl:intersectionOf ( <http://purl.obolibrary.org/obo/CHEBI_18230>
+                                                                                                                                       owl:onProperty <'any property1'> ;
+                                                                                                                                       owl:someValuesFrom [ owl:intersectionOf ( <'Y'>
                                                                                                                                                                                     [ rdf:type owl:Restriction ;
-                                                                                                                                                                                      owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000050> ;
-                                                                                                                                                                                      owl:someValuesFrom <http://purl.obolibrary.org/obo/ENVO_00002149>
+                                                                                                                                                                                      owl:onProperty <'any property2'> ;
+                                                                                                                                                                                      owl:someValuesFrom <'Z'>
                                                                                                                                                                                     ]
                                                                                                                                                                                   ) ;
                                                                                                                                                                rdf:type owl:Class
@@ -89,27 +122,3 @@ path:global_chlorophyll_a.csvDiatomChlA a owl:NamedIndividual ;
                                                                      rdf:type owl:Class
                                                                    ]
                                           ] .
-
-
-path:global_chlorophyll_a.csvLongitude  a owl:NamedIndividual ;
-                                        a [ rdf:type owl:Class ;
-                                            owl:equivalentClass [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
-                                                                                         owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000050> ;
-                                                                                         owl:someValuesFrom <http://purl.obolibrary.org/obo/OBCS_0000120>
-                                                                                       ]                                           
-
-                                                                                       [ rdf:type owl:Restriction ;
-                                                                                         owl:onProperty <http://purl.obolibrary.org/obo/IAO_0000136> ;
-                                                                                         owl:someValuesFrom [ owl:intersectionOf ( <http://purl.obolibrary.org/obo/OBI_0001620>
-                                                                                                                                     [ rdf:type owl:Restriction ;
-                                                                                                                                       owl:onProperty <http://purl.obolibrary.org/obo/RO_0000052> ;
-                                                                                                                                       owl:someValuesFrom <http://purl.obolibrary.org/obo/ENVO_00001999>
-                                                                                                                                     ]
-                                                                                                                                  ) ;
-                                                                                                              rdf:type owl:Class
-                                                                                                            ]
-                                                                                       ]
-                                                                                      ) ;
-                                                                   rdf:type owl:Class
-                                                                ]
-                                          ].

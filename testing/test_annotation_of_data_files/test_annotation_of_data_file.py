@@ -32,6 +32,8 @@ with open('column_query_annotated.rq','r') as f_open:
 with open('query_for_data_about_csv_and_columns_2.rq','r') as f_open:
     query_8 = f_open.read()
 
+with open('query_for_data_about_csv_and_columns_3.rq','r') as f_open:
+    query_9 = f_open.read()
 
 
 #initialize the ConjunctiveGraph which will function as the entire datastore
@@ -46,7 +48,7 @@ graph.parse('datastore.ttl', format='ttl')
 
 #print query_5
 
-results = graph.query(query_8)
+results = graph.query(query_9)
 
 # for row in results:
 #     print "%s" % row

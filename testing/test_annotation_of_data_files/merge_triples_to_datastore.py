@@ -8,6 +8,9 @@ import rdflib.graph as g
 
 ##### Script to merge the rdf files into a single datastore.ttl file #####
 
+#remove a previously existing datastore.ttl as not to get any duplicates
+os.remove('datastore.ttl')
+
 # list all the files in the directory
 files = [f for f in os.listdir('.') if os.path.isfile(f)]
 

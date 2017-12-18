@@ -105,7 +105,7 @@ path:global_chlorophyll_a.csvDiatomChlA a [ a owl:Class ;
                                         owl:intersectionOf ( obo:PATO_0000033 [ a owl:Restriction ;
                                                     owl:onProperty obo:RO_0000052 ;
                                                     owl:someValuesFrom [ a owl:Class ;
-                                                            owl:intersectionOf ( obo:CHEBI_18230 [ a owl:Restriction ;
+                                                            owl:intersectionOf ( obo:CHEBI_18230 obo:ENVO_01000267 [ a owl:Restriction ;
                                                                         owl:onProperty obo:BFO_0000050 ;
                                                                         owl:someValuesFrom obo:ENVO_00002149 ] ) ] ] ) ] ] ) ] ],
         owl:NamedIndividual ;

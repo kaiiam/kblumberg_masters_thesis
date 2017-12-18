@@ -73,6 +73,7 @@ path:global_chlorophyll_a.csvDiatomChlA a owl:NamedIndividual ;
                                                                                                                                      [ rdf:type owl:Restriction ;
                                                                                                                                        owl:onProperty <http://purl.obolibrary.org/obo/RO_0000052> ;
                                                                                                                                        owl:someValuesFrom [ owl:intersectionOf ( <http://purl.obolibrary.org/obo/CHEBI_18230>
+                                                                                                                                                                                 <http://purl.obolibrary.org/obo/ENVO_01000267>
                                                                                                                                                                                     [ rdf:type owl:Restriction ;
                                                                                                                                                                                       owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000050> ;
                                                                                                                                                                                       owl:someValuesFrom <http://purl.obolibrary.org/obo/ENVO_00002149>

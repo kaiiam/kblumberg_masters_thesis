@@ -1,0 +1,2331 @@
+@prefix ns1: <http://tools.ietf.org/html/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix path: <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+path:influence_snow_depth.csv a [ a owl:Class ;
+            owl:equivalentClass [ a owl:Class ;
+                    owl:intersectionOf ( obo:OBCS_0000120 [ a owl:Restriction ;
+                                owl:onProperty obo:IAO_0000136 ;
+                                owl:someValuesFrom [ a owl:Class ;
+                                        owl:intersectionOf ( obo:PATO_0001018 [ a owl:Restriction ;
+                                                    owl:onProperty obo:RO_0000052 ;
+                                                    owl:someValuesFrom [ a owl:Class ;
+                                                            owl:intersectionOf ( obo:ENVO_00001999 [ a owl:Restriction ;
+                                                                        owl:onProperty obo:RO_0002220 ;
+                                                                        owl:someValuesFrom obo:ENVO_00002200 ] ) ] ] ) ] ] ) ] ],
+        owl:NamedIndividual ;
+    obo:BFO_0000051 path:influence_snow_depth.csvDateTime,
+        path:influence_snow_depth.csvLatitude,
+        path:influence_snow_depth.csvLongitude,
+        path:influence_snow_depth.csvRelativeDistanceX,
+        path:influence_snow_depth.csvRelativeDistanceY,
+        path:influence_snow_depth.csvSeaIceThickness,
+        path:influence_snow_depth.csvSignalStrength ;
+    ns1:rfc4180numberOfColumns 7 ;
+    ns1:rfc4180numberOfRows 201 ;
+    ns1:rfc4180row <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/0>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/1>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/10>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/100>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/101>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/102>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/103>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/104>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/105>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/106>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/107>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/108>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/109>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/11>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/110>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/111>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/112>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/113>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/114>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/115>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/116>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/117>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/118>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/119>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/12>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/120>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/121>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/122>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/123>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/124>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/125>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/126>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/127>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/128>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/129>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/13>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/130>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/131>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/132>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/133>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/134>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/135>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/136>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/137>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/138>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/139>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/14>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/140>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/141>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/142>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/143>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/144>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/145>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/146>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/147>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/148>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/149>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/15>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/150>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/151>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/152>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/153>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/154>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/155>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/156>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/157>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/158>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/159>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/16>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/160>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/161>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/162>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/163>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/164>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/165>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/166>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/167>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/168>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/169>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/17>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/170>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/171>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/172>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/173>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/174>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/175>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/176>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/177>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/178>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/179>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/18>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/180>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/181>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/182>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/183>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/184>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/185>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/186>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/187>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/188>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/189>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/19>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/190>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/191>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/192>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/193>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/194>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/195>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/196>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/197>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/198>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/199>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/2>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/20>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/200>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/21>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/22>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/23>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/24>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/25>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/26>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/27>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/28>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/29>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/3>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/30>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/31>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/32>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/33>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/34>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/35>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/36>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/37>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/38>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/39>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/4>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/40>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/41>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/42>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/43>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/44>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/45>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/46>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/47>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/48>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/49>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/5>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/50>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/51>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/52>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/53>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/54>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/55>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/56>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/57>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/58>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/59>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/6>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/60>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/61>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/62>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/63>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/64>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/65>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/66>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/67>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/68>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/69>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/7>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/70>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/71>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/72>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/73>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/74>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/75>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/76>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/77>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/78>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/79>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/8>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/80>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/81>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/82>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/83>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/84>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/85>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/86>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/87>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/88>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/89>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/9>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/90>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/91>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/92>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/93>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/94>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/95>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/96>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/97>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/98>,
+        <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/99> .
+
+path:influence_snow_depth.csvDateTime a [ a owl:Class ;
+            owl:equivalentClass [ a owl:Class ;
+                    owl:intersectionOf ( [ a owl:Restriction ;
+                                owl:onProperty obo:BFO_0000050 ;
+                                owl:someValuesFrom obo:OBCS_0000120 ] [ a owl:Restriction ;
+                                owl:onProperty obo:IAO_0000136 ;
+                                owl:someValuesFrom obo:BFO_0000021 ] ) ] ],
+        owl:NamedIndividual ;
+    rdfs:label "Date Time" ;
+    ns1:rfc4180columnPosition 0 .
+
+path:influence_snow_depth.csvLatitude a [ a owl:Class ;
+            owl:equivalentClass [ a owl:Class ;
+                    owl:intersectionOf ( [ a owl:Restriction ;
+                                owl:onProperty obo:BFO_0000050 ;
+                                owl:someValuesFrom obo:OBCS_0000120 ] [ a owl:Restriction ;
+                                owl:onProperty obo:IAO_0000136 ;
+                                owl:someValuesFrom obo:OBI_0001620 ] ) ] ],
+        owl:NamedIndividual ;
+    rdfs:label "Latitude" ;
+    ns1:rfc4180columnPosition 1 .
+
+path:influence_snow_depth.csvLongitude a [ a owl:Class ;
+            owl:equivalentClass [ a owl:Class ;
+                    owl:intersectionOf ( [ a owl:Restriction ;
+                                owl:onProperty obo:BFO_0000050 ;
+                                owl:someValuesFrom obo:OBCS_0000120 ] [ a owl:Restriction ;
+                                owl:onProperty obo:IAO_0000136 ;
+                                owl:someValuesFrom obo:OBI_0001621 ] ) ] ],
+        owl:NamedIndividual ;
+    rdfs:label "Longitude" ;
+    ns1:rfc4180columnPosition 2 .
+
+path:influence_snow_depth.csvRelativeDistanceX a [ a owl:Class ;
+            owl:equivalentClass [ a owl:Class ;
+                    owl:intersectionOf ( [ a owl:Restriction ;
+                                owl:onProperty obo:BFO_0000050 ;
+                                owl:someValuesFrom obo:OBCS_0000120 ] [ a owl:Restriction ;
+                                owl:onProperty obo:IAO_0000136 ;
+                                owl:someValuesFrom [ a owl:Class ;
+                                        owl:intersectionOf ( obo:PATO_0000040 [ a owl:Restriction ;
+                                                    owl:onProperty obo:RO_0000052 ;
+                                                    owl:someValuesFrom obo:ENVO_00002200 ] ) ] ] ) ] ],
+        owl:NamedIndividual ;
+    rdfs:label "Relative Distance X" ;
+    ns1:rfc4180columnPosition 3 .
+
+path:influence_snow_depth.csvRelativeDistanceY a [ a owl:Class ;
+            owl:equivalentClass [ a owl:Class ;
+                    owl:intersectionOf ( [ a owl:Restriction ;
+                                owl:onProperty obo:BFO_0000050 ;
+                                owl:someValuesFrom obo:OBCS_0000120 ] [ a owl:Restriction ;
+                                owl:onProperty obo:IAO_0000136 ;
+                                owl:someValuesFrom [ a owl:Class ;
+                                        owl:intersectionOf ( obo:PATO_0000040 [ a owl:Restriction ;
+                                                    owl:onProperty obo:RO_0000052 ;
+                                                    owl:someValuesFrom obo:ENVO_00002200 ] ) ] ] ) ] ],
+        owl:NamedIndividual ;
+    rdfs:label "Relative Distance Y" ;
+    ns1:rfc4180columnPosition 4 .
+
+path:influence_snow_depth.csvSeaIceThickness a [ a owl:Class ;
+            owl:equivalentClass [ a owl:Class ;
+                    owl:intersectionOf ( [ a owl:Restriction ;
+                                owl:onProperty obo:BFO_0000050 ;
+                                owl:someValuesFrom obo:OBCS_0000120 ] [ a owl:Restriction ;
+                                owl:onProperty obo:IAO_0000136 ;
+                                owl:someValuesFrom [ a owl:Class ;
+                                        owl:intersectionOf ( obo:PATO_0000915 [ a owl:Restriction ;
+                                                    owl:onProperty obo:RO_0000052 ;
+                                                    owl:someValuesFrom obo:ENVO_00002200 ] ) ] ] ) ] ],
+        owl:NamedIndividual ;
+    rdfs:label "Sea Ice Thickness" ;
+    ns1:rfc4180columnPosition 5 .
+
+path:influence_snow_depth.csvSignalStrength a [ a owl:Class ;
+            owl:equivalentClass [ a owl:Class ;
+                    owl:intersectionOf ( [ a owl:Restriction ;
+                                owl:onProperty obo:BFO_0000050 ;
+                                owl:someValuesFrom obo:OBCS_0000120 ] [ a owl:Restriction ;
+                                owl:onProperty obo:IAO_0000136 ;
+                                owl:someValuesFrom [ a owl:Class ;
+                                        owl:intersectionOf ( obo:PATO_0015013 [ a owl:Restriction ;
+                                                    owl:onProperty obo:RO_0000052 ;
+                                                    owl:someValuesFrom obo:ENVO_00002200 ] ) ] ] ) ] ],
+        owl:NamedIndividual ;
+    rdfs:label "Signal Strength" ;
+    ns1:rfc4180columnPosition 6 .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/0> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:50" ;
+    path:influence_snow_depth.csvLatitude "-61.1926198"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623136"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX -60 ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.22"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.57"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20517.2"^^xsd:float ;
+    ns1:rfc4180rowPosition "0" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/1> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:51" ;
+    path:influence_snow_depth.csvLatitude "-61.1926202"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623135"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-59.94"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.21"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.566"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20571.9"^^xsd:float ;
+    ns1:rfc4180rowPosition "1" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/10> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:51" ;
+    path:influence_snow_depth.csvLatitude "-61.1926247"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623165"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-59.33"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "29.92"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.569"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20525.2"^^xsd:float ;
+    ns1:rfc4180rowPosition "10" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/100> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:00" ;
+    path:influence_snow_depth.csvLatitude "-61.19263"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622852"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.77"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "31.25"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.565"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20583.5"^^xsd:float ;
+    ns1:rfc4180rowPosition "100" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/101> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:01" ;
+    path:influence_snow_depth.csvLatitude "-61.1926299"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622848"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.75"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "31.27"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.563"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20618.7"^^xsd:float ;
+    ns1:rfc4180rowPosition "101" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/102> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:01" ;
+    path:influence_snow_depth.csvLatitude "-61.1926298"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622843"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.75"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "31.3"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.567"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20558.5"^^xsd:float ;
+    ns1:rfc4180rowPosition "102" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/103> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:01" ;
+    path:influence_snow_depth.csvLatitude "-61.1926296"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622838"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.74"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "31.33"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.568"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20538.8"^^xsd:float ;
+    ns1:rfc4180rowPosition "103" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/104> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:01" ;
+    path:influence_snow_depth.csvLatitude "-61.1926294"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622833"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.74"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "31.36"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.57"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20515.7"^^xsd:float ;
+    ns1:rfc4180rowPosition "104" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/105> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:01" ;
+    path:influence_snow_depth.csvLatitude "-61.1926293"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622828"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.73"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "31.39"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.572"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20488.2"^^xsd:float ;
+    ns1:rfc4180rowPosition "105" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/106> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:01" ;
+    path:influence_snow_depth.csvLatitude "-61.1926291"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622823"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.73"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "31.42"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.567"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20558.9"^^xsd:float ;
+    ns1:rfc4180rowPosition "106" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/107> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:01" ;
+    path:influence_snow_depth.csvLatitude "-61.1926289"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622818"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.72"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "31.45"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.568"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength 20535 ;
+    ns1:rfc4180rowPosition "107" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/108> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:01" ;
+    path:influence_snow_depth.csvLatitude "-61.1926288"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622813"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.72"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "31.48"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.574"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20454.6"^^xsd:float ;
+    ns1:rfc4180rowPosition "108" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/109> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:01" ;
+    path:influence_snow_depth.csvLatitude "-61.1926286"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622808"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.72"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "31.51"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.575"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20432.8"^^xsd:float ;
+    ns1:rfc4180rowPosition "109" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/11> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:52" ;
+    path:influence_snow_depth.csvLatitude "-61.1926251"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623165"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-59.26"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "29.9"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.573"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20461.3"^^xsd:float ;
+    ns1:rfc4180rowPosition "11" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/110> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:01" ;
+    path:influence_snow_depth.csvLatitude "-61.1926284"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622803"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.71"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "31.54"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.572"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20474.5"^^xsd:float ;
+    ns1:rfc4180rowPosition "110" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/111> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:02" ;
+    path:influence_snow_depth.csvLatitude "-61.1926283"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622799"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.71"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "31.56"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.571"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20495.5"^^xsd:float ;
+    ns1:rfc4180rowPosition "111" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/112> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:02" ;
+    path:influence_snow_depth.csvLatitude "-61.1926281"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622795"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.7"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "31.58"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.57"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20505.4"^^xsd:float ;
+    ns1:rfc4180rowPosition "112" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/113> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:02" ;
+    path:influence_snow_depth.csvLatitude "-61.1926279"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622792"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.7"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "31.6"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.571"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20492.8"^^xsd:float ;
+    ns1:rfc4180rowPosition "113" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/114> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:02" ;
+    path:influence_snow_depth.csvLatitude "-61.1926278"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622789"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.7"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "31.62"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.572"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20479.8"^^xsd:float ;
+    ns1:rfc4180rowPosition "114" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/115> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:02" ;
+    path:influence_snow_depth.csvLatitude "-61.1926276"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622785"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.7"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "31.64"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.567"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20557.1"^^xsd:float ;
+    ns1:rfc4180rowPosition "115" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/116> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:02" ;
+    path:influence_snow_depth.csvLatitude "-61.1926274"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622782"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.69"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "31.66"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.565"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20586.7"^^xsd:float ;
+    ns1:rfc4180rowPosition "116" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/117> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:02" ;
+    path:influence_snow_depth.csvLatitude "-61.1926273"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622779"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.69"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "31.68"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.567"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20554.2"^^xsd:float ;
+    ns1:rfc4180rowPosition "117" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/118> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:02" ;
+    path:influence_snow_depth.csvLatitude "-61.1926271"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622775"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.69"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "31.71"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.565"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20590.4"^^xsd:float ;
+    ns1:rfc4180rowPosition "118" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/119> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:02" ;
+    path:influence_snow_depth.csvLatitude "-61.1926269"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622772"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.69"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "31.73"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.564"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20607.8"^^xsd:float ;
+    ns1:rfc4180rowPosition "119" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/12> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:52" ;
+    path:influence_snow_depth.csvLatitude "-61.1926255"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623162"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-59.21"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "29.91"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.569"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20525.1"^^xsd:float ;
+    ns1:rfc4180rowPosition "12" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/120> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:02" ;
+    path:influence_snow_depth.csvLatitude "-61.1926268"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622769"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.68"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "31.75"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.565"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20591.8"^^xsd:float ;
+    ns1:rfc4180rowPosition "120" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/121> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:03" ;
+    path:influence_snow_depth.csvLatitude "-61.1926266"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622765"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.68"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "31.77"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.566"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20568.6"^^xsd:float ;
+    ns1:rfc4180rowPosition "121" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/122> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:03" ;
+    path:influence_snow_depth.csvLatitude "-61.1926264"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622762"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.68"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "31.79"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.568"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20546.4"^^xsd:float ;
+    ns1:rfc4180rowPosition "122" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/123> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:03" ;
+    path:influence_snow_depth.csvLatitude "-61.1926263"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622759"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.68"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "31.81"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.568"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20537.5"^^xsd:float ;
+    ns1:rfc4180rowPosition "123" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/124> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:03" ;
+    path:influence_snow_depth.csvLatitude "-61.1926261"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622755"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.67"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "31.83"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.566"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20572.2"^^xsd:float ;
+    ns1:rfc4180rowPosition "124" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/125> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:03" ;
+    path:influence_snow_depth.csvLatitude "-61.1926259"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622752"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.67"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "31.85"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.563"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20617.3"^^xsd:float ;
+    ns1:rfc4180rowPosition "125" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/126> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:03" ;
+    path:influence_snow_depth.csvLatitude "-61.1926258"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622749"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.67"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "31.87"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.564"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength 20598 ;
+    ns1:rfc4180rowPosition "126" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/127> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:03" ;
+    path:influence_snow_depth.csvLatitude "-61.1926256"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622745"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.66"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "31.89"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.564"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20602.3"^^xsd:float ;
+    ns1:rfc4180rowPosition "127" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/128> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:03" ;
+    path:influence_snow_depth.csvLatitude "-61.1926254"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622742"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.66"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "31.91"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.566"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20574.4"^^xsd:float ;
+    ns1:rfc4180rowPosition "128" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/129> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:03" ;
+    path:influence_snow_depth.csvLatitude "-61.1926253"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622739"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.66"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "31.93"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.566"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20572.2"^^xsd:float ;
+    ns1:rfc4180rowPosition "129" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/13> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:52" ;
+    path:influence_snow_depth.csvLatitude "-61.1926258"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623159"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-59.15"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "29.92"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.57"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20511.2"^^xsd:float ;
+    ns1:rfc4180rowPosition "13" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/130> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:03" ;
+    path:influence_snow_depth.csvLatitude "-61.1926251"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622735"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.66"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "31.95"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.564"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20597.1"^^xsd:float ;
+    ns1:rfc4180rowPosition "130" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/131> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:04" ;
+    path:influence_snow_depth.csvLatitude "-61.1926249"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622732"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.65"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "31.97"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.562"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20634.7"^^xsd:float ;
+    ns1:rfc4180rowPosition "131" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/132> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:04" ;
+    path:influence_snow_depth.csvLatitude "-61.1926248"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622729"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.65"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "31.99"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.565"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20587.9"^^xsd:float ;
+    ns1:rfc4180rowPosition "132" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/133> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:04" ;
+    path:influence_snow_depth.csvLatitude "-61.1926246"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622725"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.65"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "32.02"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.572"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20486.7"^^xsd:float ;
+    ns1:rfc4180rowPosition "133" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/134> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:04" ;
+    path:influence_snow_depth.csvLatitude "-61.1926244"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622722"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.65"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "32.04"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.577"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20411.3"^^xsd:float ;
+    ns1:rfc4180rowPosition "134" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/135> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:04" ;
+    path:influence_snow_depth.csvLatitude "-61.1926243"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622719"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.64"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "32.06"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.576"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20426.8"^^xsd:float ;
+    ns1:rfc4180rowPosition "135" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/136> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:04" ;
+    path:influence_snow_depth.csvLatitude "-61.1926241"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622715"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.64"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "32.08"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.57"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20510.3"^^xsd:float ;
+    ns1:rfc4180rowPosition "136" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/137> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:04" ;
+    path:influence_snow_depth.csvLatitude "-61.1926239"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622712"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.64"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "32.1"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.569"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20519.9"^^xsd:float ;
+    ns1:rfc4180rowPosition "137" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/138> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:04" ;
+    path:influence_snow_depth.csvLatitude "-61.1926238"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622709"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.64"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "32.12"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.574"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20444.1"^^xsd:float ;
+    ns1:rfc4180rowPosition "138" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/139> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:04" ;
+    path:influence_snow_depth.csvLatitude "-61.1926236"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622705"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.63"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "32.14"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.573"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20464.1"^^xsd:float ;
+    ns1:rfc4180rowPosition "139" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/14> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:52" ;
+    path:influence_snow_depth.csvLatitude "-61.1926261"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623155"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-59.09"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "29.92"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.569"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20524.4"^^xsd:float ;
+    ns1:rfc4180rowPosition "14" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/140> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:04" ;
+    path:influence_snow_depth.csvLatitude "-61.1926234"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622702"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.63"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "32.16"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.567"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20559.5"^^xsd:float ;
+    ns1:rfc4180rowPosition "140" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/141> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:05" ;
+    path:influence_snow_depth.csvLatitude "-61.1926232"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622699"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.64"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "32.18"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.568"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20540.4"^^xsd:float ;
+    ns1:rfc4180rowPosition "141" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/142> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:05" ;
+    path:influence_snow_depth.csvLatitude "-61.1926229"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622695"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.65"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "32.21"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.57"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20517.7"^^xsd:float ;
+    ns1:rfc4180rowPosition "142" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/143> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:05" ;
+    path:influence_snow_depth.csvLatitude "-61.1926225"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622692"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.67"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "32.23"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.569"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20528.1"^^xsd:float ;
+    ns1:rfc4180rowPosition "143" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/144> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:05" ;
+    path:influence_snow_depth.csvLatitude "-61.1926222"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622689"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.68"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "32.26"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.566"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20568.2"^^xsd:float ;
+    ns1:rfc4180rowPosition "144" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/145> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:05" ;
+    path:influence_snow_depth.csvLatitude "-61.1926219"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622685"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.7"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "32.28"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.565"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength 20587 ;
+    ns1:rfc4180rowPosition "145" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/146> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:05" ;
+    path:influence_snow_depth.csvLatitude "-61.1926215"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622682"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.71"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "32.31"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.567"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20560.7"^^xsd:float ;
+    ns1:rfc4180rowPosition "146" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/147> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:05" ;
+    path:influence_snow_depth.csvLatitude "-61.1926212"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622679"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.73"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "32.33"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.567"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20553.4"^^xsd:float ;
+    ns1:rfc4180rowPosition "147" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/148> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:05" ;
+    path:influence_snow_depth.csvLatitude "-61.1926209"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622675"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.74"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "32.36"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.567"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20561.8"^^xsd:float ;
+    ns1:rfc4180rowPosition "148" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/149> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:05" ;
+    path:influence_snow_depth.csvLatitude "-61.1926205"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622672"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.76"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "32.38"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.566"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20575.4"^^xsd:float ;
+    ns1:rfc4180rowPosition "149" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/15> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:52" ;
+    path:influence_snow_depth.csvLatitude "-61.1926265"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623152"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-59.03"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "29.93"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.565"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20583.4"^^xsd:float ;
+    ns1:rfc4180rowPosition "15" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/150> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:05" ;
+    path:influence_snow_depth.csvLatitude "-61.1926202"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622669"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.78"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "32.41"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.564"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20595.9"^^xsd:float ;
+    ns1:rfc4180rowPosition "150" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/151> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:06" ;
+    path:influence_snow_depth.csvLatitude "-61.1926199"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622665"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.78"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "32.43"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.563"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20625.8"^^xsd:float ;
+    ns1:rfc4180rowPosition "151" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/152> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:06" ;
+    path:influence_snow_depth.csvLatitude "-61.1926198"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622662"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.78"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "32.45"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.561"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20647.6"^^xsd:float ;
+    ns1:rfc4180rowPosition "152" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/153> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:06" ;
+    path:influence_snow_depth.csvLatitude "-61.1926196"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622659"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.78"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "32.47"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.563"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20620.3"^^xsd:float ;
+    ns1:rfc4180rowPosition "153" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/154> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:06" ;
+    path:influence_snow_depth.csvLatitude "-61.1926194"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622655"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.78"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "32.49"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.565"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20580.9"^^xsd:float ;
+    ns1:rfc4180rowPosition "154" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/155> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:06" ;
+    path:influence_snow_depth.csvLatitude "-61.1926193"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622652"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.77"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "32.51"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.569"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength 20532 ;
+    ns1:rfc4180rowPosition "155" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/156> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:06" ;
+    path:influence_snow_depth.csvLatitude "-61.1926191"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622649"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.77"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "32.53"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.567"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20555.2"^^xsd:float ;
+    ns1:rfc4180rowPosition "156" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/157> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:06" ;
+    path:influence_snow_depth.csvLatitude "-61.1926189"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622645"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.77"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "32.56"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.568"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength 20546 ;
+    ns1:rfc4180rowPosition "157" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/158> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:06" ;
+    path:influence_snow_depth.csvLatitude "-61.1926188"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622642"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.76"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "32.58"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.57"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20506.9"^^xsd:float ;
+    ns1:rfc4180rowPosition "158" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/159> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:06" ;
+    path:influence_snow_depth.csvLatitude "-61.1926186"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622639"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.76"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "32.6"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.568"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20534.7"^^xsd:float ;
+    ns1:rfc4180rowPosition "159" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/16> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:52" ;
+    path:influence_snow_depth.csvLatitude "-61.1926268"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623149"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-58.97"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "29.94"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.569"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength 20534 ;
+    ns1:rfc4180rowPosition "16" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/160> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:06" ;
+    path:influence_snow_depth.csvLatitude "-61.1926184"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622635"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.76"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "32.62"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.568"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20545.5"^^xsd:float ;
+    ns1:rfc4180rowPosition "160" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/161> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:07" ;
+    path:influence_snow_depth.csvLatitude "-61.1926183"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622633"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.76"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "32.63"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.567"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20555.4"^^xsd:float ;
+    ns1:rfc4180rowPosition "161" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/162> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:07" ;
+    path:influence_snow_depth.csvLatitude "-61.1926181"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622633"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.76"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "32.63"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.569"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20522.5"^^xsd:float ;
+    ns1:rfc4180rowPosition "162" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/163> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:07" ;
+    path:influence_snow_depth.csvLatitude "-61.1926179"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622633"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.76"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "32.64"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.568"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength 20535 ;
+    ns1:rfc4180rowPosition "163" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/164> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:07" ;
+    path:influence_snow_depth.csvLatitude "-61.1926178"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622633"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.76"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "32.64"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.567"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20564.7"^^xsd:float ;
+    ns1:rfc4180rowPosition "164" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/165> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:07" ;
+    path:influence_snow_depth.csvLatitude "-61.1926176"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622633"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.77"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "32.64"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.566"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20577.2"^^xsd:float ;
+    ns1:rfc4180rowPosition "165" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/166> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:07" ;
+    path:influence_snow_depth.csvLatitude "-61.1926174"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622633"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.77"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "32.65"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.568"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20547.1"^^xsd:float ;
+    ns1:rfc4180rowPosition "166" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/167> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:07" ;
+    path:influence_snow_depth.csvLatitude "-61.1926173"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622633"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.77"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "32.65"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.574"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20457.7"^^xsd:float ;
+    ns1:rfc4180rowPosition "167" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/168> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:07" ;
+    path:influence_snow_depth.csvLatitude "-61.1926171"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622633"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.77"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "32.65"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.573"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength 20464 ;
+    ns1:rfc4180rowPosition "168" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/169> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:07" ;
+    path:influence_snow_depth.csvLatitude "-61.1926169"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622633"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.77"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "32.66"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.566"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20567.5"^^xsd:float ;
+    ns1:rfc4180rowPosition "169" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/17> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:52" ;
+    path:influence_snow_depth.csvLatitude "-61.1926271"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623145"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-58.91"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "29.95"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.569"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20534.2"^^xsd:float ;
+    ns1:rfc4180rowPosition "17" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/170> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:07" ;
+    path:influence_snow_depth.csvLatitude "-61.1926168"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622633"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.77"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "32.66"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.563"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20620.8"^^xsd:float ;
+    ns1:rfc4180rowPosition "170" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/171> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:08" ;
+    path:influence_snow_depth.csvLatitude "-61.1926166"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622632"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.77"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "32.67"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.563"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength 20624 ;
+    ns1:rfc4180rowPosition "171" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/172> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:08" ;
+    path:influence_snow_depth.csvLatitude "-61.1926164"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622629"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.77"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "32.69"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.566"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20567.1"^^xsd:float ;
+    ns1:rfc4180rowPosition "172" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/173> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:08" ;
+    path:influence_snow_depth.csvLatitude "-61.1926163"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622625"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.77"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "32.71"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.569"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20530.5"^^xsd:float ;
+    ns1:rfc4180rowPosition "173" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/174> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:08" ;
+    path:influence_snow_depth.csvLatitude "-61.1926161"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622622"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.77"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "32.73"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.571"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20499.1"^^xsd:float ;
+    ns1:rfc4180rowPosition "174" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/175> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:08" ;
+    path:influence_snow_depth.csvLatitude "-61.1926159"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622619"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.76"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "32.75"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.574"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength 20447 ;
+    ns1:rfc4180rowPosition "175" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/176> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:08" ;
+    path:influence_snow_depth.csvLatitude "-61.1926158"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622615"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.76"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "32.77"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.568"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength 20543 ;
+    ns1:rfc4180rowPosition "176" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/177> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:08" ;
+    path:influence_snow_depth.csvLatitude "-61.1926156"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622612"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.76"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "32.79"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.566"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20571.9"^^xsd:float ;
+    ns1:rfc4180rowPosition "177" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/178> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:08" ;
+    path:influence_snow_depth.csvLatitude "-61.1926154"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622609"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.76"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "32.82"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.565"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20586.1"^^xsd:float ;
+    ns1:rfc4180rowPosition "178" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/179> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:08" ;
+    path:influence_snow_depth.csvLatitude "-61.1926153"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622605"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.75"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "32.84"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.569"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20534.5"^^xsd:float ;
+    ns1:rfc4180rowPosition "179" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/18> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:52" ;
+    path:influence_snow_depth.csvLatitude "-61.1926275"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623142"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-58.86"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "29.95"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.565"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20589.8"^^xsd:float ;
+    ns1:rfc4180rowPosition "18" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/180> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:08" ;
+    path:influence_snow_depth.csvLatitude "-61.1926151"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622602"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.75"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "32.86"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.569"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20530.9"^^xsd:float ;
+    ns1:rfc4180rowPosition "180" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/181> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:09" ;
+    path:influence_snow_depth.csvLatitude "-61.1926149"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622599"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.75"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "32.87"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.57"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20514.6"^^xsd:float ;
+    ns1:rfc4180rowPosition "181" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/182> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:09" ;
+    path:influence_snow_depth.csvLatitude "-61.1926148"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622598"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.75"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "32.89"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.569"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20530.7"^^xsd:float ;
+    ns1:rfc4180rowPosition "182" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/183> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:09" ;
+    path:influence_snow_depth.csvLatitude "-61.1926146"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622596"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.75"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "32.9"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.565"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20585.9"^^xsd:float ;
+    ns1:rfc4180rowPosition "183" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/184> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:09" ;
+    path:influence_snow_depth.csvLatitude "-61.1926144"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622594"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.75"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "32.91"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.564"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20598.4"^^xsd:float ;
+    ns1:rfc4180rowPosition "184" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/185> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:09" ;
+    path:influence_snow_depth.csvLatitude "-61.1926143"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622593"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.75"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "32.92"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.56"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20659.7"^^xsd:float ;
+    ns1:rfc4180rowPosition "185" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/186> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:09" ;
+    path:influence_snow_depth.csvLatitude "-61.1926141"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622591"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.75"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "32.93"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.567"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20563.3"^^xsd:float ;
+    ns1:rfc4180rowPosition "186" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/187> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:09" ;
+    path:influence_snow_depth.csvLatitude "-61.1926139"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622589"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.75"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "32.95"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.569"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20524.7"^^xsd:float ;
+    ns1:rfc4180rowPosition "187" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/188> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:09" ;
+    path:influence_snow_depth.csvLatitude "-61.1926138"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622588"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.74"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "32.96"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.563"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20626.3"^^xsd:float ;
+    ns1:rfc4180rowPosition "188" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/189> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:09" ;
+    path:influence_snow_depth.csvLatitude "-61.1926136"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622586"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.74"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "32.97"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.56"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20661.3"^^xsd:float ;
+    ns1:rfc4180rowPosition "189" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/19> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:52" ;
+    path:influence_snow_depth.csvLatitude "-61.1926278"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623139"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-58.8"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "29.96"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.561"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20646.7"^^xsd:float ;
+    ns1:rfc4180rowPosition "19" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/190> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:09" ;
+    path:influence_snow_depth.csvLatitude "-61.1926134"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622584"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.74"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "32.98"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.566"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20577.2"^^xsd:float ;
+    ns1:rfc4180rowPosition "190" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/191> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:10" ;
+    path:influence_snow_depth.csvLatitude "-61.1926132"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622583"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.75"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "32.99"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.569"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength 20521 ;
+    ns1:rfc4180rowPosition "191" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/192> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:10" ;
+    path:influence_snow_depth.csvLatitude "-61.1926129"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622581"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.77"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "33.01"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.568"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength 20541 ;
+    ns1:rfc4180rowPosition "192" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/193> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:10" ;
+    path:influence_snow_depth.csvLatitude "-61.1926125"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622579"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.79"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "33.03"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.559"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20682.7"^^xsd:float ;
+    ns1:rfc4180rowPosition "193" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/194> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:10" ;
+    path:influence_snow_depth.csvLatitude "-61.1926122"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622578"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.8"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "33.04"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.566"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20578.6"^^xsd:float ;
+    ns1:rfc4180rowPosition "194" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/195> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:10" ;
+    path:influence_snow_depth.csvLatitude "-61.1926119"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622576"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.82"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "33.06"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.57"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20508.2"^^xsd:float ;
+    ns1:rfc4180rowPosition "195" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/196> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:10" ;
+    path:influence_snow_depth.csvLatitude "-61.1926115"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622574"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.84"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "33.08"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.568"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength 20540 ;
+    ns1:rfc4180rowPosition "196" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/197> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:10" ;
+    path:influence_snow_depth.csvLatitude "-61.1926112"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622573"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.86"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "33.09"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.567"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20562.4"^^xsd:float ;
+    ns1:rfc4180rowPosition "197" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/198> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:10" ;
+    path:influence_snow_depth.csvLatitude "-61.1926109"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622571"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.87"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "33.11"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.566"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20575.5"^^xsd:float ;
+    ns1:rfc4180rowPosition "198" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/199> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:10" ;
+    path:influence_snow_depth.csvLatitude "-61.1926105"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622569"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.89"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "33.13"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.566"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20570.9"^^xsd:float ;
+    ns1:rfc4180rowPosition "199" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/2> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:51" ;
+    path:influence_snow_depth.csvLatitude "-61.1926207"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623138"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-59.87"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.18"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.569"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20531.6"^^xsd:float ;
+    ns1:rfc4180rowPosition "2" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/20> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:52" ;
+    path:influence_snow_depth.csvLatitude "-61.1926281"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623135"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-58.74"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "29.97"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.561"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20644.8"^^xsd:float ;
+    ns1:rfc4180rowPosition "20" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/200> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:10" ;
+    path:influence_snow_depth.csvLatitude "-61.1926102"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622568"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.91"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "33.14"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.569"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20520.3"^^xsd:float ;
+    ns1:rfc4180rowPosition "200" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/21> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:53" ;
+    path:influence_snow_depth.csvLatitude "-61.1926285"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623131"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-58.68"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "29.98"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.563"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20617.6"^^xsd:float ;
+    ns1:rfc4180rowPosition "21" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/22> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:53" ;
+    path:influence_snow_depth.csvLatitude "-61.1926288"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623126"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-58.62"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "29.99"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.565"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20591.2"^^xsd:float ;
+    ns1:rfc4180rowPosition "22" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/23> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:53" ;
+    path:influence_snow_depth.csvLatitude "-61.1926291"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623121"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-58.56"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.01"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.568"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20549.5"^^xsd:float ;
+    ns1:rfc4180rowPosition "23" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/24> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:53" ;
+    path:influence_snow_depth.csvLatitude "-61.1926295"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623116"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-58.5"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.02"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.572"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20474.4"^^xsd:float ;
+    ns1:rfc4180rowPosition "24" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/25> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:53" ;
+    path:influence_snow_depth.csvLatitude "-61.1926298"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623111"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-58.44"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.04"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.572"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20476.1"^^xsd:float ;
+    ns1:rfc4180rowPosition "25" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/26> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:53" ;
+    path:influence_snow_depth.csvLatitude "-61.1926301"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623106"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-58.38"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.05"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.571"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20502.4"^^xsd:float ;
+    ns1:rfc4180rowPosition "26" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/27> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:53" ;
+    path:influence_snow_depth.csvLatitude "-61.1926305"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623101"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-58.32"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.07"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.568"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20544.5"^^xsd:float ;
+    ns1:rfc4180rowPosition "27" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/28> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:53" ;
+    path:influence_snow_depth.csvLatitude "-61.1926308"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623096"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-58.26"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.08"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.564"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20605.6"^^xsd:float ;
+    ns1:rfc4180rowPosition "28" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/29> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:53" ;
+    path:influence_snow_depth.csvLatitude "-61.1926311"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623091"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-58.2"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.1"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.567"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20556.9"^^xsd:float ;
+    ns1:rfc4180rowPosition "29" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/3> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:51" ;
+    path:influence_snow_depth.csvLatitude "-61.1926212"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623141"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-59.8"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.15"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.568"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20547.1"^^xsd:float ;
+    ns1:rfc4180rowPosition "3" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/30> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:53" ;
+    path:influence_snow_depth.csvLatitude "-61.1926315"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623086"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-58.14"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.12"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.563"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20611.2"^^xsd:float ;
+    ns1:rfc4180rowPosition "30" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/31> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:54" ;
+    path:influence_snow_depth.csvLatitude "-61.1926318"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623083"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-58.08"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.12"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.565"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20594.5"^^xsd:float ;
+    ns1:rfc4180rowPosition "31" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/32> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:54" ;
+    path:influence_snow_depth.csvLatitude "-61.1926321"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623083"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-58.03"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.11"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.567"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20556.2"^^xsd:float ;
+    ns1:rfc4180rowPosition "32" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/33> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:54" ;
+    path:influence_snow_depth.csvLatitude "-61.1926325"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623083"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-57.97"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.1"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.569"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20527.8"^^xsd:float ;
+    ns1:rfc4180rowPosition "33" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/34> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:54" ;
+    path:influence_snow_depth.csvLatitude "-61.1926328"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623083"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-57.92"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.09"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.57"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20516.9"^^xsd:float ;
+    ns1:rfc4180rowPosition "34" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/35> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:54" ;
+    path:influence_snow_depth.csvLatitude "-61.1926331"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623083"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-57.87"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.08"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.568"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20548.5"^^xsd:float ;
+    ns1:rfc4180rowPosition "35" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/36> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:54" ;
+    path:influence_snow_depth.csvLatitude "-61.1926335"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623083"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-57.81"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.07"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.566"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20580.3"^^xsd:float ;
+    ns1:rfc4180rowPosition "36" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/37> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:54" ;
+    path:influence_snow_depth.csvLatitude "-61.1926338"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623083"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-57.76"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.06"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.566"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20575.5"^^xsd:float ;
+    ns1:rfc4180rowPosition "37" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/38> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:54" ;
+    path:influence_snow_depth.csvLatitude "-61.1926341"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623083"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-57.7"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.05"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.568"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20549.1"^^xsd:float ;
+    ns1:rfc4180rowPosition "38" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/39> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:54" ;
+    path:influence_snow_depth.csvLatitude "-61.1926345"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623083"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-57.65"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.04"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.568"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20536.4"^^xsd:float ;
+    ns1:rfc4180rowPosition "39" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/4> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:51" ;
+    path:influence_snow_depth.csvLatitude "-61.1926217"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623145"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-59.73"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.11"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.568"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20548.8"^^xsd:float ;
+    ns1:rfc4180rowPosition "4" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/40> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:54" ;
+    path:influence_snow_depth.csvLatitude "-61.1926348"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623083"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-57.6"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.02"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.57"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20515.3"^^xsd:float ;
+    ns1:rfc4180rowPosition "40" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/41> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:55" ;
+    path:influence_snow_depth.csvLatitude "-61.1926349"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623082"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-57.56"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.03"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.566"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20566.9"^^xsd:float ;
+    ns1:rfc4180rowPosition "41" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/42> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:55" ;
+    path:influence_snow_depth.csvLatitude "-61.1926348"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623079"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-57.56"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.05"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.565"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20595.4"^^xsd:float ;
+    ns1:rfc4180rowPosition "42" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/43> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:55" ;
+    path:influence_snow_depth.csvLatitude "-61.1926346"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623075"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-57.55"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.07"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.564"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20603.5"^^xsd:float ;
+    ns1:rfc4180rowPosition "43" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/44> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:55" ;
+    path:influence_snow_depth.csvLatitude "-61.1926344"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623072"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-57.55"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.09"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.565"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20590.7"^^xsd:float ;
+    ns1:rfc4180rowPosition "44" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/45> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:55" ;
+    path:influence_snow_depth.csvLatitude "-61.1926343"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623069"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-57.55"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.1"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.567"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20551.7"^^xsd:float ;
+    ns1:rfc4180rowPosition "45" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/46> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:55" ;
+    path:influence_snow_depth.csvLatitude "-61.1926341"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623065"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-57.54"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.13"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.571"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20496.6"^^xsd:float ;
+    ns1:rfc4180rowPosition "46" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/47> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:55" ;
+    path:influence_snow_depth.csvLatitude "-61.1926339"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623062"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-57.54"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.14"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.571"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20497.9"^^xsd:float ;
+    ns1:rfc4180rowPosition "47" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/48> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:55" ;
+    path:influence_snow_depth.csvLatitude "-61.1926338"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623059"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-57.53"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.16"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.571"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20489.4"^^xsd:float ;
+    ns1:rfc4180rowPosition "48" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/49> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:55" ;
+    path:influence_snow_depth.csvLatitude "-61.1926336"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623055"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-57.53"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.18"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.572"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20480.8"^^xsd:float ;
+    ns1:rfc4180rowPosition "49" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/5> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:51" ;
+    path:influence_snow_depth.csvLatitude "-61.1926222"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623148"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-59.67"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.08"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.567"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20552.4"^^xsd:float ;
+    ns1:rfc4180rowPosition "5" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/50> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:55" ;
+    path:influence_snow_depth.csvLatitude "-61.1926334"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623052"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-57.53"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.2"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.566"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20568.6"^^xsd:float ;
+    ns1:rfc4180rowPosition "50" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/51> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:56" ;
+    path:influence_snow_depth.csvLatitude "-61.1926333"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623049"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-57.51"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.22"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.566"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength 20573 ;
+    ns1:rfc4180rowPosition "51" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/52> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:56" ;
+    path:influence_snow_depth.csvLatitude "-61.1926333"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623045"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-57.49"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.24"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.57"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20519.1"^^xsd:float ;
+    ns1:rfc4180rowPosition "52" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/53> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:56" ;
+    path:influence_snow_depth.csvLatitude "-61.1926333"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623042"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-57.47"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.25"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.568"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20547.5"^^xsd:float ;
+    ns1:rfc4180rowPosition "53" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/54> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:56" ;
+    path:influence_snow_depth.csvLatitude "-61.1926333"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623039"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-57.45"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.27"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.567"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20557.5"^^xsd:float ;
+    ns1:rfc4180rowPosition "54" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/55> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:56" ;
+    path:influence_snow_depth.csvLatitude "-61.1926333"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623035"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-57.43"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.28"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.569"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20525.8"^^xsd:float ;
+    ns1:rfc4180rowPosition "55" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/56> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:56" ;
+    path:influence_snow_depth.csvLatitude "-61.1926333"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623032"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-57.4"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.3"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.567"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20552.9"^^xsd:float ;
+    ns1:rfc4180rowPosition "56" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/57> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:56" ;
+    path:influence_snow_depth.csvLatitude "-61.1926333"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623029"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-57.38"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.31"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.564"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength 20606 ;
+    ns1:rfc4180rowPosition "57" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/58> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:56" ;
+    path:influence_snow_depth.csvLatitude "-61.1926333"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623025"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-57.36"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.33"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.564"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20606.6"^^xsd:float ;
+    ns1:rfc4180rowPosition "58" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/59> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:56" ;
+    path:influence_snow_depth.csvLatitude "-61.1926333"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623022"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-57.34"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.35"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.566"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20574.3"^^xsd:float ;
+    ns1:rfc4180rowPosition "59" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/6> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:51" ;
+    path:influence_snow_depth.csvLatitude "-61.1926227"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623151"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-59.6"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.05"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.564"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20602.2"^^xsd:float ;
+    ns1:rfc4180rowPosition "6" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/60> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:56" ;
+    path:influence_snow_depth.csvLatitude "-61.1926333"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623019"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-57.32"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.36"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.566"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20575.9"^^xsd:float ;
+    ns1:rfc4180rowPosition "60" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/61> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:57" ;
+    path:influence_snow_depth.csvLatitude "-61.1926334"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623015"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-57.29"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.38"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.567"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20560.9"^^xsd:float ;
+    ns1:rfc4180rowPosition "61" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/62> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:57" ;
+    path:influence_snow_depth.csvLatitude "-61.1926336"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623012"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-57.25"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.39"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.567"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20553.8"^^xsd:float ;
+    ns1:rfc4180rowPosition "62" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/63> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:57" ;
+    path:influence_snow_depth.csvLatitude "-61.1926337"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623009"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-57.21"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.4"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.565"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20589.4"^^xsd:float ;
+    ns1:rfc4180rowPosition "63" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/64> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:57" ;
+    path:influence_snow_depth.csvLatitude "-61.1926339"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623005"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-57.17"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.41"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.568"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20536.1"^^xsd:float ;
+    ns1:rfc4180rowPosition "64" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/65> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:57" ;
+    path:influence_snow_depth.csvLatitude "-61.1926341"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623002"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-57.13"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.42"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.567"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20556.6"^^xsd:float ;
+    ns1:rfc4180rowPosition "65" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/66> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:57" ;
+    path:influence_snow_depth.csvLatitude "-61.1926342"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622999"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-57.09"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.43"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.564"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20608.1"^^xsd:float ;
+    ns1:rfc4180rowPosition "66" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/67> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:57" ;
+    path:influence_snow_depth.csvLatitude "-61.1926344"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622995"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-57.05"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.44"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.565"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20589.8"^^xsd:float ;
+    ns1:rfc4180rowPosition "67" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/68> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:57" ;
+    path:influence_snow_depth.csvLatitude "-61.1926346"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622992"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-57.01"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.45"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.565"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20587.4"^^xsd:float ;
+    ns1:rfc4180rowPosition "68" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/69> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:57" ;
+    path:influence_snow_depth.csvLatitude "-61.1926347"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622989"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.97"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.46"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.567"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20557.3"^^xsd:float ;
+    ns1:rfc4180rowPosition "69" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/7> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:51" ;
+    path:influence_snow_depth.csvLatitude "-61.1926232"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623155"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-59.53"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.02"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.563"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20620.2"^^xsd:float ;
+    ns1:rfc4180rowPosition "7" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/70> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:57" ;
+    path:influence_snow_depth.csvLatitude "-61.1926349"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622985"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.93"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.48"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.565"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20587.5"^^xsd:float ;
+    ns1:rfc4180rowPosition "70" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/71> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:58" ;
+    path:influence_snow_depth.csvLatitude "-61.1926349"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622982"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.9"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.49"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.561"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20645.3"^^xsd:float ;
+    ns1:rfc4180rowPosition "71" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/72> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:58" ;
+    path:influence_snow_depth.csvLatitude "-61.1926348"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622979"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.9"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.51"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.569"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength 20533 ;
+    ns1:rfc4180rowPosition "72" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/73> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:58" ;
+    path:influence_snow_depth.csvLatitude "-61.1926346"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622975"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.89"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.53"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.568"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20547.2"^^xsd:float ;
+    ns1:rfc4180rowPosition "73" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/74> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:58" ;
+    path:influence_snow_depth.csvLatitude "-61.1926344"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622972"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.89"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.55"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.567"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20561.9"^^xsd:float ;
+    ns1:rfc4180rowPosition "74" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/75> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:58" ;
+    path:influence_snow_depth.csvLatitude "-61.1926343"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622969"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.88"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.57"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.564"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20609.1"^^xsd:float ;
+    ns1:rfc4180rowPosition "75" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/76> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:58" ;
+    path:influence_snow_depth.csvLatitude "-61.1926341"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622965"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.88"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.59"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.57"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength 20516 ;
+    ns1:rfc4180rowPosition "76" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/77> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:58" ;
+    path:influence_snow_depth.csvLatitude "-61.1926339"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622962"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.88"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.61"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.572"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20481.6"^^xsd:float ;
+    ns1:rfc4180rowPosition "77" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/78> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:58" ;
+    path:influence_snow_depth.csvLatitude "-61.1926338"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622959"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.87"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.63"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.566"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20575.9"^^xsd:float ;
+    ns1:rfc4180rowPosition "78" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/79> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:58" ;
+    path:influence_snow_depth.csvLatitude "-61.1926336"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622955"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.87"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.65"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.566"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20572.3"^^xsd:float ;
+    ns1:rfc4180rowPosition "79" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/8> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:51" ;
+    path:influence_snow_depth.csvLatitude "-61.1926237"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623158"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-59.46"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "29.99"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.568"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20536.3"^^xsd:float ;
+    ns1:rfc4180rowPosition "8" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/80> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:58" ;
+    path:influence_snow_depth.csvLatitude "-61.1926334"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622952"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.86"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.67"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.57"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20510.9"^^xsd:float ;
+    ns1:rfc4180rowPosition "80" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/81> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:59" ;
+    path:influence_snow_depth.csvLatitude "-61.1926332"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622947"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.87"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.7"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.57"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20517.9"^^xsd:float ;
+    ns1:rfc4180rowPosition "81" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/82> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:59" ;
+    path:influence_snow_depth.csvLatitude "-61.1926329"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622941"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.88"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.74"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.566"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20575.7"^^xsd:float ;
+    ns1:rfc4180rowPosition "82" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/83> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:59" ;
+    path:influence_snow_depth.csvLatitude "-61.1926325"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622934"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.89"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.78"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.569"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20522.7"^^xsd:float ;
+    ns1:rfc4180rowPosition "83" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/84> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:59" ;
+    path:influence_snow_depth.csvLatitude "-61.1926322"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622927"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.9"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.82"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.569"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20532.8"^^xsd:float ;
+    ns1:rfc4180rowPosition "84" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/85> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:59" ;
+    path:influence_snow_depth.csvLatitude "-61.1926319"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622921"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.91"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.86"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.568"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20547.6"^^xsd:float ;
+    ns1:rfc4180rowPosition "85" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/86> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:59" ;
+    path:influence_snow_depth.csvLatitude "-61.1926315"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622914"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.92"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.9"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.568"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength 20536 ;
+    ns1:rfc4180rowPosition "86" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/87> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:59" ;
+    path:influence_snow_depth.csvLatitude "-61.1926312"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622907"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.93"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.95"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.567"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength 20563 ;
+    ns1:rfc4180rowPosition "87" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/88> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:59" ;
+    path:influence_snow_depth.csvLatitude "-61.1926309"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622901"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.93"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "30.99"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.568"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20542.9"^^xsd:float ;
+    ns1:rfc4180rowPosition "88" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/89> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:59" ;
+    path:influence_snow_depth.csvLatitude "-61.1926305"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622894"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.95"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "31.03"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.568"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20538.9"^^xsd:float ;
+    ns1:rfc4180rowPosition "89" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/9> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:51" ;
+    path:influence_snow_depth.csvLatitude "-61.1926242"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0623161"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-59.4"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "29.95"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.572"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20473.7"^^xsd:float ;
+    ns1:rfc4180rowPosition "9" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/90> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:37:59" ;
+    path:influence_snow_depth.csvLatitude "-61.1926302"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622887"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.96"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "31.07"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.565"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20586.6"^^xsd:float ;
+    ns1:rfc4180rowPosition "90" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/91> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:00" ;
+    path:influence_snow_depth.csvLatitude "-61.19263"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622882"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.95"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "31.1"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.559"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20679.8"^^xsd:float ;
+    ns1:rfc4180rowPosition "91" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/92> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:00" ;
+    path:influence_snow_depth.csvLatitude "-61.19263"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622879"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.93"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "31.12"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.562"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20634.8"^^xsd:float ;
+    ns1:rfc4180rowPosition "92" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/93> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:00" ;
+    path:influence_snow_depth.csvLatitude "-61.19263"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622875"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.91"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "31.13"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.569"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20521.5"^^xsd:float ;
+    ns1:rfc4180rowPosition "93" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/94> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:00" ;
+    path:influence_snow_depth.csvLatitude "-61.19263"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622872"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.89"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "31.15"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.567"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20561.1"^^xsd:float ;
+    ns1:rfc4180rowPosition "94" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/95> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:00" ;
+    path:influence_snow_depth.csvLatitude "-61.19263"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622869"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.87"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "31.17"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.564"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20600.1"^^xsd:float ;
+    ns1:rfc4180rowPosition "95" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/96> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:00" ;
+    path:influence_snow_depth.csvLatitude "-61.19263"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622865"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.85"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "31.18"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.565"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20582.4"^^xsd:float ;
+    ns1:rfc4180rowPosition "96" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/97> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:00" ;
+    path:influence_snow_depth.csvLatitude "-61.19263"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622862"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.83"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "31.2"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.567"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20553.7"^^xsd:float ;
+    ns1:rfc4180rowPosition "97" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/98> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:00" ;
+    path:influence_snow_depth.csvLatitude "-61.19263"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622859"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.81"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "31.22"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.565"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20582.4"^^xsd:float ;
+    ns1:rfc4180rowPosition "98" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/testing/test_annotation_of_data_files/build_datastore_annotations_and_queries/influence_snow_depth.csvrow/99> a ns1:rfc4180Row ;
+    path:influence_snow_depth.csvDateTime "2013-09-01T14:38:00" ;
+    path:influence_snow_depth.csvLatitude "-61.19263"^^xsd:float ;
+    path:influence_snow_depth.csvLongitude "-41.0622855"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceX "-56.79"^^xsd:float ;
+    path:influence_snow_depth.csvRelativeDistanceY "31.23"^^xsd:float ;
+    path:influence_snow_depth.csvSeaIceThickness "0.568"^^xsd:float ;
+    path:influence_snow_depth.csvSignalStrength "20549.1"^^xsd:float ;
+    ns1:rfc4180rowPosition "99" .
+

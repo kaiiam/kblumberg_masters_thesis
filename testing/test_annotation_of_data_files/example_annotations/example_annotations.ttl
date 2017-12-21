@@ -16,13 +16,13 @@ path:file.csv a owl:NamedIndividual ;
             #obo:BFO_0000051 path:file.csvColumnX ;
             # ...
             a [  rdf:type owl:Class ;
-                 owl:equivalentClass [ owl:intersectionOf ( <http://purl.obolibrary.org/obo/OBCS_0000120>
+                 owl:equivalentClass [ rdf:type owl:Class ;
+                                       owl:intersectionOf ( <http://purl.obolibrary.org/obo/OBCS_0000120>
                                                             [ rdf:type owl:Restriction ;
                                                               owl:onProperty <http://purl.obolibrary.org/obo/IAO_0000136> ;
                                                               owl:someValuesFrom <X>
                                                             ]
-                                                          ) ;
-                                       rdf:type owl:Class
+                                                          ) 
                                       ] 
               ] .
 
@@ -35,7 +35,8 @@ path:file.csv a owl:NamedIndividual ;
             #obo:BFO_0000051 path:file.csvColumnX ;
             #...
             a [  rdf:type owl:Class ;
-                 owl:equivalentClass [ owl:intersectionOf ( <http://purl.obolibrary.org/obo/OBCS_0000120>
+                 owl:equivalentClass [ rdf:type owl:Class ;
+                                       owl:intersectionOf ( <http://purl.obolibrary.org/obo/OBCS_0000120>
                                                             [ rdf:type owl:Restriction ;
                                                               owl:onProperty <http://purl.obolibrary.org/obo/IAO_0000136> ;
                                                               owl:someValuesFrom  [ rdf:type owl:Class ;
@@ -44,8 +45,7 @@ path:file.csv a owl:NamedIndividual ;
                                                                                                 )
                                                                                   ]
                                                             ]
-                                                          ) ;
-                                       rdf:type owl:Class
+                                                          ) 
                                       ] 
               ] .
 
@@ -58,7 +58,8 @@ path:file.csv a owl:NamedIndividual ;
             #obo:BFO_0000051 path:file.csvColumnX ;
             #...
             a [  rdf:type owl:Class ;
-                 owl:equivalentClass [ owl:intersectionOf ( <http://purl.obolibrary.org/obo/OBCS_0000120>
+                 owl:equivalentClass [ rdf:type owl:Class ;
+                                       owl:intersectionOf ( <http://purl.obolibrary.org/obo/OBCS_0000120>
                                                             [ rdf:type owl:Restriction ;
                                                               owl:onProperty <http://purl.obolibrary.org/obo/IAO_0000136> ;
                                                               owl:someValuesFrom  [ rdf:type owl:Class ;
@@ -67,8 +68,7 @@ path:file.csv a owl:NamedIndividual ;
                                                                                                         )
                                                                                   ]
                                                             ]
-                                                          ) ;
-                                       rdf:type owl:Class
+                                                          ) 
                                       ] 
               ] .
 
@@ -81,56 +81,56 @@ path:file.csv a owl:NamedIndividual ;
             #obo:BFO_0000051 path:file.csvColumnX ;
             #...
             a [  rdf:type owl:Class ;
-                 owl:equivalentClass [ owl:intersectionOf ( <http://purl.obolibrary.org/obo/OBCS_0000120>
+                 owl:equivalentClass [ rdf:type owl:Class ;
+                                       owl:intersectionOf ( <http://purl.obolibrary.org/obo/OBCS_0000120>
                                                             [ rdf:type owl:Restriction ;
                                                               owl:onProperty <http://purl.obolibrary.org/obo/IAO_0000136> ;
-                                                              owl:someValuesFrom  [ owl:intersectionOf ( <X1>
+                                                              owl:someValuesFrom  [ rdf:type owl:Class ;
+                                                                                    owl:intersectionOf ( <X1>
                                                                                                          <X2> ...
                                                                                                          [ rdf:type owl:Restriction ;
                                                                                                            owl:onProperty <'any property'> ;
                                                                                                            owl:someValuesFrom <Y>
                                                                                                          ]
-                                                                                                        ) ;
-                                                                                     rdf:type owl:Class
+                                                                                                        ) 
                                                                                   ]
                                                             ]
-                                                          ) ;
-                                       rdf:type owl:Class
+                                                          )
                                       ] 
               ] .
 
 #annotate a csv file. 
 #file is about: (X1 and X2 ... and ('any property' some (Y1 and Y2 and ... and ('any property' some Z))))
-path:ice_algal_chlorophyll.csv a owl:NamedIndividual ;
+path:file.csv a owl:NamedIndividual ;
             obo:BFO_0000051 path:file.csvColumn1 ;
             obo:BFO_0000051 path:file.csvColumn2 ;
             obo:BFO_0000051 path:file.csvColumn3 ;
             #obo:BFO_0000051 path:file.csvColumnX ;
             #...
             a [  rdf:type owl:Class ;
-                 owl:equivalentClass [ owl:intersectionOf ( <http://purl.obolibrary.org/obo/OBCS_0000120>
+                 owl:equivalentClass [ rdf:type owl:Class ;
+                                       owl:intersectionOf ( <http://purl.obolibrary.org/obo/OBCS_0000120>
                                                             [ rdf:type owl:Restriction ;
                                                               owl:onProperty <http://purl.obolibrary.org/obo/IAO_0000136> ;
-                                                              owl:someValuesFrom  [ owl:intersectionOf ( <X1>
+                                                              owl:someValuesFrom  [ rdf:type owl:Class ;
+                                                                                    owl:intersectionOf ( <X1>
                                                                                                          <X2> ...
                                                                                                          [ rdf:type owl:Restriction ;
                                                                                                            owl:onProperty <'any property'> ;
-                                                                                                           owl:someValuesFrom [ owl:intersectionOf ( <Y1>
+                                                                                                           owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                                                owl:intersectionOf ( <Y1>
                                                                                                                                                      <Y2> ...
                                                                                                                                                     [ rdf:type owl:Restriction ;
                                                                                                                                                       owl:onProperty <'any property'> ;
                                                                                                                                                       owl:someValuesFrom <Z>
                                                                                                                                                     ]
-                                                                                                                                                   ) ;
-                                                                                                                                rdf:type owl:Class
+                                                                                                                                                   )
                                                                                                                               ]
                                                                                                          ]
-                                                                                                        ) ;
-                                                                                     rdf:type owl:Class
+                                                                                                        )
                                                                                   ]
                                                             ]
-                                                          ) ;
-                                       rdf:type owl:Class
+                                                          )
                                       ] 
               ] .
 
@@ -139,8 +139,9 @@ path:ice_algal_chlorophyll.csv a owl:NamedIndividual ;
 
 #is about some: (X)
 path:file.csvColumn1 a owl:NamedIndividual ;
-				       a [rdf:type owl:Class ;
-                  owl:equivalentClass [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+				       a [ rdf:type owl:Class ;
+                   owl:equivalentClass [ rdf:type owl:Class ;
+                                         owl:intersectionOf ( [ rdf:type owl:Restriction ;
                                                                owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000050> ;
                                                                owl:someValuesFrom <http://purl.obolibrary.org/obo/OBCS_0000120>
                                                               ]
@@ -149,148 +150,268 @@ path:file.csvColumn1 a owl:NamedIndividual ;
                                                                 owl:onProperty <http://purl.obolibrary.org/obo/IAO_0000136> ;
                                                                 owl:someValuesFrom <X>
                                                               ]
-                                                            ) ;
-                                         rdf:type owl:Class
+                                                            )
                                       ]
                  ] .
 
-#is about some: (X1 and X2 ... and ('any property' some Y))
+#is about some: (X1 and X2 ... )
 path:file.csvColumn1  a owl:NamedIndividual ;
                                         a [ rdf:type owl:Class ;
-                                            owl:equivalentClass [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                            owl:equivalentClass [ rdf:type owl:Class ;
+                                                                  owl:intersectionOf ( [ rdf:type owl:Restriction ;
                                                                                          owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000050> ;
                                                                                          owl:someValuesFrom <http://purl.obolibrary.org/obo/OBCS_0000120>
                                                                                        ]                                           
 
                                                                                        [ rdf:type owl:Restriction ;
                                                                                          owl:onProperty <http://purl.obolibrary.org/obo/IAO_0000136> ;
-                                                                                         owl:someValuesFrom [ owl:intersectionOf ( <X1>
+                                                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                              owl:intersectionOf ( <X1>
+                                                                                                                                   <X2> ...
+                                                                                                                                  )
+                                                                                                            ]
+                                                                                       ]
+                                                                                      )
+                                                                ]
+                                          ] .
+
+#is about some: (X1 and X2 ... and ('any property' some Y))
+path:file.csvColumn1  a owl:NamedIndividual ;
+                                        a [ rdf:type owl:Class ;
+                                            owl:equivalentClass [ rdf:type owl:Class ;
+                                                                  owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                                         owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000050> ;
+                                                                                         owl:someValuesFrom <http://purl.obolibrary.org/obo/OBCS_0000120>
+                                                                                       ]                                           
+
+                                                                                       [ rdf:type owl:Restriction ;
+                                                                                         owl:onProperty <http://purl.obolibrary.org/obo/IAO_0000136> ;
+                                                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                              owl:intersectionOf ( <X1>
                                                                                                                                    <X2> ...
                                                                                                                                      [ rdf:type owl:Restriction ;
                                                                                                                                        owl:onProperty <'any property'> ;
                                                                                                                                        owl:someValuesFrom <Y>
                                                                                                                                      ]
-                                                                                                                                  ) ;
-                                                                                                              rdf:type owl:Class
+                                                                                                                                  )
                                                                                                             ]
                                                                                        ]
-                                                                                      ) ;
-                                                                   rdf:type owl:Class
+                                                                                      )
                                                                 ]
-                                          ].
+                                          ] .
 
-
-#is about some: (X1 or X2 ... or ('any property' some Y)) *FIX THIS TO BE (X1 or X2 ... and ('any property' some Y))
+#is about some: (X1 and X2 ... and ('any property' some (Y1 or Y2 or ...)))
 path:file.csvColumn1  a owl:NamedIndividual ;
                                         a [ rdf:type owl:Class ;
-                                            owl:equivalentClass [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                            owl:equivalentClass [ rdf:type owl:Class ;
+                                                                  owl:intersectionOf ( [ rdf:type owl:Restriction ;
                                                                                          owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000050> ;
                                                                                          owl:someValuesFrom <http://purl.obolibrary.org/obo/OBCS_0000120>
                                                                                        ]                                           
 
                                                                                        [ rdf:type owl:Restriction ;
                                                                                          owl:onProperty <http://purl.obolibrary.org/obo/IAO_0000136> ;
-                                                                                         owl:someValuesFrom [ owl:unionOf ( <X1>
-                                                                                                                            <X2> ...
-                                                                                                                           [ rdf:type owl:Restriction ;
-                                                                                                                             owl:onProperty <'any property'> ;
-                                                                                                                             owl:someValuesFrom <Y>
-                                                                                                                           ]
-                                                                                                                          ) ;
-                                                                                                             rdf:type owl:Class
+                                                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                              owl:intersectionOf ( <X1>
+                                                                                                                                   <X2> ...
+                                                                                                                                    [ rdf:type owl:Restriction ;
+                                                                                                                                      owl:onProperty <'any property'> ;
+                                                                                                                                      owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                                                                           owl:unionOf ( <Y1>
+                                                                                                                                                                         <Y2> ...
+                                                                                                                                                                       )
+                                                                                                                                                          ]
+                                                                                                                                    ]
+                                                                                                                                  )
                                                                                                             ]
                                                                                        ]
-                                                                                      ) ;
-                                                                   rdf:type owl:Class
+                                                                                      )
                                                                 ]
-                                          ].
+                                          ] .
+
+#is about some: ((X1 or X2 or ...) and ('any property' some Y ))
+path:file.csvColumn1  a owl:NamedIndividual ;
+                                        a [ rdf:type owl:Class ;
+                                            owl:equivalentClass [ rdf:type owl:Class ;
+                                                                  owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                                         owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000050> ;
+                                                                                         owl:someValuesFrom <http://purl.obolibrary.org/obo/OBCS_0000120>
+                                                                                       ]                                           
+
+                                                                                       [ rdf:type owl:Restriction ;
+                                                                                         owl:onProperty <http://purl.obolibrary.org/obo/IAO_0000136> ;
+                                                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                              owl:intersectionOf ( [ rdf:type owl:Class ;
+                                                                                                                                     owl:unionOf ( <X1>
+                                                                                                                                                   <X2> ...
+                                                                                                                                                 )
+                                                                                                                                   ]
+                                                                                                                                   
+                                                                                                                                   [ rdf:type owl:Restriction ;
+                                                                                                                                     owl:onProperty <'any property'> ;
+                                                                                                                                     owl:someValuesFrom  <Y>
+                                                                                                                                   ]
+                                                                                                                                  )
+                                                                                                            ]
+                                                                                       ]
+                                                                                      )
+                                                                ]
+                                          ] .
+
+#is about some: ((X1 or X2 or ...) and ('any property' some (Y1 and Y2 and ... )))
+path:file.csvColumn1  a owl:NamedIndividual ;
+                                        a [ rdf:type owl:Class ;
+                                            owl:equivalentClass [ rdf:type owl:Class ;
+                                                                  owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                                         owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000050> ;
+                                                                                         owl:someValuesFrom <http://purl.obolibrary.org/obo/OBCS_0000120>
+                                                                                       ]                                           
+
+                                                                                       [ rdf:type owl:Restriction ;
+                                                                                         owl:onProperty <http://purl.obolibrary.org/obo/IAO_0000136> ;
+                                                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                              owl:intersectionOf ( [ rdf:type owl:Class ;
+                                                                                                                                     owl:unionOf ( <X1>
+                                                                                                                                                   <X2> ...
+                                                                                                                                                 )
+                                                                                                                                   ]
+                                                                                                                                   
+                                                                                                                                   [ rdf:type owl:Restriction ;
+                                                                                                                                     owl:onProperty <'any property'> ;
+                                                                                                                                     owl:someValuesFrom  [ rdf:type owl:Class ;
+                                                                                                                                                           owl:intersectionOf ( <Y1>
+                                                                                                                                                                                <Y2> ...
+                                                                                                                                                                              )
+                                                                                                                                                         ]
+                                                                                                                                   ]
+                                                                                                                                  )
+                                                                                                            ]
+                                                                                       ]
+                                                                                      )
+                                                                ]
+                                          ] .
 
 
 #is about some: (X1 and X2 ... and ('any property' some (Y1 and Y2 and ... )))
 path:file.csvColumn1  a owl:NamedIndividual ;
                                         a [ rdf:type owl:Class ;
-                                            owl:equivalentClass [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                            owl:equivalentClass [ rdf:type owl:Class ;
+                                                                  owl:intersectionOf ( [ rdf:type owl:Restriction ;
                                                                                          owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000050> ;
                                                                                          owl:someValuesFrom <http://purl.obolibrary.org/obo/OBCS_0000120>
                                                                                        ]                                           
 
                                                                                        [ rdf:type owl:Restriction ;
                                                                                          owl:onProperty <http://purl.obolibrary.org/obo/IAO_0000136> ;
-                                                                                         owl:someValuesFrom [ owl:intersectionOf ( <X1>
+                                                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                              owl:intersectionOf ( <X1>
                                                                                                                                    <X2> ...
-                                                                                                                                     [ rdf:type owl:Restriction ;
-                                                                                                                                       owl:onProperty <'any property'> ;
-                                                                                                                                       owl:someValuesFrom owl:intersectionOf ( <Y1>
-                                                                                                                                                                               <Y2> ...
-                                                                                                                                                                             ) ;
-                                                                                                                                     ]
-                                                                                                                                  ) ;
-                                                                                                              rdf:type owl:Class
+                                                                                                                                   [ rdf:type owl:Restriction ;
+                                                                                                                                     owl:onProperty <'any property'> ;
+                                                                                                                                     owl:someValuesFrom  [ rdf:type owl:Class ;
+                                                                                                                                                           owl:intersectionOf ( <Y1>
+                                                                                                                                                                                <Y2> ...
+                                                                                                                                                                              )
+                                                                                                                                                         ]
+                                                                                                                                   ]
+                                                                                                                                  )
                                                                                                             ]
                                                                                        ]
-                                                                                      ) ;
-                                                                   rdf:type owl:Class
+                                                                                      )
                                                                 ]
-                                          ].
+                                          ] .
 
 #is about some: (X1 and X2 ... and ('any property' some (Y1 or Y2 or ... )))
 path:file.csvColumn1  a owl:NamedIndividual ;
                                         a [ rdf:type owl:Class ;
-                                            owl:equivalentClass [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                            owl:equivalentClass [ rdf:type owl:Class ;
+                                                                  owl:intersectionOf ( [ rdf:type owl:Restriction ;
                                                                                          owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000050> ;
                                                                                          owl:someValuesFrom <http://purl.obolibrary.org/obo/OBCS_0000120>
                                                                                        ]                                           
 
                                                                                        [ rdf:type owl:Restriction ;
                                                                                          owl:onProperty <http://purl.obolibrary.org/obo/IAO_0000136> ;
-                                                                                         owl:someValuesFrom [ owl:intersectionOf ( <X1>
+                                                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                              owl:intersectionOf ( <X1>
                                                                                                                                    <X2> ...
-                                                                                                                                     [ rdf:type owl:Restriction ;
-                                                                                                                                       owl:onProperty <'any property'> ;
-                                                                                                                                       owl:someValuesFrom owl:unionOf ( <Y1>
-                                                                                                                                                                        <Y2> ...
-                                                                                                                                                                      ) ;
-                                                                                                                                     ]
-                                                                                                                                  ) ;
-                                                                                                              rdf:type owl:Class
+                                                                                                                                   [ rdf:type owl:Restriction ;
+                                                                                                                                     owl:onProperty <'any property'> ;
+                                                                                                                                     owl:someValuesFrom  [ rdf:type owl:Class ;
+                                                                                                                                                           owl:unionOf ( <Y1>
+                                                                                                                                                                         <Y2> ...
+                                                                                                                                                                       )
+                                                                                                                                                         ]
+                                                                                                                                   ]
+                                                                                                                                  )
                                                                                                             ]
                                                                                        ]
-                                                                                      ) ;
-                                                                   rdf:type owl:Class
+                                                                                      )
                                                                 ]
-                                          ].
-
-
+                                          ] .
 
 #is about some: (X1 and X2 ... and ('any property' some (Y1 and Y2 and ... and ('any property' some Z))))
 path:file.csvColumn1 a owl:NamedIndividual ;
                                         a [ rdf:type owl:Class ;
-                                            owl:equivalentClass [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                            owl:equivalentClass [ rdf:type owl:Class ;
+                                                                  owl:intersectionOf ( [ rdf:type owl:Restriction ;
                                                                                          owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000050> ;
                                                                                          owl:someValuesFrom <http://purl.obolibrary.org/obo/OBCS_0000120>
                                                                                        ]
 
                                                                                        [ rdf:type owl:Restriction ;
                                                                                          owl:onProperty <http://purl.obolibrary.org/obo/IAO_0000136> ;
-                                                                                         owl:someValuesFrom  [ owl:intersectionOf ( <X1>
+                                                                                         owl:someValuesFrom  [ rdf:type owl:Class ;
+                                                                                                               owl:intersectionOf ( <X1>
                                                                                                                                     <X2> ...
                                                                                                                                     [ rdf:type owl:Restriction ;
                                                                                                                                       owl:onProperty <'any property'> ;
-                                                                                                                                      owl:someValuesFrom [ owl:intersectionOf (  <Y1>
+                                                                                                                                      owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                                                                           owl:intersectionOf (  <Y1>
                                                                                                                                                                                  <Y2> ...
                                                                                                                                                                                  [ rdf:type owl:Restriction ;
                                                                                                                                                                                    owl:onProperty <'any property'> ;
                                                                                                                                                                                    owl:someValuesFrom <Z>
                                                                                                                                                                                  ]
-                                                                                                                                                                              ) ;
-                                                                                                                                                             rdf:type owl:Class
+                                                                                                                                                                              )
                                                                                                                                                           ]
                                                                                                                                     ]
-                                                                                                                                  ) ;
-                                                                                                                    rdf:type owl:Class
+                                                                                                                                  )  
                                                                                                               ]
                                                                                         ]
-                                                                                      ) ;
-                                                                    rdf:type owl:Class
+                                                                                      )
                                                                   ]
+                                          ] .
+
+#is about some: (X1 and X2 ... and ('any property' some Y and 'any property' some Z))
+path:file.csvColumn1  a owl:NamedIndividual ;
+                                        a [ rdf:type owl:Class ;
+                                            owl:equivalentClass [ rdf:type owl:Class ;
+                                                                  owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                                         owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000050> ;
+                                                                                         owl:someValuesFrom <http://purl.obolibrary.org/obo/OBCS_0000120>
+                                                                                       ]                                           
+
+                                                                                       [ rdf:type owl:Restriction ;
+                                                                                         owl:onProperty <http://purl.obolibrary.org/obo/IAO_0000136> ;
+                                                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                              owl:intersectionOf (  <X1>
+                                                                                                                                    <X2> ...
+                                                                                                                                    [ rdf:type owl:Class ;
+                                                                                                                                      owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                                                                                                             owl:onProperty <'any property'> ;
+                                                                                                                                                             owl:someValuesFrom <Y>
+                                                                                                                                                           ]
+
+                                                                                                                                                           [ rdf:type owl:Restriction ;
+                                                                                                                                                             owl:onProperty <'any property'> ;
+                                                                                                                                                             owl:someValuesFrom <Z>
+                                                                                                                                                           ]
+                                                                                                                                                         )
+                                                                                                                                    ]
+                                                                                                                                 )
+                                                                                                            ]
+                                                                                       ]
+                                                                                      )
+                                                                ]
                                           ] .

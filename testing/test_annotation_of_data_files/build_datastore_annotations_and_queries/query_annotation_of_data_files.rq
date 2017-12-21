@@ -23,7 +23,7 @@ UNION
 }
 
    ## Or stament to access annotations of various property paths:
-   # start with: rdf:type/owl:equivalentClass/owl:intersectionOf/rdf:rest/rdf:first/owl:someValuesFrom
+   # starts from: rdf:type/owl:equivalentClass/owl:intersectionOf/rdf:rest/rdf:first/owl:someValuesFrom
 ?c (
    # X in (X)
    (rdf:type/owl:equivalentClass/owl:intersectionOf/rdf:rest/rdf:first/owl:someValuesFrom) |
@@ -31,6 +31,10 @@ UNION
    (rdf:type/owl:equivalentClass/owl:intersectionOf/rdf:rest/rdf:first/owl:someValuesFrom/owl:unionOf/rdf:rest*/rdf:first) | 
    # X1-Xn in (X1 and X2 and ...)
    (rdf:type/owl:equivalentClass/owl:intersectionOf/rdf:rest/rdf:first/owl:someValuesFrom/owl:intersectionOf/rdf:rest*/rdf:first) |
+   # X1-Xn in ((X1 or X2 or ...) and ... )
+   (rdf:type/owl:equivalentClass/owl:intersectionOf/rdf:rest/rdf:first/owl:someValuesFrom/owl:intersectionOf/rdf:first/owl:unionOf/rdf:rest*/rdf:first) |
+   # Y and Z in (X1 and X2 ... and ('any property' some Y and 'any property' some Z))
+   (rdf:type/owl:equivalentClass/owl:intersectionOf/rdf:rest/rdf:first/owl:someValuesFrom/owl:intersectionOf/rdf:rest*/rdf:first/owl:intersectionOf/rdf:rest*/rdf:first/owl:someValuesFrom) |
    # Y in (X1 and X2 ... and ('any property' some Y))
    (rdf:type/owl:equivalentClass/owl:intersectionOf/rdf:rest/rdf:first/owl:someValuesFrom/owl:intersectionOf/rdf:rest*/rdf:first/owl:someValuesFrom) |
    # Y1-Yn in (X1 and X2 ... and ('any property' some (Y1 and Y2 and ... )))

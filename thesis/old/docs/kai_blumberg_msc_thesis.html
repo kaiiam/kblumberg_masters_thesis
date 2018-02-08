@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Kai Blumberg" />
+  <title>Interconnecting Arctic observatory data through machine-actionable knowledge representation: are ontologies fit for purpose?</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" href="buttondown.css">
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+  % Contents of listings-setup.tex
+  \usepackage{xcolor}
+  
+  \lstset{
+      basicstyle=\ttfamily,
+      numbers=left,
+      keywordstyle=\color[rgb]{0.13,0.29,0.53}\bfseries,
+      stringstyle=\color[rgb]{0.31,0.60,0.02},
+      commentstyle=\color[rgb]{0.56,0.35,0.01}\itshape,
+      numberstyle=\footnotesize,
+      stepnumber=1,
+      numbersep=5pt,
+      backgroundcolor=\color[RGB]{248,248,248},
+      showspaces=false,
+      showstringspaces=false,
+      showtabs=false,
+      tabsize=2,
+      captionpos=b,
+      breaklines=true,
+      breakatwhitespace=true,
+      breakautoindent=true,
+      escapeinside={\%*}{*)},
+      linewidth=\textwidth,
+      basewidth=0.5em,
+  }
+</head>
+<body>
+<header>
+<h1 class="title">Interconnecting Arctic observatory data through machine-actionable knowledge representation: are ontologies fit for purpose?</h1>
+<p class="author">Kai Blumberg</p>
+<p class="date">Submission Date 15.03.18</p>
+</header>
+<nav id="TOC">
+<ul>
+<li><a href="#introduction">Introduction</a><ul>
+<li><a href="#rapid-effects-of-climate-change-on-polar-systems">Rapid effects of climate change on Polar systems</a></li>
+<li><a href="#polar-ocean-observatories-and-marine-monitoring-programs">Polar ocean observatories and marine monitoring programs</a></li>
+<li><a href="#policy-and-sdgios">Policy and SDGIOs</a><ul>
+<li><a href="#un-sustainability-development-goals-in-response-to-climate-change">UN sustainability development goals in response to climate change</a></li>
+</ul></li>
+<li><a href="#need-for-semantics-in-environmental-data">Need for semantics in Environmental data</a><ul>
+<li><a href="#fair">FAIR</a></li>
+<li><a href="#linking-earth-science-data-initiatives-such-esip-open-knowledge-network-to-the-un-sdgios">Linking earth science data initiatives such ESIP Open knowledge network to the UN SDGIO’s</a></li>
+<li><a href="#ontologies-and-the-obo-foundry">Ontologies and the OBO Foundry</a></li>
+<li><a href="#competency-questions">competency questions:</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#materials-and-methods">Materials and Methods</a><ul>
+<li><a href="#datasets-used-in-datastore">Datasets used in Datastore</a></li>
+<li><a href="#programs-used">programs used:</a></li>
+<li><a href="#semantic-data-annotation">Semantic Data Annotation</a></li>
+<li><a href="#sparql-query-scripting">sparql query scripting</a></li>
+</ul></li>
+<li><a href="#results">Results</a><ul>
+<li><a href="#competency-questions-1">Competency Questions</a><ul>
+<li><a href="#lookup-author-of-ontology-term">Lookup author of ontology term</a></li>
+<li><a href="#retrieve-any-data-which-is-about-a-subclass-of-sea-ice">Retrieve any data which is about a subclass of sea ice</a></li>
+<li><a href="#what-compounds-play-a-role-as-algae-metabolites">What compounds play a role as algae metabolites?</a></li>
+<li><a href="#table-again-but-with-latex">Table again but with LaTeX</a></li>
+<li><a href="#as-html-table">as HTML table</a></li>
+</ul></li>
+<li><a href="#pco-contributions-plankton-ecology">PCO contributions &amp; Plankton Ecology</a><ul>
+<li><a href="#cryomixs">cryoMIxS</a></li>
+</ul></li>
+<li><a href="#post-compositional-data-annotation-model">post compositional data annotation model</a><ul>
+<li><a href="#example-of-post-compositional-data-annotation-with-ontology-terms">Example of Post Compositional Data Annotation with Ontology Terms</a></li>
+</ul></li>
+<li><a href="#vocamp-virtual-glacial-hackathon">Vocamp Virtual Glacial Hackathon</a><ul>
+<li><a href="#awi-dbpedia-contributions">AWI DBPEDIA contributions</a></li>
+<li><a href="#unep-sdgio">UNEP SDGIO</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#discussion">Discussion</a><ul>
+<li><a href="#querying-semantically-annotated-data">Querying Semantically Annotated Data</a><ul>
+<li><a href="#creating-classes-vs-post-compositional-annotation-for-data-annotation">Creating Classes vs post compositional annotation for data annotation</a></li>
+</ul></li>
+<li><a href="#semantics-as-awi-public-outreach">Semantics as AWI Public Outreach</a></li>
+</ul></li>
+<li><a href="#conclusion">Conclusion</a></li>
+<li><a href="#outlook">Outlook</a></li>
+<li><a href="#appendices">Appendices</a><ul>
+<li><a href="#python-scripts-and-documentation">Python Scripts and Documentation</a><ul>
+<li><a href="#script-1">script 1 …</a></li>
+<li><a href="#script-2">script 2 …</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#references">References</a></li>
+</ul>
+</nav>
+<!---
+example comment
+-->
+<h1 id="introduction">Introduction</h1>
+<h3 id="rapid-effects-of-climate-change-on-polar-systems">Rapid effects of climate change on Polar systems</h3>
+<p>Anthropogenic green house gas emissions are leading to increased climate change and weather extremes.</p>
+<h4 id="microbes-and-biogeochemical-cycles">Microbes and Biogeochemical cycles</h4>
+<blockquote>
+<p>The prokaryotic and eukaryotic microorganisms that drive the pelagic ocean’s biogeochemical cycles are currently facing an unprecedented set of comprehensive anthropogenic changes <span class="citation" data-cites="Hutchins_2017">[1]</span></p>
+</blockquote>
+<h3 id="polar-ocean-observatories-and-marine-monitoring-programs">Polar ocean observatories and marine monitoring programs</h3>
+<p>Polar marine monitoring initiatives such as FRAM … are working to gauge the effects of climate change on such rapidly changing environments.</p>
+<h4 id="fram-hausgarten">FRAM &amp; HAUSGARTEN</h4>
+<p>At the forefront of climate change affected environments are polar habitats.</p>
+<p>HAUSGARTEN intro: <span class="citation" data-cites="Soltwedel_2005">[2]</span></p>
+<p>FRAM intro: <span class="citation" data-cites="Soltwedel_2013">[3]</span></p>
+<h4 id="atlantos">AtlantOS</h4>
+<p>//maybe mention this?</p>
+<p>the Atlantic Ocean Observation Systems (AtlantOS) <a href="https://www.atlantos-h2020.eu/2017/02/10/1st-atlantos-briefing-paper/">1st AtlantOS Briefing Paper</a></p>
+<h2 id="policy-and-sdgios">Policy and SDGIOs</h2>
+<p><a href="http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1000531">Making Marine Life Count: A New Baseline for Policy</a> <span class="citation" data-cites="Williams_2010">[4]</span> Just use a little bit from this as policy intro.</p>
+<p><a href="http://deepoceanobserving.org/wp-content/uploads/2017/07/DOOS-Consultative-Draft-V5-1-2017-06-19.pdf">DOOS Consultative Draft</a> (no DOI) for insight into functions that can be understood as ecosystem services of the deep, and thus linked to natural capital.</p>
+<h3 id="un-sustainability-development-goals-in-response-to-climate-change">UN sustainability development goals in response to climate change</h3>
+<p>The effects of increased climate change and extreme weather events are hardest felt by indigenous people and the global precariat subsiding via land and ocean subsistence farming and fishing.</p>
+<p><a href="https://sustainabledevelopment.un.org/content/documents/21252030%20Agenda%20for%20Sustainable%20Development%20web.pdf">UN publication: TRANSFORMING OUR WORLD: THE 2030 AGENDA FOR SUSTAINABLE DEVELOPMENT</a> no DOI reference for the sustainable development goals and targets.</p>
+<p>The UN framework for SDG’s have setup targets for improvements to many global issues such as UN SDG 14 for ocean health.</p>
+<p>14.1</p>
+<blockquote>
+<p>By 2025, prevent and significantly reduce marine pollution of all kinds, in particular from land-based activities, including marine debris and nutrient pollution</p>
+</blockquote>
+<p>link the nitrogen phosphorus data to the concept of those cycle being out of balance as doccumented in the Planetary Boundaries: Exploring the Safe Operating Space for Humanity paper. <span class="citation" data-cites="Rockstr_m_2009">[5]</span></p>
+<h2 id="need-for-semantics-in-environmental-data">Need for semantics in Environmental data</h2>
+<p>Observatories generate considerable volumes and varieties of data. The management and integration of such data remains a major obstacle, as the data are often not semantically interoperable. I.e. the data cannot be used in combination, because they are not annotated with a controlled vocabulary of interconnected terms which would allow for a computer to perform logical reasoning upon them.</p>
+<h3 id="fair">FAIR</h3>
+<p>the FAIR data guiding principles (machine-focused findability, accessibility, interoperability reusability) <span class="citation" data-cites="Wilkinson_2016">[6]</span></p>
+<h4 id="pangaea">PANGAEA</h4>
+<p>observational networks often upload their data to open access repositories such as the <a href="https://pangaea.de/">PANGAEA</a></p>
+<p>Although vast quantities of environmental data are freely available to the scientific community, integrated analysis of such data is hindered by a lack of logical connections between different types of data.</p>
+<h3 id="linking-earth-science-data-initiatives-such-esip-open-knowledge-network-to-the-un-sdgios">Linking earth science data initiatives such ESIP Open knowledge network to the UN SDGIO’s</h3>
+<p>There exist a variety of earth and life science initiatives attempting to capture and represent the knowledge associated with environmental data. …</p>
+<p>The knowledge required to interface the concepts needed for the Sustainable development goals are represented in a machine operable form via the SDGIO sustainable development goals interface ontology.</p>
+<h4 id="role-of-data-in-2015---2020-esip-strategic-plan">role of data in <a href="http://wiki.esipfed.org/index.php/2015-2020_Strategic_Plan">2015 - 2020 ESIP Strategic Plan</a></h4>
+<p><a href="https://github.com/kaiiam/kblumberg_masters_thesis/wiki/log#080118">link to my log</a></p>
+<h4 id="opendap">OPeNDAP</h4>
+<blockquote>
+<p>OPeNDAP will be a fundamental component of systems which provide machine-to-machine interoperability with semantic meaning in a highly distributed environment of heterogeneous datasets.</p>
+</blockquote>
+<p><a href="https://www.opendap.org/about">Open-source Project for a Network Data Access Protocol</a> There is a need for semantic interoperability …</p>
+<h4 id="knowledge-outreach">knowledge outreach</h4>
+<p>Knowledge graphs are becoming more popular and useful, need to bridge the gap between patchy but growing resources such as Wikipedia, and expert knowledge (locked away in text books), using an ontology helps to bridge this, it can be applied to querying Wikipedia data and for improved semantic representation make data FAIR. Ontology for an agreed upon term structure</p>
+<h3 id="ontologies-and-the-obo-foundry">Ontologies and the OBO Foundry</h3>
+<p>Ontology, a human and machine readable semantic representation of domain knowledge …</p>
+<p>An ontology is a hierarchically structured, machine and human readable representation of the knowledge used by experts to describe entities, and capture the relationships between them <span class="citation" data-cites="Smith_2007">[7]</span>. In informatics, ontologies exist in the form of a knowledge graph, where nodes represent entities, and edges represent logical relations linking entities together (i.e. axioms). Ontologies provide a digital semantic infrastructure upon which advanced querying, discovery and analysis of data can occur.</p>
+<p>Ontologies are a methodology to systematically structure and connect data, allowing users to ask more complicated questions involving the synthesis of disparate data types which currently can not be combined.</p>
+<p>//revise a bit from lab rotation: Because, no single knowledge graph can encompass the needs of interdisciplinary projects, work must be done in a coordinated fashion with other ontology researchers and developers. In order to interconnect ontologies representing scientific knowledge from different domains, the Open Biological and Biomedical Ontology (OBO) Foundry and Library was created <span class="citation" data-cites="Smith_2007">[7]</span>. The OBO Foundry and Library established a set of principles by which to develop and coordinate ontologies such that the scientific knowledge they represent and hence the data they link can interoperate. These ontologies share a common upper level in the hierarchy and use of the same types of logical connective operations to interlink their knowledge. Following these principles are a family of ontologies representing scientific knowledge from non-overlapping domains, which can be used in combination to describe natural phenomena in greater depth. OBO compliant ontologies make use of the <a href="https://github.com/BFO-ontology/BFO">Basic Formal Ontology (BFO)</a>, to ensure they have a compatible hierarchical structure, and use logical relations from the <a href="https://github.com/oborel/obo-relations">Relations Ontology (RO)</a>, to standardize the connections between their knowledge.</p>
+<p>OBO compliant ontologies can be benefit observatory networks such as Hausgarten FRAM, by providing connections between data collected by researchers of different disciplines studying overlapping entities.</p>
+<p>//example from my rotation add something like this. &gt; For example sea ice physicists studying the reflectivity of various ice mass features, may have light intensity data that would help microbial ecologists studying photosynthetic bacteria in brine channels, to calculate the light dependent growth rates of such bacteria</p>
+<h4 id="sdgio">SDGIO</h4>
+<p>United Nations Environment Programme</p>
+<p>SDGIO is an OBO compliant ontology</p>
+<p>uses the same interoperable semantic standards to ENVO. Although UNEP PURLS cannot currently be queried.</p>
+<h4 id="envo-for-representing-environmental-semantics.">ENVO for representing environmental semantics.</h4>
+<p>ENVO papers: <span class="citation" data-cites="Buttigieg_2013">[8]</span> <span class="citation" data-cites="Buttigieg_2016">[9]</span></p>
+<p>The Environment Ontology (ENVO) represents expert knowledge about different types of environments<span class="citation" data-cites="Buttigieg_2013">[8]</span><span class="citation" data-cites="Buttigieg_2016">[9]</span>. ENVO is an OBO aligned ontology.</p>
+<p>Environmental knowledge represented by ENVO is used to annotate data from a variety of life science disciplines including oceanography and polar research. <span class="citation" data-cites="Buttigieg_2013">[8]</span><span class="citation" data-cites="Buttigieg_2016">[9]</span></p>
+<h4 id="gene-ontology">Gene Ontology</h4>
+<p>go paper: <span class="citation" data-cites="Ashburner_2000">[10]</span></p>
+<p>GO frequently used to interpret omic data <span class="citation" data-cites="Ashburner_2000">[10]</span>. It has been used to do genomewide RNA expression profile data to compare samples based on shared biological pathways. <span class="citation" data-cites="Subramanian_2005">[11]</span></p>
+<p>The combination of GO and ENVO is less frequently attempted. <span class="citation" data-cites="Henschel_2015">[12]</span></p>
+<p>Paring GO with ENVO is a potential avenue for future study allowing researchers to ask questions such as &gt; “What is the omic potential of microbes associated with particular environments?”.</p>
+<h4 id="example-ontology-uses">Example Ontology uses</h4>
+<p>A communal catalogue reveals Earth’s multiscale microbial diversity. //Uses EMPO a light-weight application ontology built on ENVO the Earth Microbiome Project Ontology <span class="citation" data-cites="Thompson_2017">[13]</span> //good to have an example which demonstrates the utility of ENVO for an application ontology to provide utility.</p>
+<p>//from my rotation rewrite example &gt; Thesen et al.13. show how such a federated semantic approach can enhance handling of environmental and phenotype data, in order to ask increasingly complex questions such as “Which crop varieties are expected to do well in a particular location over the next century?”. Thesen et al <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4690371/">Emerging semantics to link phenotype and environment</a> <span class="citation" data-cites="Thessen_2015">[14]</span></p>
+<h3 id="competency-questions">competency questions:</h3>
+<p>In order to leverage growing data and knowledge representation semantic infrastructure we test if a semantic knowledge web represented by an ontologies can be used in combination with AWI data to address competency questions such as:</p>
+<hr />
+<h1 id="materials-and-methods">Materials and Methods</h1>
+<h3 id="datasets-used-in-datastore">Datasets used in Datastore</h3>
+<ol type="1">
+<li><p>Inorganic nutrients measured on water bottle samples at AWI HAUSGARTEN during POLARSTERN cruise MSM29. <span class="citation" data-cites="bauerfeind2014inmo">[15]</span></p></li>
+<li><p>Physical oceanography and current meter data from mooring TD-2014-LT. <span class="citation" data-cites="bauerfeind2016poac">[16]</span></p></li>
+<li><p>Chlorophyll a measured on water bottle samples during POLARSTERN cruise ARK-XXIV/2. <span class="citation" data-cites="nthig2015camo">[17]</span><span class="citation" data-cites="N_thig_2015">[18]</span></p></li>
+<li><p>Global chlorophyll “a” concentrations for diatoms, haptophytes and prokaryotes obtained with the Diagnostic Pigment Analysis of HPLC data compiled from several databases and individual cruises. <span class="citation" data-cites="soppa2017gcac">[19]</span><span class="citation" data-cites="Losa_2017">[20]</span></p></li>
+<li><p>Biogenic particle flux at AWI HAUSGARTEN from mooring FEVI7. <span class="citation" data-cites="bauerfeind2009bpfa">[21]</span><span class="citation" data-cites="Bauerfeind_2009">[22]</span></p></li>
+<li><p>Snow height on sea ice and sea ice drift from autonomous measurements from buoy 2015S22, deployed during the Norwegian Young sea ICE cruise N-ICE 2015. <span class="citation" data-cites="nicolaus2015shos">[23]</span><span class="citation" data-cites="nicolaus2017shaa">[24]</span></p></li>
+<li><p>Sea ice thickness at Ice Camp 1 on 2013-09-01 (GEM2IceTh_DiveHole_IceStation1). <span class="citation" data-cites="ricker2017sita">[25]</span><span class="citation" data-cites="Arndt_2017">[26]</span></p></li>
+<li><p>Ice-algal chlorophyll a and physical properties of multi-year and first-year sea ice of core CASIMBO-CORE-1_10. <span class="citation" data-cites="lange2015icaa">[27]</span><span class="citation" data-cites="Lange_2015">[28]</span></p></li>
+<li><p>//TODO add genomic data preferably some FRAM data from eddie like an otu table and or functional genomic table.</p></li>
+</ol>
+<h3 id="programs-used">programs used:</h3>
+<p>sparql, python, N3, turtle, any23, owl, <a href="https://protege.stanford.edu/">Protégé</a></p>
+<h3 id="semantic-data-annotation">Semantic Data Annotation</h3>
+<p>Semantic annotation of example data was conducted in the RDF serialization turtle, drawing upon its blank node feature to facilitate scripting owl code in RDF. Annotations make use ontology terms from the OBO Foundry <span class="citation" data-cites="Smith_2007">[7]</span>. Ontology terms can be search for using <a href="http://www.ontobee.org/">Ontobee</a> A linked data server hosting ontologies and their terms. <span class="citation" data-cites="Ong2017">[29]</span></p>
+<h3 id="sparql-query-scripting">sparql query scripting</h3>
+<p>scripts to perform queries were written in python verion?</p>
+<p>using the rdf-lib module</p>
+<p>Queryies preformed against the ontobee endpoint http://sparql.hegroup.org/sparql/ a serive provied by the He Group <span class="citation" data-cites="Ong2017">[29]</span></p>
+<p>The script makes use of a conjunctive graph object from the rdf-lib module, to emulate an RDF triple store.</p>
+<hr />
+<h1 id="results">Results</h1>
+<p>In my masters thesis work I have devised a semantic data annotation and querying schema. It allows for the phenomena inhering in data, to be represented and searched in the same way as ontology classes. Annotating data to be semantically inter-operable with existing ontologies, allows us to ask questions of interdisciplinary data, making use of the connections between phenomena encoded within ontologies.</p>
+<p>In my masters thesis work I have been writing scripts to assemble and query a demonstration datastore comprised of semantically annotated AWI data. As a part of my proposed work, I would create a human and machine-readable web accessible endpoint to host a variety of AWI data, as well as a the semantic search tools to facilitate querying it.</p>
+<h2 id="competency-questions-1">Competency Questions</h2>
+<p>experiments to test knowledge model against competency questions.</p>
+<h3 id="lookup-author-of-ontology-term">Lookup author of ontology term</h3>
+<p><a href="https://github.com/kaiiam/kblumberg_masters_thesis/wiki/thesis-pieces#lookup-author-of-ontology-term">see my thesis here</a></p>
+<h3 id="retrieve-any-data-which-is-about-a-subclass-of-sea-ice">Retrieve any data which is about a subclass of sea ice</h3>
+<p>//easy to bang out <a href="https://github.com/kaiiam/kblumberg_masters_thesis/wiki/thesis-pieces#retrieve-any-data-which-is-about-a-subclass-of-sea-ice">see my thesis here</a></p>
+<h3 id="what-compounds-play-a-role-as-algae-metabolites">What compounds play a role as algae metabolites?</h3>
+<p>easy enough to answer Make use of the CHEBI class: <a href="http://purl.obolibrary.org/obo/CHEBI_84735">algal metabolite</a></p>
+<p>purl</p>
+<p>querying the <a href="http://www.ontobee.org/sparql">ontobee sparql endpoint</a></p>
+<pre><code>PREFIX obo: &lt;http://purl.obolibrary.org/obo/&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+
+SELECT DISTINCT ?purl ?label
+
+WHERE {
+?purl rdfs:subClassOf/owl:someValuesFrom obo:CHEBI_84735.
+?purl rdfs:subClassOf/owl:onProperty obo:RO_0000087.
+?purl rdfs:label ?label.
+}
+GROUP BY ?purl
+LIMIT 10</code></pre>
+<p>This query gives us the purls and the labels of the first 20 classes which are subclasses of ‘has role’ some algal metabolite</p>
+<p>using the restriction has role.</p>
+<p>The group by ?purl is to ensure we don’t get duplicates of purls which have duplicated labels such as http://purl.obolibrary.org/obo/CHEBI_15756 which has labels: <code>hexadecanoic acid</code> and <code>Hexadecanoic acid</code></p>
+<p>Returning the following results:</p>
+<table>
+<colgroup>
+<col style="width: 40%" />
+<col style="width: 59%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>purl</th>
+<th>label</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>http://purl.obolibrary.org/obo/CHEBI_17992</td>
+<td>Sucrose^^<a href="http://www.w3.org/2001/XMLSchema#string" class="uri">http://www.w3.org/2001/XMLSchema#string</a></td>
+</tr>
+<tr class="even">
+<td>http://purl.obolibrary.org/obo/CHEBI_80716</td>
+<td>aplysiatoxin^^<a href="http://www.w3.org/2001/XMLSchema#string" class="uri">http://www.w3.org/2001/XMLSchema#string</a></td>
+</tr>
+<tr class="odd">
+<td>http://purl.obolibrary.org/obo/CHEBI_90820</td>
+<td>11(R)-HEPE(1-)^^<a href="http://www.w3.org/2001/XMLSchema#string" class="uri">http://www.w3.org/2001/XMLSchema#string</a></td>
+</tr>
+<tr class="even">
+<td>http://purl.obolibrary.org/obo/CHEBI_86386</td>
+<td>3-mercaptopropionate^^<a href="http://www.w3.org/2001/XMLSchema#string" class="uri">http://www.w3.org/2001/XMLSchema#string</a></td>
+</tr>
+<tr class="odd">
+<td>http://purl.obolibrary.org/obo/CHEBI_17754</td>
+<td>Glycerin^^<a href="http://www.w3.org/2001/XMLSchema#string" class="uri">http://www.w3.org/2001/XMLSchema#string</a></td>
+</tr>
+<tr class="even">
+<td>http://purl.obolibrary.org/obo/CHEBI_17754</td>
+<td>glycerol^^<a href="http://www.w3.org/2001/XMLSchema#string" class="uri">http://www.w3.org/2001/XMLSchema#string</a></td>
+</tr>
+<tr class="odd">
+<td>http://purl.obolibrary.org/obo/CHEBI_16810</td>
+<td>2-oxoglutarate(2-)^^<a href="http://www.w3.org/2001/XMLSchema#string" class="uri">http://www.w3.org/2001/XMLSchema#string</a></td>
+</tr>
+<tr class="even">
+<td>http://purl.obolibrary.org/obo/CHEBI_16914</td>
+<td>salicylic acid^^<a href="http://www.w3.org/2001/XMLSchema#string" class="uri">http://www.w3.org/2001/XMLSchema#string</a></td>
+</tr>
+<tr class="odd">
+<td>http://purl.obolibrary.org/obo/CHEBI_16914</td>
+<td>Salicylic Acid^^<a href="http://www.w3.org/2001/XMLSchema#string" class="uri">http://www.w3.org/2001/XMLSchema#string</a></td>
+</tr>
+<tr class="even">
+<td>http://purl.obolibrary.org/obo/CHEBI_16811</td>
+<td>Methionine^^<a href="http://www.w3.org/2001/XMLSchema#string" class="uri">http://www.w3.org/2001/XMLSchema#string</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="table-again-but-with-latex">Table again but with LaTeX</h3>
+
+<h3 id="as-html-table">as HTML table</h3>
+<table class="tg">
+<tr>
+<th class="tg-yw4l">
+purl
+</th>
+<th class="tg-yw4l">
+label
+</th>
+</tr>
+<tr>
+<td class="tg-yw4l">
+http://purl.obolibrary.org/obo/CHEBI_17992
+</td>
+<td class="tg-yw4l">
+Sucrose
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+http://purl.obolibrary.org/obo/CHEBI_80716
+</td>
+<td class="tg-yw4l">
+aplysiatoxin
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+http://purl.obolibrary.org/obo/CHEBI_90820
+</td>
+<td class="tg-yw4l">
+11(R)-HEPE(1-)
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+http://purl.obolibrary.org/obo/CHEBI_86386
+</td>
+<td class="tg-yw4l">
+3-mercaptopropionate
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+http://purl.obolibrary.org/obo/CHEBI_17754
+</td>
+<td class="tg-yw4l">
+Glycerin
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+http://purl.obolibrary.org/obo/CHEBI_17754
+</td>
+<td class="tg-yw4l">
+glycerol
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+http://purl.obolibrary.org/obo/CHEBI_16810
+</td>
+<td class="tg-yw4l">
+2-oxoglutarate(2-)
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+http://purl.obolibrary.org/obo/CHEBI_16914
+</td>
+<td class="tg-yw4l">
+salicylic acid
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+http://purl.obolibrary.org/obo/CHEBI_16914
+</td>
+<td class="tg-yw4l">
+Salicylic Acid
+</td>
+</tr>
+<tr>
+<td class="tg-yw4l">
+http://purl.obolibrary.org/obo/CHEBI_16811
+</td>
+<td class="tg-yw4l">
+Methionine
+</td>
+</tr>
+</table>
+<h2 id="pco-contributions-plankton-ecology">PCO contributions &amp; Plankton Ecology</h2>
+<p>//Assuming I get any of this stuff pushed to PCO and or ENVO.</p>
+<p>I may still be able to write about the proposed design patterns for PCO, even if I don’t get to submit a pull request.</p>
+<h4 id="tilman-satelite-data">Tilman Satelite Data</h4>
+<p>Paper: Diatom Phenology in the Southern Ocean: Mean Patterns, Trends and the Role of Climate Oscillations. <span class="citation" data-cites="Soppa_2016">[30]</span> //Associated with the plankton ecology project using Tillman satellite chlorophyll data and the plankton bloom ontology classes.</p>
+<h3 id="cryomixs">cryoMIxS</h3>
+<p>original MIxS paper: <span class="citation" data-cites="Yilmaz_2011">[31]</span></p>
+<p>//talk about my contributions to the cryoMIxS project. Including work from my lab rotation.</p>
+<h4 id="envo-releases-of-interest">ENVO releases of interest:</h4>
+<p><a href="https://github.com/EnvironmentOntology/envo/releases/tag/v2017-05-10">Ecotone</a>, <a href="https://github.com/EnvironmentOntology/envo/releases/tag/v2017-04-15">Polar express</a>, <a href="https://github.com/EnvironmentOntology/envo/releases/tag/v2017-03-27">Hot tub time machine</a>.</p>
+<table style="width:74%;">
+<caption>Sample grid table.</caption>
+<colgroup>
+<col style="width: 22%" />
+<col style="width: 22%" />
+<col style="width: 29%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Fruit</th>
+<th>Price</th>
+<th>Advantages</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Bananas</td>
+<td>$1.34</td>
+<td><ul>
+<li>built-in wrapper</li>
+<li>bright color</li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>Oranges</td>
+<td>$2.10</td>
+<td><ul>
+<li>cures scurvy</li>
+<li>tasty</li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+<h2 id="post-compositional-data-annotation-model">post compositional data annotation model</h2>
+<p>//Maybe this could go in material and methods but I’ll argue this is a result in the sense of semantic research, a model for data annotation.</p>
+<p>In this work we present a novel semantic data annotation model. Semantics have been used to represent data … //TODO FIND REFS. In this model data annotations are composed of terms from the OBO Foundry. Data annotations are written in The RDF turtle specification, and structured as nested owl classes. Annotating the data as owl classes ensures parity to the OBO ontologies. This enables us to perform sparql queries on the annotated data in the same manor as would be done to query OBO Foundry ontologies.</p>
+<p>In order to emulated owl code written in RDF, we chose the turtle RDF format for its ability to nest blank nodes within strings of triples.</p>
+<p>//ADD THE is about property in the data model, it could also be cool to have a vue figure which explains the workflow.</p>
+<p>The creation of ontology classes involves the composition of axioms, the links between classes, which are assembled from other preexisting ontology classes and relational properties. In ontology development this is refereed to as precomposition, which has the effect of taking a set of ontology classes and properties and joining them together in a specific way and assigning this assemblage to be a novel class.</p>
+<p>The proposed semantic data annotation model allows for this process to be done in reverse. This is not necessary when an appropriate term for annotation already exists, however, in cases where the appropriate annotation term is lacking, it can be created from a combination of other terms. This practice, referred to as “post composition”, enables a user to annotate their data with axioms that comprise a non existent ontology term. By writing the data annotations as owl classes, they are functionally equivalent to existing ontology classes, in terms of their ability to be searched for using a sparql query.</p>
+<p>This allows for the phenomena inhering in data, to be represented in a machine readable semantic layer prior to their incorporation as ontology terms.</p>
+<p>The model makes use of owl equivalence classes, to structure the annotation as the intersection (and) and or union (or) of post compositionally annotated classes.</p>
+<p>Thus the proposed data annotation model will allow for users, who are not ontologists, to post compositionally annotate their data. //ADD section about how I’ll write a tool to automate this in the outlook.</p>
+<h3 id="example-of-post-compositional-data-annotation-with-ontology-terms">Example of Post Compositional Data Annotation with Ontology Terms</h3>
+<p><a href="https://github.com/kaiiam/kblumberg_masters_thesis/wiki/thesis-pieces#pre-and-post-composition-of-complex-classes">change this competency question example</a> to be about how to annotate data which is about a <strong>marine environment determined by a diatom community</strong> or a <strong>marine environment determined by a diatom community bloom</strong> instead of being about I intened to create these classes.</p>
+<h2 id="vocamp-virtual-glacial-hackathon">Vocamp Virtual Glacial Hackathon</h2>
+<p><a href="http://vocamp.org/wiki/Main_Page">vocamp</a>:</p>
+<blockquote>
+<p>VoCamp is a series of informal events where people can spend some dedicated time creating lightweight vocabularies/ontologies for the Semantic Web/Web of Data.</p>
+</blockquote>
+<p>Virtual-Hackahon-on-Glacier-topic</p>
+<p>//to be held on Feb. 2nd. I should have an example of moving snow and ice related data ready to demonstrate by then.</p>
+<h3 id="awi-dbpedia-contributions">AWI DBPEDIA contributions</h3>
+<p>Contributing semantic knowledge to the website Wikipedia in the form of an improved heirarchaly structure but aligning with ENVO.</p>
+<p>Implement and talk about dpbedia contributions, hopefully they’ll let me edit. My intention is to align dbpedia glacial semantics to those in ENVO, should be relatively quick and easy once I can edit.</p>
+<h3 id="unep-sdgio">UNEP SDGIO</h3>
+<p>Despite operating within a semantically which is interoperable with the OBO Foundry the UNEP ontology is currently non queryable. Future work needs to be done to improve the way SDGIO purls are hosted via UNEP so that they can be querable. This would allow for the the incorporation of data mobililzed via semantics to the UN SDGs to help achieve their objectives.</p>
+<hr />
+<h1 id="discussion">Discussion</h1>
+<h2 id="querying-semantically-annotated-data">Querying Semantically Annotated Data</h2>
+<p>using polar semantics to annotate AWI Polar data in a machine-readable way. This allows for knowledge to be captured in a data querying</p>
+<h3 id="creating-classes-vs-post-compositional-annotation-for-data-annotation">Creating Classes vs post compositional annotation for data annotation</h3>
+<h2 id="semantics-as-awi-public-outreach">Semantics as AWI Public Outreach</h2>
+<p>AWI <a href="https://www.awi.de/en/science/special-groups/bionics/education-communication.html">Education &amp; Communication</a></p>
+<p>Contributions to semantic models such as those discussed in this work serve to improve AWI public outreach efforts to educate and communicate polar research outputs to the public. Dissemination of AWI knowledge has been demonstrated in this work via the contributions made to the open source encyclopedia Wikipedia. This was achieved by aligning the dpbedia ontology glacial semantics to those of ENVO, which were contributed during this work.</p>
+<hr />
+<h1 id="conclusion">Conclusion</h1>
+<p>This work has demonstrated that semantics can be used to mobilize polar data.</p>
+<hr />
+<h1 id="outlook">Outlook</h1>
+<p>I believe the use of ontologies and semantics data annotation could serve as a valuable tool to address broad biological questions, such as those in the Raes et al. 2017 paper, about which mechanism, temperature or productivity is responsible for marine microbial diversity.</p>
+<p>An outlook for the goals presented in this work would be to semantically annotate a wide variety of interdisciplinary AWI datasets in order render such data machine-readable and query-able. This creates the possibility to ask deeper questions of large data sets to address fundamental biological questions such as: “Does microbial diversity coincide with temperature or with primary productivity sourced from nitrogen fixation?”</p>
+<p>Such questions could be asked of semantically annotated and machine-readable genomic datasets, which contain basic metadata. Such data could be sourced from anywhere, in house AWI data or already published data, from a variety environmental locations. Working with a data publication service such as PANGAEA to host such data in an open machine-readable web accessible format would allow for complex queries and questions to be asked.</p>
+<p>For example to address the aforementioned question, we would perform a query to gather all datasets which include temperature, functional genomic and taxonomic information. From this ecological analysis could be conducted such as testing if temperature tends to correlate with microbial diversity, or with samples enriched in nitrogen fixation genes. The intentional interoperability between the Environment Ontology and the Gene Ontology would facilitate a query for the latter.</p>
+<hr />
+<h1 id="appendices">Appendices</h1>
+<h2 id="python-scripts-and-documentation">Python Scripts and Documentation</h2>
+<h3 id="script-1">script 1 …</h3>
+<h3 id="script-2">script 2 …</h3>
+<hr />
+<h1 id="references" class="unnumbered">References</h1>
+<div id="refs" class="references">
+<div id="ref-Hutchins_2017">
+<p>1. <strong>Hutchins DA, Fu F</strong>. Microorganisms and ocean global change. <em>Nature Microbiology</em> 2017;2:17058.</p>
+</div>
+<div id="ref-Soltwedel_2005">
+<p>2. <strong>Soltwedel T, Bauerfeind E, Bergmann M, Budaeva N, Hoste E <em>et al.</em></strong> HAUSGARTEN: Multidisciplinary investigations at a deep-sea, long-term observatory in the arctic ocean. <em>Oceanography</em> 2005;18:46–61.</p>
+</div>
+<div id="ref-Soltwedel_2013">
+<p>3. <strong>Soltwedel T, Schauer U, Boebel O, Nothig E-M, Bracher A <em>et al.</em></strong> FRAM - FRontiers in arctic marine monitoring visions for permanent observations in a gateway to the arctic ocean. In: <em>2013 MTS/IEEE OCEANS - bergen</em>. IEEE. Epub ahead of print June 2013. DOI: <a href="https://doi.org/10.1109/oceans-bergen.2013.6608008">10.1109/oceans-bergen.2013.6608008</a>.</p>
+</div>
+<div id="ref-Williams_2010">
+<p>4. <strong>Williams MJ, Ausubel J, Poiner I, Garcia SM, Baker DJ <em>et al.</em></strong> Making marine life count: A new baseline for policy. <em>PLoS Biology</em> 2010;8:e1000531.</p>
+</div>
+<div id="ref-Rockstr_m_2009">
+<p>5. <strong>Rockström J, Steffen W, Noone K, Persson, Chapin FSI <em>et al.</em></strong> Planetary boundaries: Exploring the safe operating space for humanity. <em>Ecology and Society</em>;14. Epub ahead of print 2009. DOI: <a href="https://doi.org/10.5751/es-03180-140232">10.5751/es-03180-140232</a>.</p>
+</div>
+<div id="ref-Wilkinson_2016">
+<p>6. <strong>Wilkinson MD, Dumontier M, Aalbersberg IJ, Appleton G, Axton M <em>et al.</em></strong> The FAIR guiding principles for scientific data management and stewardship. <em>Scientific Data</em> 2016;3:160018.</p>
+</div>
+<div id="ref-Smith_2007">
+<p>7. <strong>Smith B, Michael Ashburner, Rosse C, Bard J, Bug W <em>et al.</em></strong> The OBO foundry: Coordinated evolution of ontologies to support biomedical data integration. <em>Nature Biotechnology</em> 2007;25:1251–1255.</p>
+</div>
+<div id="ref-Buttigieg_2013">
+<p>8. <strong>Buttigieg P, Morrison N, Smith B, Mungall CJ, and SEL</strong>. The environment ontology: Contextualising biological and biomedical entities. <em>Journal of Biomedical Semantics</em> 2013;4:43.</p>
+</div>
+<div id="ref-Buttigieg_2016">
+<p>9. <strong>Buttigieg PL, Pafilis E, Lewis SE, Schildhauer MP, Walls RL <em>et al.</em></strong> The environment ontology in 2016: Bridging domains with increased scope, semantic density, and interoperation. <em>Journal of Biomedical Semantics</em>;7. Epub ahead of print September 2016. DOI: <a href="https://doi.org/10.1186/s13326-016-0097-6">10.1186/s13326-016-0097-6</a>.</p>
+</div>
+<div id="ref-Ashburner_2000">
+<p>10. <strong>Ashburner M, Ball CA, Blake JA, Botstein D, Butler H <em>et al.</em></strong> Gene ontology: Tool for the unification of biology. <em>Nature Genetics</em> 2000;25:25–29.</p>
+</div>
+<div id="ref-Subramanian_2005">
+<p>11. <strong>Subramanian A, Tamayo P, Mootha VK, Mukherjee S, Ebert BL <em>et al.</em></strong> Gene set enrichment analysis: A knowledge-based approach for interpreting genome-wide expression profiles. <em>Proceedings of the National Academy of Sciences</em> 2005;102:15545–15550.</p>
+</div>
+<div id="ref-Henschel_2015">
+<p>12. <strong>Henschel A, Anwar MZ, Manohar V</strong>. Comprehensive meta-analysis of ontology annotated 16S rRNA profiles identifies beta diversity clusters of environmental bacterial communities. <em>PLOS Computational Biology</em> 2015;11:e1004468.</p>
+</div>
+<div id="ref-Thompson_2017">
+<p>13. A communal catalogue reveals earth’s multiscale microbial diversity. <em>Nature</em>. Epub ahead of print November 2017. DOI: <a href="https://doi.org/10.1038/nature24621">10.1038/nature24621</a>.</p>
+</div>
+<div id="ref-Thessen_2015">
+<p>14. <strong>Thessen AE, Bunker DE, Buttigieg PL, Cooper LD, Dahdul WM <em>et al.</em></strong> Emerging semantics to link phenotype and environment. <em>PeerJ</em> 2015;3:e1470.</p>
+</div>
+<div id="ref-bauerfeind2014inmo">
+<p>15. <strong>Bauerfeind E, Kattner G, Ludwichowski K-U, Nöthig E-M, Sandhop N</strong>. Inorganic nutrients measured on water bottle samples at AWI HAUSGARTEN during POLARSTERN cruise MSM29. Epub ahead of print 2014. DOI: <a href="https://doi.org/10.1594/PANGAEA.834685">10.1594/PANGAEA.834685</a>.</p>
+</div>
+<div id="ref-bauerfeind2016poac">
+<p>16. <strong>Bauerfeind E, von Appen W-J, Soltwedel T, Lochthofen N</strong>. Physical oceanography and current meter data from mooring TD-2014-LT. Epub ahead of print 2016. DOI: <a href="https://doi.org/10.1594/PANGAEA.861860">10.1594/PANGAEA.861860</a>.</p>
+</div>
+<div id="ref-nthig2015camo">
+<p>17. <strong>Nöthig E-M, Bauerfeind E, Metfies K, Simon S, Lorenzen C</strong>. Chlorophyll a measured on water bottle samples during POLARSTERN cruise ARK-XXIV/2. Data Set; PANGAEA. Epub ahead of print 2015. DOI: <a href="https://doi.org/10.1594/PANGAEA.855799">10.1594/PANGAEA.855799</a>.</p>
+</div>
+<div id="ref-N_thig_2015">
+<p>18. <strong>Nöthig E-M, Bracher A, Engel A, Metfies K, Niehoff B <em>et al.</em></strong> Summertime plankton ecology in fram straita compilation of long- and short-term observations. <em>Polar Research</em> 2015;34:23349.</p>
+</div>
+<div id="ref-soppa2017gcac">
+<p>19. <strong>Soppa MA, Peeken I, Bracher A</strong>. Global chlorophyll &quot;a&quot; concentrations for diatoms, haptophytes and prokaryotes obtained with the Diagnostic Pigment Analysis of HPLC data compiled from several databases and individual cruises. Data Set; PANGAEA. Epub ahead of print 2017. DOI: <a href="https://doi.org/10.1594/PANGAEA.875879">10.1594/PANGAEA.875879</a>.</p>
+</div>
+<div id="ref-Losa_2017">
+<p>20. <strong>Losa SN, Soppa MA, Dinter T, Wolanin A, Brewin RJW <em>et al.</em></strong> Synergistic exploitation of hyper- and multi-spectral precursor sentinel measurements to determine phytoplankton functional types (SynSenPFT). <em>Frontiers in Marine Science</em>;4. Epub ahead of print July 2017. DOI: <a href="https://doi.org/10.3389/fmars.2017.00203">10.3389/fmars.2017.00203</a>.</p>
+</div>
+<div id="ref-bauerfeind2009bpfa">
+<p>21. <strong>Bauerfeind E, Nöthig E-M, Beszczynska A, Fahl K, Kaleschke L <em>et al.</em></strong> Biogenic particle flux at AWI HAUSGARTEN from mooring FEVI7. Data Set; PANGAEA. Epub ahead of print 2009. DOI: <a href="https://doi.org/10.1594/PANGAEA.714844">10.1594/PANGAEA.714844</a>.</p>
+</div>
+<div id="ref-Bauerfeind_2009">
+<p>22. <strong>Bauerfeind E, Nöthig E-M, Beszczynska A, Fahl K, Kaleschke L <em>et al.</em></strong> Particle sedimentation patterns in the eastern fram strait during 20002005: Results from the arctic long-term observatory HAUSGARTEN. <em>Deep Sea Research Part I: Oceanographic Research Papers</em> 2009;56:1471–1487.</p>
+</div>
+<div id="ref-nicolaus2015shos">
+<p>23. <strong>Nicolaus M, Itkin P, Spreen G</strong>. Snow height on sea ice and sea ice drift from autonomous measurements from buoy 2015S22, deployed during the Norwegian Young sea ICE cruise N-ICE 2015. Data Set; Alfred Wegener Institute, Helmholtz Center for Polar; Marine Research, Bremerhaven; PANGAEA. Epub ahead of print 2015. DOI: <a href="https://doi.org/10.1594/PANGAEA.846861">10.1594/PANGAEA.846861</a>.</p>
+</div>
+<div id="ref-nicolaus2017shaa">
+<p>24. <strong>Nicolaus M, Hoppmann M, Arndt S, Hendricks S, Katlein C <em>et al.</em></strong> Snow height and air temperature on sea ice from Snow Buoy measurements. Epub ahead of print 2017. DOI: <a href="https://doi.org/10.1594/PANGAEA.875638">10.1594/PANGAEA.875638</a>.</p>
+</div>
+<div id="ref-ricker2017sita">
+<p>25. <strong>Ricker R, Krumpen T, Schiller M</strong>. Sea ice thickness at Ice Camp 1 on 2013-09-01 (GEM2IceTh<span class="math inline">_</span>DiveHole<span class="math inline">_</span>IceStation1). Data Set; PANGAEA. Epub ahead of print 2017. DOI: <a href="https://doi.org/10.1594/PANGAEA.870689">10.1594/PANGAEA.870689</a>.</p>
+</div>
+<div id="ref-Arndt_2017">
+<p>26. <strong>Arndt S, Meiners KM, Ricker R, Krumpen T, Katlein C <em>et al.</em></strong> Influence of snow depth and surface flooding on light transmission through antarctic pack ice. <em>Journal of Geophysical Research: Oceans</em> 2017;122:2108–2119.</p>
+</div>
+<div id="ref-lange2015icaa">
+<p>27. <strong>Lange BA, Michel C, Beckers J, Casey JA, Flores H <em>et al.</em></strong> Ice-algal chlorophyll a and physical properties of multi-year and first-year sea ice of core CASIMBO-CORE-1<span class="math inline">_</span>10. Data Set; PANGAEA. Epub ahead of print 2015. DOI: <a href="https://doi.org/10.1594/PANGAEA.842359">10.1594/PANGAEA.842359</a>.</p>
+</div>
+<div id="ref-Lange_2015">
+<p>28. <strong>Lange BA, Michel C, Beckers JF, Casey JA, Flores H <em>et al.</em></strong> Comparing springtime ice-algal chlorophyll a and physical properties of multi-year and first-year sea ice from the lincoln sea. <em>PLOS ONE</em> 2015;10:e0122418.</p>
+</div>
+<div id="ref-Ong2017">
+<p>29. <strong>Ong E, Xiang Z, Zhao B, Liu Y, Lin Y <em>et al.</em></strong> Ontobee: A linked ontology data server to support ontology term dereferencing, linkage, query and integration. <em>Nucleic Acids Res</em> 2017;45:D347–D352.</p>
+</div>
+<div id="ref-Soppa_2016">
+<p>30. <strong>Soppa M, Völker C, Bracher A</strong>. Diatom phenology in the southern ocean: Mean patterns, trends and the role of climate oscillations. <em>Remote Sensing</em> 2016;8:420.</p>
+</div>
+<div id="ref-Yilmaz_2011">
+<p>31. <strong>Yilmaz P, Kottmann R, Field D, Knight R, Cole JR <em>et al.</em></strong> Minimum information about a marker gene sequence (MIMARKS) and minimum information about any (x) sequence (MIxS) specifications. <em>Nature Biotechnology</em> 2011;29:415–420.</p>
+</div>
+</div>
+</body>
+</html>

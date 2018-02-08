@@ -1,0 +1,29 @@
+---
+header-includes:
+  - \usepackage[labelfont=bf]{caption}
+  - \lstset{breaklines=true}
+  - \lstset{basicstyle=\small\ttfamily}
+  - \lstset{extendedchars=true}
+  - \lstset{tabsize=2}
+  - \lstset{columns=fixed}
+  - \lstset{showstringspaces=false}
+  - \lstset{frame=trbl}
+  - \lstset{frameround=tttt}
+  - \lstset{framesep=4pt}
+  - \lstset{numbers=left}
+  - \lstset{numberstyle=\small\ttfamily}
+  - \lstset{postbreak=\raisebox{0ex}[0ex][0ex]{\ensuremath{\color{red}\hookrightarrow\space}}}
+  - \lstset{backgroundcolor=\color[RGB]{248,248,248}}
+  - \lstset{keywordstyle=\color[rgb]{0.13,0.29,0.53}\bfseries}
+  - \lstset{stringstyle=\color[rgb]{0.31,0.60,0.02}}
+  - \lstset{commentstyle=\color[rgb]{0.56,0.35,0.01}\itshape}
+source:
+  - folder: fonts
+mainfont: STIX-Regular.otf
+mainfontoptions:  
+  - BoldFont=STIX-Bold.otf
+  - ItalicFont=STIX-Italic.otf
+  - BoldItalicFont=STIX-BoldItalic.otf
+  #- \usepackage[format=hang,font=small,labelfont=bf]{caption}
+  #- \usepackage[textfont=bf]{caption}
+---

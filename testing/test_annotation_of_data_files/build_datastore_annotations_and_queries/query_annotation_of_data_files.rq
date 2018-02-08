@@ -42,11 +42,20 @@ UNION
    # Y1-Yn in (X1 and X2 ... and ('any property' some (Y1 or Y2 or ... )))
    (rdf:type/owl:equivalentClass/owl:intersectionOf/rdf:rest/rdf:first/owl:someValuesFrom/owl:intersectionOf/rdf:rest*/rdf:first/owl:someValuesFrom/owl:unionOf/rdf:rest*/rdf:first) |
    # Z in (X1 and X2 ... and ('any property' some (Y1 and Y2 and ... and ('any property' some Z))))
-   (rdf:type/owl:equivalentClass/owl:intersectionOf/rdf:rest/rdf:first/owl:someValuesFrom/owl:intersectionOf/rdf:rest*/rdf:first/owl:someValuesFrom/owl:intersectionOf/rdf:rest*/rdf:first/owl:someValuesFrom)
+   (rdf:type/owl:equivalentClass/owl:intersectionOf/rdf:rest/rdf:first/owl:someValuesFrom/owl:intersectionOf/rdf:rest*/rdf:first/owl:someValuesFrom/owl:intersectionOf/rdf:rest*/rdf:first/owl:someValuesFrom) |
+   #Y in (W and ('any property' some ('any property' some X) and ('any property' some (Y and 'any property' some Z))))
+   (rdf:type/owl:equivalentClass/owl:intersectionOf/rdf:rest/rdf:first/owl:someValuesFrom/owl:intersectionOf/rdf:rest*/rdf:first/owl:someValuesFrom/owl:intersectionOf/rdf:rest*/rdf:first/owl:someValuesFrom/owl:intersectionOf/rdf:rest*/rdf:first) | 
+   #Z in (W and ('any property' some ('any property' some X) and ('any property' some (Y and 'any property' some Z))))
+   (rdf:type/owl:equivalentClass/owl:intersectionOf/rdf:rest/rdf:first/owl:someValuesFrom/owl:intersectionOf/rdf:rest*/rdf:first/owl:someValuesFrom/owl:intersectionOf/rdf:rest*/rdf:first/owl:someValuesFrom/owl:intersectionOf/rdf:rest*/rdf:first/owl:someValuesFrom) |
+   # X1-n in (W1 and W2 ... and 'any property' min N (X1 and X2 ... and  'any property' some (Y1 and Y2 and ... 'any property' some Z)))
+   (rdf:type/owl:equivalentClass/owl:intersectionOf/rdf:rest/rdf:first/owl:someValuesFrom/owl:intersectionOf/rdf:rest*/rdf:first/owl:intersectionOf/rdf:rest*/rdf:first/owl:onClass/owl:intersectionOf/rdf:rest*/rdf:first) |
+   # Y1-n in (W1 and W2 ... and 'any property' min N (X1 and X2 ... and  'any property' some (Y1 and Y2 and ... 'any property' some Z)))
+   (rdf:type/owl:equivalentClass/owl:intersectionOf/rdf:rest/rdf:first/owl:someValuesFrom/owl:intersectionOf/rdf:rest*/rdf:first/owl:intersectionOf/rdf:rest*/rdf:first/owl:onClass/owl:intersectionOf/rdf:rest*/rdf:first/owl:someValuesFrom/owl:intersectionOf/rdf:rest*/rdf:first) |
+   # Z in (W1 and W2 ... and 'any property' min N (X1 and X2 ... and  'any property' some (Y1 and Y2 and ... 'any property' some Z)))
+   (rdf:type/owl:equivalentClass/owl:intersectionOf/rdf:rest/rdf:first/owl:someValuesFrom/owl:intersectionOf/rdf:rest*/rdf:first/owl:intersectionOf/rdf:rest*/rdf:first/owl:onClass/owl:intersectionOf/rdf:rest*/rdf:first/owl:someValuesFrom/owl:intersectionOf/rdf:rest*/rdf:first/owl:someValuesFrom)
+												                                                    ) ?value .
 
-												) ?value .
-
-
+#owl:onClass/owl:intersectionOf/rdf:rest*/rdf:first
 
 #VALUES (?value) {
 #(<http://purl.obolibrary.org/obo/ENVO_03000002>)

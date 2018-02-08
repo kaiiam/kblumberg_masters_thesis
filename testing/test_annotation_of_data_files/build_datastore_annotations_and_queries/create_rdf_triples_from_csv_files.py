@@ -28,4 +28,4 @@ def run(command):
 
 #run any23 rover for all csv files
 for f in file_names :
-    run('any23 rover -t -p -f ntriples -o %s.nt %s.csv' % (f, f))
+    run('any23 rover -t -p -f turtle -o %s.ttl %s.csv' % (f, f))

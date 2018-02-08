@@ -15,24 +15,15 @@ if os.path.isfile('datastore.ttl') == True :
 # list all the files in the directory
 files = [f for f in os.listdir('.') if os.path.isfile(f)]
 
-#filter for .nt and .ttl files using regex search:
-regex = re.compile('[.]nt|[.]ttl')
+#filter for .ttl files using regex search:
+regex = re.compile('[.]ttl')
 selected_files = filter(regex.search, files)
 
-##combined individual ttl and nt files into a single datastore.ttl file.
-#writes out all .nt and .ttl files into single temp_datastore.ttl file (without parsing it)
-f = open('temp_datastore.ttl', 'w')
-f.write(''.join([line for line in fileinput.input(selected_files)]))
-f.close()
-
-#use the rdflib module to parse all the .ttl and .nt files to make a cleaner triple datastore file.
+#use the rdflib module to parse all the .ttl files to make a single datastore triple file datastore.ttl.
 graph = g.ConjunctiveGraph()
-graph.parse('temp_datastore.ttl', format='ttl')
+[graph.parse(str(s), format='ttl') for s in selected_files]
 output_datastore = graph.serialize(format='ttl')
 
 #write out the datastore
 f = open('datastore.ttl', 'w')
 f.write(output_datastore)
-
-#remove the temp file
-os.remove('temp_datastore.ttl')

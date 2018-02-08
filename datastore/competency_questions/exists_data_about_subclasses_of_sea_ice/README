@@ -1,0 +1,19 @@
+Question:
+
+"Do we have any data about sea ice?"
+
+Notes:
+
+just show that I can get all these csvs and csv columns.
+
+uses scripts:
+
+annotation_of_data_files.py and query_for_subclasses_of_input_purl.py
+
+example run:
+
+./query_for_subclasses_of_input_purl.py http://purl.obolibrary.org/obo/ENVO_00002200
+
+./annotation_of_data_files.py subclasses_of_ENVO_00002200.txt
+
+

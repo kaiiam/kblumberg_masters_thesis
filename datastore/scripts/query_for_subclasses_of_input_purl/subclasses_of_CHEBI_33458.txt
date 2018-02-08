@@ -1,0 +1,8 @@
+http://purl.obolibrary.org/obo/CHEBI_55327
+http://purl.obolibrary.org/obo/CHEBI_29270
+http://purl.obolibrary.org/obo/CHEBI_50115
+http://purl.obolibrary.org/obo/CHEBI_29773
+http://purl.obolibrary.org/obo/CHEBI_18210
+http://purl.obolibrary.org/obo/CHEBI_17632
+http://purl.obolibrary.org/obo/CHEBI_16301
+http://purl.obolibrary.org/obo/CHEBI_25941

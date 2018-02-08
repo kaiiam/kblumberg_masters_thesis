@@ -1,0 +1,20 @@
+PREFIX obo: <http://purl.obolibrary.org/obo/> 
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX owl: <http://www.w3.org/2002/07/owl#> 
+PREFIX html: <http://tools.ietf.org/html/>
+SELECT ?c ?o
+FROM <datastore.ttl>
+WHERE {
+?s rdf:type obo:OBCS_0000120 ; 
+html:rfc4180row ?DataItemRows .
+?DataItemRows ?p ?filter ; 
+?c ?o . 
+filter (?c != rdf:type && ?o != html:rfc4180Row) 
+filter (?c != html:rfc4180rowPosition) 
+filter (?c != ?p) 
+VALUES (?filter) { (<http://purl.obolibrary.org/obo/ENVO_03000073>)
+(<http://purl.obolibrary.org/obo/ENVO_03000072>)
+(<http://purl.obolibrary.org/obo/ENVO_03000071>) }
+}
+

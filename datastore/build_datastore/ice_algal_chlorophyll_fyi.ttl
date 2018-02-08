@@ -1,0 +1,308 @@
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvIdentification> <http://www.w3.org/2000/01/rdf-schema#label> "Identification" ;
+	<http://tools.ietf.org/html/rfc4180columnPosition> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSite> <http://www.w3.org/2000/01/rdf-schema#label> "Site" ;
+	<http://tools.ietf.org/html/rfc4180columnPosition> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSeaIceType> <http://www.w3.org/2000/01/rdf-schema#label> "Sea Ice Type" ;
+	<http://tools.ietf.org/html/rfc4180columnPosition> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvIceOrSnowDepth> <http://www.w3.org/2000/01/rdf-schema#label> "Ice Or Snow Depth" ;
+	<http://tools.ietf.org/html/rfc4180columnPosition> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvMinimumIceOrSnowDepth> <http://www.w3.org/2000/01/rdf-schema#label> "Minimum Ice Or Snow Depth" ;
+	<http://tools.ietf.org/html/rfc4180columnPosition> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvMaximumIceOrSnowDepth> <http://www.w3.org/2000/01/rdf-schema#label> "Maximum Ice Or Snow Depth" ;
+	<http://tools.ietf.org/html/rfc4180columnPosition> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvChlorophyllAConcentration> <http://www.w3.org/2000/01/rdf-schema#label> "Chlorophyll A Concentration" ;
+	<http://tools.ietf.org/html/rfc4180columnPosition> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvArealChlorophyllA> <http://www.w3.org/2000/01/rdf-schema#label> "Areal Chlorophyll A" ;
+	<http://tools.ietf.org/html/rfc4180columnPosition> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSalinity> <http://www.w3.org/2000/01/rdf-schema#label> "Salinity" ;
+	<http://tools.ietf.org/html/rfc4180columnPosition> "8"^^<http://www.w3.org/2001/XMLSchema#integer> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvTexture> <http://www.w3.org/2000/01/rdf-schema#label> "Texture" ;
+	<http://tools.ietf.org/html/rfc4180columnPosition> "9"^^<http://www.w3.org/2001/XMLSchema#integer> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSeaIceTypePortion> <http://www.w3.org/2000/01/rdf-schema#label> "Sea Ice Type Portion" ;
+	<http://tools.ietf.org/html/rfc4180columnPosition> "10"^^<http://www.w3.org/2001/XMLSchema#integer> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvrow/0> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvIdentification> "2_11" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSite> "2"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSeaIceType> <http://purl.obolibrary.org/obo/ENVO_03000071> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvIceOrSnowDepth> "0.05"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvMinimumIceOrSnowDepth> "0"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvMaximumIceOrSnowDepth> "0.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvChlorophyllAConcentration> "0.111"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvArealChlorophyllA> "0.0111"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSalinity> "8.1228"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvTexture> "granular" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSeaIceTypePortion> "first-year sea ice (FYI)" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvrow/0> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvrow/0> <http://tools.ietf.org/html/rfc4180rowPosition> "0" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvrow/1> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvIdentification> "2_11" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSite> "2"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSeaIceType> <http://purl.obolibrary.org/obo/ENVO_03000071> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvIceOrSnowDepth> "0.15"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvMinimumIceOrSnowDepth> "0.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvMaximumIceOrSnowDepth> "0.2"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvChlorophyllAConcentration> "0.0603"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvArealChlorophyllA> "0.006"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSalinity> "5.2224"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvTexture> "mixed" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSeaIceTypePortion> "first-year sea ice (FYI)" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvrow/1> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvrow/1> <http://tools.ietf.org/html/rfc4180rowPosition> "1" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvrow/2> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvIdentification> "2_11" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSite> "2"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSeaIceType> <http://purl.obolibrary.org/obo/ENVO_03000071> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvIceOrSnowDepth> "0.25"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvMinimumIceOrSnowDepth> "0.2"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvMaximumIceOrSnowDepth> "0.3"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvChlorophyllAConcentration> "0.0927"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvArealChlorophyllA> "0.0093"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSalinity> "4.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvTexture> "mixed" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSeaIceTypePortion> "first-year sea ice (FYI)" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvrow/2> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvrow/2> <http://tools.ietf.org/html/rfc4180rowPosition> "2" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvrow/3> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvIdentification> "2_11" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSite> "2"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSeaIceType> <http://purl.obolibrary.org/obo/ENVO_03000071> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvIceOrSnowDepth> "0.35"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvMinimumIceOrSnowDepth> "0.3"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvMaximumIceOrSnowDepth> "0.4"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvChlorophyllAConcentration> "0.0746"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvArealChlorophyllA> "0.0075"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSalinity> "4.1078"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvTexture> "mixed" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSeaIceTypePortion> "first-year sea ice (FYI)" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvrow/3> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvrow/3> <http://tools.ietf.org/html/rfc4180rowPosition> "3" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvrow/4> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvIdentification> "2_11" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSite> "2"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSeaIceType> <http://purl.obolibrary.org/obo/ENVO_03000071> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvIceOrSnowDepth> "0.45"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvMinimumIceOrSnowDepth> "0.4"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvMaximumIceOrSnowDepth> "0.5"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvChlorophyllAConcentration> "0.0716"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvArealChlorophyllA> "0.0072"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSalinity> "4.366"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvTexture> "mixed" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSeaIceTypePortion> "first-year sea ice (FYI)" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvrow/4> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvrow/4> <http://tools.ietf.org/html/rfc4180rowPosition> "4" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvrow/5> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvIdentification> "2_11" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSite> "2"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSeaIceType> <http://purl.obolibrary.org/obo/ENVO_03000071> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvIceOrSnowDepth> "0.55"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvMinimumIceOrSnowDepth> "0.5"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvMaximumIceOrSnowDepth> "0.6"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvChlorophyllAConcentration> "0.0608"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvArealChlorophyllA> "0.0061"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSalinity> "4.5736"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvTexture> "mixed" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSeaIceTypePortion> "first-year sea ice (FYI)" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvrow/5> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvrow/5> <http://tools.ietf.org/html/rfc4180rowPosition> "5" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvrow/6> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvIdentification> "2_11" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSite> "2"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSeaIceType> <http://purl.obolibrary.org/obo/ENVO_03000071> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvIceOrSnowDepth> "0.65"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvMinimumIceOrSnowDepth> "0.6"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvMaximumIceOrSnowDepth> "0.7"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvChlorophyllAConcentration> "0.0522"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvArealChlorophyllA> "0.0052"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSalinity> "4.0037"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvTexture> "granular" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSeaIceTypePortion> "first-year sea ice (FYI)" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvrow/6> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvrow/6> <http://tools.ietf.org/html/rfc4180rowPosition> "6" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvrow/7> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvIdentification> "2_11" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSite> "2"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSeaIceType> <http://purl.obolibrary.org/obo/ENVO_03000071> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvIceOrSnowDepth> "0.75"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvMinimumIceOrSnowDepth> "0.7"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvMaximumIceOrSnowDepth> "0.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvChlorophyllAConcentration> "0.0619"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvArealChlorophyllA> "0.0062"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSalinity> "3.4163"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvTexture> "granular" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSeaIceTypePortion> "first-year sea ice (FYI)" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvrow/7> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvrow/7> <http://tools.ietf.org/html/rfc4180rowPosition> "7" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvrow/8> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvIdentification> "2_11" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSite> "2"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSeaIceType> <http://purl.obolibrary.org/obo/ENVO_03000071> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvIceOrSnowDepth> "0.85"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvMinimumIceOrSnowDepth> "0.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvMaximumIceOrSnowDepth> "0.9"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvChlorophyllAConcentration> "0.074"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvArealChlorophyllA> "0.0074"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSalinity> "3.4834"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvTexture> "granular" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSeaIceTypePortion> "first-year sea ice (FYI)" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvrow/8> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvrow/8> <http://tools.ietf.org/html/rfc4180rowPosition> "8" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvrow/9> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvIdentification> "2_11" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSite> "2"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSeaIceType> <http://purl.obolibrary.org/obo/ENVO_03000071> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvIceOrSnowDepth> "0.95"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvMinimumIceOrSnowDepth> "0.9"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvMaximumIceOrSnowDepth> "1"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvChlorophyllAConcentration> "0.0627"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvArealChlorophyllA> "0.0063"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSalinity> "3.3994"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvTexture> "granular" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSeaIceTypePortion> "first-year sea ice (FYI)" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvrow/9> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvrow/9> <http://tools.ietf.org/html/rfc4180rowPosition> "9" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvrow/10> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvIdentification> "2_11" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSite> "2"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSeaIceType> <http://purl.obolibrary.org/obo/ENVO_03000071> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvIceOrSnowDepth> "1.05"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvMinimumIceOrSnowDepth> "1"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvMaximumIceOrSnowDepth> "1.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvChlorophyllAConcentration> "0.0518"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvArealChlorophyllA> "0.0052"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSalinity> "4.1459"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvTexture> "granular" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSeaIceTypePortion> "first-year sea ice (FYI)" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvrow/10> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvrow/10> <http://tools.ietf.org/html/rfc4180rowPosition> "10" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvrow/11> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvIdentification> "2_11" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSite> "2"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSeaIceType> <http://purl.obolibrary.org/obo/ENVO_03000071> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvIceOrSnowDepth> "1.15"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvMinimumIceOrSnowDepth> "1.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvMaximumIceOrSnowDepth> "1.2"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvChlorophyllAConcentration> "0.1064"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvArealChlorophyllA> "0.0106"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSalinity> "4.814"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvTexture> "granular" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSeaIceTypePortion> "first-year sea ice (FYI)" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvrow/11> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvrow/11> <http://tools.ietf.org/html/rfc4180rowPosition> "11" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvrow/12> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvIdentification> "2_11" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSite> "2"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSeaIceType> <http://purl.obolibrary.org/obo/ENVO_03000071> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvIceOrSnowDepth> "1.25"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvMinimumIceOrSnowDepth> "1.2"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvMaximumIceOrSnowDepth> "1.3"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvChlorophyllAConcentration> "0.479"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvArealChlorophyllA> "0.0479"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSalinity> "4.4271"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvTexture> "granular" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSeaIceTypePortion> "first-year sea ice (FYI)" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvrow/12> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvrow/12> <http://tools.ietf.org/html/rfc4180rowPosition> "12" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvrow/13> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvIdentification> "2_11" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSite> "2"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSeaIceType> <http://purl.obolibrary.org/obo/ENVO_03000071> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvIceOrSnowDepth> "1.35"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvMinimumIceOrSnowDepth> "1.3"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvMaximumIceOrSnowDepth> "1.4"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvChlorophyllAConcentration> "0.3418"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvArealChlorophyllA> "0.0342"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSalinity> "4.3323"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvTexture> "granular" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSeaIceTypePortion> "first-year sea ice (FYI)" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvrow/13> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvrow/13> <http://tools.ietf.org/html/rfc4180rowPosition> "13" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvrow/14> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvIdentification> "2_11" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSite> "2"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSeaIceType> <http://purl.obolibrary.org/obo/ENVO_03000071> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvIceOrSnowDepth> "1.45"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvMinimumIceOrSnowDepth> "1.4"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvMaximumIceOrSnowDepth> "1.5"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvChlorophyllAConcentration> "0.2747"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvArealChlorophyllA> "0.0275"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSalinity> "4.8663"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvTexture> "columnar" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSeaIceTypePortion> "first-year sea ice (FYI)" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvrow/14> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvrow/14> <http://tools.ietf.org/html/rfc4180rowPosition> "14" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvrow/15> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvIdentification> "2_11" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSite> "2"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSeaIceType> <http://purl.obolibrary.org/obo/ENVO_03000071> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvIceOrSnowDepth> "1.55"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvMinimumIceOrSnowDepth> "1.5"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvMaximumIceOrSnowDepth> "1.6"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvChlorophyllAConcentration> "0.2315"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvArealChlorophyllA> "0.0232"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSalinity> "5.5357"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvTexture> "columnar" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvSeaIceTypePortion> "first-year sea ice (FYI)" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvrow/15> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csvrow/15> <http://tools.ietf.org/html/rfc4180rowPosition> "15" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/ice_algal_chlorophyll_fyi.csv> <http://tools.ietf.org/html/rfc4180numberOfRows> "16"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<http://tools.ietf.org/html/rfc4180numberOfColumns> "11"^^<http://www.w3.org/2001/XMLSchema#integer> .

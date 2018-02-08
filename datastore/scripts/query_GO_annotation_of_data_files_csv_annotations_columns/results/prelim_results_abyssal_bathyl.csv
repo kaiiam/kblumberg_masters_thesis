@@ -1,0 +1,8 @@
+molecular_function_bathyal.csvMolecularFunction,http://purl.obolibrary.org/obo/GO_0005507,http://purl.obolibrary.org/obo/GO_0008270,http://purl.obolibrary.org/obo/GO_0008198,http://purl.obolibrary.org/obo/GO_0005506,http://purl.obolibrary.org/obo/GO_0016151,http://purl.obolibrary.org/obo/GO_0050897,http://purl.obolibrary.org/obo/GO_0030145,http://purl.obolibrary.org/obo/GO_0030151,http://purl.obolibrary.org/obo/GO_0008199
+molecular_function_bathyal.csvSample1MolecularFunctionCount,2340,7776,286,8944,399,113,459,1569,521
+molecular_function_bathyal.csvSample2MolecularFunctionCount,3165,9805,394,10100,503,169,526,1871,763
+,,,,,,,,,
+,,,,,,,,,
+molecular_function_abyssal.csvMolecularFunction,http://purl.obolibrary.org/obo/GO_0005507,http://purl.obolibrary.org/obo/GO_0008270,http://purl.obolibrary.org/obo/GO_0008198,http://purl.obolibrary.org/obo/GO_0005506,http://purl.obolibrary.org/obo/GO_0016151,http://purl.obolibrary.org/obo/GO_0050897,http://purl.obolibrary.org/obo/GO_0030145,http://purl.obolibrary.org/obo/GO_0030151,http://purl.obolibrary.org/obo/GO_0008199
+molecular_function_abyssal.csvSample1MolecularFunctionCount,2389,7638,285,7161,362,135,419,1355,548
+molecular_function_abyssal.csvSample2MolecularFunctionCount,2702,8363,256,8522,343,141,507,1488,603

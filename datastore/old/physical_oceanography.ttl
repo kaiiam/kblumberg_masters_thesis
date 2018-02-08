@@ -1,0 +1,36 @@
+@prefix file: <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/physical_oceanography.csv> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+#the csv file is a data item, and is about a marine current
+file: a obo:IAO_0000027 ;
+	obo:IAO_0000136 obo:ENVO_01000067 .
+
+#the csv file has latitude
+file: obo:OBI_0001620 "79.1338"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+#the csv file has longitude
+file: obo:OBI_0001621 "6.0925"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+#the csv file is a data item, and is about a marine water body
+#file: a obo:IAO_0000027 ;
+#	obo:IAO_0000136 obo:ENVO_00001999 .
+
+#the csv's Oxygen column is about a concentration of class and inheres in some oxygen and part of some seawater
+file:Oxygen obo:IAO_0000136 obo:PATO_0000033 ;
+	obo:RO_0000052 obo:CHEBI_15379;
+	obo:BFO_0000050 obo:ENVO_00002149 .
+
+#the csv's Pressure column is about pressure and inheres in some some seawater
+file:Pressure obo:IAO_0000136 obo:PATO_0001025 ;
+	obo:RO_0000052 obo:ENVO_00002149 .
+
+#the csv's Temperature column is about temperature and inheres in some some seawater
+file:Temperature obo:IAO_0000136 obo:PATO_0000146 ;
+	obo:RO_0000052 obo:ENVO_00002149 .
+
+#the csv's WaterDepth column is about a depth class and inheres in some marine water body
+file:WaterDepth obo:IAO_0000136 obo:PATO_0001595 ;
+	obo:RO_0000052 obo:ENVO_00001999 .

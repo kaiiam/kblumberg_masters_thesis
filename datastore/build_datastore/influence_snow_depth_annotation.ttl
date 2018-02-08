@@ -1,0 +1,192 @@
+@prefix path: <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+######################################### csv files #########################################
+
+#annotate a csv file. 
+#file is about: (X1 and X2 ... and ('any property' some (Y1 and Y2 and ... and ('any property' some Z))))
+path:influence_snow_depth.csv a owl:NamedIndividual ;
+            obo:BFO_0000051 path:influence_snow_depth.csvDateTime ;
+            obo:BFO_0000051 path:influence_snow_depth.csvLatitude ;
+            obo:BFO_0000051 path:influence_snow_depth.csvLongitude ;
+            obo:BFO_0000051 path:influence_snow_depth.csvRelativeDistanceX ;
+            obo:BFO_0000051 path:influence_snow_depth.csvRelativeDistanceY ;
+            obo:BFO_0000051 path:influence_snow_depth.csvSeaIceThickness ;
+            obo:BFO_0000051 path:influence_snow_depth.csvSignalStrength ;
+            a [  rdf:type owl:Class ;
+                 owl:equivalentClass [ rdf:type owl:Class ;
+                                       owl:intersectionOf ( <http://purl.obolibrary.org/obo/OBCS_0000120>
+                                                            [ rdf:type owl:Restriction ;
+                                                              owl:onProperty <http://purl.obolibrary.org/obo/IAO_0000136> ;
+                                                              owl:someValuesFrom  [ rdf:type owl:Class ;
+                                                                                    owl:intersectionOf ( <http://purl.obolibrary.org/obo/PATO_0001018>
+                                                                                                         [ rdf:type owl:Restriction ;
+                                                                                                           owl:onProperty <http://purl.obolibrary.org/obo/RO_0000052> ;
+                                                                                                           owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                                                owl:intersectionOf ( <http://purl.obolibrary.org/obo/ENVO_00001999>
+                                                                                                                                                    [ rdf:type owl:Restriction ;
+                                                                                                                                                      owl:onProperty <http://purl.obolibrary.org/obo/RO_0002220> ;
+                                                                                                                                                      owl:someValuesFrom <http://purl.obolibrary.org/obo/ENVO_00002200>
+                                                                                                                                                    ]
+                                                                                                                                                   )
+                                                                                                                              ]
+                                                                                                         ]
+                                                                                                        )
+                                                                                  ]
+                                                            ]
+                                                          )
+                                      ] 
+              ] .
+
+######################################### Columns #########################################
+
+#is about some: (X)
+path:influence_snow_depth.csvDateTime a owl:NamedIndividual ;
+				       a [ rdf:type owl:Class ;
+                   owl:equivalentClass [ rdf:type owl:Class ;
+                                         owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                               owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000050> ;
+                                                               owl:someValuesFrom <http://purl.obolibrary.org/obo/OBCS_0000120>
+                                                              ]
+                                                                                          
+                                                              [ rdf:type owl:Restriction ;
+                                                                owl:onProperty <http://purl.obolibrary.org/obo/IAO_0000136> ;
+                                                                owl:someValuesFrom <http://purl.obolibrary.org/obo/BFO_0000021>
+                                                              ]
+                                                            )
+                                      ]
+                 ] .
+
+#is about some: (X)
+path:influence_snow_depth.csvLatitude a owl:NamedIndividual ;
+				       a [ rdf:type owl:Class ;
+                   owl:equivalentClass [ rdf:type owl:Class ;
+                                         owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                               owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000050> ;
+                                                               owl:someValuesFrom <http://purl.obolibrary.org/obo/OBCS_0000120>
+                                                              ]
+                                                                                          
+                                                              [ rdf:type owl:Restriction ;
+                                                                owl:onProperty <http://purl.obolibrary.org/obo/IAO_0000136> ;
+                                                                owl:someValuesFrom <http://purl.obolibrary.org/obo/OBI_0001620>
+                                                              ]
+                                                            )
+                                      ]
+                 ] .
+
+#is about some: (X)
+path:influence_snow_depth.csvLongitude a owl:NamedIndividual ;
+				       a [ rdf:type owl:Class ;
+                   owl:equivalentClass [ rdf:type owl:Class ;
+                                         owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                               owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000050> ;
+                                                               owl:someValuesFrom <http://purl.obolibrary.org/obo/OBCS_0000120>
+                                                              ]
+                                                                                          
+                                                              [ rdf:type owl:Restriction ;
+                                                                owl:onProperty <http://purl.obolibrary.org/obo/IAO_0000136> ;
+                                                                owl:someValuesFrom <http://purl.obolibrary.org/obo/OBI_0001621>
+                                                              ]
+                                                            )
+                                      ]
+                 ] .
+
+#is about some: (X1 and X2 ... and ('any property' some Y))
+path:influence_snow_depth.csvRelativeDistanceX  a owl:NamedIndividual ;
+                                        a [ rdf:type owl:Class ;
+                                            owl:equivalentClass [ rdf:type owl:Class ;
+                                                                  owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                                         owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000050> ;
+                                                                                         owl:someValuesFrom <http://purl.obolibrary.org/obo/OBCS_0000120>
+                                                                                       ]                                           
+
+                                                                                       [ rdf:type owl:Restriction ;
+                                                                                         owl:onProperty <http://purl.obolibrary.org/obo/IAO_0000136> ;
+                                                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                              owl:intersectionOf ( <http://purl.obolibrary.org/obo/PATO_0000040>
+                                                                                                                                     [ rdf:type owl:Restriction ;
+                                                                                                                                       owl:onProperty <http://purl.obolibrary.org/obo/RO_0000052> ;
+                                                                                                                                       owl:someValuesFrom <http://purl.obolibrary.org/obo/ENVO_00002200>
+                                                                                                                                     ]
+                                                                                                                                  )
+                                                                                                            ]
+                                                                                       ]
+                                                                                      )
+                                                                ]
+                                          ] .
+
+#is about some: (X1 and X2 ... and ('any property' some Y))
+path:influence_snow_depth.csvRelativeDistanceY  a owl:NamedIndividual ;
+                                        a [ rdf:type owl:Class ;
+                                            owl:equivalentClass [ rdf:type owl:Class ;
+                                                                  owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                                         owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000050> ;
+                                                                                         owl:someValuesFrom <http://purl.obolibrary.org/obo/OBCS_0000120>
+                                                                                       ]                                           
+
+                                                                                       [ rdf:type owl:Restriction ;
+                                                                                         owl:onProperty <http://purl.obolibrary.org/obo/IAO_0000136> ;
+                                                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                              owl:intersectionOf ( <http://purl.obolibrary.org/obo/PATO_0000040>
+                                                                                                                                     [ rdf:type owl:Restriction ;
+                                                                                                                                       owl:onProperty <http://purl.obolibrary.org/obo/RO_0000052> ;
+                                                                                                                                       owl:someValuesFrom <http://purl.obolibrary.org/obo/ENVO_00002200>
+                                                                                                                                     ]
+                                                                                                                                  )
+                                                                                                            ]
+                                                                                       ]
+                                                                                      )
+                                                                ]
+                                          ] .
+
+#is about some: (X1 and X2 ... and ('any property' some Y))
+path:influence_snow_depth.csvSeaIceThickness  a owl:NamedIndividual ;
+                                        a [ rdf:type owl:Class ;
+                                            owl:equivalentClass [ rdf:type owl:Class ;
+                                                                  owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                                         owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000050> ;
+                                                                                         owl:someValuesFrom <http://purl.obolibrary.org/obo/OBCS_0000120>
+                                                                                       ]                                           
+
+                                                                                       [ rdf:type owl:Restriction ;
+                                                                                         owl:onProperty <http://purl.obolibrary.org/obo/IAO_0000136> ;
+                                                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                              owl:intersectionOf ( <http://purl.obolibrary.org/obo/PATO_0000915>
+                                                                                                                                     [ rdf:type owl:Restriction ;
+                                                                                                                                       owl:onProperty <http://purl.obolibrary.org/obo/RO_0000052> ;
+                                                                                                                                       owl:someValuesFrom <http://purl.obolibrary.org/obo/ENVO_00002200>
+                                                                                                                                     ]
+                                                                                                                                  )
+                                                                                                            ]
+                                                                                       ]
+                                                                                      )
+                                                                ]
+                                          ] .
+
+#is about some: (X1 and X2 ... and ('any property' some Y))
+path:influence_snow_depth.csvSignalStrength  a owl:NamedIndividual ;
+                                        a [ rdf:type owl:Class ;
+                                            owl:equivalentClass [ rdf:type owl:Class ;
+                                                                  owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                                         owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000050> ;
+                                                                                         owl:someValuesFrom <http://purl.obolibrary.org/obo/OBCS_0000120>
+                                                                                       ]                                           
+
+                                                                                       [ rdf:type owl:Restriction ;
+                                                                                         owl:onProperty <http://purl.obolibrary.org/obo/IAO_0000136> ;
+                                                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                              owl:intersectionOf ( <http://purl.obolibrary.org/obo/PATO_0015013>
+                                                                                                                                     [ rdf:type owl:Restriction ;
+                                                                                                                                       owl:onProperty <http://purl.obolibrary.org/obo/RO_0000052> ;
+                                                                                                                                       owl:someValuesFrom <http://purl.obolibrary.org/obo/ENVO_00002200>
+                                                                                                                                     ]
+                                                                                                                                  )
+                                                                                                            ]
+                                                                                       ]
+                                                                                      )
+                                                                ]
+                                          ] .

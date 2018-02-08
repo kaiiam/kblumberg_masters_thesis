@@ -1,0 +1,31 @@
+PREFIX obo: <http://purl.obolibrary.org/obo/> 
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX owl: <http://www.w3.org/2002/07/owl#> 
+
+SELECT  ?column
+	(group_concat(DISTINCT ?value; separator=", ") as ?value)
+
+FROM <../../mf_datastore.ttl>
+WHERE {
+
+?row a ns1:rfc4180Row ;
+  ?cols ?x .
+
+VALUES (?cols) {
+(<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/molecular_function_bathyal.csvMolecularFunction>)
+(<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/molecular_function_abyssal.csvMolecularFunction>)
+}
+
+VALUES (?x) {
+(<http://purl.obolibrary.org/obo/GO_0004345>)
+(<http://purl.obolibrary.org/obo/GO_0016833>)
+(<http://purl.obolibrary.org/obo/GO_0043772>)
+}
+
+?row ?column ?value.
+
+FILTER(?value != <http://tools.ietf.org/html/rfc4180Row>)
+FILTER(?column != <http://tools.ietf.org/html/rfc4180rowPosition>)
+
+} GROUP BY ?column

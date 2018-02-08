@@ -1,0 +1,10 @@
+Can a semantic knowledge graph guide scientists toward data which is relevant to a natural process they are studying?
+
+for example the ``query_for_classes_linked_by_input_classes_and_input_properties.py`` script to get any classes which participate in a 'water ice formation process' and script ``annotation_of_data_files.py`` to query for them.  
+
+
+see log from https://github.com/kaiiam/kblumberg_masters_thesis/wiki/log2#310118
+
+
+
+NEED TO modify the script either to take the 3rd column from the classes_realated_by csv or to have the other script write another file (in addition to the csv) which is just the 3rd column as a txt list. 

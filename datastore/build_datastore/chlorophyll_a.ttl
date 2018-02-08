@@ -1,0 +1,1181 @@
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> <http://www.w3.org/2000/01/rdf-schema#label> "Event" ;
+	<http://tools.ietf.org/html/rfc4180columnPosition> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> <http://www.w3.org/2000/01/rdf-schema#label> "Date Time" ;
+	<http://tools.ietf.org/html/rfc4180columnPosition> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> <http://www.w3.org/2000/01/rdf-schema#label> "Latitude" ;
+	<http://tools.ietf.org/html/rfc4180columnPosition> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> <http://www.w3.org/2000/01/rdf-schema#label> "Longitude" ;
+	<http://tools.ietf.org/html/rfc4180columnPosition> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> <http://www.w3.org/2000/01/rdf-schema#label> "Elevation" ;
+	<http://tools.ietf.org/html/rfc4180columnPosition> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> <http://www.w3.org/2000/01/rdf-schema#label> "Water Depth" ;
+	<http://tools.ietf.org/html/rfc4180columnPosition> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> <http://www.w3.org/2000/01/rdf-schema#label> "Chlorophyll A" ;
+	<http://tools.ietf.org/html/rfc4180columnPosition> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/0> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/104-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-11T21:18" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "79.0672"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "4.1962"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-2448"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "100"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "0.015"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/0> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/0> <http://tools.ietf.org/html/rfc4180rowPosition> "0" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/1> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/104-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-11T21:18" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "79.0672"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "4.1962"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-2448"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "50"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "0.094"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/1> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/1> <http://tools.ietf.org/html/rfc4180rowPosition> "1" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/2> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/104-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-11T21:18" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "79.0672"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "4.1962"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-2448"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "25"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "1.846"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/2> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/2> <http://tools.ietf.org/html/rfc4180rowPosition> "2" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/3> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/104-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-11T21:18" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "79.0672"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "4.1962"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-2448"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "20"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "1.147"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/3> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/3> <http://tools.ietf.org/html/rfc4180rowPosition> "3" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/4> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/104-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-11T21:18" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "79.0672"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "4.1962"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-2448"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "10"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "0.79"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/4> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/4> <http://tools.ietf.org/html/rfc4180rowPosition> "4" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/5> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/106-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-12T13:59" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "79.0595"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "3.5767"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-3489"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "100"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "0.034"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/5> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/5> <http://tools.ietf.org/html/rfc4180rowPosition> "5" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/6> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/106-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-12T13:59" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "79.0595"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "3.5767"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-3489"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "60"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "1.489"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/6> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/6> <http://tools.ietf.org/html/rfc4180rowPosition> "6" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/7> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/106-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-12T13:59" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "79.0595"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "3.5767"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-3489"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "50"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "2.539"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/7> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/7> <http://tools.ietf.org/html/rfc4180rowPosition> "7" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/8> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/106-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-12T13:59" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "79.0595"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "3.5767"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-3489"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "40"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "2.288"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/8> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/8> <http://tools.ietf.org/html/rfc4180rowPosition> "8" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/9> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/106-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-12T13:59" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "79.0595"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "3.5767"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-3489"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "25"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "2.351"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/9> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/9> <http://tools.ietf.org/html/rfc4180rowPosition> "9" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/10> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/106-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-12T13:59" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "79.0595"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "3.5767"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-3489"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "10"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "1.574"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/10> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/10> <http://tools.ietf.org/html/rfc4180rowPosition> "10" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/11> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/107-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-12T19:10" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "79.1125"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "4.5645"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-1839"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "100"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "0.023"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/11> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/11> <http://tools.ietf.org/html/rfc4180rowPosition> "11" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/12> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/107-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-12T19:10" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "79.1125"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "4.5645"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-1839"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "75"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "0.094"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/12> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/12> <http://tools.ietf.org/html/rfc4180rowPosition> "12" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/13> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/107-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-12T19:10" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "79.1125"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "4.5645"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-1839"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "50"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "0.337"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/13> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/13> <http://tools.ietf.org/html/rfc4180rowPosition> "13" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/14> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/107-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-12T19:10" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "79.1125"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "4.5645"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-1839"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "40"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "1.251"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/14> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/14> <http://tools.ietf.org/html/rfc4180rowPosition> "14" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/15> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/107-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-12T19:10" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "79.1125"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "4.5645"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-1839"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "15"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "1.509"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/15> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/15> <http://tools.ietf.org/html/rfc4180rowPosition> "15" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/16> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/107-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-12T19:10" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "79.1125"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "4.5645"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-1839"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "10"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "1.627"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/16> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/16> <http://tools.ietf.org/html/rfc4180rowPosition> "16" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/17> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/108-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-12T22:28" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "79.1298"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "4.9045"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-1550"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "80"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "0.083"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/17> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/17> <http://tools.ietf.org/html/rfc4180rowPosition> "17" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/18> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/108-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-12T22:28" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "79.1298"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "4.9045"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-1550"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "65"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "0.08"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/18> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/18> <http://tools.ietf.org/html/rfc4180rowPosition> "18" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/19> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/108-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-12T22:28" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "79.1298"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "4.9045"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-1550"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "50"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "1.654"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/19> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/19> <http://tools.ietf.org/html/rfc4180rowPosition> "19" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/20> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/108-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-12T22:28" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "79.1298"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "4.9045"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-1550"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "30"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "1.774"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/20> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/20> <http://tools.ietf.org/html/rfc4180rowPosition> "20" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/21> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/108-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-12T22:28" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "79.1298"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "4.9045"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-1550"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "20"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "1.436"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/21> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/21> <http://tools.ietf.org/html/rfc4180rowPosition> "21" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/22> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/108-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-12T22:28" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "79.1298"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "4.9045"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-1550"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "10"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "0.757"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/22> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/22> <http://tools.ietf.org/html/rfc4180rowPosition> "22" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/23> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/109-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-13T02:15" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "79.1342"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "6.0957"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-1284"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "100"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "0.044"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/23> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/23> <http://tools.ietf.org/html/rfc4180rowPosition> "23" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/24> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/109-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-13T02:15" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "79.1342"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "6.0957"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-1284"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "75"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "0.163"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/24> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/24> <http://tools.ietf.org/html/rfc4180rowPosition> "24" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/25> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/109-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-13T02:15" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "79.1342"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "6.0957"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-1284"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "55"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "0.738"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/25> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/25> <http://tools.ietf.org/html/rfc4180rowPosition> "25" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/26> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/109-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-13T02:15" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "79.1342"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "6.0957"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-1284"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "40"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "1.162"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/26> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/26> <http://tools.ietf.org/html/rfc4180rowPosition> "26" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/27> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/109-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-13T02:15" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "79.1342"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "6.0957"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-1284"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "35"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "1.495"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/27> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/27> <http://tools.ietf.org/html/rfc4180rowPosition> "27" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/28> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/109-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-13T02:15" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "79.1342"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "6.0957"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-1284"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "15"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "1.391"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/28> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/28> <http://tools.ietf.org/html/rfc4180rowPosition> "28" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/29> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/112-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-14T03:32" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "79.0588"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "3.4813"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-3989"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "60"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "0.15"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/29> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/29> <http://tools.ietf.org/html/rfc4180rowPosition> "29" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/30> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/112-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-14T03:32" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "79.0588"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "3.4813"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-3989"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "30"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "0.691"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/30> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/30> <http://tools.ietf.org/html/rfc4180rowPosition> "30" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/31> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/112-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-14T03:32" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "79.0588"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "3.4813"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-3989"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "20"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "0.934"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/31> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/31> <http://tools.ietf.org/html/rfc4180rowPosition> "31" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/32> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/112-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-14T03:32" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "79.0588"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "3.4813"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-3989"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "10"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "0.827"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/32> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/32> <http://tools.ietf.org/html/rfc4180rowPosition> "32" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/33> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/116-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-15T05:02" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "79.7272"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "4.4783"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-2731"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "100"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "0.176"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/33> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/33> <http://tools.ietf.org/html/rfc4180rowPosition> "33" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/34> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/116-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-15T05:02" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "79.7272"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "4.4783"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-2731"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "70"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "0.596"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/34> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/34> <http://tools.ietf.org/html/rfc4180rowPosition> "34" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/35> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/116-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-15T05:02" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "79.7272"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "4.4783"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-2731"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "40"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "2.154"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/35> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/35> <http://tools.ietf.org/html/rfc4180rowPosition> "35" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/36> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/116-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-15T05:02" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "79.7272"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "4.4783"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-2731"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "30"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "3.569"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/36> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/36> <http://tools.ietf.org/html/rfc4180rowPosition> "36" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/37> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/116-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-15T05:02" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "79.7272"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "4.4783"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-2731"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "20"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "0.758"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/37> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/37> <http://tools.ietf.org/html/rfc4180rowPosition> "37" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/38> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/116-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-15T05:02" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "79.7272"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "4.4783"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-2731"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "10"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "0.641"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/38> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/38> <http://tools.ietf.org/html/rfc4180rowPosition> "38" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/39> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/118-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-16T00:30" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "79.6013"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "5.1693"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-2788"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "125"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "0.035"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/39> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/39> <http://tools.ietf.org/html/rfc4180rowPosition> "39" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/40> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/118-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-16T00:30" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "79.6013"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "5.1693"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-2788"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "115"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "0.052"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/40> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/40> <http://tools.ietf.org/html/rfc4180rowPosition> "40" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/41> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/118-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-16T00:30" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "79.6013"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "5.1693"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-2788"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "70"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "1.039"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/41> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/41> <http://tools.ietf.org/html/rfc4180rowPosition> "41" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/42> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/118-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-16T00:30" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "79.6013"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "5.1693"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-2788"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "55"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/42> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/42> <http://tools.ietf.org/html/rfc4180rowPosition> "42" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/43> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/118-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-16T00:30" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "79.6013"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "5.1693"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-2788"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "30"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "1.158"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/43> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/43> <http://tools.ietf.org/html/rfc4180rowPosition> "43" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/44> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/118-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-16T00:30" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "79.6013"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "5.1693"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-2788"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "20"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "0.765"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/44> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/44> <http://tools.ietf.org/html/rfc4180rowPosition> "44" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/45> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/119-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-16T05:20" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "79.412"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "4.6605"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-2554"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "120"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "0.063"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/45> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/45> <http://tools.ietf.org/html/rfc4180rowPosition> "45" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/46> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/119-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-16T05:20" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "79.412"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "4.6605"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-2554"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "85"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "0.233"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/46> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/46> <http://tools.ietf.org/html/rfc4180rowPosition> "46" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/47> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/119-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-16T05:20" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "79.412"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "4.6605"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-2554"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "55"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "0.502"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/47> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/47> <http://tools.ietf.org/html/rfc4180rowPosition> "47" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/48> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/119-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-16T05:20" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "79.412"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "4.6605"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-2554"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "40"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "1.387"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/48> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/48> <http://tools.ietf.org/html/rfc4180rowPosition> "48" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/49> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/119-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-16T05:20" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "79.412"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "4.6605"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-2554"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "30"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "2.121"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/49> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/49> <http://tools.ietf.org/html/rfc4180rowPosition> "49" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/50> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/119-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-16T05:20" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "79.412"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "4.6605"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-2554"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "10"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "1.301"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/50> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/50> <http://tools.ietf.org/html/rfc4180rowPosition> "50" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/51> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/120-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-16T09:48" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "79.2825"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "4.3307"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-2398"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "120"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "0.053"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/51> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/51> <http://tools.ietf.org/html/rfc4180rowPosition> "51" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/52> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/120-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-16T09:48" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "79.2825"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "4.3307"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-2398"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "100"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "0.113"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/52> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/52> <http://tools.ietf.org/html/rfc4180rowPosition> "52" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/53> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/120-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-16T09:48" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "79.2825"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "4.3307"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-2398"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "75"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "0.746"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/53> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/53> <http://tools.ietf.org/html/rfc4180rowPosition> "53" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/54> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/120-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-16T09:48" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "79.2825"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "4.3307"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-2398"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "40"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "2.246"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/54> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/54> <http://tools.ietf.org/html/rfc4180rowPosition> "54" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/55> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/120-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-16T09:48" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "79.2825"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "4.3307"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-2398"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "20"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "1.598"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/55> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/55> <http://tools.ietf.org/html/rfc4180rowPosition> "55" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/56> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/120-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-16T09:48" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "79.2825"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "4.3307"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-2398"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "10"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "1.208"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/56> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/56> <http://tools.ietf.org/html/rfc4180rowPosition> "56" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/57> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/127-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-17T20:30" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "78.9172"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "5.0022"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-2637"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "100"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "0.15"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/57> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/57> <http://tools.ietf.org/html/rfc4180rowPosition> "57" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/58> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/127-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-17T20:30" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "78.9172"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "5.0022"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-2637"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "80"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "0.168"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/58> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/58> <http://tools.ietf.org/html/rfc4180rowPosition> "58" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/59> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/127-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-17T20:30" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "78.9172"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "5.0022"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-2637"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "50"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "1.579"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/59> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/59> <http://tools.ietf.org/html/rfc4180rowPosition> "59" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/60> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/127-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-17T20:30" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "78.9172"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "5.0022"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-2637"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "40"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "1.251"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/60> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/60> <http://tools.ietf.org/html/rfc4180rowPosition> "60" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/61> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/127-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-17T20:30" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "78.9172"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "5.0022"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-2637"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "18"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "2.364"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/61> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/61> <http://tools.ietf.org/html/rfc4180rowPosition> "61" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/62> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/127-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-17T20:30" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "78.9172"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "5.0022"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-2637"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "10"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "1.274"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/62> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/62> <http://tools.ietf.org/html/rfc4180rowPosition> "62" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/63> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/128-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-18T00:55" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "78.7812"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "5.3328"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-2469"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "120"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "0.053"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/63> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/63> <http://tools.ietf.org/html/rfc4180rowPosition> "63" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/64> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/128-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-18T00:55" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "78.7812"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "5.3328"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-2469"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "100"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "0.235"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/64> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/64> <http://tools.ietf.org/html/rfc4180rowPosition> "64" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/65> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/128-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-18T00:55" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "78.7812"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "5.3328"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-2469"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "75"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "0.378"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/65> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/65> <http://tools.ietf.org/html/rfc4180rowPosition> "65" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/66> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/128-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-18T00:55" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "78.7812"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "5.3328"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-2469"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "60"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "0.787"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/66> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/66> <http://tools.ietf.org/html/rfc4180rowPosition> "66" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/67> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/128-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-18T00:55" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "78.7812"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "5.3328"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-2469"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "30"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "1.146"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/67> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/67> <http://tools.ietf.org/html/rfc4180rowPosition> "67" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/68> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/128-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-18T00:55" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "78.7812"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "5.3328"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-2469"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "10"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "1.15"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/68> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/68> <http://tools.ietf.org/html/rfc4180rowPosition> "68" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/69> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/129-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-18T05:09" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "78.6075"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "5.0705"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-2339"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "100"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "0.029"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/69> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/69> <http://tools.ietf.org/html/rfc4180rowPosition> "69" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/70> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/129-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-18T05:09" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "78.6075"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "5.0705"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-2339"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "80"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "0.055"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/70> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/70> <http://tools.ietf.org/html/rfc4180rowPosition> "70" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/71> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/129-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-18T05:09" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "78.6075"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "5.0705"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-2339"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "50"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "0.324"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/71> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/71> <http://tools.ietf.org/html/rfc4180rowPosition> "71" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/72> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/129-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-18T05:09" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "78.6075"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "5.0705"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-2339"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "40"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "1.157"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/72> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/72> <http://tools.ietf.org/html/rfc4180rowPosition> "72" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/73> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/129-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-18T05:09" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "78.6075"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "5.0705"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-2339"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "30"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "1.559"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/73> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/73> <http://tools.ietf.org/html/rfc4180rowPosition> "73" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/74> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/129-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-18T05:09" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "78.6075"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "5.0705"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-2339"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "20"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "2.593"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/74> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/74> <http://tools.ietf.org/html/rfc4180rowPosition> "74" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/75> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/132-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-18T18:03" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "79.031"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "7.0022"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-1306"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "100"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "0.425"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/75> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/75> <http://tools.ietf.org/html/rfc4180rowPosition> "75" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/76> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/132-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-18T18:03" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "79.031"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "7.0022"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-1306"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "65"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "0.932"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/76> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/76> <http://tools.ietf.org/html/rfc4180rowPosition> "76" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/77> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/132-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-18T18:03" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "79.031"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "7.0022"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-1306"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "50"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "1.346"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/77> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/77> <http://tools.ietf.org/html/rfc4180rowPosition> "77" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/78> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/132-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-18T18:03" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "79.031"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "7.0022"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-1306"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "30"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "1.151"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/78> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/78> <http://tools.ietf.org/html/rfc4180rowPosition> "78" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/79> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/132-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-18T18:03" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "79.031"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "7.0022"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-1306"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "10"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "1.16"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/79> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/79> <http://tools.ietf.org/html/rfc4180rowPosition> "79" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/80> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/133-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-18T22:43" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "78.9818"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "9.425"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-227"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "100"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "0.157"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/80> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/80> <http://tools.ietf.org/html/rfc4180rowPosition> "80" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/81> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/133-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-18T22:43" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "78.9818"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "9.425"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-227"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "75"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "0.182"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/81> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/81> <http://tools.ietf.org/html/rfc4180rowPosition> "81" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/82> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/133-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-18T22:43" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "78.9818"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "9.425"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-227"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "35"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "0.589"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/82> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/82> <http://tools.ietf.org/html/rfc4180rowPosition> "82" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/83> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/133-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-18T22:43" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "78.9818"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "9.425"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-227"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "25"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "0.935"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/83> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/83> <http://tools.ietf.org/html/rfc4180rowPosition> "83" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/84> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/133-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-18T22:43" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "78.9818"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "9.425"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-227"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "10"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "0.553"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/84> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/84> <http://tools.ietf.org/html/rfc4180rowPosition> "84" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/85> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/134-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-20T12:21" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "72.1692"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "14.6307"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-1155"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "40"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "0.205"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/85> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/85> <http://tools.ietf.org/html/rfc4180rowPosition> "85" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/86> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/134-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-20T12:21" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "72.1692"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "14.6307"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-1155"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "30"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "0.466"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/86> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/86> <http://tools.ietf.org/html/rfc4180rowPosition> "86" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/87> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/134-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-20T12:21" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "72.1692"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "14.6307"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-1155"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "20"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "0.829"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/87> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/87> <http://tools.ietf.org/html/rfc4180rowPosition> "87" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/88> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvEvent> "PS74/134-1" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvDateTime> "2009-07-20T12:21" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLatitude> "72.1692"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvLongitude> "14.6307"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvElevation> "-1155"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvWaterDepth> "10"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvChlorophyllA> "1.099"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/88> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csvrow/88> <http://tools.ietf.org/html/rfc4180rowPosition> "88" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/chlorophyll_a.csv> <http://tools.ietf.org/html/rfc4180numberOfRows> "89"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<http://tools.ietf.org/html/rfc4180numberOfColumns> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .

@@ -1,0 +1,215 @@
+library(vegan)
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+
+#Biological Process
+
+#data filtering:
+setwd("/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/competency_questions/connecting_GO_and_ENVO/analysis_biological_pro")
+
+#1
+#####################################################################
+pca_data <- read.csv(file = "go_envo_data_GO_0006810.csv",header = FALSE)
+
+#filter the bathyl samples 
+bathyal <- pca_data %>% filter(grepl('bathyal', V1) )
+bat <- rbind(bathyal[1,], bathyal[3,])
+colnames(bat) <- as.character(unlist(bathyal[2,]))
+colnames(bat)[1] <- "sample"
+
+#filter the abyssal samples
+abyssal <- pca_data %>% filter(grepl('abyssal', V1) )
+aby <- rbind(abyssal[3,],abyssal[2,])
+colnames(aby) <- as.character(unlist(abyssal[1,]))
+colnames(aby)[1] <- "sample"
+
+#order the column names
+aby <- aby[colnames(bat)]
+#combine the data frames
+combined <- rbind(bat,aby)
+#strip the url prefix
+colnames(combined) <- gsub("http://purl.obolibrary.org/obo/","", colnames(combined))
+combined <- mutate(combined, sample =c('1244m','2403m','3531m','5525m'))
+combined <- mutate(combined, sample = factor(sample, levels = c('1244m','2403m','3531m','5525m')))
+
+#change the data from character to numeric
+#make an index of all columns which are factors
+indx <- sapply(combined, is.factor)
+#change the first column (sample) not to be changed to numeric
+indx[1] <- FALSE
+#change the rest of the data to numeric 
+combined[indx] <- lapply(combined[indx], function(x) as.numeric(as.character(x)))
+
+# doing pcoa on my data
+my.dis <- vegdist(wisconsin(combined[,-1])) 
+my.pcoa <- cmdscale(my.dis, eig = TRUE)
+
+#blue to green
+colors_vec <- c("#14c4ff","#1461f0","#0d742e","#0A3A0A")
+
+my.pcoa$species <- wascores(my.pcoa$points, combined[,-1], expand = TRUE)
+fig <- ordiplot(my.pcoa, type = "none")
+text(fig, "species", col="#d43e24", cex=1)
+points(fig, "sites", col=colors_vec, cex=1.4, pch=19)
+
+spp.names <- levels(combined$sample)
+#legend("bottomleft", col = colors_vec, lty = 1, legend = spp.names, title="Depth", text.font = 1)
+#####################################################################
+
+
+#2
+#####################################################################
+pca_data <- read.csv(file = "go_envo_data_GO_0016192.csv",header = FALSE)
+
+#filter the bathyl samples 
+bathyal <- pca_data %>% filter(grepl('bathyal', V1) )
+bat <- rbind(bathyal[1,], bathyal[3,])
+colnames(bat) <- as.character(unlist(bathyal[2,]))
+colnames(bat)[1] <- "sample"
+
+#filter the abyssal samples
+abyssal <- pca_data %>% filter(grepl('abyssal', V1) )
+aby <- rbind(abyssal[3,],abyssal[2,])
+colnames(aby) <- as.character(unlist(abyssal[1,]))
+colnames(aby)[1] <- "sample"
+
+#order the column names
+aby <- aby[colnames(bat)]
+#combine the data frames
+combined <- rbind(bat,aby)
+#strip the url prefix
+colnames(combined) <- gsub("http://purl.obolibrary.org/obo/","", colnames(combined))
+combined <- mutate(combined, sample =c('1244m','2403m','3531m','5525m'))
+combined <- mutate(combined, sample = factor(sample, levels = c('1244m','2403m','3531m','5525m')))
+
+#change the data from character to numeric
+#make an index of all columns which are factors
+indx <- sapply(combined, is.factor)
+#change the first column (sample) not to be changed to numeric
+indx[1] <- FALSE
+#change the rest of the data to numeric 
+combined[indx] <- lapply(combined[indx], function(x) as.numeric(as.character(x)))
+
+# doing pcoa on my data
+my.dis <- vegdist(wisconsin(combined[,-1])) 
+my.pcoa <- cmdscale(my.dis, eig = TRUE)
+
+#blue to green
+colors_vec <- c("#14c4ff","#1461f0","#0d742e","#0A3A0A")
+
+my.pcoa$species <- wascores(my.pcoa$points, combined[,-1], expand = TRUE)
+fig <- ordiplot(my.pcoa, type = "none")
+text(fig, "species", col="#d43e24", cex=1)
+points(fig, "sites", col=colors_vec, cex=1.4, pch=19)
+
+spp.names <- levels(combined$sample)
+#legend("bottomleft", col = colors_vec, lty = 1, legend = spp.names, title="Depth", text.font = 1)
+#####################################################################
+
+
+#3
+#####################################################################
+pca_data <- read.csv(file = "go_envo_data_GO_0048193.csv",header = FALSE)
+
+#filter the bathyl samples 
+bathyal <- pca_data %>% filter(grepl('bathyal', V1) )
+bat <- rbind(bathyal[1,], bathyal[3,])
+colnames(bat) <- as.character(unlist(bathyal[2,]))
+colnames(bat)[1] <- "sample"
+
+#filter the abyssal samples
+abyssal <- pca_data %>% filter(grepl('abyssal', V1) )
+aby <- rbind(abyssal[3,],abyssal[2,])
+colnames(aby) <- as.character(unlist(abyssal[1,]))
+colnames(aby)[1] <- "sample"
+
+#order the column names
+aby <- aby[colnames(bat)]
+#combine the data frames
+combined <- rbind(bat,aby)
+#strip the url prefix
+colnames(combined) <- gsub("http://purl.obolibrary.org/obo/","", colnames(combined))
+combined <- mutate(combined, sample =c('1244m','2403m','3531m','5525m'))
+combined <- mutate(combined, sample = factor(sample, levels = c('1244m','2403m','3531m','5525m')))
+
+#change the data from character to numeric
+#make an index of all columns which are factors
+indx <- sapply(combined, is.factor)
+#change the first column (sample) not to be changed to numeric
+indx[1] <- FALSE
+#change the rest of the data to numeric 
+combined[indx] <- lapply(combined[indx], function(x) as.numeric(as.character(x)))
+
+# doing pcoa on my data
+my.dis <- vegdist(wisconsin(combined[,-1])) 
+my.pcoa <- cmdscale(my.dis, eig = TRUE)
+
+#blue to green
+colors_vec <- c("#14c4ff","#1461f0","#0d742e","#0A3A0A")
+
+my.pcoa$species <- wascores(my.pcoa$points, combined[,-1], expand = TRUE)
+fig <- ordiplot(my.pcoa, type = "none")
+text(fig, "species", col="#d43e24", cex=1)
+points(fig, "sites", col=colors_vec, cex=1.4, pch=19)
+
+spp.names <- levels(combined$sample)
+#legend("bottomleft", col = colors_vec, lty = 1, legend = spp.names, title="Depth", text.font = 1)
+#####################################################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#try doing Distance-based redundancy analysis // couln't figure it out
+#//perhaps try again later
+#constraining by the depths of the samples
+#depth <- c(1000,2000,3000,6000)
+#env_vars <- data.frame(depths)
+
+#my.dis <- decostand(combined[,-1], "max")
+#apply(my.dis, 2, max)
+#my.dis <- vegdist(wisconsin(combined[,-1])) 
+#my.pcoa <- cmdscale(my.dis, eig = TRUE)
+
+#mydbRDA <- capscale(my.pcoa ~ depth, data=env_vars, dist="euclidean")
+
+## Basic Analysis
+#vare.cap <- capscale(varespec ~ N + P + K + Condition(Al), varechem, dist="bray")
+
+# old example 
+#my.pcoa$species <- wascores(my.pcoa$points, combined[,-1], expand = TRUE)
+#fig <- ordiplot(my.pcoa, type = "none")
+#points(fig, "sites", pch=21, col="red", bg="yellow")
+#text(fig, "species", col="blue", cex=0.9)
+
+
+## Principal coordinates analysis with extended dissimilarities
+
+#data(varespec)
+#vare.pcoa <- capscale(varespec ~ 1, dist="bray", metaMDS = TRUE)
+#plot <- ordiplot(vare.pcoa, type = "text")
+
+# try pcoa on dune data
+#dune.pcoa <- capscale(dune ~ 1, distance = "bray", sqrt.dist = FALSE,
+#                  dfun = vegdist, metaMDSdist = TRUE)
+
+#fig <- ordiplot(dune.pcoa, type = "text")
+
+# try pcoa on my data
+#my.pcoa <- capscale(combined[,-1] ~ 1, distance = "bray", sqrt.dist = FALSE,
+#                      dfun = vegdist, metaMDSdist = TRUE)
+
+#fig1 <- ordiplot(my.pcoa, type = "text")
+

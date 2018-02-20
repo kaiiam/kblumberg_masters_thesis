@@ -1,0 +1,65 @@
+Expertise,Query,Annotations,Percent,Sample
+basic,'Bacteria’ and ‘Archaea’,6,100.0,Annotations
+basic,'concentration of’ and ‘chlorophyll a’,0,0.0,Annotations
+basic,'marine current’ and ‘velocity’,0,0.0,Annotations
+basic,'microbial community’ and ‘species diversity’,0,0.0,Annotations
+basic,'sea ice’ and ‘depth’,0,0.0,Annotations
+basic,'sea ice’ and ‘temperature’,0,0.0,Annotations
+basic,'sea water’ and ‘chlorophyll a’,0,0.0,Annotations
+basic,'snow’ and ‘thickness’,0,0.0,Annotations
+intermediate,'Bacteria’ and ‘Archaea’,6,100.0,Annotations
+intermediate,'concentration of’ and ‘chlorophyll a’,0,0.0,Annotations
+intermediate,'marine current’ and ‘velocity’,4,57.1,Annotations
+intermediate,'microbial community’ and ‘species diversity’,0,0.0,Annotations
+intermediate,'sea ice’ and ‘depth’,0,0.0,Annotations
+intermediate,'sea ice’ and ‘temperature’,2,40.0,Annotations
+intermediate,'sea water’ and ‘chlorophyll a’,0,0.0,Annotations
+intermediate,'snow’ and ‘thickness’,8,66.7,Annotations
+advanced,'Bacteria’ and ‘Archaea’,6,100.0,Annotations
+advanced,'concentration of’ and ‘chlorophyll a’,25,86.2,Annotations
+advanced,'marine current’ and ‘velocity’,4,57.1,Annotations
+advanced,'microbial community’ and ‘species diversity’,12,100.0,Annotations
+advanced,'sea ice’ and ‘depth’,18,100.0,Annotations
+advanced,'sea ice’ and ‘temperature’,5,100.0,Annotations
+advanced,'sea water’ and ‘chlorophyll a’,12,60.0,Annotations
+advanced,'snow’ and ‘thickness’,8,66.7,Annotations
+complete,'Bacteria’ and ‘Archaea’,6,100.0,Annotations
+complete,'concentration of’ and ‘chlorophyll a’,29,100.0,Annotations
+complete,'marine current’ and ‘velocity’,7,100.0,Annotations
+complete,'microbial community’ and ‘species diversity’,12,100.0,Annotations
+complete,'sea ice’ and ‘depth’,18,100.0,Annotations
+complete,'sea ice’ and ‘temperature’,5,100.0,Annotations
+complete,'sea water’ and ‘chlorophyll a’,20,100.0,Annotations
+complete,'snow’ and ‘thickness’,12,100.0,Annotations
+basic,'Bacteria’ and ‘Archaea’,2,100.0,Columns
+basic,'concentration of’ and ‘chlorophyll a’,0,0.0,Columns
+basic,'marine current’ and ‘velocity’,0,0.0,Columns
+basic,'microbial community’ and ‘species diversity’,0,0.0,Columns
+basic,'sea ice’ and ‘depth’,0,0.0,Columns
+basic,'sea ice’ and ‘temperature’,0,0.0,Columns
+basic,'sea water’ and ‘chlorophyll a’,0,0.0,Columns
+basic,'snow’ and ‘thickness’,0,0.0,Columns
+intermediate,'Bacteria’ and ‘Archaea’,2,100.0,Columns
+intermediate,'concentration of’ and ‘chlorophyll a’,0,0.0,Columns
+intermediate,'marine current’ and ‘velocity’,2,66.7,Columns
+intermediate,'microbial community’ and ‘species diversity’,0,0.0,Columns
+intermediate,'sea ice’ and ‘depth’,0,0.0,Columns
+intermediate,'sea ice’ and ‘temperature’,1,50.0,Columns
+intermediate,'sea water’ and ‘chlorophyll a’,0,0.0,Columns
+intermediate,'snow’ and ‘thickness’,4,80.0,Columns
+advanced,'Bacteria’ and ‘Archaea’,2,100.0,Columns
+advanced,'concentration of’ and ‘chlorophyll a’,9,100.0,Columns
+advanced,'marine current’ and ‘velocity’,2,66.7,Columns
+advanced,'microbial community’ and ‘species diversity’,4,100.0,Columns
+advanced,'sea ice’ and ‘depth’,6,100.0,Columns
+advanced,'sea ice’ and ‘temperature’,2,100.0,Columns
+advanced,'sea water’ and ‘chlorophyll a’,4,66.7,Columns
+advanced,'snow’ and ‘thickness’,4,80.0,Columns
+complete,'Bacteria’ and ‘Archaea’,2,100.0,Columns
+complete,'concentration of’ and ‘chlorophyll a’,9,100.0,Columns
+complete,'marine current’ and ‘velocity’,3,100.0,Columns
+complete,'microbial community’ and ‘species diversity’,4,100.0,Columns
+complete,'sea ice’ and ‘depth’,6,100.0,Columns
+complete,'sea ice’ and ‘temperature’,2,100.0,Columns
+complete,'sea water’ and ‘chlorophyll a’,6,100.0,Columns
+complete,'snow’ and ‘thickness’,5,100.0,Columns

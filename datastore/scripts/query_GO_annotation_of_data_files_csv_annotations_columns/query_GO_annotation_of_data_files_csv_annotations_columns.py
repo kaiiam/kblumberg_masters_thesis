@@ -112,36 +112,12 @@ def query_associated_data():
     f_list = [prefix_func(), select_func() , from_func(), where_query_associated_data_func() ]
     return''.join(f_list)
 
-#print query_associated_data()
-
-#print prefix_func()
-#print select_func()
-#print from_func()
-#print where_query_associated_data_func()
-
-#print query_property_path_func('c','value')
-#print values_filtering_func(in_args,'value')
-
 #initialize the ConjunctiveGraph which will function as the entire datastore
 graph = g.ConjunctiveGraph()
 
 graph.parse('../../mf_datastore.ttl', format='ttl')
 
 results = graph.query(query_associated_data())
-
-#print query_associated_data()
-
-## for row in results:
-##     print "%s" % row
-##
-## for row in results:
-##     print "%s | %s" % row
-##
-## for row in results:
-##     print "%s | %s | %s" % row
-
-# for row in results:
-#     print "%s | %s | %s| %s" % row
 
 # function to parse the query return object
 # unicodedata.normalize is to convert from literals to strings to feed back into a values block.
@@ -154,7 +130,7 @@ for (subj, term, pred, obj) in results:
 
 def select_row_func():
     s = 'SELECT ?column \n'
-    s += '	(group_concat(DISTINCT ?value; separator=", ") as ?value)\n'
+    s += '	(group_concat(?value; separator=", ") as ?value)\n'
     return s
 
 def where_query_row_data_func():
@@ -175,45 +151,7 @@ def query_row_data():
     f_list = [prefix_func(), select_row_func() , from_func(), where_query_row_data_func() ]
     return''.join(f_list)
 
-#print query_row_data()
-
 results2 = graph.query(query_row_data())
 
 for row in results2:
     print "%s | %s" % row
-
-
-
-
-
-################### OLD code ###################
-##second query to retrieve the specific GO terms of interest
-## including the other data in their rows
-# #read query from input:
-# with open('query_go_terms.rq','r') as f_open:
-#     query_1 = f_open.read()
-#
-# results = graph.query(query_1)
-#
-# for row in results:
-#     print "%s | %s" % row
-
-
-
-#from this link https://stackoverflow.com/questions/17144088/using-python-rdflib-how-to-include-literals-in-sparql-queries
-
-# keywords = set([u'http://purl.obolibrary.org/obo/CHEBI_3311', 'http://purl.obolibrary.org/obo/ENVO_01000158'])
-#
-#
-# #this code actuallly works!!! investigate more later.
-# # for (subj, pred, obj) in results:
-# #     if pred.value in keywords:
-# #         print subj, pred, obj.value
-#
-# #pred_list = []
-# for (subj, pred, obj) in results:
-#     print pred
-
-
-#print type(results)
-#print list(results)

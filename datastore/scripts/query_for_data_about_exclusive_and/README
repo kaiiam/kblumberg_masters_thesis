@@ -10,16 +10,21 @@ just show that I can get all these csvs and csv columns.
 
 uses scripts:
 
-annotation_of_data_files.py and query_for_subclasses_of_input_purl.py
+query_for_data_about_exclusive_and.py and query_for_subclasses_of_input_purl.py
 
 example run:
 
 ./query_for_subclasses_of_input_purl.py http://purl.obolibrary.org/obo/ENVO_00002200
 
-./annotation_of_data_files.py subclasses_of_ENVO_00002200.txt http://purl.obolibrary.org/obo/PATO_0001595
+./query_for_data_about_exclusive_and.py subclasses_of_ENVO_00002200.txt http://purl.obolibrary.org/obo/PATO_0001595
 
 Arguments:
 
 1) List of terms (for example list of subclasses)
 
 2) single term to be used in a logical AND with the list in the first term. 
+
+
+Due to the bug I encountered in filtering for multiple annotations which messes up the data points (duplicating it, something to do with how the group by and group_concat are working together, I'm decided to change the script to only deal with csv columns and not csvs. I've got it working this way, we can either print to terminal or print stats to csv files. 
+
+I guess I'll make 3 version (for the 3 levels of querying proficiency) either in this one script or have 3 different ones, if so maybe use a make file to run all 3 at once I'll optimize later. 

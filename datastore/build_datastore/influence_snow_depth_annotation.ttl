@@ -17,6 +17,7 @@ path:influence_snow_depth.csv a owl:NamedIndividual ;
             obo:BFO_0000051 path:influence_snow_depth.csvRelativeDistanceY ;
             obo:BFO_0000051 path:influence_snow_depth.csvSeaIceThickness ;
             obo:BFO_0000051 path:influence_snow_depth.csvSignalStrength ;
+            obo:BFO_0000051 path:influence_snow_depth.csvDatabaseCrossReference ;
             a [  rdf:type owl:Class ;
                  owl:equivalentClass [ rdf:type owl:Class ;
                                        owl:intersectionOf ( <http://purl.obolibrary.org/obo/OBCS_0000120>
@@ -190,3 +191,19 @@ path:influence_snow_depth.csvSignalStrength  a owl:NamedIndividual ;
                                                                                       )
                                                                 ]
                                           ] .
+#is about some: (X)
+path:influence_snow_depth.csvDatabaseCrossReference a owl:NamedIndividual ;
+               a [ rdf:type owl:Class ;
+                   owl:equivalentClass [ rdf:type owl:Class ;
+                                         owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                               owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000050> ;
+                                                               owl:someValuesFrom <http://purl.obolibrary.org/obo/OBCS_0000120>
+                                                              ]
+                                                                                          
+                                                              [ rdf:type owl:Restriction ;
+                                                                owl:onProperty <http://purl.obolibrary.org/obo/IAO_0000136> ;
+                                                                owl:someValuesFrom <http://www.geneontology.org/formats/oboInOwl#hasDbXref>
+                                                              ]
+                                                            )
+                                      ]
+                 ] .

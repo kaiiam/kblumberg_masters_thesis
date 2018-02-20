@@ -1,0 +1,16 @@
+From Protege the class count is 6909
+
+when I run all subclasses I get 7758 but that probably has to do with imported classes. 
+
+added a filter command to the script. Then I only get 2791 envo classes. Which may actually be the correct number. of ENVO classes. 
+
+
+#created_by
+oboInOwl:created_by
+
+@prefix oboInOwl: <http://www.geneontology.org/formats/oboInOwl#> .
+
+
+
+term editor:
+obo:IAO_0000117

@@ -1,0 +1,8 @@
+Question like: "What cellular components differentiate deep marine biomes?"
+
+Example answer guided by querying data annotated with ENVO and GO ontology terms we find that subclasses of [periplasmic space](http://purl.obolibrary.org/obo/GO_0042597), are seperated in abyssal and bathyal deep marine biomes. 
+
+
+Differentiating terms: 
+[periplasmic space](http://purl.obolibrary.org/obo/GO_0042597)
+[outer membrane-bounded periplasmic space](http://purl.obolibrary.org/obo/GO_0030288)

@@ -1,0 +1,9 @@
+input class label,property label,related class label,related class purl
+sea ice formation process,has input,sea water,ENVO_00002149
+sea ice formation process,has output,sea ice,ENVO_00002200
+nilas formation process,has input,new ice,ENVO_03000063
+nilas formation process,has output,nilas,ENVO_03000068
+young ice formation process,has output,young ice,ENVO_03000069
+first year ice formation process,has output,first year ice,ENVO_03000071
+second year ice formation,has output,second year ice,ENVO_03000072
+multiyear ice formation process,has output,multiyear ice,ENVO_03000073

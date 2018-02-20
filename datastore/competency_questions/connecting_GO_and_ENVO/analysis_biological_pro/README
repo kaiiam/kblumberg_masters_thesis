@@ -1,0 +1,16 @@
+Using GO hierachy to search for genomic differences between marine sediment of various depths. 
+
+//phrase the question better.
+
+# query for subclasses of marine sediments 
+./query_for_subclasses_of_input_purl.py http://purl.obolibrary.org/obo/ENVO_03000033
+
+#transport
+./query_GO_annotation_of_data_files_csv_annotations_columns.py subclasses_of_ENVO_03000033.txt subclasses_of_GO_0006810.txt
+
+#vesicle-mediated transport
+./query_GO_annotation_of_data_files_csv_annotations_columns.py subclasses_of_ENVO_03000033.txt subclasses_of_GO_0016192.txt
+
+#Golgi vesicle transport
+./query_GO_annotation_of_data_files_csv_annotations_columns.py subclasses_of_ENVO_03000033.txt subclasses_of_GO_0048193.txt
+

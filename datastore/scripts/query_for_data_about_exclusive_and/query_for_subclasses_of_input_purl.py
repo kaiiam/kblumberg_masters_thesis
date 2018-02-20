@@ -68,6 +68,8 @@ outstring = 'subclasses_of_' + namestring + '.txt'
 #write out to outfile: query_for_subclasses_of_out.txt
 f = open(outstring, 'w')
 
+#add input string to list
+f.write(str(in_arg) + '\n')
 #write each PURL fetched in query to outfile.
 for res in results["results"]["bindings"] :
     f.write(res['s']['value'] + '\n')

@@ -1,0 +1,19 @@
+
+#query for subclasses of marine benthic biome
+./query_for_subclasses_of_input_purl.py http://purl.obolibrary.org/obo/ENVO_01000024
+
+#Only run once to get the denominators of the relative genomic abundances for all the molecular functions in the datastore 
+#taking forever to run. This is equivalent to asking for all subclasses of go: molecular function
+./query_GO_annotation_of_data_files_csv_annotations_columns.py subclasses_of_ENVO_01000024.txt all_go_MF_in_my_example.txt
+
+#Go terms tried:
+#try nucleotide binding http://purl.obolibrary.org/obo/GO_0005524
+
+#query for subclasses of transition metal ion binding
+./query_for_subclasses_of_input_purl.py http://purl.obolibrary.org/obo/GO_0046914
+
+#oxidoreductase activity
+./query_for_subclasses_of_input_purl.py http://purl.obolibrary.org/obo/GO_0016491
+
+
+add third argument all_go_MF_in_my_example.txt to python script to have the complete list of MF's CC and BP to map the go term columns to to sort the data make sure this file doesn't have a line break at the end. 

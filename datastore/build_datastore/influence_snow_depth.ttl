@@ -20,6 +20,9 @@
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> <http://www.w3.org/2000/01/rdf-schema#label> "Signal Strength" ;
 	<http://tools.ietf.org/html/rfc4180columnPosition> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
 
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvDatabaseCrossReference> <http://www.w3.org/2000/01/rdf-schema#label> "Database Cross Reference" ;
+	<http://tools.ietf.org/html/rfc4180columnPosition> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvrow/0> a <http://tools.ietf.org/html/rfc4180Row> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvDateTime> "2013-09-01T13:11:42" ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvLatitude> "-61.2018333"^^<http://www.w3.org/2001/XMLSchema#float> ;
@@ -27,7 +30,8 @@
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceX> "-77.81"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceY> "35.94"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSeaIceThickness> "0.784"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17426.1"^^<http://www.w3.org/2001/XMLSchema#float> .
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17426.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvDatabaseCrossReference> <https://doi.org/10.1002/2016JC012325> .
 
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvrow/0> .
 
@@ -40,7 +44,8 @@
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceX> "-77.83"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceY> "35.94"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSeaIceThickness> "0.786"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17397.4"^^<http://www.w3.org/2001/XMLSchema#float> .
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17397.4"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvDatabaseCrossReference> <https://doi.org/10.1002/2016JC012325> .
 
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvrow/1> .
 
@@ -53,7 +58,8 @@
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceX> "-77.84"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceY> "35.93"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSeaIceThickness> "0.787"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17385.6"^^<http://www.w3.org/2001/XMLSchema#float> .
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17385.6"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvDatabaseCrossReference> <https://doi.org/10.1002/2016JC012325> .
 
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvrow/2> .
 
@@ -66,7 +72,8 @@
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceX> "-77.86"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceY> "35.93"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSeaIceThickness> "0.791"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17332.9"^^<http://www.w3.org/2001/XMLSchema#float> .
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17332.9"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvDatabaseCrossReference> <https://doi.org/10.1002/2016JC012325> .
 
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvrow/3> .
 
@@ -79,7 +86,8 @@
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceX> "-77.87"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceY> "35.93"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSeaIceThickness> "0.788"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17371.8"^^<http://www.w3.org/2001/XMLSchema#float> .
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17371.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvDatabaseCrossReference> <https://doi.org/10.1002/2016JC012325> .
 
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvrow/4> .
 
@@ -92,7 +100,8 @@
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceX> "-77.88"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceY> "35.92"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSeaIceThickness> "0.782"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17447.2"^^<http://www.w3.org/2001/XMLSchema#float> .
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17447.2"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvDatabaseCrossReference> <https://doi.org/10.1002/2016JC012325> .
 
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvrow/5> .
 
@@ -105,7 +114,8 @@
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceX> "-77.88"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceY> "35.91"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSeaIceThickness> "0.783"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17439.5"^^<http://www.w3.org/2001/XMLSchema#float> .
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17439.5"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvDatabaseCrossReference> <https://doi.org/10.1002/2016JC012325> .
 
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvrow/6> .
 
@@ -118,7 +128,8 @@
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceX> "-77.88"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceY> "35.91"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSeaIceThickness> "0.783"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17436.5"^^<http://www.w3.org/2001/XMLSchema#float> .
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17436.5"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvDatabaseCrossReference> <https://doi.org/10.1002/2016JC012325> .
 
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvrow/7> .
 
@@ -131,7 +142,8 @@
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceX> "-77.87"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceY> "35.9"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSeaIceThickness> "0.785"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17415.9"^^<http://www.w3.org/2001/XMLSchema#float> .
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17415.9"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvDatabaseCrossReference> <https://doi.org/10.1002/2016JC012325> .
 
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvrow/8> .
 
@@ -144,7 +156,8 @@
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceX> "-77.87"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceY> "35.89"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSeaIceThickness> "0.781"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17458.8"^^<http://www.w3.org/2001/XMLSchema#float> .
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17458.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvDatabaseCrossReference> <https://doi.org/10.1002/2016JC012325> .
 
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvrow/9> .
 
@@ -157,7 +170,8 @@
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceX> "-77.87"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceY> "35.88"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSeaIceThickness> "0.782"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17453.2"^^<http://www.w3.org/2001/XMLSchema#float> .
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17453.2"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvDatabaseCrossReference> <https://doi.org/10.1002/2016JC012325> .
 
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvrow/10> .
 
@@ -170,7 +184,8 @@
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceX> "-77.87"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceY> "35.87"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSeaIceThickness> "0.787"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17387.8"^^<http://www.w3.org/2001/XMLSchema#float> .
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17387.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvDatabaseCrossReference> <https://doi.org/10.1002/2016JC012325> .
 
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvrow/11> .
 
@@ -183,7 +198,8 @@
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceX> "-77.86"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceY> "35.87"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSeaIceThickness> "0.787"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17386.4"^^<http://www.w3.org/2001/XMLSchema#float> .
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17386.4"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvDatabaseCrossReference> <https://doi.org/10.1002/2016JC012325> .
 
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvrow/12> .
 
@@ -196,7 +212,8 @@
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceX> "-77.86"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceY> "35.86"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSeaIceThickness> "0.786"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17394"^^<http://www.w3.org/2001/XMLSchema#integer> .
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17394"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvDatabaseCrossReference> <https://doi.org/10.1002/2016JC012325> .
 
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvrow/13> .
 
@@ -209,7 +226,8 @@
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceX> "-77.86"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceY> "35.85"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSeaIceThickness> "0.787"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17379"^^<http://www.w3.org/2001/XMLSchema#integer> .
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17379"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvDatabaseCrossReference> <https://doi.org/10.1002/2016JC012325> .
 
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvrow/14> .
 
@@ -222,7 +240,8 @@
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceX> "-77.86"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceY> "35.84"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSeaIceThickness> "0.785"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17415.7"^^<http://www.w3.org/2001/XMLSchema#float> .
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17415.7"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvDatabaseCrossReference> <https://doi.org/10.1002/2016JC012325> .
 
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvrow/15> .
 
@@ -235,7 +254,8 @@
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceX> "-77.85"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceY> "35.85"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSeaIceThickness> "0.782"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17449"^^<http://www.w3.org/2001/XMLSchema#integer> .
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17449"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvDatabaseCrossReference> <https://doi.org/10.1002/2016JC012325> .
 
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvrow/16> .
 
@@ -248,7 +268,8 @@
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceX> "-77.84"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceY> "35.85"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSeaIceThickness> "0.786"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17403.1"^^<http://www.w3.org/2001/XMLSchema#float> .
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17403.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvDatabaseCrossReference> <https://doi.org/10.1002/2016JC012325> .
 
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvrow/17> .
 
@@ -261,7 +282,8 @@
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceX> "-77.84"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceY> "35.85"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSeaIceThickness> "0.789"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17361.3"^^<http://www.w3.org/2001/XMLSchema#float> .
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17361.3"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvDatabaseCrossReference> <https://doi.org/10.1002/2016JC012325> .
 
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvrow/18> .
 
@@ -274,7 +296,8 @@
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceX> "-77.83"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceY> "35.85"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSeaIceThickness> "0.789"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17353.4"^^<http://www.w3.org/2001/XMLSchema#float> .
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17353.4"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvDatabaseCrossReference> <https://doi.org/10.1002/2016JC012325> .
 
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvrow/19> .
 
@@ -287,7 +310,8 @@
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceX> "-77.83"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceY> "35.85"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSeaIceThickness> "0.786"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17401.8"^^<http://www.w3.org/2001/XMLSchema#float> .
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17401.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvDatabaseCrossReference> <https://doi.org/10.1002/2016JC012325> .
 
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvrow/20> .
 
@@ -300,7 +324,8 @@
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceX> "-77.82"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceY> "35.85"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSeaIceThickness> "0.786"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17403.6"^^<http://www.w3.org/2001/XMLSchema#float> .
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17403.6"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvDatabaseCrossReference> <https://doi.org/10.1002/2016JC012325> .
 
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvrow/21> .
 
@@ -313,7 +338,8 @@
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceX> "-77.82"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceY> "35.85"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSeaIceThickness> "0.789"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17359.4"^^<http://www.w3.org/2001/XMLSchema#float> .
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17359.4"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvDatabaseCrossReference> <https://doi.org/10.1002/2016JC012325> .
 
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvrow/22> .
 
@@ -326,7 +352,8 @@
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceX> "-77.81"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceY> "35.85"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSeaIceThickness> "0.789"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17364.2"^^<http://www.w3.org/2001/XMLSchema#float> .
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17364.2"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvDatabaseCrossReference> <https://doi.org/10.1002/2016JC012325> .
 
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvrow/23> .
 
@@ -339,7 +366,8 @@
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceX> "-77.81"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceY> "35.85"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSeaIceThickness> "0.787"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17388.1"^^<http://www.w3.org/2001/XMLSchema#float> .
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17388.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvDatabaseCrossReference> <https://doi.org/10.1002/2016JC012325> .
 
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvrow/24> .
 
@@ -352,7 +380,8 @@
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceX> "-77.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceY> "35.86"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSeaIceThickness> "0.787"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17387.4"^^<http://www.w3.org/2001/XMLSchema#float> .
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17387.4"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvDatabaseCrossReference> <https://doi.org/10.1002/2016JC012325> .
 
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvrow/25> .
 
@@ -365,7 +394,8 @@
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceX> "-77.75"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceY> "35.87"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSeaIceThickness> "0.791"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17332.6"^^<http://www.w3.org/2001/XMLSchema#float> .
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17332.6"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvDatabaseCrossReference> <https://doi.org/10.1002/2016JC012325> .
 
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvrow/26> .
 
@@ -378,7 +408,8 @@
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceX> "-77.7"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceY> "35.89"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSeaIceThickness> "0.785"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17411.6"^^<http://www.w3.org/2001/XMLSchema#float> .
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17411.6"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvDatabaseCrossReference> <https://doi.org/10.1002/2016JC012325> .
 
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvrow/27> .
 
@@ -391,7 +422,8 @@
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceX> "-77.66"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceY> "35.91"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSeaIceThickness> "0.785"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17413.1"^^<http://www.w3.org/2001/XMLSchema#float> .
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17413.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvDatabaseCrossReference> <https://doi.org/10.1002/2016JC012325> .
 
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvrow/28> .
 
@@ -404,7 +436,8 @@
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceX> "-77.61"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceY> "35.93"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSeaIceThickness> "0.786"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17403.3"^^<http://www.w3.org/2001/XMLSchema#float> .
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17403.3"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvDatabaseCrossReference> <https://doi.org/10.1002/2016JC012325> .
 
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvrow/29> .
 
@@ -417,7 +450,8 @@
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceX> "-77.56"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceY> "35.95"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSeaIceThickness> "0.781"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17470.3"^^<http://www.w3.org/2001/XMLSchema#float> .
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17470.3"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvDatabaseCrossReference> <https://doi.org/10.1002/2016JC012325> .
 
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvrow/30> .
 
@@ -430,7 +464,8 @@
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceX> "-77.52"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceY> "35.96"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSeaIceThickness> "0.783"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17440.3"^^<http://www.w3.org/2001/XMLSchema#float> .
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17440.3"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvDatabaseCrossReference> <https://doi.org/10.1002/2016JC012325> .
 
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvrow/31> .
 
@@ -443,7 +478,8 @@
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceX> "-77.47"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceY> "35.98"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSeaIceThickness> "0.784"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17429.9"^^<http://www.w3.org/2001/XMLSchema#float> .
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17429.9"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvDatabaseCrossReference> <https://doi.org/10.1002/2016JC012325> .
 
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvrow/32> .
 
@@ -456,7 +492,8 @@
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceX> "-77.42"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceY> "36"^^<http://www.w3.org/2001/XMLSchema#integer> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSeaIceThickness> "0.783"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17435.9"^^<http://www.w3.org/2001/XMLSchema#float> .
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17435.9"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvDatabaseCrossReference> <https://doi.org/10.1002/2016JC012325> .
 
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvrow/33> .
 
@@ -469,7 +506,8 @@
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceX> "-77.38"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceY> "36.02"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSeaIceThickness> "0.786"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17398.2"^^<http://www.w3.org/2001/XMLSchema#float> .
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17398.2"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvDatabaseCrossReference> <https://doi.org/10.1002/2016JC012325> .
 
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvrow/34> .
 
@@ -482,7 +520,8 @@
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceX> "-77.33"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceY> "36.03"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSeaIceThickness> "0.787"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17379.3"^^<http://www.w3.org/2001/XMLSchema#float> .
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17379.3"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvDatabaseCrossReference> <https://doi.org/10.1002/2016JC012325> .
 
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvrow/35> .
 
@@ -495,7 +534,8 @@
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceX> "-77.27"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceY> "36.03"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSeaIceThickness> "0.785"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17412.3"^^<http://www.w3.org/2001/XMLSchema#float> .
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17412.3"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvDatabaseCrossReference> <https://doi.org/10.1002/2016JC012325> .
 
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvrow/36> .
 
@@ -508,7 +548,8 @@
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceX> "-77.21"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceY> "36.02"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSeaIceThickness> "0.784"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17426.4"^^<http://www.w3.org/2001/XMLSchema#float> .
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17426.4"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvDatabaseCrossReference> <https://doi.org/10.1002/2016JC012325> .
 
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvrow/37> .
 
@@ -521,7 +562,8 @@
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceX> "-77.15"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceY> "36.02"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSeaIceThickness> "0.784"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17419.7"^^<http://www.w3.org/2001/XMLSchema#float> .
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17419.7"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvDatabaseCrossReference> <https://doi.org/10.1002/2016JC012325> .
 
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvrow/38> .
 
@@ -534,7 +576,8 @@
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceX> "-77.08"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceY> "36.01"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSeaIceThickness> "0.787"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17382.4"^^<http://www.w3.org/2001/XMLSchema#float> .
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17382.4"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvDatabaseCrossReference> <https://doi.org/10.1002/2016JC012325> .
 
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvrow/39> .
 
@@ -546,7 +589,8 @@
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvLongitude> "-41.0594941"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceX> "-77.02"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceY> "36.01"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17397.4"^^<http://www.w3.org/2001/XMLSchema#float> .
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17397.4"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvDatabaseCrossReference> <https://doi.org/10.1002/2016JC012325> .
 
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvrow/40> .
 
@@ -558,7 +602,8 @@
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvLongitude> "-41.059494"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceX> "-76.96"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceY> "36.01"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17439.6"^^<http://www.w3.org/2001/XMLSchema#float> .
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17439.6"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvDatabaseCrossReference> <https://doi.org/10.1002/2016JC012325> .
 
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvrow/41> .
 
@@ -570,7 +615,8 @@
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvLongitude> "-41.0594938"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceX> "-76.9"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceY> "36"^^<http://www.w3.org/2001/XMLSchema#integer> ;
-	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17389.9"^^<http://www.w3.org/2001/XMLSchema#float> .
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17389.9"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvDatabaseCrossReference> <https://doi.org/10.1002/2016JC012325> .
 
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvrow/42> .
 
@@ -582,7 +628,8 @@
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvLongitude> "-41.0594936"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceX> "-76.84"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceY> "36"^^<http://www.w3.org/2001/XMLSchema#integer> ;
-	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17361.8"^^<http://www.w3.org/2001/XMLSchema#float> .
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17361.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvDatabaseCrossReference> <https://doi.org/10.1002/2016JC012325> .
 
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvrow/43> .
 
@@ -594,7 +641,8 @@
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvLongitude> "-41.0594935"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceX> "-76.78"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceY> "35.99"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17336.2"^^<http://www.w3.org/2001/XMLSchema#float> .
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17336.2"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvDatabaseCrossReference> <https://doi.org/10.1002/2016JC012325> .
 
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvrow/44> .
 
@@ -606,7 +654,8 @@
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvLongitude> "-41.0594933"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceX> "-76.73"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceY> "35.99"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17382.1"^^<http://www.w3.org/2001/XMLSchema#float> .
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17382.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvDatabaseCrossReference> <https://doi.org/10.1002/2016JC012325> .
 
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvrow/45> .
 
@@ -618,7 +667,8 @@
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvLongitude> "-41.0594933"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceX> "-76.71"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceY> "35.99"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17475.6"^^<http://www.w3.org/2001/XMLSchema#float> .
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17475.6"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvDatabaseCrossReference> <https://doi.org/10.1002/2016JC012325> .
 
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvrow/46> .
 
@@ -630,7 +680,8 @@
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvLongitude> "-41.0594933"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceX> "-76.68"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceY> "35.98"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17400.7"^^<http://www.w3.org/2001/XMLSchema#float> .
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17400.7"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvDatabaseCrossReference> <https://doi.org/10.1002/2016JC012325> .
 
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvrow/47> .
 
@@ -642,7 +693,8 @@
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvLongitude> "-41.0594933"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceX> "-76.66"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceY> "35.98"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17389"^^<http://www.w3.org/2001/XMLSchema#integer> .
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17389"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvDatabaseCrossReference> <https://doi.org/10.1002/2016JC012325> .
 
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvrow/48> .
 
@@ -654,7 +706,8 @@
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvLongitude> "-41.0594933"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceX> "-76.64"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceY> "35.98"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17398.4"^^<http://www.w3.org/2001/XMLSchema#float> .
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17398.4"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvDatabaseCrossReference> <https://doi.org/10.1002/2016JC012325> .
 
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvrow/49> .
 
@@ -666,7 +719,8 @@
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvLongitude> "-41.0594933"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceX> "-76.62"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceY> "35.97"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17417.4"^^<http://www.w3.org/2001/XMLSchema#float> .
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17417.4"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvDatabaseCrossReference> <https://doi.org/10.1002/2016JC012325> .
 
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvrow/50> .
 
@@ -678,7 +732,8 @@
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvLongitude> "-41.0594933"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceX> "-76.6"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceY> "35.97"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17427.7"^^<http://www.w3.org/2001/XMLSchema#float> .
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17427.7"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvDatabaseCrossReference> <https://doi.org/10.1002/2016JC012325> .
 
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvrow/51> .
 
@@ -690,7 +745,8 @@
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvLongitude> "-41.0594933"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceX> "-76.57"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceY> "35.96"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17416.3"^^<http://www.w3.org/2001/XMLSchema#float> .
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17416.3"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvDatabaseCrossReference> <https://doi.org/10.1002/2016JC012325> .
 
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvrow/52> .
 
@@ -702,7 +758,8 @@
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvLongitude> "-41.0594933"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceX> "-76.55"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceY> "35.96"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17350.1"^^<http://www.w3.org/2001/XMLSchema#float> .
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17350.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvDatabaseCrossReference> <https://doi.org/10.1002/2016JC012325> .
 
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvrow/53> .
 
@@ -714,7 +771,8 @@
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvLongitude> "-41.0594933"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceX> "-76.53"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceY> "35.96"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17374.8"^^<http://www.w3.org/2001/XMLSchema#float> .
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17374.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvDatabaseCrossReference> <https://doi.org/10.1002/2016JC012325> .
 
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvrow/54> .
 
@@ -726,7 +784,8 @@
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvLongitude> "-41.0594932"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceX> "-76.5"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceY> "35.96"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17457.6"^^<http://www.w3.org/2001/XMLSchema#float> .
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17457.6"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvDatabaseCrossReference> <https://doi.org/10.1002/2016JC012325> .
 
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvrow/55> .
 
@@ -738,7 +797,8 @@
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvLongitude> "-41.0594924"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceX> "-76.43"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceY> "35.99"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17483.7"^^<http://www.w3.org/2001/XMLSchema#float> .
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17483.7"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvDatabaseCrossReference> <https://doi.org/10.1002/2016JC012325> .
 
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvrow/56> .
 
@@ -750,7 +810,8 @@
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvLongitude> "-41.0594915"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceX> "-76.36"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceY> "36.02"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17519.9"^^<http://www.w3.org/2001/XMLSchema#float> .
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17519.9"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvDatabaseCrossReference> <https://doi.org/10.1002/2016JC012325> .
 
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvrow/57> .
 
@@ -762,7 +823,8 @@
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvLongitude> "-41.0594907"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceX> "-76.29"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceY> "36.05"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17438.1"^^<http://www.w3.org/2001/XMLSchema#float> .
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17438.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvDatabaseCrossReference> <https://doi.org/10.1002/2016JC012325> .
 
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvrow/58> .
 
@@ -774,11 +836,12 @@
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvLongitude> "-41.0594899"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceX> "-76.22"^^<http://www.w3.org/2001/XMLSchema#float> ;
 	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvRelativeDistanceY> "36.08"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17392.4"^^<http://www.w3.org/2001/XMLSchema#float> .
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvSignalStrength> "17392.4"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvDatabaseCrossReference> <https://doi.org/10.1002/2016JC012325> .
 
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvrow/59> .
 
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csvrow/59> <http://tools.ietf.org/html/rfc4180rowPosition> "59" .
 
 <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/influence_snow_depth.csv> <http://tools.ietf.org/html/rfc4180numberOfRows> "60"^^<http://www.w3.org/2001/XMLSchema#integer> ;
-	<http://tools.ietf.org/html/rfc4180numberOfColumns> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+	<http://tools.ietf.org/html/rfc4180numberOfColumns> "8"^^<http://www.w3.org/2001/XMLSchema#integer> .

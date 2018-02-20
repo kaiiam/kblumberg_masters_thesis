@@ -1,0 +1,65 @@
+Expertise,Query,Number,Percent,Sample
+basic,'brine channel',0,#DIV/0!,Data matrices
+basic,'carbon atom',0,#DIV/0!,Data matrices
+basic,'cation',0,#DIV/0!,Data matrices
+basic,'centrally registered identifier symbol',0,#DIV/0!,Data matrices
+basic,'glacier',0,#DIV/0!,Data matrices
+basic,'marine biome',1,25,Data matrices
+basic,'melt pond',0,#DIV/0!,Data matrices
+basic,'ocean',0,#DIV/0!,Data matrices
+intermediate,'brine channel',0,#DIV/0!,Data matrices
+intermediate,'carbon atom',0,#DIV/0!,Data matrices
+intermediate,'cation',0,#DIV/0!,Data matrices
+intermediate,'centrally registered identifier symbol',0,#DIV/0!,Data matrices
+intermediate,'glacier',0,#DIV/0!,Data matrices
+intermediate,'marine biome',3,75,Data matrices
+intermediate,'melt pond',0,#DIV/0!,Data matrices
+intermediate,'ocean',0,#DIV/0!,Data matrices
+advanced,'brine channel',0,#DIV/0!,Data matrices
+advanced,'carbon atom',0,#DIV/0!,Data matrices
+advanced,'cation',0,#DIV/0!,Data matrices
+advanced,'centrally registered identifier symbol',0,#DIV/0!,Data matrices
+advanced,'glacier',0,#DIV/0!,Data matrices
+advanced,'marine biome',4,100,Data matrices
+advanced,'melt pond',0,#DIV/0!,Data matrices
+advanced,'ocean',0,#DIV/0!,Data matrices
+complete,'brine channel',0,#DIV/0!,Data matrices
+complete,'carbon atom',0,#DIV/0!,Data matrices
+complete,'cation',0,#DIV/0!,Data matrices
+complete,'centrally registered identifier symbol',0,#DIV/0!,Data matrices
+complete,'glacier',0,#DIV/0!,Data matrices
+complete,'marine biome',4,100,Data matrices
+complete,'melt pond',0,#DIV/0!,Data matrices
+complete,'ocean',0,#DIV/0!,Data matrices
+basic,'brine channel',0,0,Data points
+basic,'carbon atom',0,0,Data points
+basic,'cation',0,0,Data points
+basic,'centrally registered identifier symbol',234,100,Data points
+basic,'glacier',0,0,Data points
+basic,'marine biome',0,0,Data points
+basic,'melt pond',0,0,Data points
+basic,'ocean',0,0,Data points
+intermediate,'brine channel',22,100,Data points
+intermediate,'carbon atom',0,0,Data points
+intermediate,'cation',0,0,Data points
+intermediate,'centrally registered identifier symbol',234,100,Data points
+intermediate,'glacier',329,58.2300884956,Data points
+intermediate,'marine biome',873,100,Data points
+intermediate,'melt pond',0,0,Data points
+intermediate,'ocean',0,0,Data points
+advanced,'brine channel',22,100,Data points
+advanced,'carbon atom',0,0,Data points
+advanced,'cation',73,100,Data points
+advanced,'centrally registered identifier symbol',234,100,Data points
+advanced,'glacier',465,82.3008849558,Data points
+advanced,'marine biome',873,100,Data points
+advanced,'melt pond',38,100,Data points
+advanced,'ocean',714,94.9468085106,Data points
+complete,'brine channel',22,100,Data points
+complete,'carbon atom',72,100,Data points
+complete,'cation',73,100,Data points
+complete,'centrally registered identifier symbol',234,100,Data points
+complete,'glacier',565,100,Data points
+complete,'marine biome',873,100,Data points
+complete,'melt pond',38,100,Data points
+complete,'ocean',752,100,Data points

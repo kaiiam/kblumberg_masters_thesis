@@ -1,0 +1,5 @@
+http://purl.obolibrary.org/obo/ENVO_00001999
+http://purl.obolibrary.org/obo/ENVO_02000049
+http://purl.obolibrary.org/obo/ENVO_00000016
+http://purl.obolibrary.org/obo/ENVO_00000015
+http://purl.obolibrary.org/obo/ENVO_00000219

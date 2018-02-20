@@ -1,0 +1,9 @@
+sample,http://purl.obolibrary.org/obo/GO_0030246,http://purl.obolibrary.org/obo/GO_0030248,http://purl.obolibrary.org/obo/GO_0048029,http://purl.obolibrary.org/obo/GO_0031418,http://purl.obolibrary.org/obo/GO_2001070,http://purl.obolibrary.org/obo/GO_0030247
+file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/molecular_function_abyssal.csvSample2MolecularFunctionCount,2410,0,28,0,1,3
+file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/molecular_function_abyssal.csvSample1MolecularFunctionCount,1870,1,15,2,3,0
+file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/molecular_function_bathyal.csvSample1MolecularFunctionCount,2087,2,26,1,0,9
+file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/molecular_function_bathyal.csvSample2MolecularFunctionCount,2492,1,44,0,2,7
+file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/molecular_function_neritic.csvSample1MolecularFunctionCount,597,0,25,3,6,5
+file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/molecular_function_neritic.csvSample3MolecularFunctionCount,575,1,16,1,3,15
+file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/molecular_function_neritic.csvSample4MolecularFunctionCount,368,0,6,1,4,9
+file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/molecular_function_neritic.csvSample2MolecularFunctionCount,383,1,9,2,1,13

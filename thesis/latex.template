@@ -13,6 +13,12 @@ $endif$
 \usepackage{tgschola}
 \usepackage[T1]{fontenc}
 
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{subcaption}
+
+
 $if(beamer)$
 \setbeamertemplate{caption}[numbered]
 \setbeamertemplate{caption label separator}{: }

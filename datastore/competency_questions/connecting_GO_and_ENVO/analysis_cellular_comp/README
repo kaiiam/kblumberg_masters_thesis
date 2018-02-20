@@ -1,0 +1,16 @@
+Question like:
+
+"What cellular components differentiate subclasses of marine benthic biomes?"
+
+# query for subclasses of marine benthic biome
+./query_for_subclasses_of_input_purl.py http://purl.obolibrary.org/obo/ENVO_01000024
+
+
+#query for subclasses of periplasmic space
+./query_for_subclasses_of_input_purl.py http://purl.obolibrary.org/obo/GO_0042597 
+
+#query for 
+./query_GO_annotation_of_data_files_csv_annotations_columns.py subclasses_of_ENVO_01000024.txt subclasses_of_GO_0042597.txt
+
+#try cell part
+

@@ -1,0 +1,22 @@
+Expertise,Query,Columns
+basic,'concentration of’ and ‘chlorophyll a’,0
+basic,'marine current’ and ‘velocity’,2
+basic,'microbial community’ and ‘species diversity’,0
+basic,'sea ice’ and ‘depth’,0
+basic,'sea ice’ and ‘temperature’,1
+basic,'sea water’ and ‘chlorophyll a’,0
+basic,'snow’ and ‘thickness’,4
+intermediate,'concentration of’ and ‘chlorophyll a’,9
+intermediate,'marine current’ and ‘velocity’,2
+intermediate,'microbial community’ and ‘species diversity’,4
+intermediate,'sea ice’ and ‘depth’,0
+intermediate,'sea ice’ and ‘temperature’,1
+intermediate,'sea water’ and ‘chlorophyll a’,4
+intermediate,'snow’ and ‘thickness’,4
+advanced,'concentration of’ and ‘chlorophyll a’,9
+advanced,'marine current’ and ‘velocity’,3
+advanced,'microbial community’ and ‘species diversity’,4
+advanced,'sea ice’ and ‘depth’,6
+advanced,'sea ice’ and ‘temperature’,2
+advanced,'sea water’ and ‘chlorophyll a’,6
+advanced,'snow’ and ‘thickness’,5

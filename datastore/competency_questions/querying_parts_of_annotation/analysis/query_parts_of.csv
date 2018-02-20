@@ -1,0 +1,49 @@
+Expertise,Query,Number,Percent,Sample
+basic,'brine channel',0,NA,data matrices
+basic,'carbon atom',0,NA,data matrices
+basic,'cation',0,NA,data matrices
+basic,'centrally registered identifier symbol',0,NA,data matrices
+basic,'glacier',0,NA,data matrices
+basic,'marine biome',1,25,data matrices
+basic,'melt pond',0,NA,data matrices
+basic,'ocean',0,NA,data matrices
+intermediate,'brine channel',0,NA,data matrices
+intermediate,'carbon atom',0,NA,data matrices
+intermediate,'cation',0,NA,data matrices
+intermediate,'centrally registered identifier symbol',0,NA,data matrices
+intermediate,'glacier',0,NA,data matrices
+intermediate,'marine biome',3,75,data matrices
+intermediate,'melt pond',0,NA,data matrices
+intermediate,'ocean',0,NA,data matrices
+advanced,'brine channel',0,NA,data matrices
+advanced,'carbon atom',0,NA,data matrices
+advanced,'cation',0,NA,data matrices
+advanced,'centrally registered identifier symbol',0,NA,data matrices
+advanced,'glacier',0,NA,data matrices
+advanced,'marine biome',4,100,data matrices
+advanced,'melt pond',0,NA,data matrices
+advanced,'ocean',0,NA,data matrices
+basic,'brine channel',0,0,data points
+basic,'carbon atom',0,0,data points
+basic,'cation',0,0,data points
+basic,'centrally registered identifier symbol',234,100,data points
+basic,'glacier',0,0,data points
+basic,'marine biome',0,0,data points
+basic,'melt pond',0,0,data points
+basic,'ocean',0,0,data points
+intermediate,'brine channel',22,100,data points
+intermediate,'carbon atom',0,0,data points
+intermediate,'cation',0,0,data points
+intermediate,'centrally registered identifier symbol',234,100,data points
+intermediate,'glacier',329,58.2,data points
+intermediate,'marine biome',873,100,data points
+intermediate,'melt pond',0,0,data points
+intermediate,'ocean',0,0,data points
+advanced,'brine channel',22,100,data points
+advanced,'carbon atom',0,0,data points
+advanced,'cation',73,100,data points
+advanced,'centrally registered identifier symbol',234,100,data points
+advanced,'glacier',465,82.3,data points
+advanced,'marine biome',873,100,data points
+advanced,'melt pond',38,100,data points
+advanced,'ocean',714,94.9,data points

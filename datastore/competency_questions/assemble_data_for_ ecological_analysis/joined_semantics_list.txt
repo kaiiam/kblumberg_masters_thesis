@@ -1,0 +1,12 @@
+http://purl.obolibrary.org/obo/CHEBI_18230
+http://purl.obolibrary.org/obo/ENVO_00001999
+http://purl.obolibrary.org/obo/ENVO_02000049
+http://purl.obolibrary.org/obo/ENVO_00000016
+http://purl.obolibrary.org/obo/ENVO_00000015
+http://purl.obolibrary.org/obo/ENVO_00000219
+http://purl.obolibrary.org/obo/ENVO_00002149
+http://purl.obolibrary.org/obo/ENVO_00002150
+http://purl.obolibrary.org/obo/ENVO_00002200
+http://purl.obolibrary.org/obo/ENVO_03000073
+http://purl.obolibrary.org/obo/ENVO_03000072
+http://purl.obolibrary.org/obo/ENVO_03000071

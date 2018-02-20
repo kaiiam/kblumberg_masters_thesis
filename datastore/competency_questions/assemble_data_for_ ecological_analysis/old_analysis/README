@@ -1,0 +1,18 @@
+Evaluate how feasible it is to bring together different kinds of data which are associated with a process to perform an ecological analysis on the data and look if there are signs of the process inhering in the data. Pull together any data about classes which are participants of a water ice formation processes.
+
+
+# get subclasses of sea ice formation process
+./query_for_subclasses_of_input_purl.py http://purl.obolibrary.org/obo/ENVO_03000044
+
+
+#get subproperties of has participant
+./query_for_subproperties_of_input_purl.py http://purl.obolibrary.org/obo/RO_0000057
+
+# query for classes linked by subclasses of sea ice formation process and subproperties of has participant
+# aka get all inputs and outputs of a sea ice formation process. 
+./query_for_classes_linked_by_input_classes_and_input_properties.py subclasses_of_ENVO_03000044.txt subproperties_of_RO_0000057.txt
+
+# get data about any classes linked by subclasses of sea ice formation process and subproperties of has participant
+./query_annotation_of_data_columns_about_input.py classes_related_by_ENVO_03000044_classes_and_RO_0000057_properties.txt
+
+#open the csv file in libreoffice/excel to fix the commas, on to the R script

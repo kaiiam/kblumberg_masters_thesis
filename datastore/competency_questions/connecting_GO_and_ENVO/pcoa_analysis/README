@@ -1,0 +1,21 @@
+
+# query for subclasses of organic acid biosynthetic process 
+./query_for_subclasses_of_input_purl.py http://purl.obolibrary.org/obo/GO_0016053
+
+# get data about subclasses of organic acid biosynthetic process 
+./query_GO_annotation_of_data_files_csv_annotations_columns.py subclasses_of_ENVO_01000024.txt subclasses_of_GO_0016053.txt
+
+# query for subclasses of cellular amino acid biosynthetic process 
+./query_for_subclasses_of_input_purl.py http://purl.obolibrary.org/obo/GO_0008652
+
+# get data about subclasses of cellular amino acid biosynthetic process
+./query_GO_annotation_of_data_files_csv_annotations_columns.py subclasses_of_ENVO_01000024.txt subclasses_of_GO_0008652.txt
+
+# query for subclasses of serine family amino acid biosynthetic process 
+./query_for_subclasses_of_input_purl.py http://purl.obolibrary.org/obo/GO_0009070
+
+# get data about subclasses of serine family amino acid biosynthetic process
+./query_GO_annotation_of_data_files_csv_annotations_columns.py subclasses_of_ENVO_01000024.txt subclasses_of_GO_0009070.txt
+
+# run the pcoa_analysis.R script to visualize the PCOA plots. 
+#uses Hellinger transformations. 

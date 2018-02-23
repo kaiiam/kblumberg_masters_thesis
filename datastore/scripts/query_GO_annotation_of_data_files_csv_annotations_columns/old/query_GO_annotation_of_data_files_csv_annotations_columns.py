@@ -9,9 +9,12 @@ import sys
 import fileinput
 import re                   #to filter files using regex
 import unicodedata #to convert literals to strings
-import csv
-import pandas as pd
+#import logging  #to avoid any "No handlers" warning
 ########################################################################
+#to avoid any "No handlers" warning
+#logging.basicConfig()
+#logger = logging.getLogger('my-logger')
+#logger.propagate = False
 
 # read in file which was given as the first commandline argument
 # the file should be a list of PURLS
@@ -48,7 +51,7 @@ def select_func():
 
 # Put together the FROM block
 def from_func():
-    return 'FROM <../../../go_datastore.ttl>\n'
+    return 'FROM <../../mf_datastore.ttl>\n'
 
 # Put together a VALUES block to filter using a single variable/column
 def values_filtering_func(input_list, in_var):
@@ -112,7 +115,7 @@ def query_associated_data():
 #initialize the ConjunctiveGraph which will function as the entire datastore
 graph = g.ConjunctiveGraph()
 
-graph.parse('../../../go_datastore.ttl', format='ttl')
+graph.parse('../../mf_datastore.ttl', format='ttl')
 
 results = graph.query(query_associated_data())
 
@@ -127,7 +130,7 @@ for (subj, term, pred, obj) in results:
 
 def select_row_func():
     s = 'SELECT ?column \n'
-    s += '	(group_concat(?value; separator=",") as ?value)\n'
+    s += '	(group_concat(?value; separator=", ") as ?value)\n'
     return s
 
 def where_query_row_data_func():
@@ -150,61 +153,5 @@ def query_row_data():
 
 results2 = graph.query(query_row_data())
 
-out = re.sub('[.]txt', '', str(sys.argv[2]))
-out = re.sub('subclasses_of', '', out)
-
-outstring = 'go_envo_data' + out + '.csv'
-f = open(outstring, 'w')
 for row in results2:
-    f.write ("%s,%s\n" % row)
-
-##########################################################################################
-#re-read and clean the data.
-
-aby_data = []
-bat_data = []
-ner_data = []
-
-with open(outstring, "rb") as f:
-    reader = csv.reader(f, delimiter=",")
-    for line in reader:
-        if "abyssal" in line[0]:
-            if 'http://purl.obolibrary.org/obo/' in line[1]:
-                aby_list = line
-                aby_str = str(line[0])
-            else:
-                aby_data.append(line)
-        if "bathyal" in line[0]:
-            if 'http://purl.obolibrary.org/obo/' in line[1]:
-                bat_list = line
-                bat_str = str(line[0])
-            else:
-                bat_data.append(line)
-        if "neritic" in line[0]:
-            if 'http://purl.obolibrary.org/obo/' in line[1]:
-                ner_list = line
-                ner_str = str(line[0])
-            else:
-                ner_data.append(line)
-
-aby_list = ['sample' if x==aby_str else x for x in aby_list]
-bat_list = ['sample' if x==bat_str else x for x in bat_list]
-ner_list = ['sample' if x==ner_str else x for x in ner_list]
-
-aby_df = pd.DataFrame(aby_data, columns=aby_list  )
-bat_df = pd.DataFrame(bat_data, columns=bat_list  )
-ner_df = pd.DataFrame(ner_data, columns=ner_list  )
-
-i_list = list(set(aby_list).intersection(bat_list))
-
-#merge aby and bat
-merged = pd.merge(aby_df,bat_df, on=i_list, how='outer')
-
-m_list = list(merged.columns)
-intersection_list = list(set(ner_list).intersection(m_list))
-
-merged2 = pd.merge(merged,ner_df,on=intersection_list, how='outer')
-merged2.set_index('sample', inplace=True)
-merged2.fillna(0,inplace=True)
-
-merged2.to_csv(outstring, sep=',', encoding='utf-8')
+    print "%s | %s" % row

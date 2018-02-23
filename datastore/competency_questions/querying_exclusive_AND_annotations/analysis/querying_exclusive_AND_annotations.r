@@ -15,9 +15,10 @@ annotation_number <- ggplot(data=annotation_number_data, aes(x=Query, y=Percent,
               coord_flip() +
               theme_linedraw() +
               labs(colour ="Expertise") + scale_fill_manual(values = c("#E47461", "#AEE99A", "#F4F093")) +
-              ylab(expression(paste("Percent Retrieved" ))) +
+              ylab(expression(paste("Percent retrieved" ))) +
               geom_text(aes(label = Percent),
-              position = position_dodge(width = 0.9), vjust=0.2, size =2) 
+              position = position_dodge(width = 0.9), vjust=0.2, size =2) +
+              theme(legend.position = "top")
 
 #annotation_number <- annotation_number + theme(axis.text = element_text(angle = 90, hjust = 1))
 

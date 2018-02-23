@@ -9,9 +9,12 @@ import sys
 import fileinput
 import re                   #to filter files using regex
 import unicodedata #to convert literals to strings
-import csv
-import pandas as pd
+#import logging  #to avoid any "No handlers" warning
 ########################################################################
+#to avoid any "No handlers" warning
+#logging.basicConfig()
+#logger = logging.getLogger('my-logger')
+#logger.propagate = False
 
 # read in file which was given as the first commandline argument
 # the file should be a list of PURLS
@@ -20,13 +23,6 @@ in_file = open(str(sys.argv[1]), 'r')
 #Create and clean a list of PURLS from the inputfile
 in_args = []
 in_args += [line.rstrip('\n') for line in in_file]
-
-#second infile list of GO terms
-in_file2 = open(str(sys.argv[2]), 'r')
-
-#Create and clean a list of PURLS from the inputfile
-in_args2 = []
-in_args2 += [line.rstrip('\n') for line in in_file2]
 
 ########################################################################
 # Put together a sparql query from pieces.
@@ -41,14 +37,14 @@ def prefix_func():
 #takes the query and a bool for whether or not to add a distinct
 def select_func():
     s = 'SELECT DISTINCT ?c \n'
-    s += '	(group_concat(DISTINCT ?value; separator=", ") as ?value)\n'
-    s += '	?column\n'
-    s += '	(group_concat(?x; separator=", ") as ?x)\n'
+    s += '	(group_concat(DISTINCT ?value; separator=",") as ?value)\n'
+    #s += '	?column\n'
+    s += '	(group_concat(DISTINCT ?x; separator=",") as ?x)\n'
     return s
 
 # Put together the FROM block
 def from_func():
-    return 'FROM <../../../go_datastore.ttl>\n'
+    return 'FROM <../../datastore.ttl>\n'
 
 # Put together a VALUES block to filter using a single variable/column
 def values_filtering_func(input_list, in_var):
@@ -96,9 +92,10 @@ def where_query_associated_data_func():
     s += '   rdf:type/owl:equivalentClass/owl:intersectionOf/rdf:first/owl:someValuesFrom obo:OBCS_0000120 ;\n'
     s += '   rdf:type/owl:equivalentClass/owl:intersectionOf/rdf:rest/rdf:first/owl:onProperty obo:IAO_0000136 .\n'
     s += '?c obo:BFO_0000051 ?column .\n'
+    s += '?column rdf:type/owl:equivalentClass/owl:intersectionOf/rdf:rest/rdf:first/owl:someValuesFrom <http://www.geneontology.org/formats/oboInOwl#hasDbXref>. \n '
     s += '?row a ns1:rfc4180Row ;\n'
     s += '  ?column ?x .\n'
-    s += values_filtering_func(in_args2,'x')
+    #s += values_filtering_func(in_args2,'x')
     s += '} GROUP BY ?column \n'
     return s
 
@@ -112,99 +109,14 @@ def query_associated_data():
 #initialize the ConjunctiveGraph which will function as the entire datastore
 graph = g.ConjunctiveGraph()
 
-graph.parse('../../../go_datastore.ttl', format='ttl')
+graph.parse('../../datastore.ttl', format='ttl')
 
 results = graph.query(query_associated_data())
 
-# function to parse the query return object
-# unicodedata.normalize is to convert from literals to strings to feed back into a values block.
-column = []
-for (subj, term, pred, obj) in results:
-    column.append(unicodedata.normalize('NFKD', pred.toPython()).encode('ascii','ignore'))
+# for row in results:
+#     print "%s | %s| %s" % row
 
-###############################################################
-##assemble the second query to fetch the row data
-
-def select_row_func():
-    s = 'SELECT ?column \n'
-    s += '	(group_concat(?value; separator=",") as ?value)\n'
-    return s
-
-def where_query_row_data_func():
-    s = 'WHERE {\n'
-    s += '?row a ns1:rfc4180Row ;\n'
-    s += '   ?cols ?x .\n'
-    s += values_filtering_func(column,'cols') + '\n'
-    s += values_filtering_func(in_args2,'x') + '\n'
-    s += '?row ?column ?value.\n'
-    s += 'FILTER(?value != <http://tools.ietf.org/html/rfc4180Row>)\n'
-    s += 'FILTER(?column != <http://tools.ietf.org/html/rfc4180rowPosition>)\n'
-    s += '} GROUP BY ?column \n'
-    return s
-
-##second query to retrieve the specific GO terms of interest
-## including the other data in their rows
-def query_row_data():
-    f_list = [prefix_func(), select_row_func() , from_func(), where_query_row_data_func() ]
-    return''.join(f_list)
-
-results2 = graph.query(query_row_data())
-
-out = re.sub('[.]txt', '', str(sys.argv[2]))
-out = re.sub('subclasses_of', '', out)
-
-outstring = 'go_envo_data' + out + '.csv'
+outstring = 'data_set_assoc_raw.csv'
 f = open(outstring, 'w')
-for row in results2:
-    f.write ("%s,%s\n" % row)
-
-##########################################################################################
-#re-read and clean the data.
-
-aby_data = []
-bat_data = []
-ner_data = []
-
-with open(outstring, "rb") as f:
-    reader = csv.reader(f, delimiter=",")
-    for line in reader:
-        if "abyssal" in line[0]:
-            if 'http://purl.obolibrary.org/obo/' in line[1]:
-                aby_list = line
-                aby_str = str(line[0])
-            else:
-                aby_data.append(line)
-        if "bathyal" in line[0]:
-            if 'http://purl.obolibrary.org/obo/' in line[1]:
-                bat_list = line
-                bat_str = str(line[0])
-            else:
-                bat_data.append(line)
-        if "neritic" in line[0]:
-            if 'http://purl.obolibrary.org/obo/' in line[1]:
-                ner_list = line
-                ner_str = str(line[0])
-            else:
-                ner_data.append(line)
-
-aby_list = ['sample' if x==aby_str else x for x in aby_list]
-bat_list = ['sample' if x==bat_str else x for x in bat_list]
-ner_list = ['sample' if x==ner_str else x for x in ner_list]
-
-aby_df = pd.DataFrame(aby_data, columns=aby_list  )
-bat_df = pd.DataFrame(bat_data, columns=bat_list  )
-ner_df = pd.DataFrame(ner_data, columns=ner_list  )
-
-i_list = list(set(aby_list).intersection(bat_list))
-
-#merge aby and bat
-merged = pd.merge(aby_df,bat_df, on=i_list, how='outer')
-
-m_list = list(merged.columns)
-intersection_list = list(set(ner_list).intersection(m_list))
-
-merged2 = pd.merge(merged,ner_df,on=intersection_list, how='outer')
-merged2.set_index('sample', inplace=True)
-merged2.fillna(0,inplace=True)
-
-merged2.to_csv(outstring, sep=',', encoding='utf-8')
+for row in results:
+    f.write ("%s,%s,%s\n" % row)

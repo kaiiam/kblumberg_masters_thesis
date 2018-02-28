@@ -4,7 +4,6 @@
 #query for subclasses of sea ice formation process
 ./query_for_subclasses_of_input_purl.py http://purl.obolibrary.org/obo/ENVO_03000044
 
-
 #query for classes which participate in in sea ice formation processes
 ./query_for_classes_linked_by_input_classes_and_input_properties.py subclasses_of_ENVO_03000044.txt subproperties_of_RO_0000057.txt
 

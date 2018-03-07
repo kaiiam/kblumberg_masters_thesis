@@ -47,6 +47,13 @@ my.rda <- rda(data.zscored)
 
 pca_plot <- biplot(my.rda, display = c("sites", "species"), type = c("text", "points"))
 
+(my.rda$CA$eig/(sum(my.rda$CA$eig))*100)
+
+my.rda$pCCA
+
+
+pca_plot$species
+
 #Add hulls
 #spp.names <- levels(data[,1])
 #ordihull(my.rda, group = data[,1], col = c("blue","green","orange"))

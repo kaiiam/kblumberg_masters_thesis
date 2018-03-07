@@ -1,2 +1,0 @@
-http://purl.obolibrary.org/obo/GO_0005524
-http://purl.obolibrary.org/obo/GO_0016887

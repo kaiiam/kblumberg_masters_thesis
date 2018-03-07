@@ -16,6 +16,9 @@ $endif$
 \usepackage{wrapfig}
 \usepackage{float}
 \usepackage{caption}
+\DeclareCaptionLabelFormat{nolabel}{}
+\captionsetup{labelformat=nolabel}
+
 \usepackage{subcaption}
 
 

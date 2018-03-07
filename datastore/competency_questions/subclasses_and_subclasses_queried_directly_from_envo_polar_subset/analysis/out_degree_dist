@@ -1,9 +1,0 @@
-0	42	0			
-1	108	108			
-2	64	128			
-3	41	123			
-4	7	28			
-5	3	15	402	265	1.517
-x	f	fi*xi	sum(fi*xi)	sum(fi)	sum(fi*xi)/sum(fi)
-					
-		u = sum fi*xi/sum fi			

@@ -1,9 +1,0 @@
-script which returns any csv or column annotated with an input term and any data from such columuns.
-
-This may be useful as a backup but not an ideal demo case could suffice though.
-
-example run:
-
-./query_annotation_of_data_files_data_or_columns_about_input.py subclasses_of_ENVO_00002200.txt
-
-USE THIS case for the query_for_parts_associated_with_input_class

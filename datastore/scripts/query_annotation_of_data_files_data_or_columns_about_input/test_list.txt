@@ -1,3 +1,0 @@
-http://purl.obolibrary.org/obo/ENVO_01000158
-http://purl.obolibrary.org/obo/CHEBI_3311
-http://purl.obolibrary.org/obo/OBCS_0000083

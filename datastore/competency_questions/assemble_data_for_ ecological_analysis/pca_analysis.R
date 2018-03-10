@@ -45,7 +45,7 @@ data.zscored <- as.data.frame(lapply(data[,indx], function(x) scale(x, center = 
 # Doing unconstrained RDA (PCA) on my data
 my.rda <- rda(data.zscored)
 
-pca_plot <- biplot(my.rda, display = c("sites", "species"), type = c("text", "points"))
+pca_plot <- biplot(my.rda, display = c("sites", "species"), cex=2, type = c("text", "points"))
 
 (my.rda$CA$eig/(sum(my.rda$CA$eig))*100)
 

@@ -37,6 +37,8 @@ points(fig, "sites", col=colors_vec, cex=1.4, pch=19)
 
 (my.pcoa$eig/(sum(my.pcoa$eig))*100)
 
+my.pcoa$points
+
 spp.names <- levels(combined$sample)
 #legend("bottomleft", col = c("#1461f0","#14c4ff","#0d742e"), lty = 1, legend = spp.names, title="Benthic biome", text.font = 1)
 #####################################################################
@@ -76,6 +78,7 @@ points(fig, "sites", col=colors_vec, cex=1.4, pch=19)
 
 write.csv(my.pcoa$species, file="cellular_amino_acid_biosynthetic_loadings")
 
+my.pcoa$points
 
 spp.names <- levels(combined$sample)
 #legend("bottomleft", col = c("#1461f0","#14c4ff","#0d742e"), lty = 1, legend = spp.names, title="Benthic biome", text.font = 1)

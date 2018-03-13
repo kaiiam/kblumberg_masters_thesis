@@ -35,6 +35,8 @@ ECOCORE Ontology of Core Ecological Entities
 
 ENVO Environment Ontology FRAM FRontiers in Arctic marine Monitoring
 
+FAIR Findable Accessible Interoperable and Reusable
+
 IACS International Association of Cryospheric Sciences
 
 IAO Information Artifact Ontology
@@ -63,9 +65,9 @@ PCO Population and Community Ontology
 
 RDF Resource Description Framework
 
-RO Relations Ontology SPARQL
+RO Relations Ontology
 
-SPARQL Protocol and RDF Query Language
+SPARQL SPARQL Protocol and RDF Query Language
 
 SWEET Semantic Web for Earth and Environmental Technology
 
@@ -128,6 +130,141 @@ R.6 query_parts_of_annotation.r
 # 1. Introduction
 
 
+The Earth system is facing unprecedented anthropogenic pressures which have the potential to destabilize critical biophysical systems, triggering irreversible environmental changes [@Rockström_2009]. To address the broad scope of climate change interdisciplinary scientific action is required of the scientific community [@Lenhard_2006], unfortunately interdisciplinarity is not a prominent feature of climate research [@Bjurstr_m_2011]. Hence, strategies to link complex and differentially structured data generated from interdisciplinary sources are needed [@Madin_2007]. In order to prevent large quantities of information and data from contributing to uncertainty rather than reducing it [@Hortal_2015], strategies are needed to store environmental data in a way which captures subtleties of the data’s structure, content and inter-relationships [@Madin_2007].
+
+
+problem statment deluge of data incoming
+
+Over the next decade, it is likely that science and engineering research will produce more scientific data than has been created over the whole of human history [@cox]
+
+Currently scientific knowledge, information and data about environmental systems are published in wide variety of heterogeneous formats [@Horsburgh_2009], which could be metaphorically described as a wild and untamed wilderness of knowledge. Scientific knowledge, information and data contained in this knowledge wilderness are commonly not interoperable, i.e. they lack the capacity to be used together [@Wilkinson_2016]. Interoperability is a crucial component in the FAIR guiding principles for scientific data management and stewardship, and is required to make published data reusable to both human and machine agents [@Wilkinson_2016]. In this work, I address the question of what can be done to integrate and prepare interdisciplinary earth systems knowledge, information and data to be machine-actionable, i.e. processable by computational systems in an automated fashion [@Rauber].
+
+Semantics, i.e. the meanings of words or digital objects [@Wilkinson_2016], are needed to make knowledge, information and data work interoperably at a machine-accessible level. Interoperable semantics can be used by machine agents to retrieve and analyze data relevant to a task of study [@Wilkinson_2016], facilitating the process of knowledge synthesis. Knowledge representation a field of artificial intelligence makes use of machine-actionable knowledge, information and data, by integrating it into computer system intended to solve complicated tasks [@brachman1985readings]. Knowledge representation systems have been successful used in medical domains to perform tasks such as computer-aided diagnosis of medical conditions [@Takahashi_2017].
+
+Knowledge representation models can be constructed from expert knowledge which is represented in ontologies. An ontology is a hierarchically structured, machine and human readable semantic representation of the knowledge used by experts to describe entities in the universe, and capture the relationships between them [@Smith_2007]. In informatics, ontologies exist in the form of a knowledge graph, where nodes represent entities, and edges represent logical relations linking entities together (i.e. axioms).
+
+In medical domains, ontologies have been used to interconnect disparate data and information, to enable computational interrogation of models to reveal underlying relationships. For example the Monarch Initiative uses an ontology-based strategy to integrate genotype–phenotype data from various sources and species, enabling users to explore phenotypic and genotypic relationships across species [@Mungall_2016].
+
+Analogously to what has been done in medical domains, the use of federated ontology semantics have been discussed as having the potential to link data about phenotypes with environments [@Thessen_2015], as well as environmental and genomic datasets [@Walls_2014]. This would allow for users to leverage knowledge, information and data connected by ontologies to ask questions such as "Which crop varieties are expected to do well in a particular location over the next century?" [@Thessen_2015], or "Can we gather all metagenomes collected from insects found in soil?" [@Walls_2014].
+
+Working toward the objective of using ontologies to interlink environmental knowledge, information and data to conduct future machine-focused ecological analyses, I evaluated the fitness for purpose of using ontologies to integrate interdisciplinary data.
+
+In order to do this I created a model datastore consisting of various types of interdisciplinary polar and microbial omics data. The data in this datastore is annotated with ontology semantics and stored in a machine-accessible format to simulate a linked open data environment, i.e. a collection of data which  can be accessed by machine agents. I made use of Polar data as the subject of the interdisciplinary data integration analysis, as polar systems are particularly vulnerable to the effects of climate change [@Wang_2009]. Subject to the effects of polar amplification, in which the effects of global warming produce larger temperature changes at the poles [@Lee_2014], polar regions are predicted to be free ice within 20 to 50 years [@Wang_2009]. In addition to the polar environmental data I also included environmental microbial omics data in my analysis to test of ontology knowledge-representation artifacts are fit for purpose to integrate interdisciplinary data.
+
+To explore how ontology knowledge representations can fill the niche of improving informatics interactions in the wilderness of scientific data, I developed methods to test if ontologies are fit to interconnect interdisciplinary knowledge, information and data. To do so I developed competency questions, which are analogous to the questions asked by employers during job interviews to judge the competence of prospective employees [@calvo2017analysis]. These competency questions are specific, targeted and directed questions intended to evaluate how well ontology knowledge representation systems performs essential knowledge-representation and data-mobilization related tasks. Competency questions referred to in the text are abbreviated as CQ and are followed by the question number in parenthesis.
+
+
+//in flowing prose and not a shopping list - introduce each competency question with a few lines describing why it's needed.
+
+In semantic research, competency questions serve as testable hypotheses, by which to assess  knowledge-representation models from a variety of angles.
+
+... //maybe finish this up later??
+
+
+Following the convention set by Buttigieg et al. (2013) ontology terms (alternatively referred to as classes) are written in italics with a prefix denoting the ontology namespace from which the class was sourced and in brackets the unique identifier of each term’s OBO Foundry Uniform Resource Identifier following the term label [@Buttigieg_2013]. For example the Environment Ontology term *sea ice formation process* is referred to as 'ENVO:*sea ice formation process* [ENVO_03000044]'.
+
+
+//fix the first steps and mabye include here maybe not.
+The first steps toward using ontologies to integrate environment and genomic data have been undertaken via the creation of the Earth Microbiome Project application Ontology (EMPO). Built as subset of the Environment Ontology, EMPO provides the semantics by which to map environmental 16S tag sequence data to descriptions of environmental features [@Thompson_2017].
+
+
+The first and possibly most important task which I tested the competency of ontologies to perform was to see if they could be used to interconnect environmental and omics data. Linking environmental and omics data to uncover interactions between genomes and environments is a topical challenge in genomic and medical disciplines [@Fave_2018]. In a recent study linking environmental and omics data, Favé et al. (2018) were able to determine that environmental factors (air pollution) were responsible for disease risk phenotype outcomes rather than ancestral genotypes [@Fave_2018].
+
+Using ontologies to interconnect genomic and environmental data would allow for machine agents to act upon large environmental genomic datasets such as the TARA Oceans project [@Ainsworth_2013], the Global Ocean Sampling Expedition [@Ledford_2007] and the Hawaii Ocean Time-series program [@KARL1996129]. Systematic machine operation over such a wealth of knowledge has the potential to help answer future ecological questions.
+
+In principal ontologies should be able to interconnect environmental and genomic data. One of the most widely used ontologies in biomedical domains is the Gene Ontology (GO), which provides semantic representations describing the roles of genes and gene products [@Ashburner_2000]. The Gene Ontology along with other ontologies are part of the Open Biological and Biomedical Ontology (OBO) Foundry and Library [@Smith_2007]. These ontologies use common upper level semantic models and shared relations so they can work interoperably, creating a unified multidisciplinary knowledge representation model [@Walls_2014]. One such OBO ontology the Environment Ontology (ENVO) provides semantic descriptions of environments [@Buttigieg_2013][@Buttigieg_2016]. Although ENVO and GO make use of interoperable semantics, efforts to use these ontologies in combination, have infrequently been attempted [@Henschel_2015]. Assessing if ontologies can be used to interconnect environmental and genomic data in order to compare genetic differences between environments, I formulated my first competency question:
+
+> "What are the relative proportions of oxidation-reduction process genes in various types of marine biomes?"
+$$CQ (1)$$
+
+This question evaluates a variety of ontology competencies. First it tests if it is possible to use ontologies to interconnect genomic and environmental data, retrieving data which is about a GO:*oxidation-reduction process* [GO_0055114 as well as an ENVO:*marine biome* [ENVO_00000447]. The question doesn't just test if there is a specific type of GO data about ENVO:*marine biome* [ENVO_00000447], but it tests if the knowledge contained in the knowledge hierarchy about different types of ENVO:*marine biome*s [ENVO_00000447] can be leveraged to determine if any of those subclass have information about this specific GO term. Simulating the kinds of questions a microbial ecologist would ask about gene which differentiate various ENVO:*marine biome*s [ENVO_00000447] I asked:
+
+> "What are the relative proportions of vitamin biosynthetic process genes in various types of marine biomes?"
+$$CQ (2)$$
+
+This question is intended to further explore if ontologies can be used to facilitate the collection of data by which to perform comparative genomic analyses. The results of the second question prompted further analysis leading me to ask:
+
+> "What genomic features may help to explain the differences in riboflavin abundances between deep and shallow marine benthic biomes?"
+$$CQ (3)$$
+
+To answer this I explored terms from higher level GO hierarchies of GO*molecular_function*s [GO_0003674] and GO:*biological_process* [GO_0008150] to find information relevant to transition metal binding and transport functions.
+
+I wanted to test what other kinds of expert knowledge were present in the higher level GO ontology GO:*biological_process* [GO_0008150] hierarchy which may help to differentiate ENVO:*marine biome*s [ENVO_00000447] samples. Hence I created a competency question asking:
+
+> "What biological processes differentiate various types of marine benthic biomes?"
+$$CQ (4)$$
+
+As there is quite a lot of expert knowledge contained in the upper level GO:*biological_process* [GO_0008150] hierarchy I wanted to ask a more specific question about a subclass of GO:*biological_process* [GO_0008150], GO:*cellular amino acid biosynthetic process* [GO_0008652]:
+
+> "What cellular amino acid biosynthetic processes differentiate various types of marine benthic biomes?"
+$$CQ (5)$$
+
+Drawing from the results of CQ (5) to further leverage the GO biological processes hierarchy to see if specific GO terms could be found which are are completely different in ENVO:*marine biome*s [ENVO_00000447] samples, I asked:
+
+> "What serine family amino acid biosynthetic processes differentiate various types of marine benthic biomes?"
+$$CQ (6)$$
+
+Although the interconnection of genomic and environmental data is an important competency by which to assess ontologies for their ability to interconnect interdisciplinary data, it is far from being the only use case for ontologies to interconnect knowledge, information and data. I created the following question to assess the fitness of ontologies to be able to navigate machine-accessible information to discover data relevant to a phenomena of interest. I tested this with the competency question asking:
+
+> What data about environmental factors with the potential to influence the dynamics of a sea-ice associated phytoplankton community could be collected using an ontology?
+$$CQ (7)$$
+
+Discovery of data is an important task for ontologies to be able to perform, similarity I wanted to assess if ontologies can also be used by scientists to discover new knowledge from a knowledge graph which is related to stated input knowledge. Operating on the envoPolar subset of ENVO I asked:
+
+> "Is the ontology knowledge graph of the envoPolar subset sufficiently well connected to be able to lead researchers to new knowledge via unstated linkages to identified knowledge?"
+$$CQ (8)$$
+
+Ontology-guided knowledge-discovery is an important competency by which to assess the fitness for purpose of ontologies to interconnect interdisciplinary knowledge.
+
+
+
+The following questions address if ontologies are fit for purpose to identify the provenance of knowledge data or other information:
+
+> "How well do the Environment Ontology and the Environment Ontology Polar subset connect authors of terms to the information they helped to encode?"
+$$CQ (9)$$
+
+
+> "What are all the papers which reference any data set, which is about a part of a marine biome?"
+$$CQ (10)$$
+
+tracking provenance is good ..., are the ontology knowledge models also resilient to changing semantic models.
+
+> "Are ontology knowledge representations resilient to the input of new information which may contain definitional discrepancies?"
+$$CQ (11)$$
+
+I created the following question to assess the resilience of semantic data annotation models, asking:
+
+
+> "What percentages of data items discovered to be about participants in sea ice formation processes would be retrievable if changes were to be made to the underlying semantic models used by OBO ontologies, such as not using hierarchical subclass structures to represent knowledge, or not using structured relations from the Relations Ontology?"
+$$CQ (12)$$
+
+
+The following question addresses the extent to which semantically annotated data is discoverable to general users.
+
+> "What level of querying expertise is required to access the various types of data contained in the example polar datastore?"
+$$CQ (13)$$
+
+
+
+
+
+
+
+
+Finally, to assess if the process of encoding expert ecological knowledge into an ontology knowledge graph aids to clarify the understanding of ecological phenomena, I asked:
+
+> "Does the inclusion of novel expert knowledge about phenomena relating to plankton ecology into the ENVO knowledge graph aid to better understand the interconnections of such phenomena?
+$$CQ (14)$$
+
+
+
+
+
+
+
+
+
+//cut most of this except for a brief mention of SWE contributing to the future data deluge issue.
 Unprecedented quantities of data and information generated as a result of the information revolution have arguably made the world more uncertain complex and ambiguous than less [@Hortal_2015]. As a consequence, challenges we face tend to be dilemmas requiring management, rather than easily defined problems to solve [@johansen2007]. Coming technological advances will further accelerate the rate of ecological data capture [@Hortal_2015]. Lacking well-established repositories or standard protocols for the management of ecological data [@Madin_2007], such influxes of data have the potential to contribute rather than detract from uncertainty about the natural world. The Earth system is facing unprecedented anthropogenic pressures which have the potential to destabilize critical biophysical systems, triggering irreversible environmental changes [@Rockström_2009]. Needed are strategies to store ecological data in a way which captures subtleties of the data’s structure, content and inter-relationships [@Madin_2007]. This holds especially true for vulnerable and rapidly changing environments, such as polar systems which have been predicted to be free ice within 20-50 years [@Wang_2009]. Despite the existence of numerous environmental monitoring efforts such as AtlantOS [@AtlantOS], the Fixed point Open Ocean Observatory network (FixO3) [@fixo3], or the Hausgarten Long-Term Arctic Observatory [@Soltwedel_2005]. The management and integration of generated data remains a major obstacle, precluding integrated analysis from being performed on interdisciplinary data. Working toward the improvement of infrastructure for scholarly data publication, Wilkinson et al. (2016) have proposed the FAIR data guiding principles of data findability, accessibility, interoperability and reusability. These principles aim to promote the publication of data which is accessible to both humans, as well as machines [@Wilkinson_2016]. Although many ecological datasets, such as those generated by observatories, have been published to openly accessible repositories such as PANGAEA [@pangaea] or the Biological and Chemical Oceanography Data Management Office (BCO-DMO) [@bco_dmo]. Data contained within such repositories are typically not machine-readable, or interoperable. In order to make annotated data work interoperably, annotations need to make use of controlled, universally shared, and machine accessible vocabularies. Such annotation terms can be provided by ontologies.
 
 An ontology is a hierarchically structured, machine and human readable representation of the knowledge used by experts to describe entities, and capture the relationships between them [@Smith_2007]. In informatics, ontologies exist in the form of a knowledge graph, where nodes represent entities, and edges represent logical relations linking entities together (i.e. axioms). Ontologies provide a digital semantic infrastructure upon which advanced querying, discovery and analysis of data can occur. Ontologies are typically developed to cover the terminological needs of a particular domain of interest. In order to interconnect ontologies representing scientific knowledge from different domains, as well as coordinate their development, the Open Biological and Biomedical Ontology (OBO) Foundry and Library was created [@Smith_2007]. OBO Foundry ontologies share common upper level semantic models. Notable the Basic Formal Ontology (BFO) [@Arp_2015][@bfo_homepage] providing common hierarchical structures by which to characterize knowledge, and the Relations Ontology (RO) [@obo-relations], to standardize the connections between represented knowledge. Existing OBO ontologies such as the Environment and Gene Ontologies, for the description of environments [@Buttigieg_2013][@Buttigieg_2016] and genetic functions [@Ashburner_2000] are designed to work interoperably. Efforts to use these ontologies in combination, however, have infrequently been attempted [@Henschel_2015].
@@ -148,55 +285,6 @@ Ontologies can be used directly to answer competency questions, by searching for
 
 To interconnect my example data as well as access information within the OBO knowledge graph, I developed scripts which are able to retrieve classes pertaining to a phenomenon of interest, as well as classes pertaining to connected phenomena. This allows for the interconnections between phenomena encoded into ontologies to be leveraged to interconnect interdisciplinary data, enabling questions to be asked of the interdisciplinary datastore. In this work I employed my semantically-annotated datastore and ontology querying scripts to answer the competency questions I created. These competency questions are intended to assess the fitness for purpose of ontologies to interconnect interdisciplinary environmental and genomic datasets. The following is a description of the competency questions I asked and attempted to answer in the course of this work.
 
-I began by assessing the fitness for purpose of using ontologies to interconnect genomic and environmental data, by asking the following questions:
-
-> "What are the relative abundance frequencies of oxidation-reduction process genes in various types of marine biomes?"
-
-> "What are the relative abundance frequencies of vitamin biosynthetic process genes in various types of marine biomes?"
-
-These questions were aimed to test if ontologies can be used to facilitate the collection of data by which to perform comparative genomic analyses. The results of the second question prompted further analysis leading me to ask the question:
-
-> "What genomic features may help to explain the differences in riboflavin abundances between deep and shallow marine benthic biomes?"
-
-Leveraging the vast quantities of expert knowledge encoded in the GO ontology, I asked the following question:
-
-> "What biological processes differentiate various types of marine benthic biomes?"
-
-Based on the results of this fourth question, and making use of the GO  biological processes hierarchy I asked a more specific question:
-
-> "What cellular amino acid biosynthetic processes differentiate various types of marine benthic biomes?"
-
-Drawing from the results of this question, and again leveraging the GO  biological processes hierarchy I asked an even more specific question:
-
-> "What serine family amino acid biosynthetic processes differentiate various types of marine benthic biomes?"
-
-To assess if ontologies are fit to assemble information upon which to perform an ecology analysis, I asked the following question:
-
-> "What environmental factors have the greatest influence on the dynamics of a sea-ice associated phytoplankton community?"
-
-The following questions address if ontologies are fit for purpose to identify the provenance of knowledge data or other information:
-
-> "How well do the Environment Ontology and the Environment Ontology Polar subset connect authors of terms to the information they helped to encode?"
-
-> "What are all the papers which reference any data set, which is about a part of a marine biome?"
-
-I created the following question to assess the resilience of semantic data annotation models, asking:
-
-> "What percentages of data items discovered to be about participants in sea ice formation processes would be retrievable if we didn’t use the Basic Formal Ontology or Relations Ontology upper level semantic models?"
-
-In the following competency question I addresses if ontologies are fit for purpose to aid scientists to discover data.
-
-> "Is the ontology knowledge graph of the envoPolar subset sufficiently well connected to be able to lead researchers to new knowledge via unstated linkages to identified knowledge?"
-
-The following question addresses the extent to which semantically annotated data is discoverable to general users.
-
-> "What level of querying expertise is required to access the various types of data contained in the example polar datastore?"
-
-
-Finally, to assess if the process of encoding expert ecological knowledge into an ontology knowledge graph aids to clarify the understanding of ecological phenomena, I asked:
-
-> "Does the inclusion of novel expert knowledge about phenomena relating to plankton ecology into the ENVO knowledge graph aid to better understand the interconnections of such phenomena?
-
 
 
 \pagebreak
@@ -205,7 +293,10 @@ Finally, to assess if the process of encoding expert ecological knowledge into a
 
 ## 2.1 Model polar datastore creation
 
-I assembled an example polar themed datastore from freely available Alfred Wegener Institute for Polar and Marine Research datasets hosted by the data publisher PANGAEA [@pangaea], as well as data from unpublished metagenomes and metatranscriptomes. I selected data sets primary from the FRAM [@Soltwedel_2013], and Hausgarten [@Soltwedel_2005] observatory projects and programs. I additionally made use of 16S taxonomic and Pfam2GO annotation tables provided courtesy of Josephine Z Rapp, David Probandt, and Matthew Schechter. Such metagenomes and metatranscriptomes samples had previously been processed using the BBDuk tool (Version 35.68) from the BBTools suite for read quality control [@Bushnell_bbmap], RNA filtered using SortMeRNA (Version 2.0, 29/11/2014) [@Kopylova_2012], taxonomically classified for 16S ribosomal RNA with the SINA alignment tool (Version 1.2.11, revision 21227) [@Pruesse_2012], ORF-predicted via FragGeneScan tool (Version 1.20) [@Rho_2010], ORF-annotated with PFAM domains via the Ultra-fast Protein domain Classification tool (UProC) (1.2.0) [@Meinicke_2014], and mapped to GO terms using the Pfam2GO annotations page (January 2016 version) available from  http://www.geneontology.org/external2go/pfam2go [@Mitchell_2017]. A list of data sets included in the data store is provided in the appendix **A.2 Model polar datastore creation**. The example datastore was created by converting comma separated value (csv) files into the RDF specification [@richard_cyganiak_rdf_2014] turtle format [@david_beckett_rdf_2014], using the script py.1, which makes use of the Apache Anything To Triples (any23) command line *rover* tool [@any23]. Turtle formatted data along with semantic data annotation files were merged into a single datastore file using the script py.3.
+I created
+
+
+I assembled an example polar themed datastore from freely available Alfred Wegener Institute for Polar and Marine Research datasets hosted by the data publisher PANGAEA [@pangaea], as well as data from unpublished metagenomes and metatranscriptomes. I selected data sets primary from the FRAM [@Soltwedel_2013], and Hausgarten [@Soltwedel_2005] observatory projects and programs. I additionally made use of 16S taxonomic and Pfam2GO annotation tables provided courtesy of Josephine Z Rapp, David Probandt, and Matthew Schechter. Such metagenomes and metatranscriptomes samples had previously been processed using the BBDuk tool (Version 35.68 for metagenomes, Version 36.92 for metatranscriptomes) from the BBTools suite for read quality control [@Bushnell_bbmap], RNA filtered using SortMeRNA (Version 2.0, 29/11/2014) [@Kopylova_2012], taxonomically classified for 16S ribosomal RNA with the SINA alignment tool (Version 1.2.11, revision 21227) [@Pruesse_2012], ORF-predicted via FragGeneScan tool (Version 1.20) [@Rho_2010], ORF-annotated with PFAM domains via the Ultra-fast Protein domain Classification tool (UProC) (1.2.0) [@Meinicke_2014], and mapped to GO terms using the Pfam2GO annotations page (January 2016 version) available from  http://www.geneontology.org/external2go/pfam2go [@Mitchell_2017]. A list of data sets included in the data store is provided in the appendix **A.2 Model polar datastore creation**. The datastore was created by converting comma separated value (CSV) files into the RDF specification [@richard_cyganiak_rdf_2014] turtle format [@david_beckett_rdf_2014], using the script py.1, which makes use of the Apache Anything To Triples (any23) command line *rover* tool (Version 2.1) [@any23]. Turtle formatted data along with semantic data annotation files were merged into a single datastore file using the script py.3.
 
 ## 2.2 Semantic data annotation
 
@@ -218,25 +309,21 @@ Semantic annotation of the example data was conducted in the RDF serialization t
 
 **Figure 2** Shows an example of the post-compositional data annotation of datasets using ontology terms. The example is of a data column which is about a *chlorophyll a concentration* in *sea water*. Expressed as an ontology axiom, we have a data column: which is BFO:*part of* [BFO_0000050] some OBCS:*data matrix* [OBCS_0000120] and IAO:*is about* [IAO_0000136] some PATO:*concentration of* [PATO_0000033] and RO:*inheres in* [RO_0000052] some CHEBI:*chlorophyll a* [CHEBI_18230] and BFO:*part of* [BFO_0000050] some ENVO:*sea water* [ENVO_00002149].
 
-![**Figure 2** shows the RDF specification turtle code to annotate a data column from a csv file. Item **A** shows the csv file data column is labeled chlorophyll A. Item **B** shows the data column is BFO:*part of* [BFO_0000050] some OBCS:*data matrix* [OBCS_0000120]. Item **C** shows the data matrix column IAO:*is about* [IAO_0000136] more a list of annotation terms. Item **D** shows object is about a PATO:*concentration of* [PATO_0000033]. Item **E** shows the concentration measured is of CHEBI:*chlorophyll a* [CHEBI_18230]. Item **F** shows the *chlorophyll a* is BFO:*part
+![**Figure 2** shows the RDF specification turtle code to annotate a data column from a CSV file. Item **A** shows the CSV file data column is labeled chlorophyll A. Item **B** shows the data column is BFO:*part of* [BFO_0000050] some OBCS:*data matrix* [OBCS_0000120]. Item **C** shows the data matrix column IAO:*is about* [IAO_0000136] more a list of annotation terms. Item **D** shows object is about a PATO:*concentration of* [PATO_0000033]. Item **E** shows the concentration measured is of CHEBI:*chlorophyll a* [CHEBI_18230]. Item **F** shows the *chlorophyll a* is BFO:*part
 of* [BFO_0000050] some ENVO:*sea water* [ENVO_00002149]. ](figures/data_annotation_diagram.pdf){width=100%}
 
 
 \pagebreak  
 ## 2.3 SPARQL querying
 
-Scripts were written in Python (Version 2.7.12) [@python] and make use of the rdflib module (Version: 4.2.2) an RDF parsing python library [@team_rdflib] to parse the example RDF datastore, as well as assemble and execute SPARQL queries against the example datastore, or local RDF turtle serialization versions of local copies of ontologies. Additional SPARQL queries were preformed against the Ontobee programmatic SPARQL endpoint available from http://sparql.hegroup.org/sparql/ [@Ong2017]. A demonstration of the process by which a SPARQL query is executed is shown in **Figure 2**. Item **A** shows a SPARQL query, which is assembled in a python script based on some user input class (shown in green). This query selects some unknown thing called ?X (shown in red), where ?X is a subclass of some input class, and ?X is part of some class Y (shown in orange). Item **B** shows a knowledge graph of ontology terms and the relations connecting them. The knowledge graph could either be a local copy of an ontology such as ENVO or a
-web accessible ontology knowledge graph such as the Ontobee programmatic SPARQL endpoint. Item **C** shows
-how the SPARQL query navigates the relations in the knowledge graph to find a term which satisfies the input
-conditions. Item **D** shows the successful retrieval of the ?X term, which was discovered from the knowledge
-graph.
+Scripts were written in Python (Version 2.7.12) [@python] and make use of the rdflib module (Version: 4.2.2) an RDF parsing python library [@team_rdflib] to parse the example RDF datastore, as well as assemble and execute SPARQL queries against the datastore, or local RDF turtle serialization versions of local copies of ontologies. Additional SPARQL queries were preformed against the Ontobee programmatic SPARQL endpoint available from http://sparql.hegroup.org/sparql/ [@Ong2017]. A demonstration of the process by which a SPARQL query is executed is shown in **Figure 3**. Item **A** shows a SPARQL query, which is assembled in a python script based on some user input class (shown in green). This query selects some unknown thing called ?X (shown in red), where ?X is a subclass of some input class, and ?X is part of some class Y (shown in orange). Item **B** shows a knowledge graph of ontology terms and the relations connecting them. The knowledge graph could either be a local copy of an ontology such as ENVO or a web accessible ontology knowledge graph such as the Ontobee programmatic SPARQL endpoint. Item **C** shows how the SPARQL query navigates the relations in the knowledge graph to find a term which satisfies the input conditions. Item **D** shows the successful retrieval of the ?X term, which was discovered from the knowledge graph.
 
-![**Figure 2** Shows a demonstration SPARQL query. In item **A** a SPARQL query is assembled. Item **B** represents a knowledge graph of ontology terms and their interconnecting relations. Item **C** shows the process by which the graph is navigated to find some ?X unknown item which is both a subclass of some input class and part of some Y. Item **D** Shows the end result of the query, returning the ?X class of interest having discovered it from the knowledge graph.](figures/query_illustration.pdf){width=80%}
+![**Figure 3** Shows a demonstration SPARQL query. In item **A** a SPARQL query is assembled. Item **B** represents a knowledge graph of ontology terms and their interconnecting relations. Item **C** shows the process by which the graph is navigated to find some ?X unknown item which is both a subclass of some input class and part of some Y. Item **D** Shows the end result of the query, returning the ?X class of interest having discovered it from the knowledge graph.](figures/query_illustration.pdf){width=80%}
 
 \pagebreak
 ## 2.4 Interconnecting genomic and environmental data via ontologies
 
-Retrieval of GO relative abundance data from ontology term annotated data was conducted using the script py.16. The script makes use of a list of benthic marine biome subclasses terms and a list of GO terms, which are subclasses of GO term of interest. Both subclasses lists were assembled using the script py.13. The script py.16 queries the local datastore for data matrices about an input list of annotation terms, for columns which annotated with GO terms matching an input list of ontology classes. The script makes use of the python Python Data Analysis Library (pandas) Version: 0.22.0 [@python_pandas]. The script returns a data table with rows corresponding to samples, and columns corresponding to relative abundances of GO terms. Relative abundances of metagenomic and metatranscriptomic samples were calculated by querying for subclasses of a GO term of interest, querying for all GO terms in the corresponding GO hierarchy, GO:*biological process* [GO_0008150] or GO:*molecular function* [GO_0003674], then dividing the relative abundances of individual terms by the sum of the total abundances of biological process or molecular function terms. Principal coordinate analysis (PCoA) on a data matrices of relative GO term abundances in ENVO annotated samples was conducted in R [@R_core] version 3.3.2, in the script R.4, which uses the vegan package [@vegan] version 2.4-3. Prior to PCoA analysis data was standardized using the decostand function making use of a Hellinger tranformation, then converted into a Bray-Curtis dissimilarity matrix using the vegdist function with standard parameters.
+Retrieval of GO relative abundance data from ontology term annotated data was conducted using the script py.16. The script makes use of a list of benthic marine biome subclasses terms and a list of GO terms, which are subclasses of GO term of interest. Both subclasses lists were assembled using the script py.13. The script py.16 queries the local datastore for data matrices about an input list of annotation terms, for columns which annotated with GO terms matching an input list of ontology classes. The script makes use of the python Python Data Analysis Library pandas (Version: 0.22.0) [@python_pandas]. The script returns a data table with rows corresponding to samples, and columns corresponding to relative abundances of GO terms. Relative abundances of metagenomic and metatranscriptomic samples were calculated by querying for subclasses of a GO term of interest, querying for all GO terms in the corresponding GO hierarchy, GO:*biological process* [GO_0008150] or GO:*molecular function* [GO_0003674], then dividing the relative abundances of individual terms by the sum of the total abundances of biological process or molecular function terms. Principal coordinate analysis (PCoA) on data matrices of relative GO term proportions in ENVO-annotated samples was conducted in R [@R_core] (Version 3.3.2), in the script R.4, which uses the vegan package [@vegan] version 2.4-3. Prior to PCoA analysis data was standardized using the decostand function making use of a Hellinger tranformation, then converted into a Bray-Curtis dissimilarity matrix using the vegdist function with standard parameters.
 
 
 ## 2.5 Ontology guided data assembly for ecological analysis
@@ -246,34 +333,43 @@ Subclasses of ontology terms included in the axioms of the hypothetical ENVO:*en
 
 ## 2.6 Connecting ontology term information with term authors
 
-Percentages of ENVO and envoPolar ontology terms annotated with a IAO:*term editor* [IAO_0000117] or oboInOwl:*created_by* [created_by] relation referencing an ORCID were calculated using the following workflow. Local turtle specification versions of the ENVO and envoPolar ontologies were exported using the standard Protégé [@Musen_2015][@protege] ``export as`` function. Python scrips py.7, py.9 and py.15 were used to SPARQL query the local turtle ontology versions, for total numbers of ENVO terms and numbers of terms annotated with an IAO:*term editor* [IAO_0000117] or oboInOwl:*created_by* [created_by] relation an ORCID. Percentages of ontology terms with IAO:*term editor* [IAO_0000117] or oboInOwl:*created_by* [created_by] annotations were calculated from retrieved counts.
+Percentages of ENVO and envoPolar ontology terms annotated with a IAO:*term editor* [IAO_0000117] or oboInOwl:*created_by* [created_by] relation referencing an ORCID were calculated using the following workflow. Local turtle specification versions of the ENVO and envoPolar v2017-08-22 *Planetary ecology* release [@pier_luigi_buttigieg_2017_846451] ontologies were exported to a local version formatted in the RDF turtle serialization using the standard Protégé [@Musen_2015][@protege] ``export as`` function. Python scripts py.7, py.9 and py.15 were used to perform SPARQL queries upon the local turtle ontology versions, for total numbers of ENVO terms and numbers of terms annotated with an IAO:*term editor* [IAO_0000117] or oboInOwl:*created_by* [created_by] relation an ORCID. Percentages of ontology terms with IAO:*term editor* [IAO_0000117] or oboInOwl:*created_by* [created_by] annotations were calculated from retrieved counts.
+
+The demonstration of how to retrieve the current author contact information from an ORCID, was conducted as follows. A two-legged OAuth authorization request was sent to the ORCID application programming interface sandbox demonstration contact information retrieval service, issuing a token request for the information associated with the demonstration ORCID client identifier ``APP-NPXKK6HFN6TJ4YYI``. Such request was sent from the Linux command line using the curl data transfer tool (Version 7.47.0) using the following line of code:
+
+```
+curl "Accept: application/json" -d "client_id=APP-NPXKK6HFN6TJ4YYI" -d "client_secret=060c36f2-cce2-4f74-bde0-a17d8bb30a97" -d "scope=/read-public" -d "grant_type=client_credentials" "https://sandbox.orcid.org/oauth/token"
+```
+Making use of the returned authentication token ``2bd6d6b7-9438-4a5a-8f87-7e43d6eaac25``, a request for the email contact information associated with the demonstration ORCID client identifier was sent with curl (Version 7.47.0) using the follows line of code:
+
+```
+curl -i -H "Accept: application/vnd.orcid+xml" -H 'Authorization: Bearer 2bd6d6b7-9438-4a5a-8f87-7e43d6eaac25' 'https://api.sandbox.orcid.org/v2.0/0000-0002-9227-8514/email'
+```
+From the returned XML code block, the email address associated with the demonstration ORCID client identifier was parsed using the GNU grep command line tool (Version 2.25), resulting in the retrieval of the email address associated with the demonstration ORCID client identifier.
+
 
 
 ## 2.7 Connecting datasets and publications about an ontology term
 
 The following was used to retrieve digital object identifiers (DOIs) of publications associated with datasets about parts of a marine biome. The python script py.11 was used to query for ontology classes which are parts of or have parts which are an ENVO:*marine biome* [ENVO_00000447]. The resulting list of ontology terms which are parts associated with ENVO:*marine biome* [ENVO_00000447] were queried against the local datastore for all data from data matrix columns which are annotated with an oboInOwl:*hasDbXref* [hasDbXref] database cross reference using the py.6 python script. Results were processed in script R.1.
 
-## 2.8 Glacial semantics community consultation
+## 2.8 Glacial semantics community consultation and creation of proposed ontology terms
 
-I had the opportunity to participate in a working group which was formed to propose visions for future modeling of glacial semantics. The Feb 2, 2018 VoCamp Glacier Ontology Hackathon [@vocamp_2018] was one of many Vocamp Hackathon events, in which working groups attempt to create lightweight vocabularies and ontologies for the semantic web [@vocamp_wiki]. My participation in this event served a means by which I could address the question:
-
-> "To what extent are semantics knowledge models resilient to the addition of new or conflicting expert knowledge?"
-
-While discussing the representation of knowledge about *ablation* processes the working group discovered there to be conflicting definitions. The Hackathon served as a method by which to apply the scientific method to semantic research. This was done through the collaborative efforts of Hackathon participants working to unpack and clarify the semantics of the term *ablation*. Such efforts made use of the conflicting semantics present within the NOAA National Weather Service Glossary 2009 [@nws_internet_services_team_glossary_2009] and Cogley et al. IACS-UNESCO Glacier Mass Balance 2011 [@cogley_glossary_2011] definitions of *ablation*. Where, according to the former definition only melting and evaporation processes contribute to *ablation*. The latter definition referred to all processes which reduce the mass of a glacier, specifically noting the inclusion of calving processes as significantly contributing to ablation processes. Differentia of the conflicting definitions was clarified by the proposal of additional semantics to represent the knowledge discrepancies.
+Participation in the Feb 2, 2018 VoCamp Glacier Ontology Hackathon community glacial-consultation session [@vocamp_2018] was an opportunity to consult with polar-related domain experts to improve the semantic representation of glacial-related knowledge. Drawing upon knowledge sourced from this event, as well as a variety of scientific publications from AWI polar domain experts [@Cherkasheva_2014][@Janout_2016], I created ontology terms which I have proposed to be added the ENVO [@Buttigieg_2013][@Buttigieg_2016] PATO [@PATO_BioPortal] ECOCORE [@ecocore_2018] and PCO [@PCO__BioPortal] ontologies. These potential ontology terms were created following the best practices for BFO ontology development as outlined by Arp et al. (2015) [@Arp_2015], making use of the BFO to provide common hierarchical structures by which to characterize knowledge, and the RO [@obo-relations], to standardize the connections between represented knowledge.
 
 ## 2.9 Classes linked by subclasses and subproperties
 
-Retrieval of classes participating in subclasses of sea ice formation processes utilizing upper level semantic models was conducted as follows. Subclasses the term ENVO:*sea ice formation process* [ENVO_03000044] were assembled using the py.13 script. Subproperties of RO:*has participant* [RO_0000057] were assembled using the py.14 script. The results of classes which participate in sea ice formation processes, were discovered using the py.8 script with the assembled subclasses of ENVO:*sea ice formation process* [ENVO_03000044] and subproperties of RO:*has participant* [RO_0000057]. This workflow of querying for subclasses, subproperties and using them to search the knowledge graph for new classes of interest is documented in **Figure 3**.
+Retrieval of classes participating in subclasses of sea ice formation processes utilizing upper level semantic models was conducted as follows. Subclasses the term ENVO:*sea ice formation process* [ENVO_03000044] were assembled using the py.13 script. Subproperties of RO:*has participant* [RO_0000057] were assembled using the py.14 script. The results of classes which participate in sea ice formation processes, were discovered using the py.8 script with the assembled subclasses of ENVO:*sea ice formation process* [ENVO_03000044] and subproperties of RO:*has participant* [RO_0000057]. This workflow of querying for subclasses, subproperties and using them to search the knowledge graph for new classes of interest is documented in **Figure 4**.
 
 
-![**Figure 3** Shows a demonstration of the workflow pertaining to script py.8. Item **A** shows an ontology knowledge graph, in this case the merged Ontobee programmatic SPARQL endpoint. In item **B** the py.13 script is executed to retrieve subclasses of an input class. In item **C** the py.14 script is executed to retrieve subproperties of an input property. In item **D** the py.8 script takes the list of subclasses generated in script py.13, the list of subproperties generated by script py.14. Searching the Ontobee knowledge graph script py.8 discovers new classes which are linked to subclasses of interest by the subproperties relations of interest.](figures/query_classes_linked_by_subclasses_subproperties.pdf){width=100%}
+![**Figure 4** Shows a demonstration of the workflow pertaining to script py.8. Item **A** shows an ontology knowledge graph, in this case the merged Ontobee programmatic SPARQL endpoint. In item **B** the py.13 script is executed to retrieve subclasses of an input class. In item **C** the py.14 script is executed to retrieve subproperties of an input property. In item **D** the py.8 script takes the list of subclasses generated in script py.13, the list of subproperties generated by script py.14. Searching the Ontobee knowledge graph script py.8 discovers new classes which are linked to subclasses of interest by the subproperties relations of interest.](figures/query_classes_linked_by_subclasses_subproperties.pdf){width=100%}
 
 
-This workflow was used to simulate what would happen if my example datastore didn't use the BFO and RO upper level semantic models. These simulations were evaluated for the extent to which annotated data would be retrieved by querying the example polar datastore in the absence of either BFO or RO. Lacking the RO the script py.13 was used to find subclasses of ENVO:*sea ice formation process* [ENVO_03000044], and the results of which were directly passed to script py.5 to get data about these subclasses, without using script py.8 using RO relations to discover new classes. The simulation for the retrieval of data lacking the BFO upper level semantic model was conducted using the same methods as the main workflow, minus the query for subclasses of ENVO:*sea ice formation process* [ENVO_03000044] with only the term itself passed to the py.8 script. The simulation for the retrieval of data lacking the Relations Ontology upper level semantic model was conducted without the py.8 script. In which the subclasses of ENVO:*sea ice formation process* [ENVO_03000044] from the py.13 script were directly passed to the py.5 script.
+This workflow was used to simulate what would happen if my datastore didn't use the BFO and RO upper level semantic models. These simulations were evaluated for the extent to which annotated data would be retrieved by querying the example polar datastore in the absence of either BFO or RO. Lacking the RO the script py.13 was used to find subclasses of ENVO:*sea ice formation process* [ENVO_03000044], and the results of which were directly passed to script py.5 to get data about these subclasses, without using script py.8 using RO relations to discover new classes. The simulation for the retrieval of data lacking the BFO upper level semantic model was conducted using the same methods as the main workflow, minus the query for subclasses of ENVO:*sea ice formation process* [ENVO_03000044] with only the term itself passed to the py.8 script. The simulation for the retrieval of data lacking the Relations Ontology upper level semantic model was conducted without the py.8 script. In which the subclasses of ENVO:*sea ice formation process* [ENVO_03000044] from the py.13 script were directly passed to the py.5 script.
 
 ## 2.10 EnvoPolar network creation
 
-The following was used to create a network from the ENVO polar subset. The envoPolar subset from the ENVO v2017-08-22 *Planetary ecology* release [@pier_luigi_buttigieg_2017_846451] was used. The envoPolar owl file was exported to the RDF specification turtle using the software Protégé's standard `export as` function [@Musen_2015][@protege]. Python script py.7 was used to query for all classes and python script py.12 was used to query for all property terms in the envoPolar subset. The results of which were used as inputs for the py.8 script to obtain the connections between all classes in the ontology. The resulting output consisting of subject classes, properties linking subject classes to target classes, and target classes, which was used to create a network in the program cytoscape [@Shannon_2003].  
+The following was used to create a network from the ENVO polar subset. The envoPolar subset from the ENVO v2017-08-22 *Planetary ecology* release [@pier_luigi_buttigieg_2017_846451] was used. The envoPolar owl file was exported to the RDF specification turtle using the software Protégé's standard `export as` function [@Musen_2015][@protege]. Python script py.7 was used to query for all classes and python script py.12 was used to query for all property terms in the envoPolar subset. The results of which were used as inputs for the py.8 script to obtain the connections between all classes in the ontology. The resulting output consisting of subject classes, properties linking subject classes to target classes, and target classes, was used to create a network in the program cytoscape [@Shannon_2003].  
 
 Network parameters of the envoPolar subset of ENVO were calculated using the cytoscape network analyzer, treating the graph as directed. Figures for the distribution of shortest path lengths, average clustering coefficient, in degree distribution, out degree distribution, and betweenness centrality were generated in cytoscape.
 
@@ -283,16 +379,16 @@ Nodes of highest and lowest in-degree value were extracted manually from the env
 
 ## 2.11 Predicted user data mobilization
 
-In this thesis, I lacked the scope to be able to conduct an experiment on a study group of scientists with various proficiencies for performing semantic queries to retrieve data from the example datastore. In its place I estimated the performance of predicted user stories, as is done in agile software development [@user_story]. I created three categories of predicted user stories, for users of various SPARQL querying proficiencies. The predicted users were modeled to have basic, intermediate or advanced querying expertise. I evaluated the performance of these predicted user stories based on the percentage of total data each would be able to retrieve from our example datastore, when performing a variety of queries.
+In this thesis, I lacked the scope to be able to conduct an experiment on a study group of scientists with various proficiencies for performing semantic queries to retrieve data from the datastore. In its place I estimated the performance of predicted user stories, as is done in agile software development [@user_story]. I created three categories of predicted user stories, for users of various SPARQL querying proficiencies. The predicted users were modeled to have basic, intermediate or advanced querying expertise. I evaluated the performance of these predicted user stories based on the percentage of total data each would be able to retrieve from the datastore, when performing a variety of queries.
 
-![**Figure X** Shows the process by which I simulated user stories of people with basic, intermediate and advanced querying expertise, in order to evaluate how much of the total data they would retrieve from the example datastore. Item **A** shows examples of querying scenario questions which the simulated users stories were asked to get data about, for example data about 'sea ice thickness' or data about 'part of' a 'marine biome'. Item **B** shows the three categories of simulated user stories which had basic, intermediate or advanced expertise for performing SPARQL queries. Item **C** shows the percentages of data which each simulated user story was able to retrieve for a given querying scenario. Item **D** shows all of the data in the datastore which the querying scenarios were attempting to retrieve. ](figures/user_querying_scenarios.pdf){width=80%}
+![**Figure 5** Shows the process by which I simulated user stories of people with basic, intermediate and advanced querying expertise, in order to evaluate how much of the total data they would retrieve from the datastore. Item **A** shows examples of querying scenario questions which the simulated users stories were asked to get data about, for example data about 'sea ice thickness' or data about 'part of' a 'marine biome'. Item **B** shows the three categories of simulated user stories which had basic, intermediate or advanced expertise for performing SPARQL queries. Item **C** shows the percentages of data which each simulated user story was able to retrieve for a given querying scenario. Item **D** shows all of the data in the datastore which the querying scenarios were attempting to retrieve. ](figures/user_querying_scenarios.pdf){width=80%}
 
 
 The basic user story was programed to only have a very limited understanding of how to perform SPARQL queries. The basic users were programed not to be able to perform queries of any axiomatic depth. They were limited to direct queries. The three querying cases basic users stores were programmed to execute are for 1) data about a class directly, 2) data about a class **and** other classes, 3) data about a class **or** other classes.
 
 The intermediate user story was programed to be able to have moderate understanding of property path relationships and is  modeled to produce queries with a moderate amount of depth. For example queries about some class and *some property* another class.
 
-The advanced user story was programmed to be able to have a fairly deep understanding of possible query paths.  For example queries about some class 1 and *some property* some class2, and  *another property* some class 3. Although the advanced user story can handle queries of sufficient, they were programmed to only make use of regular pattern. They were not programmed to handle all possible data annotation property path irregularities present in the model datastore.
+The advanced user story was programmed to be able to have a fairly deep understanding of possible query paths.  For example queries about some class 1 and *some property* some class 2, and  *another property* some class 3. Although the advanced user story can handle queries of sufficient, they were programmed to only make use of regular pattern. They were not programmed to handle all possible data annotation property path irregularities present in the model datastore.
 
 Two user story experiments were modeled. The first for mobilizing data annotated with an exclusive *and* intersections of two ontology terms was conducted as follows. Eight combinations of terms were used to query for data. For each combination, the py.13 script was used to query for subclasses of the first term in the intersection combination. Modified versions of the py.10 script were run using the list of subclasses generated from the first term in the intersection combination, along with the second term. Retrieving data matrix annotations and columns annotated as being about the intersection of the subclasses of the first term with the second term.
 
@@ -311,7 +407,7 @@ I began by asking the competency question:
 
 > What are the relative abundance frequencies of oxidation-reduction process genes in various types of marine biomes?
 
-The results of querying the example datastore for the relative genomic and transcriptomic abundance of sequences matching GO:*oxidation-reduction process* [GO_0055114] genes, in various ENVO:*marine biome* [ENVO_00000447], are shown in **Table 1**.
+The results of querying the datastore for the relative genomic and transcriptomic abundance of sequences matching GO:*oxidation-reduction process* [GO_0055114] genes, in various ENVO:*marine biome* [ENVO_00000447], are shown in **Table 1**.
 
 : **Table 1** Shows the results of a query for the relative genomic and transcriptomic abundances of GO:*oxidation-reduction process* [GO_0055114] genes, in various ENVO:*marine biome*s [ENVO_00000447].
 
@@ -373,96 +469,84 @@ I next investigated the question of:
 
 > "What biological processes differentiate various types of marine benthic biomes?"
 
-Results of this investigation into GO:*biological process* [GO_0008150] differentiating marine benthic samples are as follows. A PcoA analysis was conducted on all the subclasses of GO:*biological process* [GO_0008150] found in various ENVO:*marine benthic biomes* [ENVO_01000024]. The results of which are shown in **Figure 4** which shows the relative gene and transcript abundances of datasets annotated as various types of ENVO:*marine benthic biomes* [ENVO_01000024]. Together PcoA axes 1 and 2 explain 97.9% of the total variance, with axis 1 explaining 96.1% and axis 2 explaining 1.8%. From the figure we see a differentiation between ENVO:*marine abyssal zone biome* [ENVO_01000027] and ENVO:*marine bathyal zone biome* [ENVO_01000026] samples from those of ENVO:*marine neritic benthic zone biome*s [ENVO_01000025]. We see deep samples ordinated toward the positive values of PcoA dimension 1, and shallow samples toward negative PcoA dimension 1 values.
+Results of this investigation into GO:*biological process* [GO_0008150] differentiating marine benthic samples are as follows. A PcoA analysis was conducted on all the subclasses of GO:*biological process* [GO_0008150] found in various ENVO:*marine benthic biomes* [ENVO_01000024]. The results of which are shown in **Figure 6** which shows the relative gene and transcript abundances of datasets annotated as various types of ENVO:*marine benthic biomes* [ENVO_01000024]. Together PcoA axes 1 and 2 explain 97.9% of the total variance, with axis 1 explaining 96.1% and axis 2 explaining 1.8%. From the figure we see a differentiation between ENVO:*marine abyssal zone biome* [ENVO_01000027] and ENVO:*marine bathyal zone biome* [ENVO_01000026] samples from those of ENVO:*marine neritic benthic zone biome*s [ENVO_01000025]. We see deep samples ordinated toward the positive values of PcoA dimension 1, and shallow samples toward negative PcoA dimension 1 values.
 
-![**Figure 4** shows a principal coordinate analyses plot of relative genomic abundance of subclasses of GO:*biological process* [GO_0008150] terms in various marine benthic biomes. ](figures/all_biological_processes.png){ width=80% }
-
-**Table 3** shows the results of classes contributing the most to positive loadings of PcoA dimension 1. Such classes include GO:*Actinobacterium-type cell wall biogenesis* [GO_0071766], GO:*phosphate ion transmembrane transport* [GO_0035435] and GO:*siderophore biosynthetic process* [GO_0019290] contributed toward positive values of PcoA dimension 1.
-
-: **Table 3** Shows the top ten biological process terms contributing to positive PcoA dimension 1 loadings in ascending order.
-
-| term                                                                 | PcoA dimension 1 loading |
-|:---------------------------------------------------------------------|:-------------------------|
-| GO:*Actinobacterium-type cell wall biogenesis* [GO_0071766]          | 0.2446046073             |
-| GO:*fusion of virus membrane with host plasma membrane* [GO_0019064] | 0.2446046073             |
-| GO:*nicotianamine biosynthetic process* [GO_0030418]                 | 0.2446046073             |
-| GO:*phosphate ion transmembrane transport* [GO_0035435]              | 0.2439406864             |
-| GO:*viral transcription* [GO_0019083]                                | 0.2426128446             |
-| GO:*cell wall biogenesis* [GO_0042546]                               | 0.2420637463             |
-| GO:*response to auxin* [GO_0009733]                                  | 0.2416976809             |
-| GO:*organomercury catabolic process* [GO_0046413]                    | 0.241307236              |
-| GO:*regulation of viral transcription* [GO_0046782]                  | 0.2407945711             |
-| GO:*carbohydrate utilization* [GO_0009758]                           | 0.2402975311             |
-| GO:*siderophore biosynthetic process* [GO_0019290]                   | 0.2401357557             |
+![**Figure 6** Shows a principal coordinate analyses plot of relative genomic abundance of subclasses of GO:*biological process* [GO_0008150] terms in various marine benthic biomes. ](figures/all_biological_processes.png){ width=80% }
 
 
-**Table 4** Shows the results of classes contributing the most to negative loadings of PcoA dimension 1. Such classes include: GO:*activation of innate immune response* [GO_0002218], GO:*mRNA transport* [GO_0051028], and GO:*mitochondrial respiratory chain complex IV assembly* [GO_0033617].
+: **Table 3** Shows the top ten GO term species which were ordinated closest to the average of the ENVO:*marine neritic benthic zone biome* [ENVO_01000025] sites in the PCoA analysis conducted on the subclasses of GO:*biological process* [GO_0008150] from various ENVO:*marine benthic biomes* [ENVO_01000024].
 
-: **Table 4** Shows the ten lowest contributing terms to PcoA dimension 1 in descending order.
-
-| term                                                                           | PcoA dimension 1 loading |
-|:-------------------------------------------------------------------------------|:-------------------------|
-| GO:*activation of innate immune response* [GO_0002218]                         | -0.3143688463            |
-| GO:*positive regulation of type I interferon production* [GO_0032481]          | -0.3143688463            |
-| GO:*endoplasmic reticulum organization* [GO_0007029]                           | -0.3143688463            |
-| GO:*macromolecule biosynthetic process* [GO_0009059]                           | -0.3143688463            |
-| GO:*mRNA transport* [GO_0051028]                                               | -0.3143688463            |
-| GO:*chemical synaptic transmission* [GO_0007268]                               | -0.3143688463            |
-| GO:*prosthetic group biosynthetic process* [GO_0051191]                        | -0.3143688463            |
-| GO:*porphyrin-containing compound metabolic process* [GO_0006778]              | -0.3143688463            |
-| GO:*mitochondrial respiratory chain complex IV assembly* [GO_0033617]          | -0.3143688463            |
-| GO:*regulation of microtubule polymerization or depolymerization* [GO_0031110] | -0.3033210212            |
+| term                                                       | distance between GO site and ENVO species average |
+|:-----------------------------------------------------------|:--------------------------------------------------|
+| GO:*respiratory electron transport chain* [GO_0022904]     | 0.0090311336                                      |
+| GO:*intracellular protein transport* [GO_0006886]          | 0.0099281303                                      |
+| GO:*response to arsenic-containing substance* [GO_0046685] | 0.0223422138                                      |
+| GO:*regulation of cell division* [GO_0051302]              | 0.0241089607                                      |
+| GO:*vesicle docking involved in exocytosis* [GO_0006904]   | 0.0246772626                                      |
+| GO:*spermatogenesis* [GO_0007283]                          | 0.0269553554                                      |
+| GO:*RNA metabolic process* [GO_0016070]                    | 0.027765135                                       |
+| GO:*tRNA wobble position uridine thiolation* [GO_0002143]  | 0.0278909429                                      |
+| GO:*cellulose catabolic process* [GO_0030245]              | 0.0285254331                                      |
+| GO:*inosine salvage* [GO_0006190]                          | 0.0304904183                                      |
 
 
+: **Table 4** Shows the top ten GO term species which were ordinated closest to the average of the deep ENVO:*marine benthic biomes* [ENVO_01000024] sites in the PCoA analysis conducted on the subclasses of GO:*biological process* [GO_0008150] from various ENVO:*marine benthic biomes* [ENVO_01000024].
+
+| term                                                                | distance between GO site and ENVO species average |
+|:--------------------------------------------------------------------|:--------------------------------------------------|
+| GO:*tyrosine biosynthetic process* [GO_0006571]                     | 0.0021397886                                      |
+| GO:*2'-deoxyribonucleotide metabolic process* [GO_0009394]          | 0.0026369643                                      |
+| GO:*organic phosphonate metabolic process* [GO_0019634]             | 0.0033619593                                      |
+| GO:*biotin transport* [GO_0015878]                                  | 0.0035475566                                      |
+| GO:*cellular aromatic compound metabolic process* [GO_0006725]      | 0.0038546443                                      |
+| GO:*tetrahydrobiopterin biosynthetic process* [GO_0006729]          | 0.0044421841                                      |
+| GO:*riboflavin biosynthetic process* [GO_0009231]                   | 0.0045954664                                      |
+| GO:*peptidyl-lysine modification to peptidyl-hypusine* [GO_0008612] | 0.0050485454                                      |
+| GO:*tetrapyrrole biosynthetic process* [GO_0033014]                 | 0.005543313                                       |
+| GO:*glycine biosynthetic process* [GO_0006545]                      | 0.005644747                                       |
 
 Using the GO biological processes hierarchy, shown in **Figure A2**, to find drill down to a more specific term by which to investigate the differentiation of these environmental omic data I asked the question:
 
 > "What cellular amino acid biosynthetic processes differentiate various types of marine benthic biomes?"
 
-I performed another PcoA analysis this time on the subclasses of GO:*cellular amino acid biosynthetic process* [GO_0008652]. The results of which are shown in **Figure 5**. Here we can more clearly see classes which separate deep and shallow biome samples. Together the first two PcoA axes explain 94.2% or total variance, with axis 1 explaining 81.7 and axis 2 12.5%.
+I performed another PcoA analysis this time on the subclasses of GO:*cellular amino acid biosynthetic process* [GO_0008652]. The results of which are shown in **Figure 7**. Here we can more clearly see classes which separate deep and shallow biome samples. Together the first two PcoA axes explain 94.2% or total variance, with axis 1 explaining 81.7 and axis 2 12.5%.
 
-![**Figure 5** Principal coordinate analyses plot of relative genomic abundance of subclasses of GO:*cellular amino acid biosynthetic process*es [GO_0008652] in various ENVO:*marine benthic biomes* [ENVO_01000024]. ](figures/cellular_amino_acid_biosynthetic_process.png){ width=80% }
+![**Figure 7** Principal coordinate analyses plot of relative genomic abundance of subclasses of GO:*cellular amino acid biosynthetic process*es [GO_0008652] in various ENVO:*marine benthic biomes* [ENVO_01000024]. ](figures/cellular_amino_acid_biosynthetic_process.png){ width=80% }
 
 
-: **Table 5** Shows the GO classes which contributed positive PcoA dimension 1 loadings to a PcoA analysis conducted on the subclasses of GO:*cellular amino acid biosynthetic process* [GO_0008652].
+: **Table 5** Shows four GO term species which were ordinated closest to the average of the ENVO:*marine neritic benthic zone biome* [ENVO_01000025] sites in the PCoA analysis conducted on the subclasses of GO:*cellular amino acid biosynthetic process* [GO_0008652] from various ENVO:*marine benthic biomes* [ENVO_01000024].
 
-| term                                                             | PcoA dimension 1 loading |
-|:-----------------------------------------------------------------|:-------------------------|
-| GO:*alanine biosynthetic process* [GO_0006523]                   | 0.0854066743             |
-| GO:*glutamine biosynthetic process* [GO_0006542]                 | 0.0823866518             |
-| GO:*branched-chain amino acid biosynthetic process* [GO_0009082] | 0.0542505889             |
-| GO:*cysteine biosynthetic process from serine* [GO_0006535]      | 0.0258920233             |
-
-Contributing to positive PcoA dimension 1 loadings were the GO classes for GO:*alanine biosynthetic process* [GO_0006523], GO:*glutamine biosynthetic process* [GO_0006542], GO:*branched-chain amino acid biosynthetic process* [GO_0009082], and GO:*cysteine biosynthetic process from serine* [GO_0006535].
+| term                                                             | distance between site and species average |
+|:-----------------------------------------------------------------|:------------------------------------------|
+| GO:*cysteine biosynthetic process from serine* [GO_0006535]      | 0.0109862681                              |
+| GO:*branched-chain amino acid biosynthetic process* [GO_0009082] | 0.0287599861                              |
+| GO:*leucine biosynthetic process* [GO_0009098]                   | 0.0508556504                              |
+| GO:*glutamine biosynthetic process* [GO_0006542]                 | 0.0525977927                              |
 
 \pagebreak
-: **Table 6** Shows the GO classes which contributed negative PcoA dimension 1 loadings to a PcoA analysis conducted on the subclasses of GO:*cellular amino acid biosynthetic process* [GO_0008652].
 
-| term                                                                                                              | PcoA dimension 1 loading |
-|:------------------------------------------------------------------------------------------------------------------|:-------------------------|
-| GO:*methionine biosynthetic process* [GO_0009086]                                                                 | -0.0547399653            |
-| GO:*L-phenylalanine biosynthetic process* [GO_0009094]                                                            | -0.0509995711            |
-| GO:*L-methionine biosynthetic process from homoserine via O-succinyl-L-homoserine and cystathionine* [GO_0019281] | -0.0446167137            |
-| GO:*glycine biosynthetic process* [GO_0006545]                                                                    | -0.0422156338            |
-| GO:*lysine biosynthetic process via diaminopimelate* [GO_0009089]                                                 | -0.0395103024            |
-| GO:*tyrosine biosynthetic process* [GO_0006571]                                                                   | -0.0353511626            |
-| GO:*glutamate biosynthetic process* [GO_0006537]                                                                  | -0.0297865334            |
-| GO:*asparagine biosynthetic process* [GO_0006529]                                                                 | -0.0267125372            |
-| GO:*histidine biosynthetic process* [GO_0000105]                                                                  | -0.02663144              |
-| GO:*aromatic amino acid family biosynthetic process* [GO_0009073]                                                 | -0.024977886             |
-| GO:*arginine biosynthetic process* [GO_0006526]                                                                   | -0.020751455             |
-| GO:*cellular amino acid biosynthetic process* [GO_0008652]                                                        | -0.0175536448            |
-| GO:*leucine biosynthetic process* [GO_0009098]                                                                    | -0.0134594056            |
 
-Contributing to negative PcoA dimension 1 loadings were the GO classes such as those for GO:*methionine biosynthetic process* [GO_0009086], GO:*L-phenylalanine biosynthetic process* [GO_0009094] and GO:*glycine biosynthetic process* [GO_0006545].
+: **Table 6** Shows the top ten GO term species which were ordinated closest to the average of the ENVO:*marine benthic biomes* [ENVO_01000024] sites in the PCoA analysis conducted on the subclasses of GO:*cellular amino acid biosynthetic process* [GO_0008652] from various ENVO:*marine benthic biomes* [ENVO_01000024].
 
-Examining the GO hierarchy for subclasses of GO:*cellular amino acid biosynthetic process* [GO_0008652], shown in **Figure A2**, we can drill down into even more specific terms further differentiate the ENVO:*marine benthic biomes* [ENVO_01000024] annotated samples. I noted from this analysis that the term GO:*cysteine biosynthetic process from serine* [GO_0006535], ordinates along the positive side of PcoA axis 1, in close proximity with the ENVO:*marine neritic benthic zone biome* [ENVO_01000025] samples.
+| term                                                                                                              | distance between site and species average |
+|:------------------------------------------------------------------------------------------------------------------|:------------------------------------------|
+| GO:*lysine biosynthetic process via diaminopimelate* [GO_0009089]                                                 | 0.005673472                               |
+| GO:*glutamate biosynthetic process* [GO_0006537]                                                                  | 0.0066474342                              |
+| GO:*glycine biosynthetic process* [GO_0006545]                                                                    | 0.0074418762                              |
+| GO:*tyrosine biosynthetic process* [GO_0006571]                                                                   | 0.0088699732                              |
+| GO:*histidine biosynthetic process* [GO_0000105]                                                                  | 0.0098166072                              |
+| GO*:L-methionine biosynthetic process from homoserine via O-succinyl-L-homoserine and cystathionine* [GO_0019281] | 0.0098643686                              |
+| GO:*aromatic amino acid family biosynthetic process* [GO_0009073]                                                 | 0.0114389565                              |
+| GO:*L-phenylalanine biosynthetic process* [GO_0009094]                                                            | 0.0160432659                              |
+| GO:*arginine biosynthetic process* [GO_0006526]                                                                   | 0.0162479534                              |
+| GO:*methionine biosynthetic process* [GO_0009086]                                                                 | 0.0191591849                              |
 
-I further investigated the differences between between subclasses of GO:*serine family amino acid biosynthetic processes* [GO_0009070]. The results of which are shown in **Figure 6**. In this analysis, PcoA axis 1 explains 100% of the variance. From this PcoA analysis of subclasses of GO:*serine family amino acid biosynthetic processes* [GO_0009070] we see a clear differentiation of ENVO:*marine neritic benthic zone biome* [ENVO_01000025]
-vs deep ENVO:*marine abyssal zone biome* [ENVO_01000027] and ENVO:*marine bathyal zone biome* [ENVO_01000026]
-samples. From this plot we learn that the relative gene abundance of GO:*glycine biosynthetic process*es [GO_0006545] is more abundant in the deep samples, while GO:*cysteine biosynthetic process from serine* [GO_0006535] are more abundant in the ENVO:*marine abyssal zone biome* [ENVO_01000027] samples.
 
-![**Figure 6** shows a principal coordinate analyses of relative genomic abundance of subclasses of GO:*serine family amino acid biosynthetic processes* [GO_0009070] in various ENVO:*marine benthic biomes* [ENVO_01000024]. ](figures/serine_family_amino_acid_biosynthetic_process.png){ width=80% }
+Examining the GO hierarchy for subclasses of GO:*cellular amino acid biosynthetic process* [GO_0008652], shown in **Figure A2**, we can drill down into even more specific terms to further differentiate the ENVO:*marine benthic biomes* [ENVO_01000024] annotated samples. I noted from this analysis that the term GO:*cysteine biosynthetic process from serine* [GO_0006535], is ordinated in close proximity with the ENVO:*marine neritic benthic zone biome* [ENVO_01000025] samples.
+
+I further investigated the differences between subclasses of GO:*serine family amino acid biosynthetic processes* [GO_0009070]. The results of which are shown in **Figure 8**. In this analysis, PcoA axis 1 explains 100% of the variance. From this PcoA analysis of subclasses of GO:*serine family amino acid biosynthetic processes* [GO_0009070] we see a clear differentiation of ENVO:*marine neritic benthic zone biome* [ENVO_01000025] vs deep ENVO:*marine abyssal zone biome* [ENVO_01000027] and ENVO:*marine bathyal zone biome* [ENVO_01000026] samples. From this plot we learn that the relative gene abundance of GO:*glycine biosynthetic process*es [GO_0006545] is more abundant in the deep samples, while GO:*cysteine biosynthetic process from serine* [GO_0006535] are more abundant in the ENVO:*marine abyssal zone biome* [ENVO_01000027] samples.
+
+![**Figure 8** shows a principal coordinate analyses of relative genomic abundance of subclasses of GO:*serine family amino acid biosynthetic processes* [GO_0009070] in various ENVO:*marine benthic biomes* [ENVO_01000024]. ](figures/serine_family_amino_acid_biosynthetic_process.png){ width=80% }
 
 
 \lstset{language=}
@@ -470,41 +554,37 @@ samples. From this plot we learn that the relative gene abundance of GO:*glycine
 
 \pagebreak
 
-## 3.2 Numerical ecology analysis
+## 3.2 Data pertinent to an environment determined by a phytoplankton community associated with sea-ice
 
-To assess if ontologies are fit to assemble information upon which to perform an ecology analysis, I asked the following question:
-
-> What environmental factors have the greatest influence on the dynamics of a sea-ice associated phytoplankton community?"
-
-To demonstrate how the processes of using ontologies to retrieve data about a phenomena of interest would unfold. I first define the hypothetical term ENVO:*environment determined by a phytoplankton community associated with sea-ice*. I defined this term as:
+To test the fitness for purpose of using ontologies to collect interdisciplinary data relevant to an ecological question as in (CQ X), I made use of a hypothetical ontology term ENVO:*environment determined by a phytoplankton community associated with sea-ice*. I defined this term as:
 
 > An environmental system which has its properties and dynamics determined by a phytoplankton community which is associated with sea-ice.
 
 This hypothetical term would include the following subclass axioms: ENVO:*environmental system determined by a community* [URI pending], ENVO:*determined by* [ENVO_2100001] some PCO:*phytoplankton community* [URI pending], RO:*located in* [RO_0001025] some (ENVO:seawater* [ENVO_00002149] and (RO:*part of* [BFO_0000050] some ENVO:*marine water body* [ENVO_00001999])), and finally RO:*adjacent to* [RO_0002220] some ENVO:*sea ice* [ENVO_00002200].
 
-By leveraging data annotated with terms which are included as axioms, I was able to assemble data upon which to perform an ecological analysis. I first assembled a list of all the classes (and subclasses thereof) which are referenced by the axioms of this hypothetical term. Then I queried the example datastore for data about these terms. Note that the following ecological analysis makes use of artificially assembled data, as the data are from different spatiotemporal locations. Next I performed a principal component analysis on this data to investigate which of these many environmental variables have the greatest loading on the analysis. **Figure 7** shows a hypothetical principal component analysis showing the effects of the various environmental variables, assembled due to their inclusion in axioms of the term ENVO:*environment determined by a phytoplankton community associated with sea-ice*. The first two PCA axes explain 53.6% of the variance in this analysis with PCA axis 1 explaining 34.0% of variance and PCA axis 2 explaining 19.6% of variance.
+By searching the datastore for data annotated with terms which are present in the axioms of the hypothetical ENVO:*environmental system determined by a community* [URI pending] term, or their subclasses, I was able to collect the following data columns shown in **Table 7**.
 
-![**Figure 7** PCA on assembly of data about terms included as axioms of a hypothetical ENVO:*environment determined by a phytoplankton community associated with sea-ice* term.](figures/assemble_data_for_ ecological_analysis.pdf){ width=90% }
 
-Included in **Figure 7** are the Environment Ontology terms which were referenced as axioms of the hypothetical ENVO:*environment determined by a phytoplankton community associated with sea-ice* term, and from which annotated data was retrieved. For example *SignalStrength_ENVO_00002200* represents a column which is labeled *Signal Strength* which is about a PATO:*degree of illumination* [PATO_0015013] which RO:*inheres in* [RO_0000052] some ENVO:*sea ice* [ENVO_00002200].
+: **Table 7** shows the data columns collected with the assistance of an ontology which may be of relevance to an environment determined by a phytoplankton community associated with sea-ice. The data column label is shown in the first column. The ontology-annotation term which allowed for the retrieval of the collected data column is shown in the second column. Finally the dataset from which the retrieved column originated is shown in the third column.
 
-: **Table 7** Shows the loadings from principal components 1 and 2 from the PCA conducted on data assembled due it being annotated with ontology term included in the subclass axioms of a hypothetical ENVO:*environment determined by a phytoplankton community associated with sea ice* ontology term. Terms are ordered in descending order based on PC 1 then PC 2. The interpretation of the first data column is that it is a data column about the PATO:*concentration of* [PATO_0000033] CHEBI:*phosphate* [CHEBI_26020] in ENVO:*sea water* [ENVO_00002149].
+| data column label       | annotation term                      | dataset of origin                                                                                                  |
+|:------------------------|:-------------------------------------|:-------------------------------------------------------------------------------------------------------------------|
+| phosphate               | ENVO:*sea water* [ENVO_00002149]     | Inorganic nutrients measured on water bottle samples at AWI HAUSGARTEN during POLARSTERN cruise MSM29.             |
+| nitrate                 | ENVO:*sea water* [ENVO_00002149]     | Inorganic nutrients measured on water bottle samples at AWI HAUSGARTEN during POLARSTERN cruise MSM29.             |
+| ice or snow temperature | ENVO:*multiyear ice* [ENVO_03000073] | Ice-algal chlorophyll a and physical properties of multi-year and first-year sea ice of core CASIMBO-CORE-2_11.    |
+| sea ice thickness       | ENVO:*sea ice* [ENVO_00002200]       | Influence of snow depth and surface flooding on light transmission through Antarctic pack ice, supplementary data. |
+| signal strength         | ENVO:*sea ice* [ENVO_00002200]       | Influence of snow depth and surface flooding on light transmission through Antarctic pack ice, supplementary data. |
+| oxygen                  | ENVO:*sea water* [ENVO_00002149]     | Physical oceanography and current meter data from mooring TD-2014-LT.                                              |
+| salinity                | ENVO:*sea water* [ENVO_00002149]     | Physical oceanography and current meter data from mooring TD-2014-LT.                                              |
 
-| data columns            | annotation term                      | PC1 loading | PC2 loading |
-|:------------------------|:-------------------------------------|:------------|:------------|
-| phosphate               | ENVO:*sea water* [ENVO_00002149]     | 1.22009153  | 0.09015633  |
-| nitrate                 | ENVO:*sea water* [ENVO_00002149]     | 1.21200068  | 0.01720033  |
-| ice or snow temperature | ENVO:*multiyear ice* [ENVO_03000073] | 0.58457003  | 0.82623573  |
-| sea ice thickness       | ENVO:*sea ice* [ENVO_00002200]       | 0.52555148  | -0.48198612 |
-| signal strength         | ENVO:*sea ice* [ENVO_00002200]       | 0.24304142  | -0.80299701 |
-| oxygen                  | ENVO:*sea water* [ENVO_00002149]     | -0.01611319 | 0.87287456  |
-| salinity                | ENVO:*sea water* [ENVO_00002149]     | -0.70229106 | 0.21544285  |
 
-Example results of this hypothetical analysis are that ENVO:*sea water* [ENVO_00002149] CHEBI:*phosphate* [CHEBI_26020] and CHEBI:*nitrate* [CHEBI_17632] concentrations have positive PC1 loading values. ENVO:*sea water* [ENVO_00002149] CHEBI:*dioxygen* [CHEBI_15379] and CHEBI:*salinity* [URI pending] have negative PC1 loading values. ENVO:*sea ice* [ENVO_00002200] PATO:*thickness* [PATO_0000915], and signal strength PATO:*degree of illumination* [PATO_0015013] which RO:*inheres in* [RO_0000052] some ENVO:*sea ice* [ENVO_00002200] have negative PC2 loading values.
+A demonstration of using such data to perform a mock ecological analysis is included in appendix A.4 Ecological analysis of ontology-collected environmental data. For the references of the original datasets see appendix A2.
+
 
 
 \pagebreak
 ## 3.3 Identifying term author provenance
+
 
 The following questions address if ontologies are fit for purpose to identify the provenance of ontology term authors:
 
@@ -519,12 +599,10 @@ To evaluate such a question, I performed queries to calculate the proportions of
 | ENVO      | 14.5                                            | 4.2                                          |
 | envoPolar | 17.2                                            | 31.4                                         |
 
+Examining these results I found that 4.2% of ENVO terms have an IAO:*term editor* [IAO_0000117] annotation, whereas 31.4% of envoPolar terms are annotated with an IAO:*term editor* [IAO_0000117]. Terms related by an oboInOwl:*created_by* [created_by] relation account for 14.5% of ENVO terms, wheres they are found in 17.2% of terms from the envoPolar subset. Altogether approximately 20% of ENVO and nearly 50% of envoPolar terms are annotated with a IAO:*term editor* [IAO_0000117] or oboInOwl:*created_by* [created_by] relation.
 
-Examining these results we find that in the full Environment Ontology only 4.2% of terms have an IAO:*term editor* [IAO_0000117] annotation, contrasting with the 31.4% of terms from the Environment Ontology polar subset.
+I also examined how the ORCID application programming interface can be used to retrieve the current contact information from an input ORCID client identifier. Using the publicly available demonstration ORCID client identifier ``APP-NPXKK6HFN6TJ4YYI``, I was able to retrieve the associated contact information and obtain the email address ``s.garcia@orcid.org``.
 
-Terms related by an oboInOwl:*created_by* [created_by] relation only account for 14.5% of ENVO terms, wheres they are found in 17.2% of terms from the envoPolar subset.
-
-Altogether only approximately 20% of Envo terms are annotated with a IAO:*term editor* [IAO_0000117] or oboInOwl:*created_by* [created_by] relation, contrasting with the nearly 50% referenced terms from the envoPolar subset.
 
 \pagebreak
 
@@ -534,7 +612,7 @@ Assessing if ontologies could serve to connect users to primary literature assoc
 
 > "What are all the papers which reference any data set, which is about a part of a marine biome?"
 
-The results of this question were as follows. In the example datastore there are two datasets which are annotated with a terms which satisfy the condition of being part of an ENVO:*marine biome* [ENVO_00000447]: *Global chlorophyll "a" concentrations for diatoms, haptophytes and prokaryotes obtained with the Diagnostic Pigment Analysis of HPLC data compiled from several databases and individual cruises.* [@soppa2017gcac][@Losa_2017], and *Influence of snow depth and surface flooding on light transmission through Antarctic pack ice, supplementary data.* [@arndt2017iosd][@Arndt_2017]. Both of which are about an ENVO:*marine water body* [ENVO_00001999]. Returned are the Digital object identifier (DOI) persistent uniform resource locators for the 14 publications which make use of these two example AWI datasets. For a full list see **Table A3**. Selected example results of publications their digital object identifiers as well as the dataset from which the publications were retrieved are shown in **Table 9**. Retrieved publications about variety of ENVO:*marine water body* [ENVO_00001999] related topics, including using chlorophyll pigments to determine phytoplankton taxonomy, plankton ecology, vertical distributions of phytoplankton communities and light transmission through pack-ice.
+The results of this question were as follows. In the datastore there are two datasets which are annotated with a terms which satisfy the condition of being part of an ENVO:*marine biome* [ENVO_00000447]: *Global chlorophyll "a" concentrations for diatoms, haptophytes and prokaryotes obtained with the Diagnostic Pigment Analysis of HPLC data compiled from several databases and individual cruises.* [@soppa2017gcac][@Losa_2017], and *Influence of snow depth and surface flooding on light transmission through Antarctic pack ice, supplementary data.* [@arndt2017iosd][@Arndt_2017]. Both of which are about an ENVO:*marine water body* [ENVO_00001999]. Returned are the Digital object identifier (DOI) persistent uniform resource locators for the 14 publications which make use of these two example AWI datasets. For a full list see **Table A3**. Selected example results of publications their digital object identifiers as well as the dataset from which the publications were retrieved are shown in **Table 9**. Retrieved publications about variety of ENVO:*marine water body* [ENVO_00001999] related topics, including using chlorophyll pigments to determine phytoplankton taxonomy, plankton ecology, vertical distributions of phytoplankton communities and light transmission through pack-ice.
 
 : **Table 9** Selected examples of digital object identifiers of publications obtained querying for references of datasets which are about BFO:*part of* [BFO_0000050] a ENVO:*marine biome* [ENVO_00000447].  
 
@@ -561,16 +639,29 @@ The results of this question were as follows. In the example datastore there are
 |               |                            |pack ice [@Arndt_2017] \|
 +---------------+----------------------------+------------------------+
 
+## 3.5 Proposed ENVO ablation terms
 
-## 3.5 Necessity of top level semantic models
+The Feb 2, 2018 VoCamp Glacier Ontology Hackathon [@vocamp_2018], was a community consultation session in which polar-related domain experts and ontology developers met to work toward the alignment of base semantics around a set of glacier-related terms. A list of participants is included in appendix AX. During the community consultation session, the semantic representation of a variety of glacier-related topics was discussed. I chose to follow up on one of the more defined outputs of the Hackathon session in which there was discussion about how best to capture the semantics of an ablation process, given that different sources of expert knowledge gave partially different definitions of the process. The NOAA National Weather Service (2009) glossary [@nws_internet_services_team_glossary_2009] defined ablation as only including melting and evaporation processes, whereas the Cogley et al. (2011) IACS-UNESCO Glacier Mass Balance glossary [@cogley_glossary_2011] definition referred to all processes which reduce the mass of a glacier, including calving processes. Addressing CQ (X), with these definitions of ablation serving as a case study, I proposed for the following classes to be added to ENVO.
 
-I addressed the necessity of using both the Basic Formal Ontology and Relations ontology upper level semantic models in order to interconnect the semantically annotated contents of the example datastore.
+In order to handle cases in which an ablation processes results only from melting and evaporation, I proposed the creation of the term ENVO:*icemelt-derived ice ablation process* [URI pending] which I define as:
 
-Data annotated with unspecified ontology terms were discovered by querying the OBO knowledge graph for classes related to an input class via an input property. In this example, I queried for classes which participate in a sea ice formation process. Shown in **Table 10**, are the results of searching the knowledge graph for subclasses of sea ice formation processes (shown in the first column), related classes (third column), properties linking the subclasses to the related classes (second column), and the number of data items retrieved from the datastore annotated as being about the related class.
+> An ice ablation process during which ice is lost due to an icemelt process.
 
-: **Table 10** Number of data items in datastore about classes which participate in sea ice formation processes
+This term would include the subclasses axioms: ENVO:*ice ablation process* [ENVO_01000919], BFO:*has part* [BFO_0000051] some ENVO:*icemelt* [ENVO_01000721], and oboInOwl:*database_cross_reference* [hasDbXref] http://w1.weather.gov/glossary/.
 
-| input class                                             | property                       | related class                          | number of data items |
+In order to handle cases in which an ablation processes results from both melting and calving processes, I proposed the creation of the term ENVO:*icemelt or calving-derived ice ablation process* [URI pending] which I define as:
+
+> An ice ablation process during which ice is lost due to an icemelt process or ice calving process.
+
+The subclass axioms included in this term would be: ENVO:*ice ablation process* [ENVO_01000919], BFO:*has part* [BFO_0000051] some (ENVO:*icemelt* [ENVO_01000721] or ENVO:*ice calving process* [ENVO_01000917]), and the oboInOwl:*database_cross_reference* [hasDbXref] http://unesdoc.unesco.org/images/0019/001925/192525e.pdf.
+
+## 3.6 Resilience of ontology-enabled data-mobilization to changes in underlying semantic models  
+
+As illustrated in **Figure 3** I developed a workflow which makes use of knowledge contained within the OBO ontologies, to discover new knowledge based on connections to stated input knowledge, and retrieve data about these discovered classes. Using this workflow I was able to find classes which are involved in any type of RO:*has participant* [RO_0000057] relation with any type of ENVO:*sea ice formation process* [ENVO_03000044]. Additionally I was able to retrieve data about the discovered classes. The results of this workflow are shown in **Table 10**.
+
+: **Table 10** Shows the results of submitting a query for classes involved in any RO:*has participant* [RO_0000057] relation with subclasses of ENVO:*sea ice formation process* [ENVO_03000044], as well as the number of data items about the discovered classes retrieved from the datastore. The first column shows the ENVO:*sea ice formation process* [ENVO_03000044] subclasses which are the subjects in a RO:*has participant* [RO_0000057] relation with another class. The second column shows the subproperties of the RO:*has participant* [RO_0000057] relation, which related an ENVO:*sea ice formation process* [ENVO_03000044] subclass to another class. The third column shows classes discovered to be related to a subclass of an ENVO:*sea ice formation process* [ENVO_03000044] by a subproperty of RO:*has participant* [RO_0000057]. The fourth column shows the number of data items about the discovered class which were retrieved from the datastore.
+
+| subject class                                           | property                       | discovered class                       | number of data items |
 |:--------------------------------------------------------|:-------------------------------|:---------------------------------------|:---------------------|
 | ENVO:*sea ice formation process* [ENVO_03000044]        | ENVO:*has input* [RO_0002233]  | ENVO:*sea water* [ENVO_01000321]       | 13                   |
 | ENVO:*sea ice formation process* [ENVO_03000044]        | ENVO:*has output* [RO_0002234] | ENVO:*sea ice* [ENVO_03000066]         | 6                    |
@@ -581,23 +672,13 @@ Data annotated with unspecified ontology terms were discovered by querying the O
 | ENVO:*second year ice formation* [ENVO_03000061]        | ENVO:*has output* [RO_0002234] | ENVO:*second year ice* [ENVO_03000072] | 0                    |
 | ENVO:*multiyear ice formation process* [ENVO_03000062]  | ENVO:*has output* [RO_0002234] | ENVO:*multiyear ice* [ENVO_03000073]   | 8                    |
 
-The results of a simulation conducted to evaluate the extent to which the Basic Formal Ontology and Relations Ontology upper level semantic models are necessary in the retrieval of annotated data, are presented in **Table 11**. Lacking the Basic Formal Ontology upper level semantic model, only 54.3% of the data items were retrieved. Lacking the Relations Ontology upper level semantic model 0% of the relevant data could be retrieved.
+This workflow makes use of knowledge contained within the OBO ontologies to search for subclasses of an input class e.g. ENVO:*sea ice formation process* [ENVO_03000044] and subproperties of an input property e.g. RO:*has participant* [RO_0000057]. Referring to CQ (12), I wanted to evaluate how much of this data would be retrievable if changes were made to the semantic models which the ontologies used this workflow themselves use. I tested the susceptibility of this workflow for retrieving data, to changes in the Relations Ontology. I did so by simulating what would happen if substantial changes were to be made to the Relations Ontology without such changes being applied to my example data. I also tested how well this workflow would perform if ontology knowledge graphs didn't employ hierarchically structured subclass relations to represent knowledge about classes and their subclasses. The results of these susceptibility simulations are as follows. If ontologies were to not make use of hierarchically structured subclass relations, only 54.3% of the data items would be retrievable. Faced with major changes to the Relations Ontology 0% of the relevant data would be retrievable.
 
-: **Table 11** Percentages of data items in datastore about classes which participate in sea ice formation processes retrieved when lacking upper level semantic models.
+## 3.7 Analysis of polar knowledge graph
 
-+-----------------------------------+------------------------+
-|lacking upper level semantic model |% data items retrieved  |
-+===================================+========================+
-| Basic Formal Ontology             | 54.3                   |
-+-----------------------------------+------------------------+
-| Relations Ontology                | 0                      |
-+-----------------------------------+------------------------+
+Treating connectivity within a network created from an ontology knowledge graph as a proxy for the extent to which ontologies connect researchers to new unspecified knowledge. I analyzed the envoPolar subset as a network. The resulting network property statistics are summarized as follows. The average degree, the number of edges corresponding to each node, is 1.517. The distributions of in-degree values, edges pointing into a node, and out-degree, edges leading away from a node are shown in **Figures A3**, and **A4**. The average in-degree distribution shows a positive skew with a median of 0 relative to the mean degree of 1.517, with a very wide range of in-degree values from 0 to 44. The average out-degree distribution also shows a positive skew with a median of 1 relative to the mean degree of 1.517, however, the out-degree values only range from 0 to 5. Additional network parameters are summarized in **Table 11**.
 
-## 3.6 Analysis of polar knowledge graph
-
-Treating connectivity within a network created from an ontology knowledge graph as a proxy for the extent to which ontologies connect researchers to new unspecified knowledge. I analyzed the envoPolar subset as a network. The resulting network property statistics are summarized as follows. The average degree, the number of edges corresponding to each node, is 1.517. The distributions of in-degree values, edges pointing into a node, and out-degree, edges leading away from a node are shown in **Figures A3**, and **A4**. The average in-degree distribution shows a positive skew with a median of 0 relative to the mean degree of 1.517, with a very wide range of in-degree values from 0 to 44. The average out-degree distribution also shows a positive skew with a median of 1 relative to the mean degree of 1.517, however, the out-degree values only range from 0 to 5. Additional network parameters are summarized in **Table 12**.
-
-: **Table 12** Network parameters calculated from the graph of the envoPolar subset of ENVO.
+: **Table 11** Network parameters calculated from the graph of the envoPolar subset of ENVO.
 
 +--------------------------------------------+-------+
 | network parameter                          | value |
@@ -627,18 +708,18 @@ Treating connectivity within a network created from an ontology knowledge graph 
 
 The graph of the envoPolar subset include 265 classes represented as nodes with a total 402 connections (edges) interconnecting them. It is made up of 8 components, clusters of internally but not externally connected nodes and edges. The network diameter, the maximum distance path between two nodes, is 7. The network density, measuring how densely the network is populated with edges is 0.0. There are no self-loops, nodes with edges connecting back to themselves. There are 20 multi-edge node pairs, which measure how often neighboring nodes are linked by more than one edge.
 
-Analysis of the distribution of shortest path lengths, the expected distance between two connected nodes is as follows. The mean shortest path length is 2.246, and the distribution of shortest path lengths, **Figure 8**, shows a positive skew with the median shortest path length being 2.0, a value less than that of the mean.  
+Analysis of the distribution of shortest path lengths, the expected distance between two connected nodes is as follows. The mean shortest path length is 2.246, and the distribution of shortest path lengths, **Figure 9**, shows a positive skew with the median shortest path length being 2.0, a value less than that of the mean.  
 
-![**Figure 8** Distribution of shortest path lengths of the envoPolar subset analyzed as a network.](figures/shortest_path_length_distribution.jpeg){ width=80% }
+![**Figure 9** Distribution of shortest path lengths of the envoPolar subset analyzed as a network.](figures/shortest_path_length_distribution.jpeg){ width=80% }
 
-The average connectivity or average number of neighbors, indicating the expected number of vertices that would need to be removed to separate any randomly chosen pair of vertices is 2.875. The clustering coefficient, a measure of the extent to which nodes in a graph tend to cluster together bounded on a scale from 0 to 1, zero being unconnected and 1 being completely connected is 0.047. Plotting the average cluster coefficients as a function of number of neighbors, see **Figure 9**, I observe two distinct clusters of nodes. Nodes either have a high average clustering coefficient and a small number of neighbors, or they have a low clustering coefficient and a large number of neighbors.
+The average connectivity or average number of neighbors, indicating the expected number of vertices that would need to be removed to separate any randomly chosen pair of vertices is 2.875. The clustering coefficient, a measure of the extent to which nodes in a graph tend to cluster together bounded on a scale from 0 to 1, zero being unconnected and 1 being completely connected is 0.047. Plotting the average cluster coefficients as a function of number of neighbors, see **Figure 10**, I observe two distinct clusters of nodes. Nodes either have a high average clustering coefficient and a small number of neighbors, or they have a low clustering coefficient and a large number of neighbors.
 
-![**Figure 9** Average clustering coefficient as a function of number of neighboring nodes in the envoPolar subset analyzed as a network.](figures/average_clustering_coefficient.jpeg){ width=70% }
+![**Figure 10** Average clustering coefficient as a function of number of neighboring nodes in the envoPolar subset analyzed as a network.](figures/average_clustering_coefficient.jpeg){ width=70% }
 
 Finally I analyzed the betweenness centrality of nodes in the envoPolar network, see **Figure A5**. Betweenness centrality of a node is a value ranging between 0 and 1, which reflects the amount of control this node exerts over the interactions of other nodes. Plotting betweenness centrality as a function of number of neighboring nodes I find only 3 nodes with non-zero betweenness centrality values, all of which have only 2 neighboring nodes. The rest of the nodes have a betweenness centrality of near zero, regardless of the number of neighbors.
 
 
-: **Table 13** Top ten largest in-degree value terms for polar related terminology from the envoPolar subset.
+: **Table 12** Top ten largest in-degree value terms for polar related terminology from the envoPolar subset.
 
 | term                                              | in degree |
 |:--------------------------------------------------|:----------|
@@ -653,11 +734,11 @@ Finally I analyzed the betweenness centrality of nodes in the envoPolar network,
 | ENVO:*glacial ice* [ENVO_03000004]                | 3         |
 | ENVO:*permafrost thawing process* [ENVO_03000086] | 3         |
 
-From the results presented in **Table 13** and **14** showing the nodes with the highest and lowest in-degree values, I observed that there are very few nodes of substantial in-degree values. The distribution of in-degree drops off very rapidly with only a few nodes such as ENVO:*water ice* [ENVO_01000277], ENVO:*glacier* [ENVO_00000133], and ENVO:*snow* [ENVO_01000406] having high in-connectivity values. Even within the top ten in-degree nodes the value decrease substantially from ENVO:*water ice* with 24 in connections, to ENVO:*permafrost thawing process* [ENVO_03000086] with only 3 interconnections. From **Table 14** we see that many of the nodes have in-degrees of 0.
+From the results presented in **Table 12** and **13** showing the nodes with the highest and lowest in-degree values, I observed that there are very few nodes of substantial in-degree values. The distribution of in-degree drops off very rapidly with only a few nodes such as ENVO:*water ice* [ENVO_01000277], ENVO:*glacier* [ENVO_00000133], and ENVO:*snow* [ENVO_01000406] having high in-connectivity values. Even within the top ten in-degree nodes the value decrease substantially from ENVO:*water ice* with 24 in connections, to ENVO:*permafrost thawing process* [ENVO_03000086] with only 3 interconnections. From **Table 13** we see that many of the nodes have in-degrees of 0.
 
 
 \pagebreak
-: **Table 14** Bottom ten smallest in-degree value terms for polar related terminology from the envoPolar subset.
+: **Table 13** Bottom ten smallest in-degree value terms for polar related terminology from the envoPolar subset.
 
 | term                                            | in degree |
 |:------------------------------------------------|:----------|
@@ -673,23 +754,23 @@ From the results presented in **Table 13** and **14** showing the nodes with the
 | ENVO:*perennial snow patch* [ENVO_03000115]     | 0         |
 
 \newpage
-## 3.7 Feasible semantic data annotations
+## 3.8 Feasible semantic data annotations
 
 Assessing the practicality of retrieving ontology term annotated data from the example data store, I evaluated the relative amount of data which would be retrieved by estimated user stories programmed to estimate users of various levels of querying expertise, estimating the retrieval rates of data for users of the system with basic, intermediate and advanced querying expertise.
 
-Two estimated user story querying proficiency experiments were conducted, the first queried for data which was about the exclusive *and* intersection of two annotation terms, for example data about *snow and thickness*. The second experiment queried for data which is about a part of an input term, for example, *part of a glacier*. The results of the first experiment, displaying the percentages of annotation terms and data matrix columns retrieved about the intersection of two terms, are presented in **Figure 10**.
+Two estimated user story querying proficiency experiments were conducted, the first queried for data which was about the exclusive *and* intersection of two annotation terms, for example data about *snow and thickness*. The second experiment queried for data which is about a part of an input term, for example, *part of a glacier*. The results of the first experiment, displaying the percentages of annotation terms and data matrix columns retrieved about the intersection of two terms, are presented in **Figure 11**.
 
-![**Figure 10** Analysis of querying expertise required to obtain data matrix columns and annotations when querying for data about subclasses of a term AND another term.](figures/query_and_annotation_columns_number.jpeg){ width=80% }
+![**Figure 11** Analysis of querying expertise required to obtain data matrix columns and annotations when querying for data about subclasses of a term AND another term.](figures/query_and_annotation_columns_number.jpeg){ width=80% }
 
 User stories estimating basic querying expertise were only able to retrieve data and annotations from the *Bacteria and Archaea* case. User stories estimating intermediate querying expertise were only able to retrieve data from 4 out of the 8 cases tested. Excluding the *Bacteria and Archaea* cases which were covered with 100% success by all three expertise classes, the percentage of annotations retrieved by intermediate user stories ranged from 40-66.7%, whereas the percentage of data columns retrieved ranged from 50-80%. Advanced user stories were able to retrieve data columns and annotations from all 8 of the tested querying cases, with successes ranging from 57.1% to 100% of annotations and 66.7% to 100% of data matrix columns.
 
-The results of the second experiment, displaying the percentages of data matrices and data points retrieved from BFO:*part of* [BFO_0000050] input terms are presented in **Figure 11**. Basic user stories were only able to retrieve data matrices from the  *parts of a marine biome* case, as well as data points from the *part of a centrally registered identifier symbol* case. In terms of the success rates of retrieving data matrices about *parts of a marine biome*, the basic user story expertise case retrieved 25%, the intermediate case retrieved 75% and advanced case retrieved 100%. Intermediate expertise user stories were only able to retrieve data points from 4 out of the 8 *parts of cases*. Although advanced user stories were able to retrieve data points from the majority of *parts of* query cases, they were unable to retrieve any from the *parts of a carbon atom* cases, and they were only able to retrieve 82.3% of data which is *part of a glacier*, and 94.9% of data annotated with an ontology term which is *part of an ocean*.
+The results of the second experiment, displaying the percentages of data matrices and data points retrieved from BFO:*part of* [BFO_0000050] input terms are presented in **Figure 12**. Basic user stories were only able to retrieve data matrices from the  *parts of a marine biome* case, as well as data points from the *part of a centrally registered identifier symbol* case. In terms of the success rates of retrieving data matrices about *parts of a marine biome*, the basic user story expertise case retrieved 25%, the intermediate case retrieved 75% and advanced case retrieved 100%. Intermediate expertise user stories were only able to retrieve data points from 4 out of the 8 *parts of cases*. Although advanced user stories were able to retrieve data points from the majority of *parts of* query cases, they were unable to retrieve any from the *parts of a carbon atom* cases, and they were only able to retrieve 82.3% of data which is *part of a glacier*, and 94.9% of data annotated with an ontology term which is *part of an ocean*.
 
-![**Figure 11** Analysis of querying expertise required to obtain data matrices and data points when querying for data about parts associated with  an ontology term.](figures/query_parts_of_stats.jpeg){ width=80% }
+![**Figure 12** Analysis of querying expertise required to obtain data matrices and data points when querying for data about parts associated with  an ontology term.](figures/query_parts_of_stats.jpeg){ width=80% }
 
 \newpage
 
-## 3.8 Identifying phenomenal interconnections
+## 3.9 Identifying phenomenal interconnections
 
 Attempting to build upon the semantic framework proposed as necessary by Stec et al. (2017), for future modeling of plankton ecosystems [@Stec_2017]. Asking the question:
 
@@ -743,11 +824,11 @@ Describing it with the subclass axioms: ENVO:*ice melt* [ENVO_01000721], RO:*has
 ENVO:*marine water body stratification* [URI pending], finally with oboInOwl:*database_cross_reference*s [hasDbXref] https://doi.org/10.1016/j.jmarsys.2013.11.008 [@Cherkasheva_2014], https://en.wikipedia.org/wiki/Attenuation and
 https://en.wikipedia.org/wiki/Optical_properties_of_water_and_ice.
 
-I bring these terms together in the following **Figure 12** as to visualize the interconnecting relationships between them.
+I bring these terms together in the following **Figure 13** as to visualize the interconnecting relationships between them.
 
-![**Figure 12** Diagram indicating relationships interconnecting highlighted subset of ontology term contributions made during the course of this work to encode expert knowledge about plankton ecology. Nodes are proposed ontology classes for the ENVO, PCO and PATO ontologies. Edges are RO relationships.](figures/plankton_ecology.pdf){ width=70% }
+![**Figure 13** Diagram indicating relationships interconnecting highlighted subset of ontology term contributions made during the course of this work to encode expert knowledge about plankton ecology. Nodes are proposed ontology classes for the ENVO, PCO and PATO ontologies. Edges are RO relationships.](figures/plankton_ecology.pdf){ width=70% }
 
-I assessed if ontologies can help us to contextualize the interconnections between encoded phenomena about which we have expert knowledge. **Figure 12** illustrating the relationships interconnecting the various phenomena which effect phytoplankton blooms shows how ontologies help us to understand the interconnections between pieces of expert knowledge. Starting by examining physical processes which have effects on phytoplankton blooms, I assembled and encoded the following expert knowledge. As the onset of phytoplankton blooms have been shown to be dependent on the timing of the retreat of melting sea ice [@Janout_2016], I encoded the knowledge of such a relationship into the potential term sea ice melting, by specifying that it is RO:*causally upstream of* [RO_0002411] some ENVO:*marine water body stratification* [URI pending].
+I assessed if ontologies can help us to contextualize the interconnections between encoded phenomena about which we have expert knowledge. **Figure 13** illustrating the relationships interconnecting the various phenomena which effect phytoplankton blooms shows how ontologies help us to understand the interconnections between pieces of expert knowledge. Starting by examining physical processes which have effects on phytoplankton blooms, I assembled and encoded the following expert knowledge. As the onset of phytoplankton blooms have been shown to be dependent on the timing of the retreat of melting sea ice [@Janout_2016], I encoded the knowledge of such a relationship into the potential term sea ice melting, by specifying that it is RO:*causally upstream of* [RO_0002411] some ENVO:*marine water body stratification* [URI pending].
 
 I encoded the concept of the ENVO:*marginal ice zone*, which is described as the transition zone between the open ocean and sea ice [78]. In the ENVO:*marginal ice zone*, melting sea-ice has been shown to promote phytoplankton growth by stratifying the water column [@Cherkasheva_2014]. To encode the knowledge of the process of stratification I created the potential class ENVO:*marine water body stratification*, which RO:*results in formation of* [RO_0002297] at least two ENVO:*marine layer*s [ENVO_01000295]. In the ENVO:*marginal ice zone*, stratification of the water body resulting from melting sea ice has been shown to be the location of maximum chlorophyll [@Cherkasheva_2014], controlling the onset of the seasonal phytoplankton blooms [@Janout_2016]. To encode knowledge about phytoplankton blooms, I created a variety of terms related to population and community blooms. An example of which is the potential term phytoplankton bloom process. To represent the knowledge that phytoplankton blooms tend to occur as a result of sea ice retreat in the marginal ice zone. I have encoded into the ENVO:*marginal ice zone* term an axiom stating that marginal ice zones are RO:*causally upstream of, positive effect* [RO_0002304] some PCO:*phytoplankton bloom process* [URI pending]. As phytoplankton bloom processes have a profound impact on their surrounding environment, I have also created the term ENVO:*marine environment determined by a phytoplankton community bloom*, which I have specified to be related to PCO:*phytoplankton bloom processes* with the axiom ENVO:*determined by* [ENVO_2100001] some PCO: *phytoplankton bloom process* [URI pending]. I have also encoded the connection between an ENVO:*marine environment determined by a phytoplankton community bloom* and ENVO:*marine water body stratification* with the RO:*causally downstream of, negative effect* [RO_0002305] relationship.
 
@@ -775,7 +856,7 @@ As OBO ontologies adopt a realist philosophy, representing what exists in realit
 
 A hypothesis such as the interconnection between riboflavin production, iron binding and transport genes in deep marine sediments, could be semantically expressed and added to the ontology knowledge graph. This along with other hypotheses about covariation of gene abundances could subsequently be tested over larger collections of genomic data sets. Leveraging the ontology semantics to retrieve data to analyze gene covariation to support or reject batches of genomic hypotheses. The continued development of cyberinfrastructure by which to conduct these types of comparative genomic analysis could be scaled up to a large machine-actionable system the analysis of microbial genomics. Thematically this could build upon previous efforts such as the Community cyberinfrastructure for Advanced Microbial Ecology Research and Analysis (CAMERA), a semantically-annotated environmental genomic data base supporting semantic queries [@Sun_2010].
 
-To further investigate potential knowledge which can be derived from the interconnection of data annotated with GO and ENVO terms, I asked the following question of the example datastore:
+To further investigate potential knowledge which can be derived from the interconnection of data annotated with GO and ENVO terms, I asked the following question of the datastore:
 
 > "What biological processes differentiate various types of marine benthic biomes?"
 
@@ -787,21 +868,45 @@ The amino acid serine is precursor in the production of both glycine and cystein
 
 What is most notable from this finding is that I was able to discover this potential difference based solely on information contained within the gene ontology. Having no preliminary ideas about what GO:*cellular amino acid biosynthetic processes* [GO_0008652] which could differentiate deep ENVO:*marine abyssal zone biome* [ENVO_01000027] and ENVO:*marine bathyal zone biome* [ENVO_01000026] from ENVO:*marine neritic benthic zone biome* [ENVO_01000025] samples, nor knowledge of what amino acids serine is a precursor to. This example shows how ontologies are fit for purpose to interconnect disparate omic datasets and generate working hypotheses therefrom.
 
-## 4.2 Testing hypotheses on open linked data
 
-I have analyzed how ontology terms can be used to facilitate the assembly of relevant knowledge and data about a phenomenon of interest. Demonstrating how ontology terms can be used to guide the assembly of data which can be used to test hypotheses about the represented knowledge in question. In the example scenario, I was able to perform an ecological analysis of data associate with environmental factors which may influence a sea-ice associated phytoplankton community. I did so by leveraging the subclass axioms of an ontology term to retrieve an assembly of data about its constituents. Using ontology terms to guide the retrieval of open linked data by which to test hypotheses, I encountered both expected and unexpected data. For example when I retrieved data about environmental factors which may influence sea-ice associated phytoplankton communities, I retrieved some variables I expected to find such as sea ice thickness, multi-year sea ice temperature, degree of illumination of sea ice. Additionally, I also retrieved some unexpected but potentially useful data such as sea water salinity, oxygen, phosphate and nitrate concentrations. In an ideal case the ontology annotations would help us to assemble data which researchers would not have thought to include in the analysis. Sea water salinity data for example, may give an indication of the existence of meltwater released from sea ice melting. Such data coinciding with available nutrient concentrations could indicate the beginning of a phytoplankton bloom.
+## 4.3 Ontology guided data and knowledge discovery: are ontologies fit for purpose?
 
-Despite being able to harness the rich wealth of knowledge encoded within ontologies, my analysis was limited by a lack of open linked data. Hence I would describe the current situation as rich in knowledge but poor in data. In order to be able to apply these types of types of ontology guided data assembly workflows to test a variety of scientific hypotheses, more open linked data is required. Efforts to do so do not need to be overly complicated. Simple improvements toward standardizing the scientific outputs generated by projects such as environmental observatories could go a long way toward providing annotated linked open data for the community to access. Striving toward the long term goal of improved data standardization, could help us to enable data to be used to its full potential. This would allow for future machine-guided meta-analyses to be conducted on large linked open data sets. Using ontologies and linked open data as the source material for future artificial intelligence knowledge representation endeavors may allow us to break through traditional analysis barriers. Enabling deep, expert-knowledge and large-data-informed machine-guided meta-analyses.
+//
 
-## 4.3 Tracking information provenance
+(CQ Y > "Is the ontology knowledge graph of the envoPolar subset sufficiently well connected to be able to lead researchers to new knowledge via unstated linkages to identified knowledge?")
 
-Jackson’s (2012) bestiary of ignorance proposes four categories in an overview of knowledge or lack of knowledge about a subject [@Jackson_2012]. The most subtle yet possibly most important of these categories describes unknown known knowledge. Referring to scientific knowledge which has been generated or recorded, but to which easy access is lacking [@Hortal_2015]. Hortal et al. (2015) propose that informatics methods could be employed to facilitate community access to non-easily search-able knowledge collections [@Hortal_2015]. Considering informatics strategies by which to improve community access to unknown known knowledge, I examined various types of information which ontologies could be used to track the provenance of. I discuss ways in which ontology knowledge graphs can help to identify the provenance of primary literature associated with annotated datasets, specimens from a museum or collection, expert knowledge, and finally authors who contribute expert knowledge to ontologies. Mobilizing known unknown information data and knowledge into a greater ontology knowledge graph, is a first step toward overcoming the limitation of known unknown knowledge.  
 
-Evaluating the fitness for purpose of ontologies to connect users to primary literature about datasets annotated with ontology terms, I posed the following question of the example datastore:  
+Being able to navigate machine-accessible information to discover data and knowledge are key competencies for ontologies to be able to perform CQ (7,8). To explore the question of ontological fitness for purpose for the discovery of knowledge and data, I have analyzed how ontology annotation terms can be used to facilitate the assembly of relevant knowledge and data about a phenomenon of interest. I also evaluated  the network parameters of an example ontology knowledge graph to assess if it is suitable to connecting knowledge explicitly stated by a researcher to new, unstated but related knowledge.
+
+Evaluating CQ (X), I analyzed how ontology terms can be used to facilitate the assembly of relevant knowledge and data about a phenomenon of interest, for example environmental factors which may influence a sea-ice associated phytoplankton community. Doing so, I encountered both expected and unexpected data which may potentially be of use to perform an ecological analysis on the data. For example when I retrieved data about environmental factors which may influence sea-ice associated phytoplankton communities, I retrieved some variables I expected to find such as sea ice thickness, multi-year sea ice temperature, degree of illumination of sea ice. Additionally, I also retrieved some unexpected but potentially relevant data such as sea water salinity, oxygen, phosphate and nitrate concentrations. In an ideal case the ontology annotations would help us to assemble data which researchers would not have thought to include in the analysis. Sea water salinity data for example, may give an indication of the existence of meltwater released from sea ice melting. Such data coinciding with available nutrient concentrations could indicate the beginning of a phytoplankton bloom.
+
+Despite being able to harness the rich wealth of knowledge encoded within ontologies, a lack of machine-accessible data hinders our ability to perform ecological analysis on ontology-discovered data. Hence I would describe the current situation as rich in knowledge but poor in data. In order for future machine-guided routines to make use of ontologies to discover data relevant to a phenomenon of interest and perform ecological analysis thereon, more machine-accessible data is required. This is not necessarily an infeasible goal for the scientific community to strive toward. Simple efforts to toward standardizing data outputs generated by projects such as environmental observatories could go a long way toward providing machine-accessible data to analyze. Striving toward the long term goal of improved data standardization, could help us to enable data to be used to its full potential. This would allow for future machine-guided meta-analyses to be conducted on large machine-accessible data sets. Using ontologies and machine-accessible data as the source material for future artificial intelligence knowledge representation endeavors may allow us to break through traditional analysis barriers. Enabling deeper, expert-knowledge and large-data-informed machine-guided ecological meta-analyses to be performed.
+
+//CQ(8)
+> "Is the ontology knowledge graph of the envoPolar subset sufficiently well connected to be able to lead researchers to new knowledge via unstated linkages to identified knowledge?"
+
+In addition to the discovery of data, I assessed if ontological knowledge graphs are fit for the purpose of discovering new knowledge from ontology knowledge graphs which is related to the stated input knowledge. For this I made use of the envoPolar ENVO subset as an example ontology knowledge graph. Answering CQ(X), I assessed the network parameters of the envoPolar graph, assuming that connectivity within the graph is analogous to the facility of researchers searching the network to discover knowledge associated with their stated input knowledge.
+
+My analysis of the properties of the network envoPolar created from the envoPolar subset is as follows. The network has a low number of components, with the vast majority of nodes and edges belonging to the largest components. Therefore the network should be analyzed as a relational based regime as opposed to a competent based regime. This is logical as the network makes use of structured upper level semantic models of the Basic Formal Ontology. I additionally examined the diameter of the network, the longest possible path between connected nodes in a network to gain insight into how well integrated the network is. Longer maximum path lengths equate to less well integrated networks [@labs_network_2016]. In the envoPolar network, the maximum path length is only 7. Examining the distribution of path lengths, see **Figure 9** I observe that the majority of nodes have a path length of 2. This means that the average node in the network is only 2 steps away from most other nodes. Hence the overall network is well connected. Examining the in-degree distributions of nodes in the network, see **Figure A4** in the appendix, I remarked that some nodes have very many connections, while the majority of nodes have only a few (one or two) connections. A network containing very few highly connected nodes and very many poorly connected nodes implies it bears a centralized network structure. This can also be seen in **Figure 10** the graph of average clustering coefficient as a function of number of neighboring nodes, where I observed two distinct clusters of nodes. Nodes higher up in the hierarchy are well connected to a small number of neighbors. While nodes lower down in the hierarchy are poorly connected to a larger number of neighbors. A third network parameters additionally indicating a very centralized network structure is the distribution of betweenness centrality values. **Figure A6** shows a distribution where only 3 nodes, each of which only have two neighbors, have elevated betweenness centrality values, reflecting the amount of control these nodes exerts over the interactions of other nodes. Demonstrating that the network is highly centralized, with three very important central nodes which exert control over all other nodes in the network. ENVO:*geographic feature* [ENVO_00000000] is an example of one of these central nodes, having the largest degree of in-connectivity in the envoPolar graph. This is logical as this node is relatively high in the material entity hierarchy. The nodes in-degree value of 44 means there are 44 classes in the envoPolar network which fall underneath the geographic feature hierarchy.
+
+Highly centralized networks are termed scale free or power law networks [@Choroma_ski_2013], which describe an exponential relationship between the degree of connectivity a node has and the frequency of its occurrence. Examining the topology of the envoPolar network I observe a hierarchical and branched tree-like structure. Branching structures are typically much more efficient ways of connecting networks, as the branching structures provide an exponential growth in the number of nodes that can be reached relative to the path length traversed [@Kou_2014]. Allowing for a very short average path length within a very large network, which is what I observed in the envoPolar network.   
+
+In terms of robustness a scale free network won't be dramatically affected by removing or changing low degree nodes, however it would be very affected if the central nodes were removed or changed. If for example the Basic Formal Ontology hierarchy were no longer used and suddenly a very central node such as ENVO:*geographic feature* [ENVO_00000000] were to be removed without replacement, the network would shatter into many unconnected components, rendering it unable to interconnect information. In the current organizational structure the majority of nodes are only  two steps away from highly centralized and well-connected *hub* nodes. Through these highly centralized nodes the network is very highly interconnected. This is due to the hierarchical organizational structure of the ontology.
+
+The majority of nodes, however, are not very well connected to. The results of **Table 12** show that only a handful of nodes with high in-degree values are polar related semantic terms sourced from lower down in the hierarchy. Furthermore the low average in connectivity of nodes in the network implies that most nodes are not well connected to by other nodes. Hence it is my assessment that more work is needed to encode the potential relationships which exist between classes. Building upon the relational connectivity of the envoPolar knowledge graph will be necessary in order for nodes within the graph to be of sufficient in-connectivity to facilitate the discovery of new knowledge based on relationships to stated input knowledge.
+
+
+
+
+## 4.4 Tracking information provenance
+
+Jackson’s (2012) bestiary of ignorance proposes four categories in an overview of knowledge or lack of knowledge about a subject [@Jackson_2012]. The most subtle yet possibly most important of these categories describes unknown known knowledge. Referring to scientific knowledge which has been generated or recorded, but to which easy access is lacking [@Hortal_2015]. Hortal et al. (2015) propose that informatics methods could be employed to facilitate community access to non-easily search-able knowledge collections [@Hortal_2015]. Considering informatics strategies by which to improve community access to unknown known knowledge, I examined various types of information which ontologies could be used to track the provenance of. I discuss ways in which ontology knowledge graphs can help to identify the provenance of primary literature associated with annotated datasets, specimens from a museum or collection, and authors who contribute expert knowledge to ontologies. Mobilizing known unknown information data and knowledge into a greater ontology knowledge graph, is a first step toward overcoming the limitation of known unknown knowledge.  
+
+Evaluating the fitness for purpose of ontologies to connect users to primary literature about datasets annotated with ontology terms, I posed the following question of the datastore:  
 
 > "What are all the papers which reference any data set, which is about a part of a marine biome?"
 
-The results of which demonstrate the ontology knowledge graph can be used to direct users toward publications associated with datasets annotated with terms discovered from the ontology knowledge graph. For example, by searching for publications about BFO:*part of* [BFO_0000050] a ENVO:*marine biome* [ENVO_00000447] the ontology knowledge graph lead us to papers about a ENVO:*marine water body* [ENVO_00001999]. In some cases this process lead us to publications written about the data set of interest. For example the publication *Influence of snow depth and surface flooding on light transmission through Antarctic pack ice* [@Arndt_2017], about the *Influence of snow depth and surface flooding on light transmission through Antarctic pack ice, supplementary data.* dataset. This publication was retrieved due to the dataset being annotated as being an OBCS:*data matrix* [OBCS_0000120] about some PATO:*physical* quality* [PATO_0001018] and (RO:*inheres in* [RO_0000052] some (ENVO:*marine water body* [ENVO_00001999]) and (RO:*adjacent to* [RO_0002220] some ENVO:*sea ice* [ENVO_00002200]))
+The results of which demonstrate the ontology knowledge graph can be used to direct users toward publications associated with datasets annotated with terms discovered from the ontology knowledge graph. For example, by searching for publications about BFO:*part of* [BFO_0000050] a ENVO:*marine biome* [ENVO_00000447] the ontology knowledge graph lead us to papers about a ENVO:*marine water body* [ENVO_00001999]. In some cases this process leads us to publications written about the data set of interest. For example the publication *Influence of snow depth and surface flooding on light transmission through Antarctic pack ice* [@Arndt_2017], about the *Influence of snow depth and surface flooding on light transmission through Antarctic pack ice, supplementary data.* dataset. This publication was retrieved due to the dataset being annotated as being an OBCS:*data matrix* [OBCS_0000120] about some PATO:*physical* quality* [PATO_0001018] and (RO:*inheres in* [RO_0000052] some (ENVO:*marine water body* [ENVO_00001999]) and (RO:*adjacent to* [RO_0002220] some ENVO:*sea ice* [ENVO_00002200]))
 
 In other cases publication less directly related to a dataset about a part of an ENVO:*marine biome* [ENVO_00000447], were retrieved. Such as for example the publication *An evaluation of the application of CHEMTAX to Antarctic coastal pigment data* [@Kozlowski_2011], which made use of a subset of the data from the *Global chlorophyll "a" concentrations for diatoms, haptophytes and prokaryotes obtained with the Diagnostic Pigment Analysis of HPLC data compiled from several databases and individual cruises.* dataset. This publication was retrieved as it is referenced in a dataset annotated as being an OBCS:*data matrix* [OBCS_0000120] about some CHEBI:*chlorophyll a [CHEBI_18230] and (RO:*part of* [BFO_0000050] some ENVO:*marine water body* [ENVO_00001999])
 
@@ -819,13 +924,6 @@ Users would be enabled to ask questions of the query-able natural history specim
 
 This would go a long way toward facilitating the ease of access to knowledge about unconnected parts of the collective scientific knowledge base, helping the scientific community to overcome the challenge of coping with unknown known knowledge.
 
-Ontologies can additionally be used to interconnect and track the provenance of expert information. An example of which was presented during the VoCamp Hackathon session where partially non-overlapping definitions of the term *ablation* which were sourced from the NOAA National Weather Service Glossary 2009 [@nws_internet_services_team_glossary_2009] and Cogley et al. IACS-UNESCO Glacier Mass
-Balance 2011 [cogley_glossary_2011] glossaries. As ontologies take an agnostic stance when representing knowledge which has multiple definitions or which pertains to competing hypotheses [@Arp_2015]. A variety of approaches can be taken in parallel to incorporate such definitional discrepancies into the ontology knowledge graph, while tracking the provenance of the information source. A general *ablation* class could be created to include all the possible ice loss processes included in the various definitions of *ablation*. If ontology users are attempting to mobilize data about a specific combination of ice loss process classes, they could post-compose a semantic annotation which includes the specific processes of interest as axioms. A post-compositional annotation describing data specifically about *ablation* due to melting ice and ice calving could for example be: ENVO:*ice loss process* [ENVO_01000915] and (RO:*formed as result of* [RO_0002354] some (ENVO:*icemelt*[ENVO_01000721] or ENVO:*ice calving process* [ENVO_01000917]))
-
-If pre-composition is desired, in for example a case where a combination of specific ablation processes are commonly referred to together as a set, a new term with a descriptive label could be created. A pre-compositional invocation of the example mentioned above would to create a descriptive term such as *calving and icemelt derived ablation*. Having a descriptive human readable label would facilitate the term's use for people such as domain experts or data stewards who are annotating data or describing a specific process. This term could include a oboInOwl:*database_cross_reference* [hasDbXref] to the Cogley et al. IACS-UNESCO Glacier Mass
-Balance 2011 glossary [@cogley_glossary_2011] to track the provenance of the information source.
-From a linked data perspective, both the pre-compositional and post-compositional annotations of the phenomena in question would make use of the same axiom (above). Hence both the pre and post composed versions of the term would be equivalent in terms of machine-searchability. This would facilitate the interoperation of data annotated both manually for example with a term such as *calving and icemelt derived ablation* and automatically for example by a semi-automated routine for post-compositionally annotating data, making use of existing terms.
-
 Ontologies can also be used to track the provenance of term authors who have contributed expert knowledge to an ontology knowledge graph. There is a need to track the provenance of expert knowledge authorship, as scientific discoveries are increasingly being enabled through Internet based collaboration [@nielsen_2012]. Ontologies are semantic representations of expert knowledge, and thus have the potential to facilitate on-line networking among scientists, allowing users to connect to the authors who have contributed their expert knowledge.
 
 In order for ontologies to facilitate future scientific networking and discoveries, ontologies would benefit from more domain experts recording their knowledge into ontologies. To incentivize such actions, ontologies would benefit from micro-crediting knowledge contributions at the term level. To facilitate scientific networking, authors who contribute knowledge to ontologies should be micro-credited with unambiguous personal identifiers. These identifiers would need to be connected to a living system which is query-able. Allowing for users to query the ontology knowledge for any authors who contributed knowledge related to specific input terminology of interest. Enabling a query such as:
@@ -838,47 +936,26 @@ In order to evaluate the extent to which ontologies serve to interconnect people
 
 > "How well do the Environment Ontology and the Environment Ontology Polar subset connect authors of terms to the information they helped to encode?"
 
-The results intricate that only 20% and 50% of terms from the Environment Ontology and its polar subset respectably contain a directly querable author annotation. Making it difficult to directly search for the author of a given term. Although ontologies such as ENVO make use of term ranges to identify authors. This information is stored in a separate meta-data owl file, which would be difficult to query for without a priori knowledge of its existence. The practice of using author ID ranges works for ontologies with smaller numbers of contributing authors, but constituents a cumbersome solution for the micro-crediting of many authors who may only ever contribute to a single term. Directly annotating terms with links to contributing author ORCIDs provides a more easily scalable solution for future influxes of contributing authors. Directly annotating ontology terms with links to the ORCIDs of contributing authors would serve to identify term author provenance. As well as facilitate future networking amongst scientists by connecting ontology term authors to OCRIDs, from which current contact information can be pulled.
+The results intricate that only 20% and 50% of terms from the Environment Ontology and its polar subset respectably contain a directly querable author annotation, making it difficult to directly search for the author of a given term. Although ontologies such as ENVO make use of term ranges to identify authors. This information is stored in a separate meta-data owl file, which would be difficult to query for without a priori knowledge of its existence. The practice of using author ID ranges works for ontologies with smaller numbers of contributing authors, but constituents a cumbersome solution for the micro-crediting of many authors who may only ever contribute to a single term. Directly annotating terms with links to contributing author ORCIDs provides a more easily scalable solution for future influxes of contributing authors. The direct annotation of ontology terms with links to the ORCIDs of contributing authors would serve to identify term author provenance. As well as facilitate future networking amongst scientists by connecting ontology term authors to OCRIDs, from which current contact information can be pulled.
 
-## 4.4 Ontology guided knowledge discovery
 
-I assessed if ontological knowledge graphs are fit for the purpose of connecting information or data explicitly stated by a researcher to new, unstated but related knowledge or data. Assuming connectivity within the envoPolar knowledge graph is analogous to the facility of researchers searching the network to discover new data and knowledge associated with their stated input knowledge. I created a network out of the Polar subset of the Environment Ontology and assessed its network parameters calculated as a directed graph to attempt to answer the following question:
+## 4.5 Practical and resilient systems for knowledge-representation and data-mobilization
 
-> "Is the ontology knowledge graph of the envoPolar subset sufficiently well connected to be able to lead researchers to new knowledge via unstated linkages to identified knowledge?"
+In principal, ontologies can be used to provide machine-readable representations of expert knowledge as well as the semantic infrastructure by which to interconnect and mobilize machine-accessible data. In this section I discuss the practicality of using ontologies to perform such functions, as well as their resilience to the incorporate of new knowledge, or changes to their underlying semantic models. First in reference to CQ (11) I discuss strategies for ontology development to make them resilient to the incorporation of new and possibly contradictory expert knowledge. Next, referencing CQ (12), I discuss the resilience of ontology-enabled data-mobilization workflows, if subject to changes in their underlying semantic models. Finally, referencing CQ (13), I evaluated how practical it is for predicted users to retrieve ontology-annotated machine-accessible data.
 
-Our analysis of the properties of the network envoPolar created from the envoPolar subset is as follows. The network has a low number of components, with the vast majority of nodes and edges belonging to the largest components. Therefore the network should be analyzed as a relational based regime as opposed to a competent based regime. This is logical as the network makes use of structured upper level semantic models of the Basic Formal Ontology and the Relations Ontology as has been previous discussed.
+Addressing CQ (11), an example of the requirement of ontologies to be resilient to the incorporation of expert knowledge which may have conflicting or partially non-overlapping definitions came up during the VoCamp Glacier Ontology Hackathon community glacial-consultation session [@vocamp_2018], in which different expert knowledge sources presented different definitions of ablation. As ontologies take an agnostic stance when representing knowledge which has multiple definitions or which pertains to competing hypotheses [@Arp_2015], a variety of approaches can be taken in parallel to incorporate such definitional discrepancies into the ontology knowledge graph. This involves determining the differences between competing definitions, finding or creating other semantics to represent these differences and finally creating multiple versions of the term of interest which have subclass axioms referencing their differences. In the ablation case the difference concerned whether or not calving processes contribute to ice ablation processes. Thus I suggested the creation of two different ablation classes, both of which are to be subclasses of the general ENVO:*ice ablation process* [ENVO_01000919]. The first class ENVO:*icemelt-derived ice ablation process* [URI pending] would have the axiom: BFO:*has part* [BFO_0000051] some ENVO:*icemelt* [ENVO_01000721], telling the semantic knowledge layer that this class only refers to ablation which is due to an icemelt process. The second class ENVO:*icemelt or calving-derived ice ablation process* [URI pending], would have the axiom: BFO:*has part* [BFO_0000051] some (ENVO:*icemelt* [ENVO_01000721] or ENVO:*ice calving process* [ENVO_01000917]), telling the semantic knowledge layer that this class represents ablation processes which are due to icemelt and or calving processes. If in the future, more polar data were to be available for analysis; these terms could be used to evaluate the overlap of data retrieved when performing queries for these different definitions of ablation. This could possibly help to ask and answer a question such as:
 
-I additionally examined the diameter of the network, the longest possible path between connected nodes in a network to gain insight into how well integrated the network is. Longer maximum path lengths equate to less well integrated networks [@labs_network_2016]. In the envoPolar network, the maximum path length is only 7. Examining the distribution of path lengths, see **Figure 5** we observe that the majority of nodes have a path length of 2. This means that the average node in the network is only 2 steps away from most other nodes. Hence the overall network is well connected.
+> "To what extent are calving processes contributing to ice ablation process relative to icemelt processes?"
 
-Examining the in-degree distributions of nodes in the network, see supplemental **Figure 10**, I remarked that some nodes have very many connections, while the majority of nodes have only a few (one or two) connections. A network containing very few highly connected nodes and very many poorly connected nodes implies it bears a centralized network structure. This can also be seen in **Figure 6** the graph of average clustering coefficient as a function of number of neighboring nodes, where I observed two distinct clusters of nodes. Nodes higher up in the hierarchy are well connected to a small number of neighbors. While nodes lower down in the hierarchy are poorly connected to a larger number of neighbors. A third network parameters additionally indicating a very centralized network structure is the distribution of betweenness centrality values. Supplemental **Figure 12** shows a distribution where only 3 nodes, each of which only have two neighbors, have elevated betweenness centrality values, reflecting the amount of control these nodes exerts over the interactions of other nodes. Demonstrating that the network is highly centralized, with three very important central nodes which exert control over all other nodes in the network. ENVO:*geographic feature* [ENVO_00000000] is an example of one of these central nodes, having the largest degree of in-connectivity in the envoPolar graph. This is logical as this node is relatively high in the material entity hierarchy. The nodes in-degree value of 44 means there are 44 classes in the envoPolar network which fall underneath the geographic feature hierarchy.
+Addressing CQ (12), I evaluated the extent to which ontology-enabled data-mobilization workflows such as those I developed to mobilize data about participants in any type of ENVO:*sea ice formation process* [ENVO_03000044], are susceptible to potential changes made to their underlying semantic models. I simulated the effects of not using hierarchically structured subclass relations or structured RO relations to retrieve data about participants in ENVO:*sea ice formation process*es [ENVO_03000044] from my datastore. The results of these simulations indicate that my ontology guided data-mobilization workflow would be quite susceptible to changes made to the underlying semantic models employed by ontologies.
 
-Highly centralized networks are termed scale free or power law networks [@Choroma_ski_2013], which describe an exponential relationship between the degree of connectivity a node has and the frequency of its occurrence. Examining the topology of the envoPolar network I observe a hierarchical and branched tree-like structure. Branching structures are typically much more efficient ways of connecting networks, as the branching structures provide an exponential growth in the number of nodes that can be reached relative to the path length traversed [@Kou_2014]. Allowing for a very short average path length within a very large network, which is what we observe in the envoPolar network.   
+The results show that if ontologies didn't make use of hierarchically structured subclass relationships to represent the taxonomy of knowledge, for example representing the knowledge that a first year ice formation process is a type of sea ice formation process, a data-mobilization workflow such as the one I devised would retrieve substantially less data. Additionally, if a non-standardized set of relations were to be used in place of the structured Relations Ontology relations, it would not be possible to use a data-mobilization workflow to retrieve data.
 
-In terms of robustness a scale free network won't be dramatically affected by removing or changing low degree nodes, however it would be very affected if the central nodes were removed or changed. If for example the Basic Formal Ontology hierarchy were no longer used and suddenly a very central node such as ENVO:*geographic feature* [ENVO_00000000] were to be removed without replacement, the network would shatter into many unconnected components, rendering it unable to interconnect information. In the current organizational structure the majority of nodes are only  two steps away from highly centralized and well-connected *hub* nodes. Through these highly centralized nodes the network is very highly interconnected. This is due to the hierarchical organizational structure of the ontology.
+These results illustrate that in order for ontologies to be used in data-mobilization workflows, it is important that the foundational semantic models they employ are not radically changed. This underscores the need for a well-established and well-structured set of semantics to be used to annotate and mobilize machine-accessible data. Although I am not specifically advocating for the use of the OBO Foundry and Library ontologies to serve as the semantic infrastructure for the annotation and mobilization of machine-accessible data, OBO ontologies would be a reasonable choice to do so. OBO ontologies provide a pre-existing, interoperable semantic infrastructure, including the arguably most successful and widely used biomedical ontology, the Gene Ontology [@Ashburner_2000]. Additionally, efforts are underway to align the OBO ontologies, primarily the Environment Ontology with the NASA Semantic Web for Earth and Environmental Technology (SWEET) ontologies [@sweet_2018]. The SWEET ontologies are the *de facto* standards for the formal representation of earth and environmental science domain knowledge [@DiGiuseppe_2014]. Aligned OBO and SWEET semantics hold great potential to aid in the future interconnection of environmental and genomic data.
 
-The majority of nodes, however, are not very well connected to. The results of **Table 13** show that only a handful of nodes with high in-degree values are polar related semantic terms sourced from lower down in the hierarchy. Furthermore the low average in connectivity of nodes in the network implies that most nodes are not well connected to by other nodes. Hence it is my assessment that more work is needed to encode the potential relationships which exist between classes. Building upon the relational connectivity of the envoPolar knowledge graph will be necessary in order for nodes within the graph to be of sufficient in-connectivity to facilitate the discovery of new information based on relationships to stated knowledge.
+Addressing CQ (13) I evaluated how practical it would be for potential users of various levels of querying expertise to retrieve ontology-annotated machine-accessible data from my datastore. Lacking the scope to be able to conduct a proper experiment on a study group of scientists with various proficiencies for performing semantic queries to retrieve data from the datastore, I evaluated this question by testing the performance of predicted user stores estimating users of various querying proficiencies to retrieve example data. The results of these predicted user stories indicated that users of basic querying expertise were only able to retrieve a tiny fraction of annotated data, users of intermediate expertise less than half the data and even users advanced users could not fully retrieve all data. Possible reasons for such results may be due to non-uniformities in axiomatic structures used to annotate the example data.
 
-## 4.5 Practical and resilient systems for linked open data
-
-In **Figure A.1** I propose that ontology terms can serve as the semantic infrastructure for the mobilization of linked open data, serving to gather relevant knowledge to conduct scientific experiments. To address the practicality of using ontologies as the semantic infrastructure for the mobilization of linked open data, I evaluated two main questions. The first question assessed the resilience of open linked data to changes in upper level semantic models. The second question evaluated how practical it is for predicted users to assemble semantically-annotated linked open data.
-
-Evaluating the extent to which linked open data is resilient to potential changes in upper level BFO and RO semantic models used for annotation, I asked the following questions:
-
-> "What percentages data items about participants in sea ice formation processes would we be able to retrieve if we didn't use the Basic Formal Ontology or Relations Ontology upper level semantic models?"
-
-To answer such questions I simulated the effects of not utilizing the Basic Formal Ontology or Relations Ontology upper level semantic models to retrieve data from the example polar datastore. The results of these simulations indicate that the upper level semantic models are crucially important in order to retrieve data about classes participating in a phenomenon of interest. In the simulation, if fundamental changes were made to the Basic Formal Ontology, only 50% of the data would be retrievable. Additionally, if a non-standardized set of relations were to be used in place of the structured Relations Ontology relations, it would not be possible to retrieve data about classes participating in a phenomenon of interest from the model datastore. These results imply that upper level semantic models are crucially important when using ontology terms to mobilize linked data. It is critical that upper level semantic model be standardized and used consistently to annotate linked open data.
-
-Although I am not specifically advocating for the use of the OBO Foundry and Library ontology semantic models to be used to standardize linked open data. Such models would be a reasonable choice for semantic standardization, as they provide a pre-existing, interoperable semantic infrastructure, including the arguably most successful and widely used biomedical ontology, the Gene Ontology [@Ashburner_2000]. Additionally, efforts are underway to align the OBO ontologies, primarily the Environment Ontology with the NASA Semantic Web for Earth and Environmental Technology (SWEET) ontologies [@sweet_2018]. The SWEET ontologies are the *de facto* standards for the formal representation of earth and environmental science domain knowledge [@DiGiuseppe_2014]. Aligned OBO and SWEET semantic hold great potential to aid in the future interconnection of environmental and genomic data.
-
-In order to assess the practicality of retrieving ontology annotated data from our example datastore, which contains data annotated with axiomatic structures of various levels of complexity and non-uniformity. I asked the following question:
-
-> What level of querying expertise is required to access the various types of data contained in the example polar datastore?
-
-Lacking the scope to be able to conduct a proper experiment on a study group of scientists with various proficiencies for performing semantic queries to retrieve data from the example datastore, I evaluated this question by testing the performance of predicted user stores estimating users of various querying proficiencies to retrieve example data.
-
-The results of these predicted user stories indicated that users of basic querying expertise were only able to retrieve a tiny fraction of annotated data, users of intermediate expertise less than half the data and even users advanced users could not fully retrieve all data. Possible reasons for such results may be due to non-uniformities in axiomatic structures used to annotate the example data.
-
-Clearly these outcomes are limited being only user story simulation conducted in place of proper user group analyses. Semantic science advances could be made by creating an open linked data repository with various styles of data annotations of which a user focus group would be tasked with querying. This would serve to inform us as to what axiomatic annotations are readily querable lending themselves to successful data mobilization, and which are not. Additional efforts could make use of Neuro-Linguistic Programming (NLP) knowledge to create data annotations which are intuitive to average users. Additionally, efforts could be undertaken to find better ways of connecting and storing linked data which make use of more natural linguistic patterns, to attempt to make linked data accessible by methods other than cumbersome and technical SPARQL queries.
+Clearly these outcomes are limited being only user story simulation conducted in place of proper user group analyses. Semantic science advances could be made by creating an open linked data repository with various styles of data annotations of which a user focus group would be tasked with querying. This would serve to inform us as to what axiomatic annotations are readily queryable lending themselves to successful data mobilization, and which are not. Additional efforts could make use of Neuro-Linguistic Programming (NLP) knowledge to create data annotations which are intuitive to average users. Additionally, efforts could be undertaken to find better ways of connecting and storing linked data which make use of more natural linguistic patterns, to attempt to make linked data accessible by methods other than cumbersome and technical SPARQL queries.
 
 Next, I discuss the axiomatic data annotation patterns which the predicted user stories were and were not able to query. I first examine an example axiomatic pattern used to annotate data about *snow thickness*. This annotation axiom was successfully queried by user stories of intermediate expertise and makes use of the following axiom: PATO:*thickness* [PATO_0000915] and (RO:*inheres in* [RO_0000052] some ENVO:*snow*[ENVO_01000406])). This example axiomatic annotation structure, about a thickness quality which is realized in the material entity snow is relatively straight forward. Employing the pattern of:
 
@@ -886,7 +963,7 @@ Next, I discuss the axiomatic data annotation patterns which the predicted user 
 class A, relation 1, some class B
 ```
 
-When creating an axiomatic data annotation there is trade-off between a complete and correct philosophical description of a subject vs. a more pragmatic linked data approach intended to make data easily mobilizable. The example of data about *snow thickness*, presents an axiomatic pattern which is a reasonable comprise between a correct description and an easily mobilizable data annotation.
+When creating an axiomatic data annotation there is trade-off between a complete and correct philosophical description of a subject vs. a more pragmatic linked-data approach intended to make data easily mobilizable. The example of data about *snow thickness*, presents an axiomatic pattern which is a reasonable comprise between a correct description and an easily mobilizable data annotation.
 
 In order to semantically represent data about a more complicated phenomenon, questions arise about how to address such a trade-off. For example data about *mean snow thickness*, which was not retrieve by the advanced user stories, is annotated with the axiom: OBCS:*expected value* [OBCS_0000083] and IAO:*is about* [IAO_0000136] min 2 (IAO:*data item* [IAO_0000027] and IAO:*is about* [IAO_0000136] some (PATO:*thickness* [PATO_0000915] and [RO:*inheres in* [RO_0000052] some  ENVO:*snow*[ENVO_01000406])). In this example the data is an expected value (a mean) of other data which are about a thickness quality which is realized in some snow. In this example the axiomatic annotation is not as straight forward taking the form:
 
@@ -907,6 +984,9 @@ class A and (any relation some class B and (any relation some class C and (...))
 ```
 
 A highly uniform and easily expendable pattern such as this would facilitate the retrieval of data, as well as provide sufficient depth to satisfactorily describe a phenomenon of interest, satisfying both the ontology philosopher and the pragmatic mobilizer of data.
+
+
+
 
 
 \newpage
@@ -957,7 +1037,7 @@ in propositional or first order logic models. These ontologically derived logic 
 
 ## A.1 Semantic science adaption of scientific method
 
-![**Figure A1** Shows the adaptation of semantic science to the scientific method, facilitate the reuse of published data. Item **A** shows the standard scientific method where problems are defined, hypotheses are generated, experiments are conducted to test hypotheses either generating publishable data or leading to the definition of new problems. Item **B** shows the workflow by which to convert published data to machine-actionable formats, annotate with ontology terms as meta-data. This facilitates the process of asking questions of open linked data and gather data to test hypotheses.  ](figures/semantic_data_lifecycle.jpg)
+![**Figure A1** Shows the adaptation of semantic science to the scientific method, facilitate the reuse of published data. Item **A** shows the standard scientific method where problems are defined, hypotheses are generated, experiments are conducted to test hypotheses either generating publishable data or leading to the definition of new problems. Item **B** shows the workflow by which to convert published data to machine-actionable formats, annotate with ontology terms as meta-data. This facilitates the process of asking questions of open linked data and gather data to test hypotheses.  ](figures/supplemental/scientific_method_in_semantic_research.pdf)
 
 
 
@@ -965,7 +1045,7 @@ in propositional or first order logic models. These ontologically derived logic 
 
 A Model data store of environmental and genomic data was created during this work. Detailed description of axioms making use of ontology terms used to post-compositionally annotate the example polar datastore are available from: https://github.com/kaiiam/kblumberg_masters_thesis/wiki/complete_datastore
 
-The following datasets were included in the example datastore:
+The following datasets were included in the datastore:
 
 1. Inorganic nutrients measured on water bottle samples at AWI HAUSGARTEN during POLARSTERN cruise MSM29. @bauerfeind2014inmo
 
@@ -1002,7 +1082,7 @@ Neritic transcriptomic data provided by Dr. David Probandt, were collected from 
 
 \newpage
 
-: **Table A1** Results of the relative genomic and transcriptomic abundances of GO:*transition metal ion transport* [GO_0000041] process in various types of ENVO:*marine benthic biome*s [ENVO_01000024], queried for in the example datastore.
+: **Table A1** Results of the relative genomic and transcriptomic proportions of GO:*transition metal ion transport* [GO_0000041] process in various types of ENVO:*marine benthic biome*s [ENVO_01000024], queried for in the datastore.
 
 | term                                                    | ENVO:*marine abyssal zone biome* [ENVO_01000027] | ENVO:*marine bathyal zone biome* [ENVO_01000026] | ENVO:*marine neritic benthic zone biome* [ENVO_01000025] |
 |:--------------------------------------------------------|:-------------------------------------------------|:-------------------------------------------------|:---------------------------------------------------------|
@@ -1016,7 +1096,7 @@ Neritic transcriptomic data provided by Dr. David Probandt, were collected from 
 | GO:*cobalt ion transport* [GO_0006824]                  | 0.00                                             | 0.00                                             | 0.00                                                     |
 | GO:*copper ion transport* [GO_0006825]                  | 0.00                                             | 0.00                                             | 0.00                                                     |
 
-: **Table A2** Results of the relative genomic and transcriptomic abundances of GO:*transition metal ion binding* [GO_0046914] molecular functions in various types of ENVO:*marine benthic biome*s [ENVO_01000024], queried for in the example datastore.
+: **Table A2** Results of the relative genomic and transcriptomic proportions of GO:*transition metal ion binding* [GO_0046914] molecular functions in various types of ENVO:*marine benthic biome*s [ENVO_01000024], queried for in the datastore.
 
 
 | term                                           | ENVO:*marine abyssal zone biome* [ENVO_01000027] | ENVO:*marine bathyal zone biome* [ENVO_01000026] | ENVO:*marine neritic benthic zone biome* [ENVO_01000025] |
@@ -1040,11 +1120,33 @@ Neritic transcriptomic data provided by Dr. David Probandt, were collected from 
 
 Subclasses of boldfaced terms GO:*biological process* [GO_0008150], GO:*cellular amino acid biosynthetic process* [GO_0008652], and GO*serine family amino acid biosynthetic process* [GO_0009070] are the subjects of the Principal coordinate analyses plots in **Figures 4**, **5** and **6** respectably. GO*serine family amino acid biosynthetic process* [GO_0009070] terms differentiating ENVO:*marine abyssal zone biome* [ENVO_01000027] and ENVO:*marine bathyal zone biome* [ENVO_01000026] from ENVO:*marine neritic benthic zone biome* [ENVO_01000025] ENVO:*marine sediments* [ENVO_03000033], shown in **Figure 6**, are GO:*glycine biosynthetic process* [GO_0006545], and GO:*cysteine biosynthetic process from serine* [GO_0006535].
 
+\pagebreak
+## A.4 Ecological analysis of ontology-collected environmental data
+
+As a demonstration of how an ecological analysis could be conducted on machine-actionable data collected via an ontology semantics, I performed a principal component analysis. The data was collected by searching the datastore for data annotated with terms which are present in the axioms of the hypothetical ontology term ENVO:*environmental system determined by a community* [URI pending]
+
+This mock analysis used the collected data to investigate which environmental variables have the greatest loading on the analysis. **Figure A3** shows a hypothetical principal component analysis showing the effects of the various environmental variables, assembled due to their inclusion in axioms of the term ENVO:*environment determined by a phytoplankton community associated with sea-ice*. The first two PCA axes explain 53.6% of the variance in this analysis with PCA axis 1 explaining 34.0% of variance and PCA axis 2 explaining 19.6% of variance. Included in **Figure A3** are the Environment Ontology terms which were referenced as axioms of the hypothetical ENVO:*environment determined by a phytoplankton community associated with sea-ice* term, and from which annotated data was retrieved. For example *SignalStrength_ENVO_00002200* represents a column which is labeled *Signal Strength* which is about a PATO:*degree of illumination* [PATO_0015013] which RO:*inheres in* [RO_0000052] some ENVO:*sea ice* [ENVO_00002200].
+
+![**Figure A3** PCA on assembly of data about terms included as axioms of a hypothetical ENVO:*environment determined by a phytoplankton community associated with sea-ice* term.](figures/assemble_data_for_ ecological_analysis.pdf){ width=90% }
+
+: **Table A3** Shows the loadings from principal components 1 and 2 from the PCA conducted on data assembled due it being annotated with ontology term included in the subclass axioms of a hypothetical ENVO:*environment determined by a phytoplankton community associated with sea ice* ontology term. Terms are ordered in descending order based on PC 1 then PC 2. The first row of the table is a data column about the PATO:*concentration of* [PATO_0000033] CHEBI:*phosphate* [CHEBI_26020] in ENVO:*sea water* [ENVO_00002149].
+
+| data columns            | annotation term                      | PC1 loading | PC2 loading |
+|:------------------------|:-------------------------------------|:------------|:------------|
+| phosphate               | ENVO:*sea water* [ENVO_00002149]     | 1.22009153  | 0.09015633  |
+| nitrate                 | ENVO:*sea water* [ENVO_00002149]     | 1.21200068  | 0.01720033  |
+| ice or snow temperature | ENVO:*multiyear ice* [ENVO_03000073] | 0.58457003  | 0.82623573  |
+| sea ice thickness       | ENVO:*sea ice* [ENVO_00002200]       | 0.52555148  | -0.48198612 |
+| signal strength         | ENVO:*sea ice* [ENVO_00002200]       | 0.24304142  | -0.80299701 |
+| oxygen                  | ENVO:*sea water* [ENVO_00002149]     | -0.01611319 | 0.87287456  |
+| salinity                | ENVO:*sea water* [ENVO_00002149]     | -0.70229106 | 0.21544285  |
+
+Example results of this hypothetical analysis are that ENVO:*sea water* [ENVO_00002149] CHEBI:*phosphate* [CHEBI_26020] and CHEBI:*nitrate* [CHEBI_17632] concentrations have positive PC1 loading values. ENVO:*sea water* [ENVO_00002149] CHEBI:*dioxygen* [CHEBI_15379] and CHEBI:*salinity* [URI pending] have negative PC1 loading values. ENVO:*sea ice* [ENVO_00002200] PATO:*thickness* [PATO_0000915], and signal strength PATO:*degree of illumination* [PATO_0015013] which RO:*inheres in* [RO_0000052] some ENVO:*sea ice* [ENVO_00002200] have negative PC2 loading values.
 
 
-## A.4 Marine biome associated DOIs
+## A.5 Marine biome associated DOIs
 
-: **Table A3** Complete list of digital object identifiers of publications obtained querying for references of datasets which are about BFO:*part of* [BFO_0000050] an ENVO:*marine biome* [ENVO_00000447].
+: **Table A4** Complete list of digital object identifiers of publications obtained querying for references of datasets which are about BFO:*part of* [BFO_0000050] an ENVO:*marine biome* [ENVO_00000447].
 
 +---------------+----------------------------+------------------------+
 |data annotation|reference doi               | reference title        |
@@ -1128,11 +1230,11 @@ Subclasses of boldfaced terms GO:*biological process* [GO_0008150], GO:*cellular
 
 \newpage
 
-## A.5 Glacial community consultation working group participants
+## A.6 Glacial community consultation working group participants
 
 Participants in the Feb 2, 2018 VoCamp Glacier Ontology Hackathon are listed in the following **Table A2**.
 
-: **Table A4** Participants in the Feb 2, 2018 February VoCamp Glacier Ontology Hackathon and community semantic consultation session.
+: **Table A5** Participants in the Feb 2, 2018 February VoCamp Glacier Ontology Hackathon and community semantic consultation session.
 
 | participant             | affiliation                                                             |
 |:------------------------|:------------------------------------------------------------------------|
@@ -1154,18 +1256,18 @@ Participants in the Feb 2, 2018 VoCamp Glacier Ontology Hackathon are listed in 
 
 
 \newpage
-## A.6 Network analysis supplemental figures
+## A.7 Network analysis supplemental figures
 
-![**Figure A3** In degree distribution of the envoPolar subset analyzed as a network.](figures/supplemental/in_degree_distribution.jpeg){ width=70% }
+![**Figure A4** In degree distribution of the envoPolar subset analyzed as a network.](figures/supplemental/in_degree_distribution.jpeg){ width=70% }
 
-![**Figure A4** Out degree distribution of the envoPolar subset analyzed as a network.](figures/supplemental/out_degree_distribution.jpeg){ width=70% }
+![**Figure A5** Out degree distribution of the envoPolar subset analyzed as a network.](figures/supplemental/out_degree_distribution.jpeg){ width=70% }
 
-![**Figure A5** Plot of betweenness centrality as a function of number of neighbors of nodes from the envoPolar subset analyzed as a network. ](figures/supplemental/betweenness_centrality.jpeg){ width=70% }
+![**Figure A6** Plot of betweenness centrality as a function of number of neighbors of nodes from the envoPolar subset analyzed as a network. ](figures/supplemental/betweenness_centrality.jpeg){ width=70% }
 
 
 \newpage
 
-## A.7 Estimated user story simulated querying expertise
+## A.8 Estimated user story simulated querying expertise
 
 Estimated user stories were developed to evaluate the proficiencies of users of basic, intermediate or advanced querying expertise for performing semantic queryies of the model datastore.
 
@@ -1175,9 +1277,9 @@ Exclusive *and* querying cases used in the first task involved the following pai
 
 Data about parts associated with an ontology term querying cases used in the second task involved the following term annotations by which to query for data: ENVO:*brine channel* [ENVO_03000041], CHEBI:*carbon atom* [CHEBI_27594], CHEBI:*cation* [CHEBI_36916], IAO:*centrally registered identifier symbol* [IAO_0000577], ENVO:*glacier* [ENVO_00000133], ENVO:*marine biome* [ENVO_00000447], ENVO:*melt pond* [ENVO_03000040], and finally ENVO:*ocean* [ENVO_00000015].
 
-The predicted user stories were programed to have knowledge of a subset of the turtle data annotation querying case property paths used in the example datastore. The querying cases the various user stories were programed to include are shown in **Table A5**.
+The predicted user stories were programed to have knowledge of a subset of the turtle data annotation querying case property paths used in the datastore. The querying cases the various user stories were programed to include are shown in **Table A6**.
 
-: **Table A5** Shows the SPARQL querying cases which were included for each of the predicted user stories of various querying expertise levels.
+: **Table A6** Shows the SPARQL querying cases which were included for each of the predicted user stories of various querying expertise levels.
 
 +---------------+-----------------------------+
 |Expertise level|querying cases used          |

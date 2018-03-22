@@ -1,0 +1,222 @@
+@prefix path: <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+######################################### csv files #########################################
+
+#annotate a csv file. 
+#is about some: (W1 and W2 ... and ('any property' some (X1 and X2 ... and ('any property' some  Y1 and Y2 ... and  ('any property' some Z )))))
+path:microbial_taxonomy_bathyal.csv a owl:NamedIndividual ;
+            obo:BFO_0000051 path:microbial_taxonomy_bathyal.csvSample1OperationalTaxonomicUnitCount ;
+            obo:BFO_0000051 path:microbial_taxonomy_bathyal.csvSample2OperationalTaxonomicUnitCount ;
+            obo:BFO_0000051 path:microbial_taxonomy_bathyal.csvDomain ;
+            obo:BFO_0000051 path:microbial_taxonomy_bathyal.csvPhylum ;
+            obo:BFO_0000051 path:microbial_taxonomy_bathyal.csvClass ;
+            obo:BFO_0000051 path:microbial_taxonomy_bathyal.csvOrder ;
+            obo:BFO_0000051 path:microbial_taxonomy_bathyal.csvFamily ;
+            obo:BFO_0000051 path:microbial_taxonomy_bathyal.csvGenus ;
+            a [  rdf:type owl:Class ;
+                 owl:equivalentClass [ rdf:type owl:Class ;
+                                       owl:intersectionOf ( <http://purl.obolibrary.org/obo/OBCS_0000120>
+                                                            [ rdf:type owl:Restriction ;
+                                                              owl:onProperty <http://purl.obolibrary.org/obo/IAO_0000136> ;
+                                                              owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                   owl:intersectionOf ( <http://purl.obolibrary.org/obo/PCO_0000019>
+                                                                                                        [ rdf:type owl:Restriction ;
+                                                                                                          owl:onProperty <http://purl.obolibrary.org/obo/RO_0000052> ;
+                                                                                                          owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                                               owl:intersectionOf (  <http://purl.obolibrary.org/obo/PCO_1000004>
+                                                                                                                                                     [ rdf:type owl:Restriction ;
+                                                                                                                                                       owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000050> ;
+                                                                                                                                                       owl:someValuesFrom  [ rdf:type owl:Class ;
+                                                                                                                                                                             owl:intersectionOf (  <http://purl.obolibrary.org/obo/ENVO_00002113>
+                                                                                                                                                                                                   [ rdf:type owl:Restriction ;
+                                                                                                                                                                                                     owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000050> ;
+                                                                                                                                                                                                     owl:someValuesFrom <http://purl.obolibrary.org/obo/ENVO_01000026>
+                                                                                                                                                                                                   ]
+                                                                                                                                                                                                )
+                                                                                                                                                                            ]
+                                                                                                                                                     ]
+                                                                                                                                                    )
+                                                                                                                             ]
+                                                                                                        ]
+                                                                                                      )  
+                                                                                   ]
+                                                            ]
+                                                          ) 
+                                      ] 
+              ] .
+
+######################################### Columns #########################################
+
+#is about some: (X1 and X2 ... and ('any property' some (Y1 and Y2 and ... and ('any property' some Z))))
+path:microbial_taxonomy_bathyal.csvSample1OperationalTaxonomicUnitCount a owl:NamedIndividual ;
+                                        a [ rdf:type owl:Class ;
+                                            owl:equivalentClass [ rdf:type owl:Class ;
+                                                                  owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                                         owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000050> ;
+                                                                                         owl:someValuesFrom <http://purl.obolibrary.org/obo/OBCS_0000120>
+                                                                                       ]
+
+                                                                                       [ rdf:type owl:Restriction ;
+                                                                                         owl:onProperty <http://purl.obolibrary.org/obo/IAO_0000136> ;
+                                                                                         owl:someValuesFrom  [ rdf:type owl:Class ;
+                                                                                                               owl:intersectionOf ( <http://purl.obolibrary.org/obo/OBCS_0000135>
+                                                                                                                                    [ rdf:type owl:Restriction ;
+                                                                                                                                      owl:onProperty <http://purl.obolibrary.org/obo/IAO_0000136> ;
+                                                                                                                                      owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                                                                           owl:intersectionOf (  <http://purl.obolibrary.org/obo/PCO_0000019>
+                                                                                                                                                                                 [ rdf:type owl:Restriction ;
+                                                                                                                                                                                   owl:onProperty <http://purl.obolibrary.org/obo/RO_0000052> ;
+                                                                                                                                                                                   owl:someValuesFrom <http://purl.obolibrary.org/obo/PCO_1000004>
+                                                                                                                                                                                 ]
+                                                                                                                                                                              )
+                                                                                                                                                          ]
+                                                                                                                                    ]
+                                                                                                                                  )  
+                                                                                                              ]
+                                                                                        ]
+                                                                                      )
+                                                                  ]
+                                          ] .
+
+#is about some: (X1 and X2 ... and ('any property' some (Y1 and Y2 and ... and ('any property' some Z))))
+path:microbial_taxonomy_bathyal.csvSample2OperationalTaxonomicUnitCount a owl:NamedIndividual ;
+                                        a [ rdf:type owl:Class ;
+                                            owl:equivalentClass [ rdf:type owl:Class ;
+                                                                  owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                                         owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000050> ;
+                                                                                         owl:someValuesFrom <http://purl.obolibrary.org/obo/OBCS_0000120>
+                                                                                       ]
+
+                                                                                       [ rdf:type owl:Restriction ;
+                                                                                         owl:onProperty <http://purl.obolibrary.org/obo/IAO_0000136> ;
+                                                                                         owl:someValuesFrom  [ rdf:type owl:Class ;
+                                                                                                               owl:intersectionOf ( <http://purl.obolibrary.org/obo/OBCS_0000135>
+                                                                                                                                    [ rdf:type owl:Restriction ;
+                                                                                                                                      owl:onProperty <http://purl.obolibrary.org/obo/IAO_0000136> ;
+                                                                                                                                      owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                                                                           owl:intersectionOf (  <http://purl.obolibrary.org/obo/PCO_0000019>
+                                                                                                                                                                                 [ rdf:type owl:Restriction ;
+                                                                                                                                                                                   owl:onProperty <http://purl.obolibrary.org/obo/RO_0000052> ;
+                                                                                                                                                                                   owl:someValuesFrom <http://purl.obolibrary.org/obo/PCO_1000004>
+                                                                                                                                                                                 ]
+                                                                                                                                                                              )
+                                                                                                                                                          ]
+                                                                                                                                    ]
+                                                                                                                                  )  
+                                                                                                              ]
+                                                                                        ]
+                                                                                      )
+                                                                  ]
+                                          ] .
+
+#is about some: (X1 or X2 or ...)
+path:microbial_taxonomy_bathyal.csvDomain  a owl:NamedIndividual ;
+                                        a [ rdf:type owl:Class ;
+                                            owl:equivalentClass [ rdf:type owl:Class ;
+                                                                  owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                                         owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000050> ;
+                                                                                         owl:someValuesFrom <http://purl.obolibrary.org/obo/OBCS_0000120>
+                                                                                       ]                                           
+
+                                                                                       [ rdf:type owl:Restriction ;
+                                                                                         owl:onProperty <http://purl.obolibrary.org/obo/IAO_0000136> ;
+                                                                                         owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                              owl:unionOf     ( <http://purl.obolibrary.org/obo/NCBITaxon_2>
+                                                                                                                                <http://purl.obolibrary.org/obo/NCBITaxon_2157>
+                                                                                                                                <http://purl.obolibrary.org/obo/NCBITaxon_2759>
+                                                                                                                              )
+                                                                                                            ]
+                                                                                       ]
+                                                                                      )
+                                                                ]
+                                          ] .
+
+#is about some: (X)
+path:microbial_taxonomy_bathyal.csvPhylum a owl:NamedIndividual ;
+				       a [ rdf:type owl:Class ;
+                   owl:equivalentClass [ rdf:type owl:Class ;
+                                         owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                               owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000050> ;
+                                                               owl:someValuesFrom <http://purl.obolibrary.org/obo/OBCS_0000120>
+                                                              ]
+                                                                                          
+                                                              [ rdf:type owl:Restriction ;
+                                                                owl:onProperty <http://purl.obolibrary.org/obo/IAO_0000136> ;
+                                                                owl:someValuesFrom <http://purl.obolibrary.org/obo/NCBITaxon_phylum>
+                                                              ]
+                                                            )
+                                      ]
+                 ] .
+
+#is about some: (X)
+path:microbial_taxonomy_bathyal.csvClass a owl:NamedIndividual ;
+				       a [ rdf:type owl:Class ;
+                   owl:equivalentClass [ rdf:type owl:Class ;
+                                         owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                               owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000050> ;
+                                                               owl:someValuesFrom <http://purl.obolibrary.org/obo/OBCS_0000120>
+                                                              ]
+                                                                                          
+                                                              [ rdf:type owl:Restriction ;
+                                                                owl:onProperty <http://purl.obolibrary.org/obo/IAO_0000136> ;
+                                                                owl:someValuesFrom <http://purl.obolibrary.org/obo/NCBITaxon_class>
+                                                              ]
+                                                            )
+                                      ]
+                 ] .
+
+#is about some: (X)
+path:microbial_taxonomy_bathyal.csvOrder a owl:NamedIndividual ;
+				       a [ rdf:type owl:Class ;
+                   owl:equivalentClass [ rdf:type owl:Class ;
+                                         owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                               owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000050> ;
+                                                               owl:someValuesFrom <http://purl.obolibrary.org/obo/OBCS_0000120>
+                                                              ]
+                                                                                          
+                                                              [ rdf:type owl:Restriction ;
+                                                                owl:onProperty <http://purl.obolibrary.org/obo/IAO_0000136> ;
+                                                                owl:someValuesFrom <http://purl.obolibrary.org/obo/NCBITaxon_order>
+                                                              ]
+                                                            )
+                                      ]
+                 ] .
+
+#is about some: (X)
+path:microbial_taxonomy_bathyal.csvFamily a owl:NamedIndividual ;
+				       a [ rdf:type owl:Class ;
+                   owl:equivalentClass [ rdf:type owl:Class ;
+                                         owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                               owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000050> ;
+                                                               owl:someValuesFrom <http://purl.obolibrary.org/obo/OBCS_0000120>
+                                                              ]
+                                                                                          
+                                                              [ rdf:type owl:Restriction ;
+                                                                owl:onProperty <http://purl.obolibrary.org/obo/IAO_0000136> ;
+                                                                owl:someValuesFrom <http://purl.obolibrary.org/obo/NCBITaxon_family>
+                                                              ]
+                                                            )
+                                      ]
+                 ] .
+
+#is about some: (X)
+path:microbial_taxonomy_bathyal.csvGenus a owl:NamedIndividual ;
+				       a [ rdf:type owl:Class ;
+                   owl:equivalentClass [ rdf:type owl:Class ;
+                                         owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                               owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000050> ;
+                                                               owl:someValuesFrom <http://purl.obolibrary.org/obo/OBCS_0000120>
+                                                              ]
+                                                                                          
+                                                              [ rdf:type owl:Restriction ;
+                                                                owl:onProperty <http://purl.obolibrary.org/obo/IAO_0000136> ;
+                                                                owl:someValuesFrom <http://purl.obolibrary.org/obo/NCBITaxon_genus>
+                                                              ]
+                                                            )
+                                      ]
+                 ] .

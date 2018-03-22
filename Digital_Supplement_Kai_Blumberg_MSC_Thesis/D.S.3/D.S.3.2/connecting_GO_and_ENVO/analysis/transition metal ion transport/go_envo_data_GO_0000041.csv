@@ -1,0 +1,9 @@
+sample,http://purl.obolibrary.org/obo/GO_0034755,http://purl.obolibrary.org/obo/GO_0015694,http://purl.obolibrary.org/obo/GO_0000041,http://purl.obolibrary.org/obo/GO_0015684,http://purl.obolibrary.org/obo/GO_0035434,http://purl.obolibrary.org/obo/GO_0006826,http://purl.obolibrary.org/obo/GO_0035444,http://purl.obolibrary.org/obo/GO_0006824,http://purl.obolibrary.org/obo/GO_0006825
+file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biological_process_abyssal.csvSample2BiologicalProcessCount,4,47,6,374,0,4,23,0,0
+file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biological_process_abyssal.csvSample1BiologicalProcessCount,4,39,3,313,3,0,29,1,0
+file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biological_process_bathyal.csvSample1BiologicalProcessCount,2,28,6,381,1,2,20,0,0
+file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biological_process_bathyal.csvSample2BiologicalProcessCount,0,45,6,350,0,2,39,0,0
+file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biological_process_neritic.csvSample1BiologicalProcessCount,27,2,11,122,6,0,6,0,2
+file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biological_process_neritic.csvSample4BiologicalProcessCount,4,2,10,77,3,3,4,0,5
+file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biological_process_neritic.csvSample2BiologicalProcessCount,18,2,6,80,6,0,4,0,4
+file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biological_process_neritic.csvSample3BiologicalProcessCount,14,1,17,126,1,1,9,0,2

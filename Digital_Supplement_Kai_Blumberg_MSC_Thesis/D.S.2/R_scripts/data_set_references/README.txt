@@ -1,0 +1,1 @@
+Script to parse the output of the scripts: query_for_parts_associated_with_input_class.py query_data_set_references.py which are run to find all the DOIs associated with parts of an input class, and (in this script) clean such output as to present the results into a table. 

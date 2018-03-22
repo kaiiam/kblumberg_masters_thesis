@@ -1,0 +1,321 @@
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvWaterDepth> <http://www.w3.org/2000/01/rdf-schema#label> "Water Depth" ;
+	<http://tools.ietf.org/html/rfc4180columnPosition> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvDateTime> <http://www.w3.org/2000/01/rdf-schema#label> "Date Time" ;
+	<http://tools.ietf.org/html/rfc4180columnPosition> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvDateTimeEnd> <http://www.w3.org/2000/01/rdf-schema#label> "Date Time End" ;
+	<http://tools.ietf.org/html/rfc4180columnPosition> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvDuration> <http://www.w3.org/2000/01/rdf-schema#label> "Duration" ;
+	<http://tools.ietf.org/html/rfc4180columnPosition> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvSampleLabel> <http://www.w3.org/2000/01/rdf-schema#label> "Sample Label" ;
+	<http://tools.ietf.org/html/rfc4180columnPosition> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvSestonFlux> <http://www.w3.org/2000/01/rdf-schema#label> "Seston Flux" ;
+	<http://tools.ietf.org/html/rfc4180columnPosition> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvCalciumCarbonateFlux> <http://www.w3.org/2000/01/rdf-schema#label> "Calcium Carbonate Flux" ;
+	<http://tools.ietf.org/html/rfc4180columnPosition> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvParticulateOrganicCarbonFlux> <http://www.w3.org/2000/01/rdf-schema#label> "Particulate Organic Carbon Flux" ;
+	<http://tools.ietf.org/html/rfc4180columnPosition> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvParticulateOrganicNitrogenFlux> <http://www.w3.org/2000/01/rdf-schema#label> "Particulate Organic Nitrogen Flux" ;
+	<http://tools.ietf.org/html/rfc4180columnPosition> "8"^^<http://www.w3.org/2001/XMLSchema#integer> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvParticulateSiliconFlux> <http://www.w3.org/2000/01/rdf-schema#label> "Particulate Silicon Flux" ;
+	<http://tools.ietf.org/html/rfc4180columnPosition> "9"^^<http://www.w3.org/2001/XMLSchema#integer> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvrow/0> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvWaterDepth> "300"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvDateTime> "2004-07-15" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvDateTimeEnd> "2004-07-22" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvDuration> "7"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvSampleLabel> "1"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvSestonFlux> "12.54"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvCalciumCarbonateFlux> "3.49"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvParticulateOrganicCarbonFlux> "1.9"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvParticulateOrganicNitrogenFlux> "0.23"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvParticulateSiliconFlux> "0.13"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvrow/0> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvrow/0> <http://tools.ietf.org/html/rfc4180rowPosition> "0" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvrow/1> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvWaterDepth> "300"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvDateTime> "2004-07-22" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvDateTimeEnd> "2004-07-29" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvDuration> "7"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvSampleLabel> "2"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvSestonFlux> "17.89"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvCalciumCarbonateFlux> "3.28"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvParticulateOrganicCarbonFlux> "7.18"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvParticulateOrganicNitrogenFlux> "0.4"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvParticulateSiliconFlux> "0.06"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvrow/1> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvrow/1> <http://tools.ietf.org/html/rfc4180rowPosition> "1" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvrow/2> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvWaterDepth> "300"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvDateTime> "2004-07-29" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvDateTimeEnd> "2004-08-05" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvDuration> "7"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvSampleLabel> "3"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvSestonFlux> "292.88"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvCalciumCarbonateFlux> "44.9"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvParticulateOrganicCarbonFlux> "49.37"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvParticulateOrganicNitrogenFlux> "7.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvParticulateSiliconFlux> "16.92"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvrow/2> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvrow/2> <http://tools.ietf.org/html/rfc4180rowPosition> "2" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvrow/3> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvWaterDepth> "300"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvDateTime> "2004-08-05" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvDateTimeEnd> "2004-08-15" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvDuration> "10"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvSampleLabel> "4"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvSestonFlux> "232.72"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvCalciumCarbonateFlux> "40.48"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvParticulateOrganicCarbonFlux> "41.97"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvParticulateOrganicNitrogenFlux> "4.02"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvParticulateSiliconFlux> "5.51"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvrow/3> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvrow/3> <http://tools.ietf.org/html/rfc4180rowPosition> "3" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvrow/4> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvWaterDepth> "300"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvDateTime> "2004-08-15" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvDateTimeEnd> "2004-08-31" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvDuration> "16"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvSampleLabel> "5"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvSestonFlux> "45.55"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvCalciumCarbonateFlux> "13.3"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvParticulateOrganicCarbonFlux> "13.87"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvParticulateOrganicNitrogenFlux> "1.49"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvParticulateSiliconFlux> "0.19"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvrow/4> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvrow/4> <http://tools.ietf.org/html/rfc4180rowPosition> "4" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvrow/5> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvWaterDepth> "300"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvDateTime> "2004-08-31" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvDateTimeEnd> "2004-09-15" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvDuration> "15"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvSampleLabel> "6"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvSestonFlux> "69.33"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvCalciumCarbonateFlux> "24.2"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvParticulateOrganicCarbonFlux> "12.25"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvParticulateOrganicNitrogenFlux> "1.66"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvParticulateSiliconFlux> "2.34"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvrow/5> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvrow/5> <http://tools.ietf.org/html/rfc4180rowPosition> "5" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvrow/6> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvWaterDepth> "300"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvDateTime> "2004-09-15" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvDateTimeEnd> "2004-09-30" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvDuration> "15"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvSampleLabel> "7"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvSestonFlux> "23.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvCalciumCarbonateFlux> "6.85"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvParticulateOrganicCarbonFlux> "6.46"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvParticulateOrganicNitrogenFlux> "0.68"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvParticulateSiliconFlux> "0.35"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvrow/6> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvrow/6> <http://tools.ietf.org/html/rfc4180rowPosition> "6" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvrow/7> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvWaterDepth> "300"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvDateTime> "2004-09-30" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvDateTimeEnd> "2004-10-15" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvDuration> "15"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvSampleLabel> "8"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvSestonFlux> "11.29"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvCalciumCarbonateFlux> "5.15"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvParticulateOrganicCarbonFlux> "2.29"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvParticulateOrganicNitrogenFlux> "0.37"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvParticulateSiliconFlux> "0.06"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvrow/7> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvrow/7> <http://tools.ietf.org/html/rfc4180rowPosition> "7" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvrow/8> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvWaterDepth> "300"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvDateTime> "2004-10-15" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvDateTimeEnd> "2004-10-31" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvDuration> "16"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvSampleLabel> "9"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvSestonFlux> "7.99"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvCalciumCarbonateFlux> "4.3"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvParticulateOrganicCarbonFlux> "1.14"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvParticulateOrganicNitrogenFlux> "0.17"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvParticulateSiliconFlux> "0.05"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvrow/8> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvrow/8> <http://tools.ietf.org/html/rfc4180rowPosition> "8" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvrow/9> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvWaterDepth> "300"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvDateTime> "2004-10-31" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvDateTimeEnd> "2004-11-30" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvDuration> "30"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvSampleLabel> "10"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvSestonFlux> "20.42"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvCalciumCarbonateFlux> "3.01"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvParticulateOrganicCarbonFlux> "1.14"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvParticulateOrganicNitrogenFlux> "0.18"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvParticulateSiliconFlux> "0.61"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvrow/9> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvrow/9> <http://tools.ietf.org/html/rfc4180rowPosition> "9" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvrow/10> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvWaterDepth> "300"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvDateTime> "2004-11-30" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvDateTimeEnd> "2005-01-15" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvDuration> "46"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvSampleLabel> "11"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvSestonFlux> "40.16"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvCalciumCarbonateFlux> "4.25"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvParticulateOrganicCarbonFlux> "4.03"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvParticulateOrganicNitrogenFlux> "0.6"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvParticulateSiliconFlux> "1.15"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvrow/10> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvrow/10> <http://tools.ietf.org/html/rfc4180rowPosition> "10" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvrow/11> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvWaterDepth> "300"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvDateTime> "2005-01-15" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvDateTimeEnd> "2005-02-28" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvDuration> "44"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvSampleLabel> "12"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvSestonFlux> "17.27"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvCalciumCarbonateFlux> "1.99"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvParticulateOrganicCarbonFlux> "6.55"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvParticulateOrganicNitrogenFlux> "0.67"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvParticulateSiliconFlux> "0.14"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvrow/11> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvrow/11> <http://tools.ietf.org/html/rfc4180rowPosition> "11" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvrow/12> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvWaterDepth> "300"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvDateTime> "2005-02-28" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvDateTimeEnd> "2005-03-31" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvDuration> "31"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvSampleLabel> "13"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvSestonFlux> "32.14"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvCalciumCarbonateFlux> "15.31"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvParticulateOrganicCarbonFlux> "7.61"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvParticulateOrganicNitrogenFlux> "0.7"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvParticulateSiliconFlux> "0.07"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvrow/12> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvrow/12> <http://tools.ietf.org/html/rfc4180rowPosition> "12" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvrow/13> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvWaterDepth> "300"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvDateTime> "2005-03-31" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvDateTimeEnd> "2005-04-15" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvDuration> "15"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvSampleLabel> "14"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvSestonFlux> "30.53"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvCalciumCarbonateFlux> "14.62"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvParticulateOrganicCarbonFlux> "4.82"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvParticulateOrganicNitrogenFlux> "0.6"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvParticulateSiliconFlux> "0.36"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvrow/13> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvrow/13> <http://tools.ietf.org/html/rfc4180rowPosition> "13" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvrow/14> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvWaterDepth> "300"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvDateTime> "2005-04-15" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvDateTimeEnd> "2005-04-30" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvDuration> "15"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvSampleLabel> "15"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvSestonFlux> "29.89"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvCalciumCarbonateFlux> "14.43"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvParticulateOrganicCarbonFlux> "3.62"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvParticulateOrganicNitrogenFlux> "0.43"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvParticulateSiliconFlux> "1.03"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvrow/14> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvrow/14> <http://tools.ietf.org/html/rfc4180rowPosition> "14" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvrow/15> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvWaterDepth> "300"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvDateTime> "2005-04-30" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvDateTimeEnd> "2005-05-15" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvDuration> "15"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvSampleLabel> "16"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvSestonFlux> "15.53"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvCalciumCarbonateFlux> "2.85"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvParticulateOrganicCarbonFlux> "3.05"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvParticulateOrganicNitrogenFlux> "0.36"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvParticulateSiliconFlux> "0.63"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvrow/15> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvrow/15> <http://tools.ietf.org/html/rfc4180rowPosition> "15" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvrow/16> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvWaterDepth> "300"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvDateTime> "2005-05-15" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvDateTimeEnd> "2005-05-31" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvDuration> "16"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvSampleLabel> "17"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvSestonFlux> "9.84"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvCalciumCarbonateFlux> "1.41"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvParticulateOrganicCarbonFlux> "2.19"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvParticulateOrganicNitrogenFlux> "0.36"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvParticulateSiliconFlux> "0.39"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvrow/16> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvrow/16> <http://tools.ietf.org/html/rfc4180rowPosition> "16" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvrow/17> a <http://tools.ietf.org/html/rfc4180Row> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvWaterDepth> "300"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvDateTime> "2005-05-31" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvDateTimeEnd> "2005-06-15" ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvDuration> "15"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvSampleLabel> "18"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvSestonFlux> "12.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvCalciumCarbonateFlux> "1.62"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvParticulateOrganicCarbonFlux> "3.75"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvParticulateOrganicNitrogenFlux> "0.35"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvParticulateSiliconFlux> "0.42"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csv> <http://tools.ietf.org/html/rfc4180row> <file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvrow/17> .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csvrow/17> <http://tools.ietf.org/html/rfc4180rowPosition> "17" .
+
+<file:/home/kai/Desktop/grad_school/marmic/master_thesis/kblumberg_masters_thesis/datastore/build_datastore/biogenic_particle_flux.csv> <http://tools.ietf.org/html/rfc4180numberOfRows> "18"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+	<http://tools.ietf.org/html/rfc4180numberOfColumns> "10"^^<http://www.w3.org/2001/XMLSchema#integer> .

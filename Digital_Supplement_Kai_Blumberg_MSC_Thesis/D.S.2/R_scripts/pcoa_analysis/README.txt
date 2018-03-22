@@ -1,0 +1,1 @@
+Script to perfom PCoA analyses on data retrieved from the datastore which is about 1) GO:biological_processes, 2) GO:cellular amino acid biosynthetic process, 3) GO:serine family amino acid biosynthetic process 
